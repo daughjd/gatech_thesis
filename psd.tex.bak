@@ -1,0 +1,320 @@
+%\chapter{}
+
+%\subparagraph{Preliminary} A useful equality:
+
+The infinite sum of a converging geometrical series is given as
+\begin{eqnarray}
+S &=& 1 + x + x^2 + x^3 + \cdots \\
+ &=& \frac{1}{1-x}, x<1.
+\end{eqnarray}
+Therefore,
+\begin{eqnarray}
+    \frac{1}{x-1}=\{
+    \begin{array}{c}
+      -\sum\limits^{\infty}_{j=0}x^j, x<1 \\
+      \sum\limits^{\infty}_{j=1}(\frac{1}{x})^j, x>1 \\
+    \end{array}\label{EqSum}
+\end{eqnarray}
+
+ In Statistical Mechanics, the Bose distribution function is given as
+\begin{eqnarray}
+    n &=& \frac{1}{e^{-(\mu-H)/kT}-1} \\
+      &=& \frac{1}{x-1},
+\end{eqnarray}
+where $\mu$ is the chemical potential, k is the Boltzmann
+constant. and $x \equiv e^{-(\mu - H)/kT}.$
+
+Since $\mu<0$, $H>0$, and $T>0$, we find $x>1$. Applying the lower
+equality in eqn. \ref{EqSum}, the Bose distribution function can
+be rewritten as
+\begin{eqnarray}
+    n &=& \sum\limits^{\infty}_{j=1}x^j \\
+      &=& \sum\limits^{\infty}_{j=1}(ze^{-H/kT})^j ,
+\end{eqnarray}
+where $z\equiv e^{\mu / kT}$ is the fugacity. \subparagraph{Total
+number of thermal atoms} Integrate the Bose distribution function
+over all coordinate space and momentum space, one will get the
+total number of particles in the excited states.  When temperature
+$T$ is greater than BEC transition temperature $T_c$, it is the
+total number of particles of the system.
+\begin{eqnarray}
+    N_t &=& \frac{1}{h^3}\int d\Lambda n(r,p) \\
+        &=& \frac{1}{h^3}\int
+        d^{3}rd^{3}p\sum\limits^{\infty}_{j=1}(ze^{-H(r,p)/kT})^j.
+\end{eqnarray}
+In a harmonic trap (e.g. optical trap), the Hamiltonian is just
+that of a harmonic oscillator, and
+\begin{equation}
+    H=\sum\limits^{3}_{i=1}(\frac{p_{i}^{2}}{2m}+\frac{m\omega _{i}^{2}r_{i}^{2}
+    }{2}).
+\end{equation}
+Hence,
+\begin{eqnarray}
+    N_t &=& \frac{1}{h^3}\sum\limits^{\infty}_{j=1}z^j\int d^{3}rd^{3}p
+    (e^{-\sum\limits^{3}_{i=1}j(\frac{p_{i}^{2}}{2mkT}+\frac{m\omega _{i}^{2}r_{i}^{2}
+    }{2kT})}) \label{NtIntegral}\\
+    &=& \frac{1}{h^3}\sum\limits^{\infty}_{j=1}z^j\sqrt{\frac{2\pi
+    mkT}{j}}^3\sqrt{\frac{2\pi kT}{jm\overset{\_}{\omega }^2}}^3 \\
+    &=&(\frac{2\pi
+    kT}{h\overset{\_}{\omega}})^3\sum\limits^{\infty}_{j=1}\frac{z^j}{j^3} \\
+    &=& (\frac{kT}{\hbar \overset{\_}{\omega}})^3 g_3(z),\text{
+    }T \geq T_{c}
+\end{eqnarray}
+where $\overset{\_}{\omega}=\sqrt[3]{\omega _{x}\omega _{y}\omega
+_{z}}$ is the mean trap frequency, and $g_{3}(z)$ is the Riemann
+Zeta function of fugacity $z$.  Here Riemann Zeta function
+$g_{l}(z)\equiv \sum\limits^{\infty}_{j=1}\frac{z^j}{j^l}$. Table
+\ref{Table:NvsT} lists the total number of atoms in the excited
+state (thermal component) and in the ground state (condensate) vs.
+temperature.
+
+\begin{table}
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+    $T$ & thermal: $N_{t}$ & condensate: $N_{c}$ \\
+    \hline
+    & & \\
+    $T>T_c$ & $g_3(z)(\frac{kT}{\hbar
+    \overset{\_}{\omega}})^3, z<1$ & 0 \\
+    & & \\
+    $T=T_c$ & $g_3(1)(\frac{kT_c}{\hbar
+    \overset{\_}{\omega}})^3 = 1.202(\frac{kT_c}{\hbar
+    \overset{\_}{\omega}})^3$ & 0 \\
+    & & \\
+    $T<T_c$ & $g_3(1)(\frac{kT}{\hbar
+    \overset{\_}{\omega}})^3 = 1.202(\frac{kT}{\hbar
+    \overset{\_}{\omega}})^3$ & $N_{total} - N_{t}$ \\
+    & & \\
+    \hline
+  \end{tabular}
+  \caption{Thermal and condensate atoms vs. temperature.}\label{Table:NvsT}
+\end{table}
+
+\subparagraph{Spatial density of a trapped thermal cloud}
+Integrate the integral in eqn. (\ref{NtIntegral}) over the
+momentum space only,
+\begin{eqnarray}
+    N_t &=& (\frac{\sqrt{2\pi m kT}}{h})^3\sum\limits^{\infty}_{j=1}\frac{z^j}{j^{\frac{3}{2}}}
+    \int d^{3}re^{-\sum\limits^{3}_{i=1}j\frac{m\omega _{i}^{2}r_{i}^{2}
+    }{2kT}}\\
+    &=& \frac{1}{\lambda _{dB}^3}\int d^{3}r\sum\limits^{\infty}_{j=1}\frac{z^j
+    e^{-\sum\limits^{3}_{i=1}j\frac{m\omega _{i}^{2}r_{i}^{2}
+    }{2kT}}}{j^{3/2}} \\
+    &=&\frac{1}{\lambda _{dB}^3}\int d^{3}r g_{3/2}(ze^{-\sum\limits^{3}_{i=1}\frac{m\omega _{i}^{2}r_{i}^{2}
+    }{2kT}}) \\
+    &=&\int d^{3}r n_{t}(r),
+\end{eqnarray}
+with the spatial density
+\begin{equation}
+    n_{t}(r) = \frac{1}{\lambda _{dB}^3}g_{3/2}(ze^{-\sum\limits^{3}_{i=1}\frac{m\omega _{i}^{2}r_{i}^{2}
+    }{2kT}})
+\end{equation}
+Integrate over z-direction yields the column density
+\begin{eqnarray}
+    \widetilde{n}_{t} &=& \frac{1}{\lambda _{dB}^3}\sum\limits^{\infty}_{j=1}\frac{z^j
+    e^{-\sum\limits^{2}_{i=1}j\frac{m\omega _{i}^{2}r_{i}^{2}}{2kT}}}{j^{3/2}}
+    \sqrt{\frac{2\pi kT}{jm\omega_{z}^2}} \\
+    &=& \frac{1}{\lambda _{dB}^3}\sqrt{\frac{2\pi kT}{m\omega_{z}^2}}
+    \sum\limits^{\infty}_{j=1}\frac{z^j
+    e^{-\sum\limits^{2}_{i=1}j\frac{m\omega
+    _{i}^{2}r_{i}^{2}}{2kT}}}{j^{2}}\\
+    &=& \frac{1}{\lambda _{dB}^3}\sqrt{\frac{2\pi kT}{m\omega_{z}^2}}
+    g_{2}(ze^{-\sum\limits^{2}_{i=1}\frac{m\omega _{i}^{2}r_{i}^{2}}{2kT}}).
+\end{eqnarray}
+The above equation is useful in a case of in-situ imaging.
+
+\subparagraph{Spatial density of a thermal cloud after free
+expansion} Often times the trapped cloud is too small to observe
+in-situ, and one would turn off the trap and let the cloud to
+expand freely for a small amount of time before probing.  The
+spatial density of a expanded cloud is related to the original
+distribution by the following relationship.
+
+\begin{equation}
+    n_{tof}(r,t)=\frac{1}{h^3}\int d^3r_{0}d^3p \frac{1}{e^{-(\mu -
+    H(r_0,p))/kT}-1}\delta ^{(3)}(r-r_{0}-p).
+\end{equation}
+After some elaboration,
+\begin{equation}
+    n_{tof}(r,t) = \frac{1}{\lambda_{dB}^3}
+    \prod\limits^{3}_{i=1}(\frac{1}{1+\omega_{i}t})^\frac{1}{2}
+    g_{3/2}(ze^{-\frac{m}{2kT}
+    \sum\limits^{3}_{i=1}(\frac{r_i^2\omega_i^2}{1+\omega_i^2t^2})})
+\end{equation}
+Assume expansion time
+$t>>\omega_1^{-1},\omega_2^{-1},\omega_3^{-1}$, then
+\begin{equation}
+    n_{tof}(r,t) = \frac{1}{\lambda_{dB}^3}
+    \frac{1}{(\overset{\_}{\omega}t)^{\frac{3}{2}}}
+    g_{3/2}(ze^{-\frac{m}{2kT}\frac{x_1^2+x_2^2+x_3^2}{t^2}})
+\end{equation}
+In general, the column density of the cloud is imaged, and the
+column density is calculated to be
+\begin{eqnarray}
+    \widetilde{n}_{tof}(x_1,x_2,t)&=&\frac{1}{\lambda_{dB}^3}
+    \frac{1}{(\overset{\_}{\omega}t)^{\frac{3}{2}}}
+    \frac{\sum\limits^{\infty}_{j=1}(z
+    \int dx_{3}
+    e^{-\frac{m}{2kT}\frac{x_1^2+x_2^2+x_3^2}{t^2}})^j}{j^{3/2}}
+    \\
+    &=&Ag_{2}(ze^{-\frac{x_1^2+x_2^2}{\sigma^2}}),
+\end{eqnarray}
+where $A =\frac{1}{\lambda_{dB}^3}
+    \frac{1}{\overset{\_}{\omega}^{3/2}t^{3/2}}\sqrt{\frac{2\pi
+    kT}{m}}$, and $\sigma^2= \frac{2kTt^2}{m}$.  By fitting the
+    absorption image to the above density profile, one can easily
+    find the temperature from $\sigma$ to be
+\begin{equation}
+    T=\frac{1}{2}\frac{m}{k}\frac{\sigma^2}{t^2}.
+\end{equation}
+
+
+\subparagraph{Phase space density (PSD)} The PSD is defined as the
+product of the peak spatial density and the peak momentum density,
+which is $\Lambda _{0} = \lambda _{dB}^{3}n(0)$. When $T\geq T_c$,
+\begin{eqnarray}
+    \Lambda _{0} &=& \lambda _{dB}^{3}n_{t}(r=0) \\
+    &=& g_{3/2}(ze^{-\sum\limits^{3}_{i=1}\frac{m\omega _{i}^{2}r_{i}^{2}}{2kT}}),
+    \text{ with }r_{i} = 0,\text{ } T>T_{c}. \\
+    &=& g_{3/2}(z).
+\end{eqnarray}
+
+In the case where $T>>T_c$, $z<<1$ so that $g_{3/2}(z)\simeq z$.
+Besides, when $T>>T_c$ the Bose distribution function is
+approximated by the Boltzmann distribution, and the total number
+of atoms is found to be
+\begin{eqnarray}
+    N &\simeq& \frac{\Lambda_{0}}{h^3}\int d^3r d^3p
+    e^{-H(r,p)/kT}\\
+    &=& \frac{\Lambda_{0}}{h^3}(\frac{2\pi kT}{\overset{\_}{\omega}})^3\\
+    &=& \Lambda_{0}(\frac{kT}{\hbar \overset{\_}{\omega}})^3,
+\end{eqnarray}
+and the PSD is
+\begin{equation}
+    \Lambda_{0} = N(\frac{\hbar \overset{\_}{\omega}}{kT})^3,\text{
+    where }T >> T_{c}.
+\end{equation}
+
+When $T<T_{c}$, the total number of atoms exceeds the available
+occupation number in the excited state, and exceeding atoms start
+to macroscopically occupy the ground state and form a
+Bose-Einstein condensate, leaving a saturated classical gas in the
+excited state. In this situation, the gas appears to be a
+two-component fluid (normal fluid + superfluid), and the PSD may
+seem difficult to calculate. However, start from the definition,
+$\Lambda_{0} = \lambda _{dB}^3 n(0)$, one would realize that in
+the superfluid component, the spatial and momentum spread are
+related by the Uncertainty Principle and have nothing to do with
+the temperature. So $n(0)=N_0/\lambda _{dB}^{3}$ and $n_{p}(0)=
+\lambda_{dB}^3$, and the PSD of the condensate $\Lambda_{0} =
+N_0$, where $N_0$ is the number of atoms in the condensate.  So
+the total PSD is simply $\Lambda_{0} = g_{3/2}(1) + N_0 = 2.612 +
+N_0 \simeq N_0$, when $N_0 >> 2.612$.
+
+\begin{table}
+  \centering
+\begin{tabular}{|c|c|c|c|}
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+\hline
+$T$ & PSD: $\Lambda_{0}$ & approx. & error \\
+\hline
+  & & & \\
+  $T>>T_{c}$ & $g_{3/2}(z)$ & $N(\frac{\hbar \overset{\_}{\omega}}{kT})^3$
+  & $\frac{g_{3/2}(z)-N(\frac{\hbar \overset{\_}{\omega}}{kT})^3}{g_{3/2}(z)}$ \\
+  & & $N(\frac{\hbar \overset{\_}{\omega}}{kT})^3 = g_{3}(z)$ & $\frac{g_{3/2}(z)-g_{3}(z)}{g_{3/2}(z)}$\\
+  & & & \\
+  & & $z$& $\frac{g_{3/2}(z)-z}{g_{3/2}(z)}$\\
+  & & & \\
+\hline
+  & & & \\
+  $T \gtrsim T_{c}$ & $g_{3/2}(z)$ & & \\
+  & & & \\
+\hline
+  & & & \\
+  $T = T_{c}$ & $g_{3/2}(1)= 2.612$ & & \\
+  & & & \\
+\hline
+  & & & \\
+  $T<T_{c}$ & $N_0$ & & \\
+  & & & \\
+\hline
+\end{tabular}
+  \caption{Phase space density in different temperature regime.
+  Here $z=e^{\mu /kT}$ is the fugacity, and $\mu$ is the chemical
+  potential. Errors for each approximation is also listed, and
+  an error is defined as $\delta \equiv (\Lambda _0 - f')/\Lambda _0$, where
+  $f'$ is an approximation of $\Lambda _0$.}\label{Table:PSD}
+\end{table}
+
+Table \ref{Table:PSD} shows the phase space density and its
+approximation in different temperature regimes.  The numerical
+approximation error is given in FIG \ref{fig:psdApprError}.
+
+\begin{figure}
+ \includegraphics{psdApproxError}
+  \caption{\label{fig:psdApprError} Approximation error of PSD.
+  It shows that the classical psd approx,
+  $N(\frac{\hbar \bar{\omega}}{kT})^3$,
+  always presents less error than the 1st order approx of $g_{3/2}(z)$, $z$.
+  Also the classical approx can be applied in the case where $z\leq0.65$ if
+   error of 20 or less is desired.}
+\end{figure}
+
+\subparagraph{Riemann Zeta function vs. dimension} Assume we start
+with 6 dimensional phase space.  Take a function, say Bose
+distribution function, and integrate over momentum space, we left
+with 3 dimensional spatial distribution.  Each time we integrate
+further over one direction in coordinate space, i.e., x, y, or z,
+the Riemann Zeta function will change accordingly.  Table
+\ref{Table:GvsDim} shows how density profile changes in terms of
+Zeta function when one integrate over coordinates. It is obvious
+that in a case of uniform gas, the density does not dependent on
+coordinate, and the type of Zeta function will not change.  In
+zero dimension, it is indeed the total number of thermal atoms. As
+for the PSD, it is a scalar defined in 3-D space, and it is always
+involved $g_{3/2}$ regardless type of traps, and the BEC
+criticality is always $g_{3/2}(1)=2.612$.
+\begin{table}
+  \centering
+  \begin{tabular}{|c|c c c c c c c c c|}
+    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+    \hline
+    $n_t$ $\rightarrow$ & & 3-D & & 2-D & & 1-D & & 0-D ($N_t$)&  \\
+    \hline
+    Uniform & & $g_{3/2}$ & & $g_{3/2}$ & & $g_{3/2}$ & & $g_{3/2}$ & \\
+    Harmonic trap & & $g_{3/2}$ & & $g_{2}$ & & $g_{5/2}$ & & $g_{3}$ & \\
+    \hline
+    & & $\uparrow$ & & & & & & & \\
+    & & psd & & & & & & & \\
+    \hline
+  \end{tabular}
+  \caption{Riemann Zeta function vs. dimension}\label{Table:GvsDim}
+\end{table}
+
+\subparagraph{Comments on the 2D function fit}  To find out the
+temperature, number of atoms, PSD, etc. we feed absorption images
+to Igor Pro to do 2D function fit.  The function ansatz' we use
+are Gaussian for $T>>T_c$, enhanced Bose distribution for $T\geq
+T_c$, and bimodal distribution for $T < T_c$.  here bimodal
+distribution consists a anisotropic inverse parabola to represent
+the T-F condensate density profile, and a enhanced Bose
+distribution at $z = 1$.
+
+We already find when the temperature is high, say, the $z<0.65$,
+the PSD error is only 20\%.  However, if the temperature is also
+obtained from the fit, and the error of temperature is somewhat
+larger even when $z<0.1$.
+
+Known problems for enhanced Bose fit.  We use 10th order
+polynomial to fit $g_2 (z)$ over $z$.  However, at the tail of the
+fit, say, $z << 1$, the fit might gives nigative value for $g_2
+(z)$, and it will gives incorrect image background, and wrong
+estimation of $z$.  So instead of using polynomial fit, use
+interpolation to find $g_2 (z)$ can at least eliminate incorrect
+background.
+
+The enhanced Bose fit is not robust, and it is difficult to obtain
+the correct combination of $z$ and $A$. Besides, with the current
+absorption image S/N ratio, getting accurate $z$ is even more
+difficult.

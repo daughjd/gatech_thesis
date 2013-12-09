@@ -1,0 +1,66 @@
+This file contains a quick bullet list of changes and improvements
+to the gatech-thesis pacakge.  For more detail, see the 
+CHANGES file, or for the super neurotic, the extremely detailed
+ChangeLog file.
+
+______________ version 1.6 ________________
+NEW FEATURES:
+* Now supports downloadable patchsets.  Rather than updating
+  then entire distro every time there's a minor bugfix, you 
+  can simply download a small patchfile and copy it into your
+  localtexmf tree.
+
+CHANGES:
+* Fix nits with TOC format, Table and Figure caption format,
+  oneandahalfspaced linespacing, and Vita format.
+^^^^^^^^^^^^^^ version 1.6 ^^^^^^^^^^^^^^^^
+______________ version 1.5 ________________
+
+NEW FEATURES:
+* NEW FILE: gatech-thesis-losa.sty (supports making a list
+  of symbols).
+* NEW FILE: COMPLIANCE document is a blow-by-blow commentary
+  on the OGS Style Manual and how it is implemented by the
+  gatech-thesis class.
+CHANGES:
+* gatech-thesis-gloss.sty: Now used to generate a Glossary,
+  as distinguished from the List of Symbols.
+* caption labels -- the 'Figure X:' part is now bold, san serif.
+
+^^^^^^^^^^^^^^ version 1.5 ^^^^^^^^^^^^^^^^
+______________ version 1.4 ________________
+
+NEW FEATURES:
+* NEW FILE: gatech-thesis-index.sty (supports making an index). Read
+  the comments at the top of the file for HOWTO info.
+* NEW FILE: gatech-thesis-index.ist (used with above)
+* NEW FILE: gatech-thesis-gloss.sty (supports making a glossary -- or
+  "list of symbols and abbreviations" in OGS parlance.)  Read the 
+  comments at the top of the file for HOWTO info.
+* NEW FILE: gatech-thesis.bst (style for bibliographies). Based
+  on ieeetr.bst, but sorted and smallcapifies author names.  Do
+  \bibliographystyle{gatech-thesis} instead of {plain} to use.
+* Multivolume Thesis support.
+
+CHANGES:
+* Changed the style of the section, subsection, and subsubsection 
+  headings
+* Signature page now has two columns if more than 4 signatories 
+  (per new OGS Guidelines).  Also, signature page should not be numbered.
+* Obey new OGS pagenumbering guidelines that require bottom-center.
+* Dedication page: text is automatically centered, per OGS requirements.
+* Table of Contents, List of Figures, List of Tables: new OGS guidelines 
+  say "single space entries, double space between entries."  We obey.
+* Reorganized the examples
+
+BUGFIX:
+* Fixed a bug with \include'ing the final section of the document
+* Technical bugfix with gtthesis pagestyle and sectionless chapters.
+  Fortunately, nobody uses that pagestyle for official copies.
+* gatech-thesis.cls now depends on the base package 'calc'
+* Incorporates with permission code from David Carlisle (\@removefromreset)
+* Minor fixups for two-sided printing
+
+^^^^^^^^^^^^^^ version 1.4 ^^^^^^^^^^^^^^^^
+______________ version 1.3 ________________
+baseline.

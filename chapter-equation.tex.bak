@@ -1,0 +1,13 @@
+\chapter{Equations}\label{Ch:equation}
+
+The theories of special and general relativity are summarized in
+the \textit{subequations} environment below:
+\begin{subequations}
+\begin{align}
+    E &= m\,c^2\,,\label{Eq:SR}\\
+    G_{ab} &=\kappa\, T_{ab}\,.\label{Eq:GR}
+\end{align}
+    \label{eqn:Relativity}
+\end{subequations}
+Here, $c$ is the speed of light and $G_{ab}$ is the Einstein
+tensor.

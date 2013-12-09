@@ -1,0 +1,201 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  26 NOV 2013 11:43
+entering extended mode
+ %&-line parsing enabled.
+**jdthesis.tex
+(./jdthesis.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(./gatech-thesis.cls
+Document Class: gatech-thesis 2003/04/14 1.6 (Charles Wilson)
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count79
+\calc@Bcount=\count80
+\calc@Adimen=\dimen102
+\calc@Bdimen=\dimen103
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count81
+\calc@Cskip=\skip43
+)
+(/usr/share/texmf/tex/latex/base/report.cls
+Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size11.clo
+File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count82
+\c@chapter=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip44
+\belowcaptionskip=\skip45
+\bibindent=\dimen104
+)
+\signature@width=\skip46
+\c@signatures=\count91
+\c@cnt@Lsig=\count92
+\c@cnt@Rsig=\count93
+\gt@tocentryskip@value=\skip47
+\gt@beforepartskip@value=\skip48
+\gt@beforechapskip@value=\skip49
+\gt@beforesecskip@value=\skip50
+\gt@beforesubsecskip@value=\skip51
+\gt@beforesubsubsecskip@value=\skip52
+\gt@beforeparaskip@value=\skip53
+\gt@beforesubparaskip@value=\skip54
+\gt@beforefigskip@value=\skip55
+\gt@beforetableskip@value=\skip56
+\gt@tmpa=\skip57
+\c@part@savepagenum=\count94
+\c@part@pagenum=\count95
+ (./gatech-thesis-patch.sty
+File: gatech-thesis-patch.sty 2003/04/14 1.6a (Charles Wilson)
+
+gatech-thesis-patch loaded
+)) (./jdthesis.aux)
+\openout1 = `jdthesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\c@halfsig=\count96
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 33.
+
+***************** Dedication ******************
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+ []
+
+[2
+
+]
+***************** Preface ******************
+[3
+
+
+]
+***************** Acknowledgements ******************
+[4
+
+
+] [5
+
+
+] (./jdthesis.toc)
+\tf@toc=\write3
+\openout3 = `jdthesis.toc'.
+
+ [6
+
+
+] (./jdthesis.lot)
+\tf@lot=\write4
+\openout4 = `jdthesis.lot'.
+
+ [7
+
+
+] (./jdthesis.lof)
+\tf@lof=\write5
+\openout5 = `jdthesis.lof'.
+
+ [8
+
+
+]
+***************** Summary ******************
+[9
+
+
+]
+CHAPTER I.
+[1
+
+]
+CHAPTER II.
+[2
+
+] [3]
+CHAPTER III.
+[4
+
+]
+APPENDIX A.
+***************** References ******************
+[5
+
+
+]
+No file jdthesis.bbl.
+***************** Vita ******************
+[6
+
+
+
+] [7
+
+
+] (./jdthesis.aux) ) 
+Here is how much of TeX's memory you used:
+ 629 strings out of 256216
+ 7858 string characters out of 1917072
+ 57277 words of memory out of 1500000
+ 3968 multiletter control sequences out of 10000+200000
+ 7985 words of font info for 28 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 27i,7n,27p,1221b,369s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/s
+hare/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti12.pfb>
+Output written on jdthesis.pdf (16 pages, 52539 bytes).
+PDF statistics:
+ 70 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

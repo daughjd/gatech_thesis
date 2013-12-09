@@ -1,0 +1,34 @@
+\chapter{Tables}\label{Chap:table}
+
+The Table environment is illustrated in Table \ref{tab:sample}.
+
+\begin{table}[h]
+\caption[This will be displayed on the List of Tables.]{A table,
+centered. Caption needs to be above the table.\label{tab:sample}}
+\begin{center}
+\begin{tabular}{|l|r|}
+  \hline
+Title & Author \\
+\hline
+War And Peace & Leo Tolstoy \\
+The Great Gatsby & F. Scott Fitzgerald \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{sidewaystable}
+\caption[A sideways table.]{A sideways table, centered. A sideways
+table will not be displayed in the proper location in a DVI viewer.
+However, it will be placed corrected once the document is further
+compiled to a pdf file.\label{tab:SidewaysTable}}
+\begin{center}
+\begin{tabular}{|l|r|}
+  \hline
+Title & Author \\
+\hline
+War And Peace & Leo Tolstoy \\
+The Great Gatsby & F. Scott Fitzgerald \\ \hline
+\end{tabular}
+\end{center}
+
+\end{sidewaystable}

@@ -1,0 +1,96 @@
+\documentclass{gatech-thesis-modified}
+%%
+%% This example is adapted from ucthesis.tex, a part of the
+%% UCTHESIS class package...
+%%
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{makeidx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{rotating}
+\usepackage{tabbing}
+
+\numberwithin{equation}{chapter} %%
+\numberwithin{figure}{chapter} %%
+\numberwithin{table}{chapter}
+
+\title{The Elements of Thesis}
+\author{Albert Einstein}
+\committeechair{Professor Alpha Betic} \firstreader{Professor Ivory Insular}
+\secondreader{Professor General Reference\\(Another Department)}
+\thirdreader{Professor Earl Grey} \fourthreader{Professor
+Darjeeling Sweet} \department{School of Physics} \degree{Doctor of
+Philosophy} \copyrightyear{2006} \submitdate{May 2006}
+\bibfiles{mscThesis,example-thesis-modified}
+%% The following are the defaults
+%%    \titlepagetrue
+%%    \signaturepagetrue
+%%    \copyrightfalse
+%%    \figurespagetrue
+%%    \tablespagetrue
+%%    \contentspagetrue
+%%    \dedicationheadingfalse
+\bibpagetrue
+%%    \thesisproposalfalse
+%%    \strictmarginstrue
+\begin{document}
+\bibliographystyle{msc_sty}
+%%
+\begin{preliminary}
+\begin{dedication}
+\null\vfil
+{\large
+\begin{center}
+To myself,\\\vspace{12pt} Albert Einstein,\\\vspace{12pt} the only
+person worthy of my company.
+\end{center}}
+\vfil\null
+\end{dedication}
+\begin{preface}
+Theses have elements.  Isn't that nice?
+\end{preface}
+\begin{acknowledgements}
+I want to ``thank'' my committee, without whose ridiculous demands, I
+would have graduated so, so, very much faster.
+\end{acknowledgements}
+% print table of contents, figures and tables here.
+\contents
+% if you need a "List of Symbols or Abbreviations" look into
+% gatech-thesis-gloss.sty.
+\include{example-thesis-Summary}
+\end{preliminary}
+%%
+\chapter{Introduction}
+
+Every dissertation should have an introduction.  You might not
+realize it, but the introduction should introduce the concepts,
+background, and goals of the dissertation~\cite{knuth:tex, lamport:latex}.
+
+\include{chapter-equation}
+\include{chapter-table}
+\include{chapter-figure}
+
+%%
+\chapter{Conclusion}
+In conclusion, my theories are correct.
+%\nocite{*}
+%% We need this since this file doesn't ACTUALLY \cite anything...
+%%
+\appendix
+\include{Ancillary}
+\begin{postliminary}
+\references
+%\postfacesection{Index}{%
+%%             ... generate an index here
+%%         look into gatech-thesis-index.sty
+%}
+\begin{vita}
+Albert Einstein was born in an insignificant town whose claim of
+fame is that he created mind twisting theories of relativity
+which caused millions of physicists sleepless.
+\end{vita}
+\end{postliminary}
+\end{document}

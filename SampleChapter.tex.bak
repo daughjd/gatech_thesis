@@ -1,0 +1,27 @@
+\chapter{A Sample Chapter}\label{Chap:SampleCh}
+
+
+Table environment is illustrated in Table (\ref{tab:sample}).
+Figure environment is illustrated in Fig.~(\ref{Fig:SampleFig}).
+
+
+\begin{table}
+\caption{A table, centered.  Caption needs to be above the
+table.\label{tab:sample}}
+\begin{center}
+\begin{tabular}{|l|r|}
+  \hline
+Title & Author \\
+\hline
+War And Peace & Leo Tolstoy \\
+The Great Gatsby & F. Scott Fitzgerald \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{figure}
+\centering
+\caption{A figure, centered. Caption needs to be below
+the figure.\label{Fig:SampleFig}}
+\end{figure}
