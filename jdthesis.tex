@@ -1,4 +1,5 @@
 \documentclass{gatech-thesis}
+\usepackage{cite}
 %%
 %% This example is adapted from ucthesis.tex, a part of the
 %% UCTHESIS class package...
@@ -35,18 +36,15 @@
 \null\vfil
 {\large
 \begin{center}
-To myself,\\\vspace{12pt}
-Perry H. Disdainful,\\\vspace{12pt}
-the only person worthy of my company.
+
 \end{center}}
 \vfil\null
 \end{dedication}
 \begin{preface}
-Theses have elements.  Isn't that nice?
+This dissertation is based on data acquired with the IceCube Neutrino Observatory whose maintenance and operation is the result of an immense international collaborative effort. While ... (acknowledge previous work?)
 \end{preface}
 \begin{acknowledgements}
-I want to ``thank'' my committee, without whose ridiculous demands, I
-would have graduated so, so, very much faster.
+I want to thank my fellow graduate student office mates (would've gone insane without their distractions).
 \end{acknowledgements}
 % print table of contents, figures and tables here.
 \contents
@@ -61,13 +59,20 @@ Observations indicate that there is a correlation between long duration gamma-ra
 %%
 \chapter{Introduction}
 
-Every dissertation should have an introduction.  You might not realize
-it, but the introduction should introduce the concepts, background,
-and goals of the dissertation.
+%% Neutrino Astronomy
+%% Why neutrinos
+%% How neutrinos (production, detection)
+%% SN1987A
+%% GRBs, SN, Chk GRBs
 
 %%
 \chapter{Detector}
-\chapter{Previous Work}
+The IceCube Neutrino Observatory is located at the geographical South Pole deep within the glacial ice of the Antarctic ice sheet.
+
+%% Insert Detector Image!
+%% Refs: Performance of DeepCore, IceCube construction paper?
+
+\chapter{Previous Point Source Searches}
 
 \chapter{Data Acquisition}
 
@@ -76,7 +81,7 @@ and goals of the dissertation.
 \chapter{Analysis Method}
 
 \chapter{Results}
-Some other research was once performed.
+Some other research was once performed ~\cite{Nobody06}.
 
 \begin{figure}
 \caption{A first figure.}
@@ -88,9 +93,9 @@ Some other research was once performed.
 %%
 \chapter{Conclusion}
 
-\nocite{*}
 %% We need this since this file doesn't ACTUALLY \cite anything...
 %%
+
 \appendix
 \chapter{Some Ancillary Stuff}
 
@@ -98,7 +103,8 @@ Ancillary material should be put in appendices, which
 appear just before the bibliography. 
 
 \begin{postliminary}
-\references
+\bibliography{jdthesis}{}
+
 \postfacesection{Index}{%
 %%             ... generate an index here
 %%         look into gatech-thesis-index.sty
