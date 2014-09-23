@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  8 AUG 2014 16:47
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  23 SEP 2014 17:32
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -197,16 +197,16 @@ CHAPTER I.
 
 ]
 CHAPTER II.
-<ArrayWSeasonsLabels.pdf, id=36, 2569.6pt x 1756.5625pt>
-File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
-
-<use ArrayWSeasonsLabels.pdf> [2
-
-] [3 <./ArrayWSeasonsLabels.pdf>]
-CHAPTER III.
-[4
+[2
 
 ]
+CHAPTER III.
+<ArrayWSeasonsLabels.pdf, id=39, 2569.6pt x 1756.5625pt>
+File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
+
+<use ArrayWSeasonsLabels.pdf> [3
+
+] [4 <./ArrayWSeasonsLabels.pdf>]
 CHAPTER IV.
 [5
 
@@ -227,18 +227,26 @@ CHAPTER VIII.
 [9
 
 ]
+CHAPTER IX.
+[10
+
+]
+CHAPTER X.
+[11
+
+]
 APPENDIX A.
-(./jdthesis.bbl [10
+(./jdthesis.bbl [12
 
 
-]) [11
+]) [13
 
 ]
 ***************** Vita ******************
-[12
+[14
 
 
-] [13
+] [15
 
 
 ] (./jdthesis.aux) ) 
@@ -249,15 +257,15 @@ Here is how much of TeX's memory you used:
  4368 multiletter control sequences out of 10000+200000
  8286 words of font info for 29 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 27i,6n,27p,1221b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 27i,6n,27p,1208b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/s
 hare/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/blue
 sky/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/sha
 re/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/
 cm/cmti10.pfb>
-Output written on jdthesis.pdf (22 pages, 945658 bytes).
+Output written on jdthesis.pdf (24 pages, 950079 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
