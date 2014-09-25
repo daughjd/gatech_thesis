@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  23 SEP 2014 17:32
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  25 SEP 2014 16:58
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -94,21 +94,29 @@ File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
 ))
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
+)
+(/usr/share/texmf/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen107
+\WF@size=\dimen108
+\c@WF@wrappedlines=\count97
+\WF@box=\box26
+\WF@everypar=\toks15
+Package: wrapfig 2003/01/31  v 3.6
 ) (./jdthesis.aux)
 \openout1 = `jdthesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  
@@ -122,18 +130,18 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-\c@halfsig=\count97
+\c@halfsig=\count98
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []\OT1/cmr/m/n/10.95 Professor Pablo La-guna, Com-mit-tee
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 37.
+(Font)              <10.95> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 37.
+(Font)              <8> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 37.
+(Font)              <6> on input line 38.
 ***************** Dedication ******************
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -206,55 +214,61 @@ File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
 
 <use ArrayWSeasonsLabels.pdf> [3
 
-] [4 <./ArrayWSeasonsLabels.pdf>]
+ <./ArrayWSeasonsLabels.pdf>]
+<DomSchematic.png, id=49, 727.71875pt x 620.3175pt>
+File: DomSchematic.png Graphic file (type png)
+ <use DomSchematic.png>
+<LabDOM.pdf, id=50, 2457.18pt x 3276.24pt>
+File: LabDOM.pdf Graphic file (type pdf)
+ <use LabDOM.pdf> [4] [5 <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>]
 CHAPTER IV.
-[5
-
-]
-CHAPTER V.
 [6
 
 ]
-CHAPTER VI.
+CHAPTER V.
 [7
 
 ]
-CHAPTER VII.
+CHAPTER VI.
 [8
 
 ]
-CHAPTER VIII.
+CHAPTER VII.
 [9
 
 ]
-CHAPTER IX.
+CHAPTER VIII.
 [10
 
 ]
-CHAPTER X.
+CHAPTER IX.
 [11
 
 ]
+CHAPTER X.
+[12
+
+]
 APPENDIX A.
-(./jdthesis.bbl [12
+(./jdthesis.bbl [13
 
 
-]) [13
+]) [14
 
 ]
 ***************** Vita ******************
-[14
+[15
 
 
-] [15
+] [16
 
 
 ] (./jdthesis.aux) ) 
 Here is how much of TeX's memory you used:
- 1057 strings out of 256216
- 13175 string characters out of 1917072
- 64729 words of memory out of 1500000
- 4368 multiletter control sequences out of 10000+200000
+ 1134 strings out of 256216
+ 14143 string characters out of 1917072
+ 65630 words of memory out of 1500000
+ 4438 multiletter control sequences out of 10000+200000
  8286 words of font info for 29 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  27i,6n,27p,1208b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -263,9 +277,9 @@ hare/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/blue
 sky/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/sha
 re/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/
 cm/cmti10.pfb>
-Output written on jdthesis.pdf (24 pages, 950079 bytes).
+Output written on jdthesis.pdf (25 pages, 3345106 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
