@@ -95,19 +95,29 @@ The IceCube Neutrino Observatory is km$^{3}$-scale neutrino detector located dee
   \label{fig:icecube}
 \end{figure}
 
+Installation of the IceCube strings took place over several years and required the use of a specialized hot-water drill. In the deployment process, the hot-water drill is used to bore through the ice leaving a water-filled column in which the string and its attached DOMs are lowered. The water column subsequently freezes the cable and all DOMs in place rendering them completely inaccessible from the surface. The deployment of the first IceCube string occurred on January 29th, 2005. The remaining strings were deployed over the next five summer seasons resulting in data seasons of different detector shapes and size. The final string was deployed on December 18, 2010 giving IceCube its ultimate 80-string configuration.
 
-Installation of the IceCube strings took place over several years and required the use of a specialized hot-water drill. In the deployment process, the hot-water drill is used to bore through the ice leaving a water-filled column in which the string and its attached DOMs can be lowered. The water column subsequently freezes the cable and all DOMs in place rendering them completely inaccessible to the surface. The deployment of the first IceCube string occurred on January 29th, 2005. The remaining strings were deployed over the next five summer seasons resulting in data seasons of different detector shapes and size. The final string was deployed on December 18, 2010 giving IceCube its ultimate 80-string configuration.
+%%% DEEPCORE %%%
 
 
+%%\begin{figure}
+%  \includegraphics[width= 0.45\textwidth]{DomSchematic.png} 
+%  \includegraphics[width= 0.45\textwidth]{LabDOM.pdf} 
+%  \caption{A fully assembled DOM supported by a cable harness.}
+%%\end{figure}
 
-Every DOM contains a photo-multiplier tube (PMT), attached digitizing electronics, and LED flashers all housed within a glass pressure vessel. A penetrator cable breaches the pressure vessel to connect the DOM electronics to the supporting string cable enabling DOM-to-DOM as well as DOM-to-surface communications.
+%% Refs: Performance of DeepCore, IceCube construction paper?
+
+\chapter{Data Acquisition}
+
+The essential component of the IceCube detector is the DOM. Each of these sensor units contains a photo-multiplier tube (PMT), attached digitizing electronics, and LED flashers all housed within a glass pressure vessel \cite{2006NIMPA.567..214H}. A penetrator cable breaches the pressure vessel to connect the DOM electronics to the supporting string cable enabling DOM-to-DOM as well as DOM-to-surface communications. All data acquisition begins with the registering and processing of photon hits in individual DOMs.
 
 
 \begin{figure}[ht]
 \centering
 \begin{minipage}[b]{0.45\linewidth}
 \includegraphics[width=0.95\textwidth]{DomSchematic.png}
-\caption{Schematic detailing DOM structure.}
+\caption{Schematic detailing DOM structure \cite{2009NIMPA.601..294A}.}
 \label{fig:domscheme}
 \end{minipage}
 \quad
@@ -120,16 +130,6 @@ Every DOM contains a photo-multiplier tube (PMT), attached digitizing electronic
 \end{minipage}
 \end{figure}
 
-%%\begin{figure}
-%  \includegraphics[width= 0.45\textwidth]{DomSchematic.png} 
-%  \includegraphics[width= 0.45\textwidth]{LabDOM.pdf} 
-%  \caption{A fully assembled DOM supported by a cable harness.}
-%%\end{figure}
-
-%% Refs: Performance of DeepCore, IceCube construction paper?
-
-\chapter{Data Acquisition}
-Blah blah blah \cite{2008arXiv0810.4930T}.
 \chapter{Event Selection}
 
 \chapter{Analysis Method}

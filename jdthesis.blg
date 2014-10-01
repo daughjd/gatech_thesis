@@ -2,44 +2,44 @@ This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: jdthesis.aux
 The style file: gatech-thesis.bst
 Database file #1: jdthesis.bib
-You've used 1 entry,
+You've used 2 entries,
             2221 wiz_defined-function locations,
-            537 strings with 4136 characters,
-and the built_in function-call counts, 231 in all, are:
-= -- 20
-> -- 7
+            546 strings with 4484 characters,
+and the built_in function-call counts, 1196 in all, are:
+= -- 108
+> -- 71
 < -- 0
-+ -- 3
-- -- 2
-* -- 18
-:= -- 48
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 4
++ -- 28
+- -- 26
+* -- 121
+:= -- 183
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 11
-empty$ -- 20
-format.name$ -- 2
-if$ -- 44
+cite$ -- 2
+duplicate$ -- 50
+empty$ -- 78
+format.name$ -- 26
+if$ -- 253
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 6
-num.names$ -- 2
-pop$ -- 4
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 9
+num.names$ -- 4
+pop$ -- 16
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 17
 quote$ -- 0
-skip$ -- 6
+skip$ -- 38
 stack$ -- 0
-substring$ -- 5
-swap$ -- 2
+substring$ -- 66
+swap$ -- 31
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 8
 warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 10
+while$ -- 8
+width$ -- 3
+write$ -- 22

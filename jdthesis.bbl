@@ -1,8 +1,16 @@
 \begin{thebibliography}{1}
 
-\bibitem{2008arXiv0810.4930T}
-{\sc {The IceCube Collaboration}}, ``{The IceCube Data Acquisition System:
-  Signal Capture, Digitization, and Timestamping},'' {\em ArXiv e-prints}, Oct.
-  2008.
+\bibitem{2009NIMPA.601..294A}
+{\sc {Abbasi}, R.}, {\sc {Ackermann}, M.}, {\sc {Adams}, J.}, {\sc {Ahlers},
+  M.}, {\sc {Ahrens}, J.}, {\sc {Andeen}, K.}, {\sc {Auffenberg}, J.}, {\sc
+  {Bai}, X.}, {\sc {Baker}, M.}, {\sc {Barwick}, S.~W.}, and {\sc et~al.},
+  ``{The IceCube data acquisition system: Signal capture, digitization, and
+  timestamping},'' {\em Nuclear Instruments and Methods in Physics Research A},
+  vol.~601, pp.~294--316, 2009.
+
+\bibitem{2006NIMPA.567..214H}
+{\sc {Hanson}, K.} and {\sc {Tarasova}, O.}, ``{Design and production of the
+  IceCube digital optical module},'' {\em Nuclear Instruments and Methods in
+  Physics Research A}, vol.~567, pp.~214--217, Nov. 2006.
 
 \end{thebibliography}
