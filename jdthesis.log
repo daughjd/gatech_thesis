@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  1 OCT 2014 14:41
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  3 OCT 2014 16:17
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -169,7 +169,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ] (./jdthesis.toc
-Overfull \hbox (2.64603pt too wide) detected at line 29
+Overfull \hbox (2.64603pt too wide) detected at line 31
 \OT1/cmr/bx/n/10.95 VIII 
  []
 
@@ -219,7 +219,7 @@ CHAPTER IV.
 <DomSchematic.png, id=53, 727.71875pt x 620.3175pt>
 File: DomSchematic.png Graphic file (type png)
  <use DomSchematic.png>
-Underfull \hbox (badness 1038) in paragraph at lines 120--120
+Underfull \hbox (badness 1038) in paragraph at lines 124--124
 []\OT1/cmss/bx/n/10.95 Figure 2: \OT1/cmr/m/n/10.95 Schematic de-tail-ing DOM
  []
 
@@ -256,7 +256,14 @@ APPENDIX A.
 (./jdthesis.bbl [12
 
 
-]) [13
+]
+Underfull \hbox (badness 1253) in paragraph at lines 17--22
+[]\OT1/cmr/m/sc/10.95 IceCube Col-lab-o-ra-tion\OT1/cmr/m/n/10.95 , \OT1/cmr/m/
+sc/10.95 Achter-berg, A.\OT1/cmr/m/n/10.95 , \OT1/cmr/m/sc/10.95 Ack-er-mann, M
+.\OT1/cmr/m/n/10.95 , \OT1/cmr/m/sc/10.95 Adams, J.\OT1/cmr/m/n/10.95 ,
+ []
+
+) [13
 
 ]
 ***************** Vita ******************
@@ -268,10 +275,10 @@ APPENDIX A.
 
 ] (./jdthesis.aux) ) 
 Here is how much of TeX's memory you used:
- 1141 strings out of 256216
- 14242 string characters out of 1917072
- 65630 words of memory out of 1500000
- 4443 multiletter control sequences out of 10000+200000
+ 1142 strings out of 256216
+ 14263 string characters out of 1917072
+ 66630 words of memory out of 1500000
+ 4444 multiletter control sequences out of 10000+200000
  8885 words of font info for 31 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  27i,7n,27p,1208b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -280,7 +287,7 @@ hare/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/blue
 sky/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/sha
 re/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/
 cm/cmssbx10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-Output written on jdthesis.pdf (24 pages, 3355397 bytes).
+Output written on jdthesis.pdf (24 pages, 3358179 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)

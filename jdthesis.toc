@@ -17,6 +17,8 @@
 \contentsline {chapter}{\numberline {II}\MakeUppercase {Neutrino Astronomy}}{2}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {III}\MakeUppercase {Detector}}{3}
+\contentsline {subsection}{\numberline {3.0.1}IceCube and IceTop}{3}
+\contentsline {subsection}{\numberline {3.0.2}DeepCore}{4}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {IV}\MakeUppercase {Data Acquisition}}{5}
 \setcounter {tocdepth}{2}
