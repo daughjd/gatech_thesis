@@ -15,7 +15,7 @@
 \firstreader{Professor Nepomuk Otte}
 \secondreader{Professor Carol Paty\\(Earth and Atmospheric Science)}
 \thirdreader{Professor John Wise}
-\fourthreader{Professor }
+%%\fourthreader{Professor }
 \department{School of Physics}
 \degree{Doctor of Philosophy}
 \copyrightyear{2014}
@@ -102,20 +102,14 @@ Installation of the IceCube strings took place over several years and required t
 
 \subsection{DeepCore}
 
-An additional sub-detector named DeepCore was deployed in tandem with IceCube between 2009 and 2010. The purpose is to lower the energy threshold of the IceCube detector 
+DeepCore \cite{2012APh....35..615A} is a sub-detector deployed in tandem with IceCube between 2009 and 2010 primarily designed to lower the energy threshold of IceCube. The array consists of eight infill strings located in the center of the IceCube detector in addition to the first layer of surrounding standard IceCube strings. This configuration gives DeepCore three layers of IceCube strings to use as an active veto for the primary background of atmospheric muons. In order to improve detector response to lower energy neutrinos, $\mathcal{O}$(10-100 GeV), the infill strings of DeepCore have a much closer inter-string separation (~42 m) and have 50 DOMs spaced 7 m apart deployed deep in the ice between 2100 m and 2450 m. This denser instrumentation allows for better timing and spatial resolution of charged secondaries produced in neutrino interactions.
 
-%%\begin{figure}
-%  \includegraphics[width= 0.45\textwidth]{DomSchematic.png} 
-%  \includegraphics[width= 0.45\textwidth]{LabDOM.pdf} 
-%  \caption{A fully assembled DOM supported by a cable harness.}
-%%\end{figure}
+The depth selected for deployment of the DeepCore DOMs was determined via examination of the ice properties previously mapped by both the Anatarctic Muon and Neutrino Detector Array (AMANDA) \cite{2006JGRD..11113203A} and pre-existing IceCube configurations \cite{2013JGlac..59.1117.}. These investigations into the optical properties of the ice revealed that the deepest ice (< 2100 m) had superior optical qualities with respect to the ice closer to the surface. Additionally, it was determined that a layer of high dust concentration in which light is scattered and absorbed to a much higher degree exists at a depth of 2000-2100 m.
 
 %% Refs: Performance of DeepCore, IceCube construction paper?
 
-\chapter{Data Acquisition}
-
-The essential component of the IceCube detector is the DOM. Each of these sensor units contains a photo-multiplier tube (PMT), attached digitizing electronics, and LED flashers all housed within a glass pressure vessel \cite{2006NIMPA.567..214H}. A penetrator cable breaches the pressure vessel to connect the DOM electronics to the supporting string cable enabling DOM-to-DOM as well as DOM-to-surface communications. All data acquisition begins with the registering and processing of photon hits in individual DOMs.
-
+\subsection{The Digital Optical Module}
+The essential component of the IceCube detector is the DOM. Each of these sensor units contains a photo-multiplier tube (PMT), attached digitizing electronics, and LED flashers all housed within a glass pressure vessel \cite{2006NIMPA.567..214H}. A penetrator cable breaches the pressure vessel to connect the DOM electronics to the supporting string cable enabling DOM-to-DOM as well as DOM-to-surface communications.
 
 \begin{figure}[ht]
 \centering
@@ -134,12 +128,17 @@ The essential component of the IceCube detector is the DOM. Each of these sensor
 \end{minipage}
 \end{figure}
 
+\chapter{Data Acquisition}
+
+All data acquisition begins with the registering and processing of photon hits in individual DOMs.
+
+
 \chapter{Event Selection}
 
 \chapter{Analysis Method}
 
 \chapter{Systematics}
-
+There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the /it{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs.
 \chapter{Results}
 
 \chapter{Interpretation}

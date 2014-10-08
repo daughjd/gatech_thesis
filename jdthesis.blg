@@ -2,44 +2,47 @@ This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: jdthesis.aux
 The style file: gatech-thesis.bst
 Database file #1: jdthesis.bib
-You've used 3 entries,
+Warning--to sort, need author or key in 2013JGlac..59.1117.
+Warning--empty author in 2013JGlac..59.1117.
+You've used 5 entries,
             2221 wiz_defined-function locations,
-            553 strings with 4806 characters,
-and the built_in function-call counts, 1948 in all, are:
-= -- 171
-> -- 129
+            567 strings with 5261 characters,
+and the built_in function-call counts, 3077 in all, are:
+= -- 278
+> -- 188
 < -- 0
-+ -- 51
-- -- 48
-* -- 209
-:= -- 296
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 33
++ -- 75
+- -- 70
+* -- 324
+:= -- 450
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 50
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 79
-empty$ -- 120
-format.name$ -- 48
-if$ -- 405
+cite$ -- 7
+duplicate$ -- 129
+empty$ -- 199
+format.name$ -- 70
+if$ -- 654
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 12
-num.names$ -- 6
-pop$ -- 28
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 18
+num.names$ -- 8
+pop$ -- 43
 preamble$ -- 1
-purify$ -- 30
+purify$ -- 45
 quote$ -- 0
-skip$ -- 57
+skip$ -- 96
 stack$ -- 0
-substring$ -- 99
-swap$ -- 51
+substring$ -- 173
+swap$ -- 82
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
-warning$ -- 0
-while$ -- 12
-width$ -- 4
-write$ -- 32
+type$ -- 20
+warning$ -- 2
+while$ -- 18
+width$ -- 6
+write$ -- 51
+(There were 2 warnings)
