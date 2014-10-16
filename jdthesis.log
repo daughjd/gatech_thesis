@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  8 OCT 2014 17:09
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  16 OCT 2014 16:56
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -168,8 +168,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ] [5
 
 
-] (./jdthesis.toc
-Overfull \hbox (2.64603pt too wide) detected at line 32
+] (./jdthesis.toc [6
+
+
+]
+Overfull \hbox (2.64603pt too wide) detected at line 46
 \OT1/cmr/bx/n/10.95 VIII 
  []
 
@@ -177,26 +180,23 @@ Overfull \hbox (2.64603pt too wide) detected at line 32
 \tf@toc=\write3
 \openout3 = `jdthesis.toc'.
 
- [6
-
-
-] (./jdthesis.lot)
+ [7] (./jdthesis.lot)
 \tf@lot=\write4
 \openout4 = `jdthesis.lot'.
 
- [7
+ [8
 
 
 ] (./jdthesis.lof)
 \tf@lof=\write5
 \openout5 = `jdthesis.lof'.
 
- [8
+ [9
 
 
 ]
 ***************** Summary ******************
-[9
+[10
 
 
 ]
@@ -209,7 +209,7 @@ CHAPTER II.
 
 ]
 CHAPTER III.
-<ArrayWSeasonsLabels.pdf, id=39, 2569.6pt x 1756.5625pt>
+<ArrayWSeasonsLabels.pdf, id=42, 2569.6pt x 1756.5625pt>
 File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
 
 <use ArrayWSeasonsLabels.pdf> [3
@@ -217,16 +217,16 @@ File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
  <./ArrayWSeasonsLabels.pdf>]
 
 LaTeX Warning: Citation `2006JGRD..11113203A' on page 4 undefined on input line
- 107.
+ 114.
 
-[4] <DomSchematic.png, id=54, 727.71875pt x 620.3175pt>
+[4] <DomSchematic.png, id=57, 727.71875pt x 620.3175pt>
 File: DomSchematic.png Graphic file (type png)
  <use DomSchematic.png>
-Underfull \hbox (badness 1038) in paragraph at lines 118--118
+Underfull \hbox (badness 1038) in paragraph at lines 125--125
 []\OT1/cmss/bx/n/10.95 Figure 2: \OT1/cmr/m/n/10.95 Schematic de-tail-ing DOM
  []
 
-<LabDOM.pdf, id=55, 2457.18pt x 3276.24pt>
+<LabDOM.pdf, id=58, 2457.18pt x 3276.24pt>
 File: LabDOM.pdf Graphic file (type pdf)
  <use LabDOM.pdf> [5 <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>]
 CHAPTER IV.
@@ -256,26 +256,22 @@ CHAPTER IX.
 CHAPTER X.
 [12
 
-]
-APPENDIX A.
-(./jdthesis.bbl [13
-
-
-]
+] (./jdthesis.bbl
 Underfull \hbox (badness 1253) in paragraph at lines 29--34
 []\OT1/cmr/m/sc/10.95 IceCube Col-lab-o-ra-tion\OT1/cmr/m/n/10.95 , \OT1/cmr/m/
 sc/10.95 Achter-berg, A.\OT1/cmr/m/n/10.95 , \OT1/cmr/m/sc/10.95 Ack-er-mann, M
 .\OT1/cmr/m/n/10.95 , \OT1/cmr/m/sc/10.95 Adams, J.\OT1/cmr/m/n/10.95 ,
  []
 
-) [14
+) [13
+
 
 ]
 ***************** Vita ******************
-[15
+[14
 
 
-] [16
+] [15
 
 
 ] (./jdthesis.aux)
@@ -286,7 +282,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  1145 strings out of 256216
  14326 string characters out of 1917072
- 66630 words of memory out of 1500000
+ 67630 words of memory out of 1500000
  4447 multiletter control sequences out of 10000+200000
  8885 words of font info for 31 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
@@ -297,7 +293,7 @@ ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmcsc10.pfb
 e1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></
 usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1
 /bluesky/cm/cmti10.pfb>
-Output written on jdthesis.pdf (25 pages, 3364479 bytes).
+Output written on jdthesis.pdf (25 pages, 3367877 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
