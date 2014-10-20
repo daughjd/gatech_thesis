@@ -12,6 +12,14 @@
   et~al.}, ``{The design and performance of IceCube DeepCore},'' {\em
   Astroparticle Physics}, vol.~35, pp.~615--624, May 2012.
 
+\bibitem{2013NIMPA.700..188A}
+{\sc {Abbasi}, R.}, {\sc {Abdou}, Y.}, {\sc {Ackermann}, M.}, {\sc {Adams},
+  J.}, {\sc {Aguilar}, J.~A.}, {\sc {Ahlers}, M.}, {\sc {Altmann}, D.}, {\sc
+  {Andeen}, K.}, {\sc {Auffenberg}, J.}, {\sc {Bai}, X.}, and {\sc et~al.},
+  ``{IceTop: The surface component of IceCube. The IceCube Collaboration},''
+  {\em Nuclear Instruments and Methods in Physics Research A}, vol.~700,
+  pp.~188--220, 2013.
+
 \bibitem{2009NIMPA.601..294A}
 {\sc {Abbasi}, R.}, {\sc {Ackermann}, M.}, {\sc {Adams}, J.}, {\sc {Ahlers},
   M.}, {\sc {Ahrens}, J.}, {\sc {Andeen}, K.}, {\sc {Auffenberg}, J.}, {\sc
@@ -19,6 +27,46 @@
   ``{The IceCube data acquisition system: Signal capture, digitization, and
   timestamping},'' {\em Nuclear Instruments and Methods in Physics Research A},
   vol.~601, pp.~294--316, 2009.
+
+\bibitem{2006JGRD..11113203A}
+{\sc {Ackermann}, M.}, {\sc {Ahrens}, J.}, {\sc {Bai}, X.}, {\sc {Bartelt},
+  M.}, {\sc {Barwick}, S.~W.}, {\sc {Bay}, R.~C.}, {\sc {Becka}, T.}, {\sc
+  {Becker}, J.~K.}, {\sc {Becker}, K.-H.}, {\sc {Berghaus}, P.}, {\sc
+  {Bernardini}, E.}, {\sc {Bertrand}, D.}, {\sc {Boersma}, D.~J.}, {\sc
+  {B{\"o}ser}, S.}, {\sc {Botner}, O.}, {\sc {Bouchta}, A.}, {\sc {Bouhali},
+  O.}, {\sc {Burgess}, C.}, {\sc {Burgess}, T.}, {\sc {Castermans}, T.}, {\sc
+  {Chirkin}, D.}, {\sc {Collin}, B.}, {\sc {Conrad}, J.}, {\sc {Cooley}, J.},
+  {\sc {Cowen}, D.~F.}, {\sc {Davour}, A.}, {\sc {De Clercq}, C.}, {\sc {de los
+  Heros}, C.~P.}, {\sc {Desiati}, P.}, {\sc {De Young}, T.}, {\sc
+  {Ekstr{\"o}m}, P.}, {\sc {Feser}, T.}, {\sc {Gaisser}, T.~K.}, {\sc
+  {Ganugapati}, R.}, {\sc {Geenen}, H.}, {\sc {Gerhardt}, L.}, {\sc
+  {Goldschmidt}, A.}, {\sc {Gro{\ss}}, A.}, {\sc {Hallgren}, A.}, {\sc
+  {Halzen}, F.}, {\sc {Hanson}, K.}, {\sc {Hardtke}, D.~H.}, {\sc {Harenberg},
+  T.}, {\sc {Hauschildt}, T.}, {\sc {Helbing}, K.}, {\sc {Hellwig}, M.}, {\sc
+  {Herquet}, P.}, {\sc {Hill}, G.~C.}, {\sc {Hodges}, J.}, {\sc {Hubert}, D.},
+  {\sc {Hughey}, B.}, {\sc {Hulth}, P.~O.}, {\sc {Hultqvist}, K.}, {\sc
+  {Hundertmark}, S.}, {\sc {Jacobsen}, J.}, {\sc {Kampert}, K.~H.}, {\sc
+  {Karle}, A.}, {\sc {Kestel}, M.}, {\sc {Kohnen}, G.}, {\sc {K{\"o}pke}, L.},
+  {\sc {Kowalski}, M.}, {\sc {Kuehn}, K.}, {\sc {Lang}, R.}, {\sc {Leich}, H.},
+  {\sc {Leuthold}, M.}, {\sc {Liubarsky}, I.}, {\sc {Lundberg}, J.}, {\sc
+  {Madsen}, J.}, {\sc {Marciniewski}, P.}, {\sc {Matis}, H.~S.}, {\sc
+  {McParland}, C.~P.}, {\sc {Messarius}, T.}, {\sc {Minaeva}, Y.}, {\sc {Mio{\v
+  c}inovi{\'c}}, P.}, {\sc {Morse}, R.}, {\sc {M{\"u}nich}, K.}, {\sc
+  {Nahnhauer}, R.}, {\sc {Nam}, J.~W.}, {\sc {Neunh{\"o}ffer}, T.}, {\sc
+  {Niessen}, P.}, {\sc {Nygren}, D.~R.}, {\sc {Olbrechts}, P.}, {\sc {Pohl},
+  A.~C.}, {\sc {Porrata}, R.}, {\sc {Price}, P.~B.}, {\sc {Przybylski}, G.~T.},
+  {\sc {Rawlins}, K.}, {\sc {Resconi}, E.}, {\sc {Rhode}, W.}, {\sc {Ribordy},
+  M.}, {\sc {Richter}, S.}, {\sc {Rodr{\'{\i}}guez Martino}, J.}, {\sc
+  {Sander}, H.-G.}, {\sc {Schlenstedt}, S.}, {\sc {Schneider}, D.}, {\sc
+  {Schwarz}, R.}, {\sc {Silvestri}, A.}, {\sc {Solarz}, M.}, {\sc {Spiczak},
+  G.~M.}, {\sc {Spiering}, C.}, {\sc {Stamatikos}, M.}, {\sc {Steele}, D.},
+  {\sc {Steffen}, P.}, {\sc {Stokstad}, R.~G.}, {\sc {Sulanke}, K.-H.}, {\sc
+  {Taboada}, I.}, {\sc {Tarasova}, O.}, {\sc {Thollander}, L.}, {\sc {Tilav},
+  S.}, {\sc {Wagner}, W.}, {\sc {Walck}, C.}, {\sc {Walter}, M.}, {\sc {Wang},
+  Y.-R.}, {\sc {Wiebusch}, C.~H.}, {\sc {Wischnewski}, R.}, {\sc {Wissing},
+  H.}, and {\sc {Woschnagg}, K.}, ``{Optical properties of deep glacial ice at
+  the South Pole},'' {\em Journal of Geophysical Research (Atmospheres)},
+  vol.~111, p.~13203, July 2006.
 
 \bibitem{2006NIMPA.567..214H}
 {\sc {Hanson}, K.} and {\sc {Tarasova}, O.}, ``{Design and production of the

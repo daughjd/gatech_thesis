@@ -51,9 +51,9 @@
 \contentsline {chapter}{\numberline {X}\MakeUppercase {Conclusion}}{13}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{15}
+\contentsline {chapter}{\MakeUppercase {Index}}{16}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Vita}}{16}
+\contentsline {chapter}{\MakeUppercase {Vita}}{17}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
