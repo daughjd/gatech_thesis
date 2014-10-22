@@ -1,30 +1,35 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.20)  21 OCT 2014 22:39
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  22 OCT 2014 12:04
 entering extended mode
- restricted \write18 enabled.
  %&-line parsing enabled.
 **jdthesis.tex
 (./jdthesis.tex
-LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 2 languages loaded.
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
 (./gatech-thesis.cls
 Document Class: gatech-thesis 2003/04/14 1.6 (Charles Wilson)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count79
 \calc@Bcount=\count80
 \calc@Adimen=\dimen102
 \calc@Bdimen=\dimen103
 \calc@Askip=\skip41
 \calc@Bskip=\skip42
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count81
 \calc@Cskip=\skip43
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf/tex/latex/base/report.cls
+Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size11.clo
+File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count82
 \c@chapter=\count83
@@ -56,33 +61,248 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \gt@tmpa=\skip57
 \c@part@savepagenum=\count94
 \c@part@pagenum=\count95
-
-(./gatech-thesis-patch.sty
+ (./gatech-thesis-patch.sty
 File: gatech-thesis-patch.sty 2003/04/14 1.6a (Charles Wilson)
 
 gatech-thesis-patch loaded
+)) (/usr/share/texmf/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 149.
+LaTeX Info: Redefining \nocite on input line 214.
+Package: cite 2003/11/04  v 4.01
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count96
 ))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(/usr/share/texmf/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen107
+\WF@size=\dimen108
+\c@WF@wrappedlines=\count97
+\WF@box=\box26
+\WF@everypar=\toks15
+Package: wrapfig 2003/01/31  v 3.6
+) (./jdthesis.aux)
+\openout1 = `jdthesis.aux'.
 
-! LaTeX Error: File `cite.sty' not found.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.3 \usepackage
-               {graphicx}^^M
-*** (cannot \read from terminal in nonstop modes)
-
+Underfull \hbox (badness 10000) has occurred while \output is active
  
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\c@halfsig=\count98
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\OT1/cmr/m/n/10.95 Professor Pablo La-guna, Com-mit-tee
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 38.
+***************** Dedication ******************
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+ []
+
+[2
+
+]
+***************** Preface ******************
+[3
+
+
+]
+***************** Acknowledgements ******************
+[4
+
+
+] [5
+
+
+] (./jdthesis.toc [6
+
+
+]
+Overfull \hbox (2.64603pt too wide) detected at line 48
+\OT1/cmr/bx/n/10.95 VIII 
+ []
+
+)
+\tf@toc=\write3
+\openout3 = `jdthesis.toc'.
+
+ [7] (./jdthesis.lot)
+\tf@lot=\write4
+\openout4 = `jdthesis.lot'.
+
+ [8
+
+
+] (./jdthesis.lof)
+\tf@lof=\write5
+\openout5 = `jdthesis.lof'.
+
+ [9
+
+
+]
+***************** Summary ******************
+[10
+
+
+]
+CHAPTER I.
+[1
+
+]
+CHAPTER II.
+[2
+
+]
+CHAPTER III.
+<ArrayWSeasonsLabels.pdf, id=43, 2569.6pt x 1756.5625pt>
+File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
+
+<use ArrayWSeasonsLabels.pdf> [3
+
+] [4 <./ArrayWSeasonsLabels.pdf>] [5]
+CHAPTER IV.
+<DomSchematic.png, id=62, 727.71875pt x 620.3175pt>
+File: DomSchematic.png Graphic file (type png)
+ <use DomSchematic.png>
+Underfull \hbox (badness 1038) in paragraph at lines 142--142
+[]\OT1/cmss/bx/n/10.95 Figure 2: \OT1/cmr/m/n/10.95 Schematic de-tail-ing DOM
+ []
+
+<LabDOM.pdf, id=63, 2457.18pt x 3276.24pt>
+File: LabDOM.pdf Graphic file (type pdf)
+ <use LabDOM.pdf> [6
+
+ <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>] [7]
+CHAPTER V.
+
+LaTeX Warning: Reference `fig:' on page 8 undefined on input line 168.
+
+
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 168--169
+\OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
+-energy event se-lec-tion, the DeepCore-
+ []
+
+[8
+
+]
+CHAPTER VI.
+[9
+
+]
+CHAPTER VII.
+[10
+
+]
+CHAPTER VIII.
+[11
+
+]
+CHAPTER IX.
+[12
+
+]
+CHAPTER X.
+[13
+
+] (./jdthesis.bbl [14
+
+
+]
+Underfull \hbox (badness 1253) in paragraph at lines 77--82
+[]\OT1/cmr/m/sc/10.95 IceCube Col-lab-o-ra-tion\OT1/cmr/m/n/10.95 , \OT1/cmr/m/
+sc/10.95 Achter-berg, A.\OT1/cmr/m/n/10.95 , \OT1/cmr/m/sc/10.95 Ack-er-mann, M
+.\OT1/cmr/m/n/10.95 , \OT1/cmr/m/sc/10.95 Adams, J.\OT1/cmr/m/n/10.95 ,
+ []
+
+) [15]
+***************** Vita ******************
+[16
+
+
+] [17
+
+
+] (./jdthesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 581 strings out of 495031
- 7441 string characters out of 6181531
- 54557 words of memory out of 5000000
- 3869 multiletter control sequences out of 15000+600000
- 3940 words of font info for 15 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 27i,0n,22p,181b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 1153 strings out of 256216
+ 14412 string characters out of 1917072
+ 68630 words of memory out of 1500000
+ 4454 multiletter control sequences out of 10000+200000
+ 9244 words of font info for 32 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 27i,7n,27p,1208b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbxti10.pf
+b></usr/share/texmf/fonts/type1/bluesky/cm/cmcsc10.pfb></usr/share/texmf/fonts/
+type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></
+usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
+Output written on jdthesis.pdf (27 pages, 3387698 bytes).
+PDF statistics:
+ 138 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
