@@ -87,12 +87,17 @@ The nascent field of neutrino astronomy began in earnest with the detection of s
 
 \section{Motivation}
 
+\section{Neutrino Properties}
+%% what is it, history
+%% mass, charge
+%% interactions in matter
+
+
 \section{Neutrino Sources}
 %% How neutrinos (production, detection)
-
-\section{Detection Methods}
-%% SN1987A
 %% GRBs, SN, Chk GRBs
+\section{Detection Methods}
+
 
 %%
 \chapter{Detector}
@@ -107,11 +112,13 @@ The IceCube Neutrino Observatory \cite{2006APh....26..155I} is km$^{3}$-scale ne
   \label{fig:icecube}
 \end{figure}
 
-Installation of the IceCube strings took place over several years and required the use of a specialized hot-water drill. In the deployment process, the hot-water drill is used to bore through the ice leaving a water-filled column in which the string and its attached DOMs are lowered. The water column subsequently freezes the cable and all DOMs in place rendering them completely inaccessible from the surface. The deployment of the first IceCube string occurred on January 29th, 2005. The remaining strings were deployed over the next five summer seasons resulting in data seasons of different detector shapes and size. The final string was deployed on December 18, 2010 giving IceCube its ultimate 80-string configuration.
+Installation of the IceCube strings took place over several years and required the use of a specialized hot-water drill. In the deployment process, the hot-water drill is used to bore through the ice leaving a water-filled column in which the string and its attached DOMs are lowered. The water column subsequently freezes the cable and all DOMs in place rendering them completely inaccessible from the surface. The deployment of the first IceCube string occurred on January 29th, 2005. The remaining strings were deployed over the next five summer seasons resulting in data seasons of different detector shapes and size. The final string was deployed on December 18, 2010 giving IceCube its ultimate 86-string configuration.
 
 %%% IceTop
 
-In addition to the detectors installed deep in the ice, there are also 81 surface detector stations (each station consisting of two tanks) at the surface. These tanks, which utilize two of the same light-sensing DOMs as IceCube, comprise the IceTop surface array. The DOMs in these tanks are also frozen in place and look for Cerenkov radiation produced by cosmic ray air shower secondaries in the tank ice. IceTop's primary purpose is to perform air shower physics, but it also serves as a veto for downgoing atmospheric muons and neutrinos in IceCube. For more detailed information on the physics goals and detection capabilities of IceTop, see \cite{2013NIMPA.700..188A}.
+In addition to the detectors installed deep in the ice, there are also 81 surface detector stations (each station consisting of two tanks) at the surface. These tanks, which utilize two of the same light-sensing DOMs as IceCube, comprise the IceTop surface array. The DOMs in these tanks, which are also frozen in place, look for Cerenkov radiation produced by cosmic ray air shower secondaries in the tank ice. By examining the arrival time of charged particles from the shower front, the direction of cosmic rays incident at Earth can be determined. The spatial extent of the shower as well as the total charge deposition in tank PMTs allows for accurate estimation of the energy of the primary cosmic ray. Data produced from IceTop is used to study cosmic ray composition, spectra, and anisotropy.
+
+Due to the spatial relation of both IceTop and IceCube, they are able to complement the capabilities of each other quite nicely. IceTop's primary purpose is to study air shower physics, but it also serves as a veto for downgoing atmospheric muons and neutrinos in IceCube. This is particularly useful in the search for highly energetic neutrinos of astrophysical origin such as the events reported in \cite{} and \cite{}. Any downgoing events found by these searches that is accompanied by a causually connected air shower signal in IceTop is immediately identified as atmospheric in origin. Alternatively, the background muons detected in IceCube can be used for more detailed study of air shower composition and energy in IceTop analyses. For more detailed information on the physics goals and detection capabilities of IceTop, see \cite{2013NIMPA.700..188A}.
 
 \section{DeepCore}
 
@@ -119,9 +126,9 @@ DeepCore \cite{2012APh....35..615A} is a sub-detector deployed in tandem with Ic
 
 The depth selected for deployment of the DeepCore DOMs was determined via examination of the ice properties previously mapped by both the Anatarctic Muon and Neutrino Detector Array (AMANDA) \cite{2006JGRD..11113203A} and pre-existing IceCube configurations \cite{2013JGlac..59.1117.}. These investigations into the optical properties of the ice revealed that the deepest ice (< 2100 m) had superior optical qualities with respect to the ice closer to the surface. Additionally, it was determined that a layer of high dust concentration in which light is scattered and absorbed to a much higher degree exists at a depth of 2000-2100 m.
 
-%% Refs: Performance of DeepCore, IceCube construction paper?
 \section{Neutrino Events in IceCube}
 
+In order to overcome the large discrepancy in relative abundance between neutrinos and background muons, it is necessary to fully understand the nature of the detector response to neutrinos and neutrino secondaries interacting within the detector.
 
 \chapter{Data Acquisition}
 In this section, a succinct description of the detection and processing of the light-yield from particle interactions in the ice is given. The reader interested in a much more thorough account is encouraged to consult \cite{2009NIMPA.601..294A}.
@@ -150,24 +157,35 @@ All data acquisition begins with the registering and processing of photon hits i
 
 \section{Data Synchronization}
 
-\section{Triggering and Filtering}
+\section{Triggering and Event Building}
 
 
 \chapter{Event Selection}
-A quick comparison between the rate at which atmospheric neutrinos trigger the IceCube detector (~ 6 mHz Check Real NUMBER) and the overall event rate (~ 3 kHz) readily shows that the data generated by IceCube is very strongly dominated by background.
+A quick comparison between the rate at which atmospheric neutrinos trigger the IceCube detector (~ 6 mHz Check Real NUMBER) and the overall event rate (~ 3 kHz) readily shows that the data generated by IceCube is very strongly dominated by background. This background is almost entirely due to energetic muons produced in cosmic ray air showers passing through the detector from above. Due to the large range of physics capabilities of the detector, many different filters exist to reduce the data volume and select out events of interest to certain analyses.
 
 \section{Low-energy Channel}
+
+Because of the primary focus of this analysis on a lower-energy event selection, the DeepCore-dominated low-energy filter stream is taken as input. Selecting only events which pass this filter reduces the trigger-level data rate of 3 kHz to a much more manageable  ??? Hz. The low-energy filter attempts to select a relatively background free sample by selecting a detection volume about DeepCore that does not extend to edge of the detector. This allows optical sensors outside of the detection volume to serve as dedicated downgoing muon detectors. Events that have hits on DOMs outside the defined detection volume that are causally correlated with the hits inside the volume are able to be identified as background muons. A schematic represtation of this filtering algorithm is shown in \ref{fig:}. 
+
+%% Insert DeepCore Filter Pic
+
+This filter actually consists of two separate streams which are differentiated by the definition of which DOMs comprise the detection (or fiducial) volume and which DOMs are treated as belonging to the veto region.
 
 \section{Analysis Specific Cuts}
 
 \section{Event Reconstruction}
 
+
+
 \chapter{Analysis Method}
 %% Brief description of use of a time dependent search method
+The method used in the analysis presented in this thesis makes use of both directional and timing information from the final level event dataset.
 
 \section{Unbinned Likelihood Method}
 
 \section{Sky Scan}
+
+The analysis performed is not a triggered search, and therefore it is necessary to examine the entire solid angle domain of the analysis for any possible transient sources.
 
 \section{Significance and Trials Factors}
 
