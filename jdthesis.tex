@@ -45,7 +45,7 @@
 \vfil\null
 \end{dedication}
 \begin{preface}
-This dissertation is based on data acquired with the IceCube Neutrino Observatory whose maintenance and operation is the result of an immense international collaborative effort. The bulk of the work pertaining to experimental hardware, data acquisition, reconstruction algorithms, systematics, and simulation presented in this document can be attributed to many IceCube collaborators. However, the refinement of the event selection and subsequent analysis of the data are the original work of the author.
+This dissertation is based on data acquired with the IceCube Neutrino Observatory whose maintenance and operation is the result of an immense international collaborative effort. The bulk of the work pertaining to experimental hardware, data acquisition, reconstruction algorithms, and simulation presented in this document can be attributed to many IceCube collaborators. However, the refinement of the event selection and subsequent analysis of the data are the original work of the author.
 \end{preface}
 \begin{acknowledgements}
 I want to thank my fellow graduate student office mates whose constant distractions helped me retain my sanity.
@@ -72,16 +72,21 @@ I want to thank my fellow graduate student office mates whose constant distracti
 \end{preliminary}
 %%
 \chapter{Introduction}
-The expansion of traditional optical astronomy into wavelengths unobservable to the human eye revealed myriad phenomena previously unknown to science. Use of wavebands of light spanning several orders of magnitude allowed for the discovery of completely new astronomical sources. Additionally, it allowed for the study of inherently different physical processes within and around source objects. Yet, for all the vast advances in our understanding of the universe the opening up of the electromagnetic spectrum has brought us, it relies entirely upon the physical properties of its messenger particle, the photon.
 
-Absorption of light, either by intervening matter or other background photons, limits the number and type of source objects optical astronomy can hope to either observe or characterize. In order to explore regions of high density as well as very high-energy processes, entirely different methods of observation are required. The limitations imposed by light-based astronomy have led to the dedicated investigation of other particles and phenomena as potential cosmic messengers. This rapidly developing field, often referred to as multi-messenger astronomy, attempts to explore physical regions inaccessible to standard astronomy through the use of the highest energy cosmic rays, gravitational radiation, and high-energy neutrinos. These channels provide a unique window into the universe albeit each with their own detection challenges.
+
 
 %%% End of section????
 
 
 The primary focus of the analysis presented in this thesis is to apply previously developed time-dependent point source search techniques to a set of neutrino events much lower in energy than has been attempted before.
+
 \chapter{Neutrino Astronomy}
 
+The expansion of traditional optical astronomy into wavelengths unobservable to the human eye revealed myriad phenomena previously unknown to science. Use of wavebands of light spanning several orders of magnitude allowed for the discovery of completely new astronomical sources. Additionally, it allowed for the study of inherently different physical processes within and around source objects. Yet, for all the vast advances in our understanding of the universe the opening up of the electromagnetic spectrum has brought us, it relies entirely upon the physical properties of its messenger particle, the photon.
+
+Absorption of light, either by intervening matter or other background photons, limits the number and type of source objects optical astronomy can hope to either observe or characterize. In order to explore regions of high density as well as very high-energy processes, entirely different methods of observation are required. The limitations imposed by light-based astronomy have led to the dedicated investigation of other particles and phenomena as potential cosmic messengers. This rapidly developing field, often referred to as multi-messenger astronomy, attempts to explore physical regions inaccessible to standard astronomy through the use of the highest energy cosmic rays, gravitational radiation, and high-energy neutrinos. These channels provide a unique window into the universe albeit each with their own detection challenges.
+
+The neutrino in particular provides many excellent properties for
 
 \section{Motivation}
 
@@ -147,9 +152,9 @@ The depth selected for deployment of the DeepCore DOMs was determined via examin
 
 In order to isolate the sparse neutrino events from the abundance of background cosmic ray muons, it is necessary to fully understand the nature of the detector response to neutrinos and neutrino secondaries interacting within the detector. Neutrinos that are sufficiently energetic to be detected by IceCube will undergo deep inelastic scattering with a nucleon target (see for more information on this process see section \textbf{2.2.2}). This process will either be charged-current (CC) or neutral-current (NC) depending on the nature of the boson exchange and the final lepton state. The hit topology of a given neutrino event in IceCube will depend upon the flavor of the neutrino ($\nu_{e}$, $\nu_{\mu}$, $\nu_{\tau}$) as well as the channel through which it interacts with a target nucleon in the ice.
 
-In NC interactions of all flavors, a hadronic cascade is produced which yields a roughly isotropic distribution of light. Any spatial extent in the hadronic cascade particles will be much smaller than the DOM separation distance. Thus, the Cerenkov emission from these particles will appear to be a point source of light within the detector. This results in a spherical pattern of DOMs that detect light from this type of interaction. An example event display for this type of interaction can be seen in \ref{fig:cascade}.
+In NC interactions of all flavors, a hadronic cascade is produced which yields a roughly isotropic distribution of light. Any spatial extent in the hadronic cascade particles will be much smaller than the DOM separation distance. Thus, the Cerenkov emission from these particles will appear to be a point source of light within the detector. This results in a spherical pattern of DOMs that register light from this type of interaction. The radius of DOMs which are able to detect light from the cascade is determined by the total energy deposited in the ice by the neutrino primary. Events with this hit pattern are referred to as cascades. An example event display for this type of interaction can be seen in \ref{fig:cascade}.
 
-Whereas the resultant hit pattern for NC interactions is flavor independent, the event topology in CC interactions is determined primarily by the lepton flavor of the neutrino.
+Whereas the resultant hit pattern for NC interactions is flavor independent, the event topology in CC interactions is determined primarily by the lepton flavor of the neutrino. In addition to a hadronic cascade, the CC interaction will also yield an energetic lepton corresponding to the flavor of the interacting neutrino. In the case of $\nu_{e}$ and $\nu_{\tau}$ CC interactions, the resulting hit pattern in IceCube will take the form of a cascade in a similar manner to the NC interactions. While the source of Cerenkov emission is no longer point-like, the length of electron and tau particle tracks is much shorter than the inter-DOM separation distance.
 
 IceCube is designed specifically to be sensitive $\nu_{\mu}$ CC interactions due to superior pointing provided by long-lived muon tracks in the ice.
 
