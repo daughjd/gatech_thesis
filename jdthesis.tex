@@ -20,7 +20,7 @@
 \degree{Doctor of Philosophy}
 \copyrightyear{2014}
 \submitdate{December 2014}
-\bibfiles{example-thesis}
+\bibfiles{jdthesis}
 %% The following are the defaults
 %%    \titlepagetrue
 %%    \signaturepagetrue
@@ -92,15 +92,19 @@ The neutrino in particular provides many excellent properties for
 
 \section{Neutrino Properties}
 
-\subsection{Interactions in Matter}
-
-\subsection{Flavor Oscillations}
 %% what is it, history
 %% mass, charge
-%% interactions in matter
+
+\subsection{Interactions in Matter}
+
+\subsection{Propagation of Interaction Products}
+
+\subsection{Flavor Oscillations}
+
 
 
 \section{Detection Methods}
+
 The primary method for the detection of astrophysical neutrinos is through observation of Cerenkov light produced by interaction secondaries.
 
 \chapter{Neutrino Sources}
@@ -154,14 +158,19 @@ In order to isolate the sparse neutrino events from the abundance of background 
 
 In NC interactions of all flavors, a hadronic cascade is produced which yields a roughly isotropic distribution of light. Any spatial extent in the hadronic cascade particles will be much smaller than the DOM separation distance. Thus, the Cerenkov emission from these particles will appear to be a point source of light within the detector. This results in a spherical pattern of DOMs that register light from this type of interaction. The radius of DOMs which are able to detect light from the cascade is determined by the total energy deposited in the ice by the neutrino primary. Events with this hit pattern are referred to as cascades. An example event display for this type of interaction can be seen in \ref{fig:cascade}.
 
-Whereas the resultant hit pattern for NC interactions is flavor independent, the event topology in CC interactions is determined primarily by the lepton flavor of the neutrino. In addition to a hadronic cascade, the CC interaction will also yield an energetic lepton corresponding to the flavor of the interacting neutrino. In the case of $\nu_{e}$ and $\nu_{\tau}$ CC interactions, the resulting hit pattern in IceCube will take the form of a cascade in a similar manner to the NC interactions. While the source of Cerenkov emission is no longer point-like, the length of electron and tau particle tracks is much shorter than the inter-DOM separation distance.
+%% Insert Pretty cascade event here
 
-IceCube is designed specifically to be sensitive $\nu_{\mu}$ CC interactions due to superior pointing provided by long-lived muon tracks in the ice.
+Whereas the resultant hit pattern for NC interactions is flavor independent, the event topology in CC interactions is determined primarily by the lepton flavor of the neutrino. In addition to a hadronic cascade, the CC interaction will also yield an energetic lepton corresponding to the flavor of the interacting neutrino. In the case of $\nu_{e}$ and $\nu_{\tau}$ CC interactions, the resulting hit pattern in IceCube will take the form of a cascade in a similar manner to the NC interactions. While the source of Cerenkov emission is no longer point-like, the length of electron and tau particle tracks is much shorter than the inter-DOM separation distance. Some marginal pointing can be achieved for these events, however, since the light produced in the hadronic and electromangetic cascades in these events is not totally symmetric. For sufficiently energetic $\nu_{\tau}$ events in IceCube, more exotic signatures are possible. These arise from the increased lifetime of the outgoing $\tau$ lepton resulting in two separate light-producing cascades that can be resolved separately either in space or time. As of the writing of this thesis, no events of this type have been observed in IceCube.
+
+IceCube is designed specifically to be sensitive $\nu_{\mu}$ CC interactions due to superior pointing provided by long-lived muon tracks in the ice. Daughter muons from $\nu_{\mu}$ CC interactions can travel distances ranging from ~300 m ($E_{\nu_{\mu}}\sim 100$ GeV) to several kilometers ($E_{\nu_{\mu}}\geq 1$ TeV) \cite{}.
+
+%% Insert Pretty Track Here
 
 \chapter{Data Acquisition}
 In this section, a succinct description of the detection and processing of the light-yield from particle interactions in the ice is given. The reader interested in a much more thorough account is encouraged to consult \cite{2009NIMPA.601..294A}.
+
 \section{The Digital Optical Module}
-The essential component of the IceCube detector is the DOM. Each of these sensor units contains a photo-multiplier tube (PMT), attached digitizing electronics, and LED flashers all housed within a glass pressure vessel \cite{2006NIMPA.567..214H}. A penetrator cable breaches the pressure vessel to connect the DOM electronics to the supporting string cable enabling DOM-to-DOM as well as DOM-to-surface communications.
+The essential component of the IceCube detector is the DOM. Each of these sensor units contains a Hamamatsu R7081-02 25 cm photo-multiplier tube (PMT), attached digitizing electronics, and LED flashers all housed within a glass pressure vessel \cite{2006NIMPA.567..214H}. A penetrator cable breaches the pressure vessel to connect the DOM electronics to the supporting string cable enabling DOM-to-DOM as well as DOM-to-surface communications.
 
 \begin{figure}[ht]
 \centering
@@ -201,8 +210,27 @@ This filter actually consists of two separate streams which are differentiated b
 
 \section{Analysis Specific Cuts}
 
+\subsection{Veto Cuts}
+
+\subsection{Quality Cuts}
+
+\subsection{Boosted Decision Tree}
+
+
 \section{Event Reconstruction}
 
+\section{Final Level Data}
+
+
+%%% Insert Pictures of Final Level Distributions
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{LESEventForThesis.png}
+  \end{center}
+  \caption{Event display for a final level neutrino track event originating in DeepCore. The colored spheres represent DOMs that have registered a hit during the event. The size of the spheres are indicative of the total light received by the PMT on that DOM. The color denotes the timing of the hit with red corresponding to earlier times and blue corresponding to later times.}
+  \label{fig:LESEventFinal}
+\end{figure}
 
 
 \chapter{Analysis Method}
@@ -213,12 +241,16 @@ The method used in the analysis presented in this thesis makes use of both direc
 
 \section{Sky Scan}
 
-The analysis performed is not a triggered search, and therefore it is necessary to examine the entire solid angle domain of the analysis for any possible transient sources.
+The analysis performed is not a triggered search, and therefore it is necessary to examine the entire solid angle domain of the analysis for any possible transient sources. The difficulty in rejecting background muons at lower energies limits the analysis to up-going and horizontal events ($< 5^{\circ}$ above the horizon). Because of IceCube's location at the South Pole, this results in a search over all right ascension in a declination band ranging from -$5^{\circ}$ to $90^{\circ}$.
+
+%% Insert Sky Map
 
 \section{Significance and Trials Factors}
 
-\chapter{Systematics}
-There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the /it{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs.
+%% Insert Background Trials Best TS distribution
+
+\chapter{Systematic Effects}
+There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the \textit{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs.
 
 \section{Ice Properties}
 
