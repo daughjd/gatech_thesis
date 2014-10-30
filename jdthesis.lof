@@ -1,4 +1,4 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Diagram of the IceCube Neutrino Observatory (Courtesy of the IceCube Collaboration).}}{6}
-\contentsline {figure}{\numberline {2}{\ignorespaces Schematic detailing DOM structure \cite {2009NIMPA.601..294A}.}}{9}
-\contentsline {figure}{\numberline {3}{\ignorespaces A fully assembled DOM supported by a cable harness.}}{9}
-\contentsline {figure}{\numberline {4}{\ignorespaces Event display for a final level neutrino track event originating in DeepCore. The colored spheres represent DOMs that have registered a hit during the event. The size of the spheres are indicative of the total light received by the PMT on that DOM. The color denotes the timing of the hit with red corresponding to earlier times and blue corresponding to later times.}}{12}
+\contentsline {figure}{\numberline {2}{\ignorespaces Schematic detailing DOM structure \cite {2009NIMPA.601..294A}.}}{10}
+\contentsline {figure}{\numberline {3}{\ignorespaces A fully assembled DOM supported by a cable harness.}}{10}
+\contentsline {figure}{\numberline {4}{\ignorespaces Event display for a final level neutrino track event originating in DeepCore. The colored spheres represent DOMs that have registered a hit during the event. The size of the spheres are indicative of the total light received by the PMT on that DOM. The color denotes the timing of the hit with red corresponding to earlier times and blue corresponding to later times.}}{13}
