@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  4 NOV 2014 17:02
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  5 NOV 2014 16:56
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -226,20 +226,20 @@ File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
 <IC86EDC_DeepCoreDiagram.pdf, id=74, 347.2975pt x 682.55pt>
 File: IC86EDC_DeepCoreDiagram.pdf Graphic file (type pdf)
 
-<use IC86EDC_DeepCoreDiagram.pdf>
-<hese_cascade_event.png, id=75, 2107.875pt x 2810.5pt>
+<use IC86EDC_DeepCoreDiagram.pdf> [9]
+<hese_cascade_event.png, id=79, 2107.875pt x 2810.5pt>
 File: hese_cascade_event.png Graphic file (type png)
 
 <use hese_cascade_event.png>
 
-LaTeX Warning: Float too large for page by 17.69897pt on input line 182.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 183.
 
-[9] <hese_track_event.png, id=80, 2107.875pt x 2810.5pt>
+<hese_track_event.png, id=80, 2107.875pt x 2810.5pt>
 File: hese_track_event.png Graphic file (type png)
 
 <use hese_track_event.png>
 
-LaTeX Warning: Float too large for page by 17.69897pt on input line 194.
+LaTeX Warning: Float too large for page by 17.69897pt on input line 195.
 
 [10] [11 <./IC86EDC_DeepCoreDiagram.pdf>] [12 <./hese_cascade_event.png (PNG co
 py)>] [13 <./hese_track_event.png (PNG copy)>]
@@ -247,7 +247,7 @@ CHAPTER VI.
 <DomSchematic.png, id=137, 727.71875pt x 620.3175pt>
 File: DomSchematic.png Graphic file (type png)
  <use DomSchematic.png>
-Underfull \hbox (badness 1038) in paragraph at lines 207--207
+Underfull \hbox (badness 1038) in paragraph at lines 208--208
 []\OT1/cmss/bx/n/10.95 Figure 5: \OT1/cmr/m/n/10.95 Schematic de-tail-ing DOM
  []
 
@@ -258,56 +258,52 @@ File: LabDOM.pdf Graphic file (type pdf)
  <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>] [15]
 CHAPTER VII.
 
-LaTeX Warning: Reference `fig:' on page 16 undefined on input line 233.
+LaTeX Warning: Reference `fig:' on page 16 undefined on input line 236.
 
 
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 233--234
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 236--237
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
 
-<LESEventForThesis.png, id=151, 831.51102pt x 623.63326pt>
+[16
+
+] <LESEventForThesis.png, id=154, 831.51102pt x 623.63326pt>
 File: LESEventForThesis.png Graphic file (type png)
 
-<use LESEventForThesis.png> [16
-
-] [17 <./LESEventForThesis.png (PNG copy)>]
+<use LESEventForThesis.png> [17] [18 <./LESEventForThesis.png (PNG copy)>]
 CHAPTER VIII.
-
-LaTeX Warning: Citation `2010APh....33..175B' on page 18 undefined on input lin
-e 266.
-
-[18
+[19
 
 ]
 CHAPTER IX.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 280.
+(Font)              <14.4> on input line 298.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 280.
-[19
-
-]
-CHAPTER X.
+(Font)              <7> on input line 298.
 [20
 
 ]
-CHAPTER XI.
+CHAPTER X.
 [21
 
 ]
-CHAPTER XII.
+CHAPTER XI.
 [22
 
-] (./jdthesis.bbl [23
+]
+CHAPTER XII.
+[23
+
+] (./jdthesis.bbl [24
 
 
-] [24]) [25]
+] [25]) [26]
 ***************** Vita ******************
-[26
+[27
 
 
-] [27
+] [28
 
 
 ] (./jdthesis.aux)
@@ -316,13 +312,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1186 strings out of 256216
- 15159 string characters out of 1917072
- 68630 words of memory out of 1500000
- 4482 multiletter control sequences out of 10000+200000
+ 1190 strings out of 256216
+ 15234 string characters out of 1917072
+ 67630 words of memory out of 1500000
+ 4486 multiletter control sequences out of 10000+200000
  9859 words of font info for 34 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 27i,7n,27p,1419b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 27i,8n,27p,1419b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
 ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbxti10.pf
 b></usr/share/texmf/fonts/type1/bluesky/cm/cmcsc10.pfb></usr/share/texmf/fonts/
@@ -332,9 +328,9 @@ type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi6.pfb>
 share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/texmf/fonts/type1/b
 luesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/s
 hare/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-Output written on jdthesis.pdf (37 pages, 5034047 bytes).
+Output written on jdthesis.pdf (38 pages, 5037738 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
+ 238 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
