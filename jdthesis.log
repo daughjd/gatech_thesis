@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  5 NOV 2014 16:56
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  6 NOV 2014 17:04
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -232,14 +232,14 @@ File: hese_cascade_event.png Graphic file (type png)
 
 <use hese_cascade_event.png>
 
-LaTeX Warning: Float too large for page by 19.82814pt on input line 183.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 181.
 
 <hese_track_event.png, id=80, 2107.875pt x 2810.5pt>
 File: hese_track_event.png Graphic file (type png)
 
 <use hese_track_event.png>
 
-LaTeX Warning: Float too large for page by 17.69897pt on input line 195.
+LaTeX Warning: Float too large for page by 17.69897pt on input line 193.
 
 [10] [11 <./IC86EDC_DeepCoreDiagram.pdf>] [12 <./hese_cascade_event.png (PNG co
 py)>] [13 <./hese_track_event.png (PNG copy)>]
@@ -247,7 +247,7 @@ CHAPTER VI.
 <DomSchematic.png, id=137, 727.71875pt x 620.3175pt>
 File: DomSchematic.png Graphic file (type png)
  <use DomSchematic.png>
-Underfull \hbox (badness 1038) in paragraph at lines 208--208
+Underfull \hbox (badness 1038) in paragraph at lines 206--206
 []\OT1/cmss/bx/n/10.95 Figure 5: \OT1/cmr/m/n/10.95 Schematic de-tail-ing DOM
  []
 
@@ -258,10 +258,10 @@ File: LabDOM.pdf Graphic file (type pdf)
  <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>] [15]
 CHAPTER VII.
 
-LaTeX Warning: Reference `fig:' on page 16 undefined on input line 236.
+LaTeX Warning: Reference `fig:' on page 16 undefined on input line 234.
 
 
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 236--237
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 234--235
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
@@ -328,7 +328,7 @@ type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi6.pfb>
 share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/texmf/fonts/type1/b
 luesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/s
 hare/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-Output written on jdthesis.pdf (38 pages, 5037738 bytes).
+Output written on jdthesis.pdf (38 pages, 5036392 bytes).
 PDF statistics:
  238 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
