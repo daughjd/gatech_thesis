@@ -160,7 +160,7 @@ The depth selected for deployment of the DeepCore DOMs was determined via examin
   \begin{center}
     \includegraphics[width=0.7\textwidth,keepaspectratio]{IC86EDC_DeepCoreDiagram.pdf}
   \end{center}
-  \caption{Top down and side-view diagram of DeepCore. The side-view shows the difference in DOM distribution for the infill strings and their relation to the dust layer.}
+  \caption{Top down and side-view diagram of DeepCore. The side-view shows the difference in DOM distribution for the infill strings and their relation to the dust layer \cite{2012APh....35..615A}.}
   \label{fig:DeepCoreSchematic}
 \end{figure}
 
@@ -283,7 +283,21 @@ The analysis presented in this thesis makes use of both directional and timing i
 
 \section{Unbinned Likelihood Method}
 
+\begin{center}
+$S_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w) = \frac{\kappa}{4\pi \sinh \kappa} \exp \left(\kappa \cos |\mathbf{x}_i-\mathbf{x_s}|\right) * \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o)^2}{2 \sigma_w^2}\right)$
+\end{center}
 
+\begin{center}
+$B_i(\mathbf{x}_i,t_i) = P_{BkgDec}\left(\mathbf{x}_i\right)\frac{P_{BkgAz}(\delta_i,\alpha_i)}{T}$
+\end{center}
+
+\begin{center}
+$\mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w) = \prod P_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w)$
+\end{center}
+
+\begin{center}
+$\log \lambda = \log \left(\frac{\sqrt{2\pi}\hat{\sigma}_w}{T}\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right)$
+\end{center}
 
 \section{Sky Scan}
 
@@ -304,8 +318,13 @@ There are many systematic uncertainties that can affect the interpretation of th
 
 \chapter{Results}
 
+%% Hottest Spot
+%% SkyMap
+%% Post-trials p-value
+
 \chapter{Interpretation}
 
+%%Limits on Choked GRB fluence
 
 
 %%
