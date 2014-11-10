@@ -5,3 +5,4 @@
 \contentsline {figure}{\numberline {5}{\ignorespaces Schematic detailing DOM structure \cite {2009NIMPA.601..294A}.}}{14}
 \contentsline {figure}{\numberline {6}{\ignorespaces A fully assembled DOM supported by a cable harness.}}{14}
 \contentsline {figure}{\numberline {7}{\ignorespaces Event display for a final level neutrino track event originating in DeepCore. The colored spheres represent DOMs that have registered a hit during the event. The size of the spheres are indicative of the total light received by the PMT on that DOM. The color denotes the timing of the hit with red corresponding to earlier times and blue corresponding to later times.}}{18}
+\contentsline {figure}{\numberline {8}{\ignorespaces Sky map of pre-trials p-values for best flares per bin. The black circle identifies the location of the most significant flare found at RA = 268.75$^\circ $ and Declination = 54.25$^\circ $.}}{21}
