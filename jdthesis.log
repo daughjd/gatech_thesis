@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  10 NOV 2014 17:21
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  12 NOV 2014 16:44
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -203,15 +203,15 @@ Overfull \hbox (2.64603pt too wide) detected at line 52
 CHAPTER I.
 [1
 
-] [2]
+]
 CHAPTER II.
-[3
+[2
 
 ]
 CHAPTER III.
-[4
+[3
 
-]
+] [4]
 CHAPTER IV.
 [5
 
@@ -333,7 +333,7 @@ uesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share
 /texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/texmf/fonts/type1/bluesk
 y/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/
 texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-Output written on jdthesis.pdf (38 pages, 5336346 bytes).
+Output written on jdthesis.pdf (38 pages, 5336523 bytes).
 PDF statistics:
  252 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
