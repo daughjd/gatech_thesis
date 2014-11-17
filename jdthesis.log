@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.4.19)  14 NOV 2014 11:00
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2014.11.14)  17 NOV 2014 17:14
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -95,28 +95,48 @@ File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
 )
+(/usr/share/texmf/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip58
+\subfigcapskip=\skip59
+\subfigcaptopadj=\dimen107
+\subfigbottomskip=\skip60
+\subfigcapmargin=\dimen108
+\subfiglabelskip=\skip61
+\c@subfigure=\count97
+\c@lofdepth=\count98
+\c@subtable=\count99
+\c@lotdepth=\count100
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip62
+\subfig@bottom=\skip63
+)
 (/usr/share/texmf/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen107
-\WF@size=\dimen108
-\c@WF@wrappedlines=\count97
+\wrapoverhang=\dimen109
+\WF@size=\dimen110
+\c@WF@wrappedlines=\count101
 \WF@box=\box26
 \WF@everypar=\toks15
 Package: wrapfig 2003/01/31  v 3.6
 ) (./jdthesis.aux)
 \openout1 = `jdthesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  
@@ -130,18 +150,18 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-\c@halfsig=\count98
+\c@halfsig=\count102
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\OT1/cmr/m/n/10.95 Professor Pablo La-guna, Com-mit-tee
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 38.
+(Font)              <10.95> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 38.
+(Font)              <8> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 38.
+(Font)              <6> on input line 39.
 ***************** Dedication ******************
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -232,14 +252,14 @@ File: hese_cascade_event.png Graphic file (type png)
 
 <use hese_cascade_event.png>
 
-LaTeX Warning: Float too large for page by 19.82814pt on input line 179.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 182.
 
 <hese_track_event.png, id=81, 2107.875pt x 2810.5pt>
 File: hese_track_event.png Graphic file (type png)
 
 <use hese_track_event.png>
 
-LaTeX Warning: Float too large for page by 17.69897pt on input line 191.
+LaTeX Warning: Float too large for page by 17.69897pt on input line 194.
 
 [10] [11 <./IC86EDC_DeepCoreDiagram.pdf>] [12 <./hese_cascade_event.png (PNG co
 py)>] [13 <./hese_track_event.png (PNG copy)>]
@@ -247,7 +267,7 @@ CHAPTER VI.
 <DomSchematic.png, id=138, 727.71875pt x 620.3175pt>
 File: DomSchematic.png Graphic file (type png)
  <use DomSchematic.png>
-Underfull \hbox (badness 1038) in paragraph at lines 204--204
+Underfull \hbox (badness 1038) in paragraph at lines 207--207
 []\OT1/cmss/bx/n/10.95 Figure 5: \OT1/cmr/m/n/10.95 Schematic de-tail-ing DOM
  []
 
@@ -258,55 +278,70 @@ File: LabDOM.pdf Graphic file (type pdf)
  <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>] [15]
 CHAPTER VII.
 
-LaTeX Warning: Reference `fig:' on page 16 undefined on input line 232.
+LaTeX Warning: Reference `fig:' on page 16 undefined on input line 235.
 
 
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 232--233
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 235--236
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
 
-[16
 
-] <LESEventForThesis.png, id=155, 831.51102pt x 623.63326pt>
-File: LESEventForThesis.png Graphic file (type png)
+<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=152, 722.7pt x 578.16p
+t>
+File: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png Graphic file (type pn
+g)
+ <use FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png>
+<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=153, 722.7pt x 578.16pt>
+File: GENIE_FinalLevel_NeutrinoResolutionByNch.png Graphic file (type png)
 
-<use LESEventForThesis.png> [17] [18 <./LESEventForThesis.png (PNG copy)>]
-CHAPTER VIII.
-[19
+<use GENIE_FinalLevel_NeutrinoResolutionByNch.png> [16
 
 ]
+<LESEventForThesis.png, id=157, 831.51102pt x 623.63326pt>
+File: LESEventForThesis.png Graphic file (type png)
+
+<use LESEventForThesis.png> [17 <./FinalLevel_NeutrinoResolutionByEnergy_JustGE
+NIE.png> <./GENIE_FinalLevel_NeutrinoResolutionByNch.png>] [18 <./LESEventForTh
+esis.png (PNG copy)>]
+CHAPTER VIII.
+<NullMap996.png, id=166, 1084.05pt x 722.7pt>
+File: NullMap996.png Graphic file (type png)
+ <use NullMap996.png> [19
+
+]
+[20 <./NullMap996.png>]
 CHAPTER IX.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 310.
+(Font)              <14.4> on input line 339.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 310.
-[20
+(Font)              <7> on input line 339.
+[21
 
 ]
 CHAPTER X.
-<RealResultSkyMap.png, id=171, 1092.7224pt x 731.3724pt>
+<RealResultSkyMap.png, id=181, 1092.7224pt x 731.3724pt>
 File: RealResultSkyMap.png Graphic file (type png)
 
-<use RealResultSkyMap.png> [21
+<use RealResultSkyMap.png> [22
 
  <./RealResultSkyMap.png>]
 CHAPTER XI.
-[22
+[23
 
 ]
 CHAPTER XII.
-[23
+[24
 
-] (./jdthesis.bbl [24
+] (./jdthesis.bbl [25
 
 
-] [25]) [26]
+] [26]) [27]
 ***************** Vita ******************
-[27
+[28
 
 
-] [28
+] [29
 
 
 ] (./jdthesis.aux)
@@ -315,13 +350,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1203 strings out of 256216
- 15446 string characters out of 1917072
- 67630 words of memory out of 1500000
- 4495 multiletter control sequences out of 10000+200000
+ 1381 strings out of 256216
+ 18286 string characters out of 1917071
+ 69569 words of memory out of 1500000
+ 4664 multiletter control sequences out of 10000+200000
  11098 words of font info for 38 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 27i,8n,27p,1419b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 27i,9n,27p,1419b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
 ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb><
 /usr/share/texmf/fonts/type1/bluesky/cm/cmbxti10.pfb></usr/share/texmf/fonts/ty
@@ -333,9 +368,9 @@ uesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share
 /texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/texmf/fonts/type1/bluesk
 y/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/
 texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-Output written on jdthesis.pdf (38 pages, 5336613 bytes).
+Output written on jdthesis.pdf (39 pages, 5670609 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
+ 261 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

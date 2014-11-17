@@ -1,6 +1,7 @@
 \documentclass{gatech-thesis}
 \usepackage{cite}
 \usepackage{graphicx}
+\usepackage{subfigure}
 \usepackage{wrapfig}
 
 
@@ -44,9 +45,11 @@
 \end{center}}
 \vfil\null
 \end{dedication}
+
 \begin{preface}
 This dissertation is based on data acquired with the IceCube Neutrino Observatory whose maintenance and operation is the result of an immense international collaborative effort. The bulk of the work pertaining to experimental hardware, data acquisition, reconstruction algorithms, and simulation presented in this document can be attributed to many IceCube collaborators. However, the refinement of the event selection and subsequent analysis of the data are the original work of the author.
 \end{preface}
+
 \begin{acknowledgements}
 I want to thank my fellow graduate student office mates whose constant distractions helped me retain my sanity.
 \end{acknowledgements}
@@ -192,7 +195,7 @@ IceCube is designed specifically to be sensitive $\nu_{\mu}$ CC interactions due
 
 
 \chapter{Data Acquisition}
-In this section, a succinct description of the detection and processing of the light-yield from particle interactions in the ice is given. The reader interested in a much more thorough account is encouraged to consult the summary by Abbasi et al. \cite{2009NIMPA.601..294A}.
+In this section, a succinct description of the detection of the light-yield from particle interactions in the ice and the subsequent processing of that data is given. The reader interested in a much more thorough account is encouraged to consult the summary by Abbasi et al. \cite{2009NIMPA.601..294A}.
 
 \section{The Digital Optical Module}
 The essential component of the IceCube detector is the DOM. Each of these sensor units contains a Hamamatsu R7081-02 25 cm photo-multiplier tube (PMT), attached digitizing electronics, and LED flashers all housed within a glass pressure vessel \cite{2006NIMPA.567..214H}. A penetrator cable breaches the pressure vessel to connect the DOM electronics to the supporting string cable enabling DOM-to-DOM as well as DOM-to-surface communications.
@@ -245,6 +248,23 @@ This filter actually consists of two separate streams which are differentiated b
 
 
 \section{Event Reconstruction}
+\begin{figure}[ht]
+\centering
+\begin{minipage}[b]{0.45\linewidth}
+\includegraphics[width=0.95\textwidth]{FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png}
+\caption{Median event resolution as a function of energy for simulation events passing all cuts.}
+\label{fig:EventSampleRes_Energy}
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.45\linewidth}
+
+\includegraphics[width=0.95\textwidth]{GENIE_FinalLevel_NeutrinoResolutionByNch.png}
+
+\caption{Median event resolution as a function of number of hit DOMs for simulation events passing all cuts.}
+\label{fig:EventSampleRes_Nch}
+\end{minipage}
+\end{figure}
+
 
 \section{Final Level Data}
 
@@ -253,12 +273,12 @@ This filter actually consists of two separate streams which are differentiated b
 \begin{center}
 \begin{tabular}{|l|r|}
   \hline
- & Rate (mHz) \\
+ \textbf{Event Type} &\textbf{ Rate (mHz)} \\
 \hline
-Cosmic ray $\mu$ & 0.005 \\
-Atmospheric $\nu$ & 0.007 \\
-Total MC & 0.0075 \\ \hline
-Actual Data     & 0.008 \\ \hline
+Cosmic ray $\mu$ & 0.065 \\
+Atmospheric $\nu_{\mu}$ & 0.94 \\
+Total MC & 1.001 \\ \hline
+Actual Data     & 0.774 \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -297,14 +317,23 @@ $\mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w) = \prod P_i(|\mathbf{x}_i-\mathbf{x}
 $\log \lambda = \log \left(\frac{\sqrt{2\pi}\hat{\sigma}_w}{T}\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right)$
 \end{center}
 
+
 \section{Sky Scan}
 
-The analysis performed is not a triggered search, and therefore it is necessary to examine the entire solid angle domain of the analysis for any possible transient sources. The difficulty in rejecting background muons at lower energies limits the analysis to up-going and horizontal events ($< 5^{\circ}$ above the horizon). Because of IceCube's location at the South Pole, this results in a search over all right ascension in a declination band ranging from -$5^{\circ}$ to $90^{\circ}$.
+The analysis performed is not a triggered search, and therefore it is necessary to examine the entire solid angle domain of the analysis for any possible transient sources. The difficulty in rejecting background muons at lower energies limits the analysis to up-going and horizontal events ($< 5^{\circ}$ above the horizon). Because of IceCube's location at the South Pole, this results in a search over all right ascension in a declination band ranging from -$5^{\circ}$ to $90^{\circ}$. The search method discretizes the northern portion of the sky into many bins. The coordinates of these bins serve as the location of a hypothetical flaring source to be tested. The fairly large median resolution of the event sample (see Fig. \ref{fig:EventSampleRes_Energy}) allows the size of the search bins to be set to a relatively coarse 2$^{\circ}$ by 2$^{\circ}$ in angular area. 
 
 %% Insert Sky Map
 
-\section{Significance and Trials Factors}
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{NullMap996.png}
+  \end{center}
+  \caption{Randomized sky map of pre-trials p-values for best flares per bin. Random map generated by scrambling arrival times of real events. The black circle shows the location of the most significant flare found by the method. }
+  \label{fig:NullTrialSkyMap}
+\end{figure}
 
+\section{Significance and Trials Factors}
+In order to determine which bin has the most significant flare, we evaluate an estimated p-value based on the maximized test statistic $\lambda$ for that bin. The distribution of test statistic values for individual bins is not known \textit{a priori} however.
 %% Insert Background Trials Best TS distribution
 
 \chapter{$\quad$Systematic Effects}
