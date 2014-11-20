@@ -115,7 +115,7 @@ The neutrino in particular provides many excellent properties for potential use 
 
 \section{Detection Methods}
 
-The primary method for the detection of astrophysical neutrinos is through observation of Cerenkov light produced by interaction secondaries.
+The primary method for the detection of astrophysical neutrinos is through observation of Cerenkov light produced by interaction secondaries. 
 
 \chapter{Neutrino Sources}
 
@@ -320,25 +320,27 @@ Actual Data     & 0.774 \\ \hline
 
 \chapter{Analysis Method}
 %% Brief description of use of a time dependent search method
-The analysis presented in this thesis makes use of both directional and timing information from the final level event dataset. The techniques that are used in this analysis have been applied to other IceCube event selections in a similar fashion. A very thorough overview of the time-dependent likelihood analysis methods used in IceCube is given by Braun, et al. \cite{2010APh....33..175B}.
+The analysis presented in this thesis makes use of both directional and timing information from the final level event dataset. The techniques that are used in this analysis have been applied to other IceCube event selections in a similar fashion. As of yet, these time-dependent searches focused on IceCube events have yet to find any time-dependent neutrino sources of significance higher than background expectations \cite{}. A very thorough overview of the time-dependent likelihood analysis methods used in IceCube is given by Braun, et al. \cite{2010APh....33..175B}. 
+
 
 \section{Unbinned Likelihood Method}
 
-\begin{center}
-$S_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w) = \frac{\kappa}{4\pi \sinh \kappa} \exp \left(\kappa \cos |\mathbf{x}_i-\mathbf{x_s}|\right) * \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o)^2}{2 \sigma_w^2}\right)$
-\end{center}
+\begin{equation}
+S_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w) = \frac{\kappa}{4\pi \sinh \kappa} \exp \left(\kappa \cos |\mathbf{x}_i-\mathbf{x_s}|\right) * \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o)^2}{2 \sigma_w^2}\right)
+\end{equation}
 
-\begin{center}
-$B_i(\mathbf{x}_i,t_i) = P_{BkgDec}\left(\mathbf{x}_i\right)\frac{P_{BkgAz}(\delta_i,\alpha_i)}{T}$
-\end{center}
 
-\begin{center}
-$\mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w) = \prod P_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w)$
-\end{center}
+\begin{equation}
+B_i(\mathbf{x}_i,t_i) = P_{BkgDec}\left(\mathbf{x}_i\right)\frac{P_{BkgAz}(\delta_i,\alpha_i)}{T}
+\end{equation}
 
-\begin{center}
-$\log \lambda = \log \left(\frac{\sqrt{2\pi}\hat{\sigma}_w}{T}\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right)$
-\end{center}
+\begin{equation}
+\mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w) = \prod P_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w)
+\end{equation}
+
+\begin{equation}
+\log \lambda = \log \left(\frac{\sqrt{2\pi}\hat{\sigma}_w}{T}\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right)
+\end{equation}
 
 
 \section{Sky Scan}
@@ -378,7 +380,15 @@ There are many systematic uncertainties that can affect the interpretation of th
   \caption{Sky map of pre-trials p-values for best flares per bin. The black circle identifies the location of the most significant flare found at RA = 268.75$^\circ$ and Declination = 54.25$^\circ$.}
   \label{fig:RealSkyMap}
 \end{figure}
+
 %% Post-trials p-value
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{TestStatisticDistribution_WithResult.png}
+  \end{center}
+  \caption{Distribution of test statistic $\lambda$ of most signficant flare found in 1,985 background trials. The test statistic value for the best fit flare on the unscrambled data set is also plotted.}
+  \label{fig:RealSkyMap}
+\end{figure}
 
 \chapter{Interpretation}
 

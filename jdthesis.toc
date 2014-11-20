@@ -9,7 +9,7 @@
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\MakeUppercase {List of Figures} }{ix}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\MakeUppercase {Summary}}{x}
+\contentsline {chapter}{\MakeUppercase {Summary}}{xi}
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {I}\MakeUppercase {Introduction}}{1}
@@ -61,14 +61,14 @@
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{24}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{25}
+\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{26}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{26}
+\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{27}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{30}
+\contentsline {chapter}{\MakeUppercase {Index}}{31}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Vita}}{31}
+\contentsline {chapter}{\MakeUppercase {Vita}}{32}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}

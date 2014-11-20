@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2014.11.14)  19 NOV 2014 17:08
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2014.11.14)  20 NOV 2014 16:54
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -122,7 +122,11 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \WF@box=\box26
 \WF@everypar=\toks15
 Package: wrapfig 2003/01/31  v 3.6
-) (./jdthesis.aux)
+) (./jdthesis.aux
+
+LaTeX Warning: Label `fig:RealSkyMap' multiply defined.
+
+)
 \openout1 = `jdthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -223,9 +227,9 @@ e 2.
  [9
 
 
-]
+] [10]
 ***************** Summary ******************
-[10
+[11
 
 
 ]
@@ -242,35 +246,35 @@ CHAPTER III.
 
 ] [5]
 CHAPTER IV.
-<SubPhotoFluence.png, id=58, 776.9025pt x 541.02126pt>
+<SubPhotoFluence.png, id=61, 776.9025pt x 541.02126pt>
 File: SubPhotoFluence.png Graphic file (type png)
 
 <use SubPhotoFluence.png>
-<NearbySNCatalogue.png, id=59, 892.33376pt x 667.49374pt>
+<NearbySNCatalogue.png, id=62, 892.33376pt x 667.49374pt>
 File: NearbySNCatalogue.png Graphic file (type png)
 
 <use NearbySNCatalogue.png> [6
 
  <./SubPhotoFluence.png (PNG copy)>] [7 <./NearbySNCatalogue.png (PNG copy)>]
 CHAPTER V.
-<ArrayWSeasonsLabels.pdf, id=67, 2569.6pt x 1756.5625pt>
+<ArrayWSeasonsLabels.pdf, id=70, 2569.6pt x 1756.5625pt>
 File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
 
 <use ArrayWSeasonsLabels.pdf> [8
 
 ] [9 <./ArrayWSeasonsLabels.pdf>] [10]
-<IC86EDC_DeepCoreDiagram.pdf, id=83, 347.2975pt x 682.55pt>
+<IC86EDC_DeepCoreDiagram.pdf, id=86, 347.2975pt x 682.55pt>
 File: IC86EDC_DeepCoreDiagram.pdf Graphic file (type pdf)
 
 <use IC86EDC_DeepCoreDiagram.pdf> [11]
-<hese_cascade_event.png, id=87, 2107.875pt x 2810.5pt>
+<hese_cascade_event.png, id=90, 2107.875pt x 2810.5pt>
 File: hese_cascade_event.png Graphic file (type png)
 
 <use hese_cascade_event.png>
 
 LaTeX Warning: Float too large for page by 19.82814pt on input line 205.
 
-<hese_track_event.png, id=88, 2107.875pt x 2810.5pt>
+<hese_track_event.png, id=91, 2107.875pt x 2810.5pt>
 File: hese_track_event.png Graphic file (type png)
 
 <use hese_track_event.png>
@@ -280,14 +284,14 @@ LaTeX Warning: Float too large for page by 17.69897pt on input line 217.
 [12] [13 <./IC86EDC_DeepCoreDiagram.pdf>] [14 <./hese_cascade_event.png (PNG co
 py)>] [15 <./hese_track_event.png (PNG copy)>]
 CHAPTER VI.
-<DomSchematic.png, id=146, 727.71875pt x 620.3175pt>
+<DomSchematic.png, id=149, 727.71875pt x 620.3175pt>
 File: DomSchematic.png Graphic file (type png)
  <use DomSchematic.png>
 Underfull \hbox (badness 1038) in paragraph at lines 230--230
 []\OT1/cmss/bx/n/10.95 Figure 7: \OT1/cmr/m/n/10.95 Schematic de-tail-ing DOM
  []
 
-<LabDOM.pdf, id=147, 2457.18pt x 3276.24pt>
+<LabDOM.pdf, id=150, 2457.18pt x 3276.24pt>
 File: LabDOM.pdf Graphic file (type pdf)
  <use LabDOM.pdf> [16
 
@@ -303,73 +307,81 @@ Overfull \hbox (1.18674pt too wide) in paragraph at lines 258--259
  []
 
 
-<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=159, 722.7pt x 578.16p
+<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=162, 722.7pt x 578.16p
 t>
 File: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png Graphic file (type pn
 g)
  <use FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png>
-<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=160, 722.7pt x 578.16pt>
+<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=163, 722.7pt x 578.16pt>
 File: GENIE_FinalLevel_NeutrinoResolutionByNch.png Graphic file (type png)
 
 <use GENIE_FinalLevel_NeutrinoResolutionByNch.png> [18
 
 ]
-<LESEventForThesis.png, id=164, 831.51102pt x 623.63326pt>
+<LESEventForThesis.png, id=167, 831.51102pt x 623.63326pt>
 File: LESEventForThesis.png Graphic file (type png)
 
 <use LESEventForThesis.png> [19 <./FinalLevel_NeutrinoResolutionByEnergy_JustGE
 NIE.png> <./GENIE_FinalLevel_NeutrinoResolutionByNch.png>] [20 <./LESEventForTh
 esis.png (PNG copy)>]
 CHAPTER VIII.
-<NullMap996.png, id=173, 1084.05pt x 722.7pt>
-File: NullMap996.png Graphic file (type png)
- <use NullMap996.png> [21
+[21
 
-]
+] <NullMap996.png, id=182, 1084.05pt x 722.7pt>
+File: NullMap996.png Graphic file (type png)
+ <use NullMap996.png>
 [22 <./NullMap996.png>]
 CHAPTER IX.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 362.
+(Font)              <14.4> on input line 364.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 362.
+(Font)              <7> on input line 364.
 [23
 
 ]
 CHAPTER X.
-<RealResultSkyMap.png, id=189, 1092.7224pt x 731.3724pt>
+<RealResultSkyMap.png, id=191, 1092.7224pt x 731.3724pt>
 File: RealResultSkyMap.png Graphic file (type png)
 
-<use RealResultSkyMap.png> [24
+<use RealResultSkyMap.png>
+<TestStatisticDistribution_WithResult.png, id=192, 578.16pt x 433.62pt>
+File: TestStatisticDistribution_WithResult.png Graphic file (type png)
+
+<use TestStatisticDistribution_WithResult.png> [24
 
  <./RealResultSkyMap.png>]
+[25 <./TestStatisticDistribution_WithResult.png>]
 CHAPTER XI.
-[25
+[26
 
 ]
 CHAPTER XII.
-[26
+[27
 
-] (./jdthesis.bbl [27
+] (./jdthesis.bbl [28
 
 
-] [28]) [29]
+] [29]) [30]
 ***************** Vita ******************
-[30
+[31
 
 
-] [31
+] [32
 
 
 ] (./jdthesis.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 1395 strings out of 256216
- 18608 string characters out of 1917071
+ 1400 strings out of 256216
+ 18827 string characters out of 1917071
  69569 words of memory out of 1500000
- 4676 multiletter control sequences out of 10000+200000
+ 4680 multiletter control sequences out of 10000+200000
  11098 words of font info for 38 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  27i,9n,27p,1419b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -380,13 +392,12 @@ pe1/bluesky/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb>
 </usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/typ
 e1/bluesky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></us
 r/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bl
-uesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share
-/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/texmf/fonts/type1/bluesk
-y/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/
-texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-Output written on jdthesis.pdf (41 pages, 5810248 bytes).
+uesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/s
+hare/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
+Output written on jdthesis.pdf (43 pages, 5824009 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
+ 274 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
