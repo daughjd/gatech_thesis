@@ -89,10 +89,23 @@ One of the defining characteristics of the neutrino is the ability to stream thr
 
 
 %% Insert Cross-section graph that shows predominance of DIS
-
+\begin{wrapfigure}{l}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.48\textwidth,keepaspectratio]{neutrino_nucelon_crosssections.png}
+  \end{center}
+  \caption{cross-sections}
+  \label{fig:neutrino_scattering}
+\end{wrapfigure}
 
 \subsection{Deep Inelastic Scattering}
-%% CC , NC
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{dis.png}
+  \end{center}
+  \caption{Feynman diagram of a $\nu_{\mu}$ undergoing deep inelastic scattering with a nucleon via charged-current interaction. A large momentum exchange through a charged $W$ boson leads to breakup of the nucleon.}
+  \label{fig:neutrino_scattering}
+\end{figure}
 
 \subsection{Propagation of Interaction Products}
 The products leftover from high-energy neutrino-nucleon interactions are generally very energetic as well. These particles will subsequently undergo many forms of energy loss and possible decay as they travel through a potential detection medium. In a given interaction, the total light yield and its spatial extent are contingent on the products of the interaction. The products themselves are ultimately determined by both the flavor of the primary neutrino and whether the neutrino interaction was of the charged- or neutral-current variety. This section will focus on how these secondaries interact and produce light and how that light propagates through glacial ice, the detection medium of IceCube.
@@ -104,7 +117,7 @@ For neutrinos of sufficient energy to be seen by IceCube, scattering with nucleo
 \section{Flavor Oscillations}
 
 \chapter{Neutrino Astronomy}
-
+The nascent field of neutrino astronomy
 \section{Motivation}
 
 The expansion of traditional optical astronomy into wavelengths unobservable to the human eye revealed myriad phenomena previously unknown to science. Use of wavebands of light spanning several orders of magnitude allowed for the discovery of completely new astronomical sources. Additionally, it allowed for the study of inherently different physical processes within and around source objects. Yet, for all the vast advances in our understanding of the universe the opening up of the electromagnetic spectrum has brought us, it relies entirely upon the physical properties of its messenger particle, the photon.
@@ -119,6 +132,9 @@ The primary method for the detection of astrophysical neutrinos is through obser
 
 \chapter{Neutrino Sources}
 
+
+\section{Active Galactic Nuclei}
+
 \section{Gamma-ray Bursts}
 
 %% Fireball model, neutrino production in jets
@@ -126,28 +142,27 @@ The primary method for the detection of astrophysical neutrinos is through obser
 
 \begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=1.0\textwidth,keepaspectratio]{SubPhotoFluence.png}
+    \includegraphics[width=0.85\textwidth,keepaspectratio]{SubPhotoFluence.png}
   \end{center}
   \caption{Energy Fluence of $\nu_{\mu}$ and $\bar{\nu}_{\nu}$ from high-luminosity GRB at a redshift of z=0.1 \cite{2013PhRvL.111m1102M}}
   \label{fig:subphotospheric_nus}
 \end{figure}
 
 \section{Core-Collapse Supernovae}
-The detection of excess neutrino emission in temporal coincidence with supernova 1987A marked the first detection of an extra-solar neutrino source. Neutrino events were observed in three separate detectors a few hours prior to the optical observation. 
+The detection of several neutrino events in temporal coincidence with supernova 1987A marked the first detection of an extra-solar neutrino source. Neutrino events were observed in three separate detectors a few hours prior to the optical observation. 
 
 due to the close proximity of the progenitor in the Large Magellanic Cloud (approximately 50 kpc  from Earth).
 
 
 %% neutrino production from neutron conversion, SN1987A
 %% Too low energy in IceCube, but SNDAQ
-
-\begin{figure}[ht]
+\begin{wrapfigure}{r}{0.5\textwidth}
   \begin{center}
-    \includegraphics[width=1.0\textwidth,keepaspectratio]{NearbySNCatalogue.png}
+    \includegraphics[width=0.48\textwidth,keepaspectratio]{NearbySNCatalogue.png}
   \end{center}
   \caption{Observed SNe within 10 Mpc in the years 1999-2008 \cite{2011PhRvD..83l3008K}}
   \label{fig:local_ccsne}
-\end{figure}
+\end{wrapfigure}
 
 \section{Choked Gamma-ray Bursts}
 
@@ -307,7 +322,7 @@ Actual Data     & 0.774 \\ \hline
 \end{table}
 
 %%% Insert Table for final level rates
-%%% Insert Pictures of Final Level Distributions
+%%% Refer to App. A for Pictures of Final Level Distributions
 
 \begin{figure}[ht]
   \begin{center}
@@ -399,7 +414,7 @@ There are many systematic uncertainties that can affect the interpretation of th
 \chapter{Conclusion}
 
 \appendix
-%\chapter{Appendix Placeholder}
+\chapter{Appendix A -- Final Level Data and Simulation Distributions}
 
 %Ancillary material should be put in appendices, which 
 %appear just before the bibliography. 
