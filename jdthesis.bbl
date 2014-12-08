@@ -104,6 +104,12 @@
   search methods in high energy neutrino astronomy},'' {\em Astroparticle
   Physics}, vol.~33, pp.~175--181, Apr. 2010.
 
+\bibitem{1956Sci...124..103C}
+{\sc {Cowan}, Jr., C.~L.}, {\sc {Reines}, F.}, {\sc {Harrison}, F.~B.}, {\sc
+  {Kruse}, H.~W.}, and {\sc {McGuire}, A.~D.}, ``{Detection of the Free
+  Neutrino: A Confirmation},'' {\em Science}, vol.~124, pp.~103--104, July
+  1956.
+
 \bibitem{2006NIMPA.567..214H}
 {\sc {Hanson}, K.} and {\sc {Tarasova}, O.}, ``{Design and production of the
   IceCube digital optical module},'' {\em Nuclear Instruments and Methods in
@@ -124,5 +130,16 @@
 {\sc {Iyer Dutta}, S.}, {\sc {Reno}, M.~H.}, {\sc {Sarcevic}, I.}, and {\sc
   {Seckel}, D.}, ``{Propagation of muons and taus at high energies},'' {\em
   Physical Review D}, vol.~63, p.~094020, May 2001.
+
+\bibitem{2011PhRvD..83l3008K}
+{\sc {Kistler}, M.~D.}, {\sc {Y{\"u}ksel}, H.}, {\sc {Ando}, S.}, {\sc
+  {Beacom}, J.~F.}, and {\sc {Suzuki}, Y.}, ``{Core-collapse astrophysics with
+  a five-megaton neutrino detector},'' {\em Phys. Rev. D}, vol.~83, p.~123008,
+  June 2011.
+
+\bibitem{2013PhRvL.111m1102M}
+{\sc {Murase}, K.}, {\sc {Kashiyama}, K.}, and {\sc {M{\'e}sz{\'a}ros}, P.},
+  ``{Subphotospheric Neutrinos from Gamma-Ray Bursts: The Role of Neutrons},''
+  {\em Physical Review Letters}, vol.~111, p.~131102, Sept. 2013.
 
 \end{thebibliography}

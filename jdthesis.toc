@@ -67,11 +67,11 @@
 \contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{28}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Final Level Data and Simulation Distributions}}{29}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Final Level Event Distributions}}{29}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{33}
+\contentsline {chapter}{\MakeUppercase {Index}}{34}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Vita}}{34}
+\contentsline {chapter}{\MakeUppercase {Vita}}{35}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
