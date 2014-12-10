@@ -1,30 +1,35 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.20)  9 DEC 2014 19:32
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2014.11.14)  10 DEC 2014 15:41
 entering extended mode
- restricted \write18 enabled.
  %&-line parsing enabled.
 **jdthesis.tex
 (./jdthesis.tex
-LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 2 languages loaded.
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
 (./gatech-thesis.cls
 Document Class: gatech-thesis 2003/04/14 1.6 (Charles Wilson)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count79
 \calc@Bcount=\count80
 \calc@Adimen=\dimen102
 \calc@Bdimen=\dimen103
 \calc@Askip=\skip41
 \calc@Bskip=\skip42
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count81
 \calc@Cskip=\skip43
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf/tex/latex/base/report.cls
+Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size11.clo
+File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count82
 \c@chapter=\count83
@@ -56,33 +61,363 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \gt@tmpa=\skip57
 \c@part@savepagenum=\count94
 \c@part@pagenum=\count95
-
-(./gatech-thesis-patch.sty
+ (./gatech-thesis-patch.sty
 File: gatech-thesis-patch.sty 2003/04/14 1.6a (Charles Wilson)
 
 gatech-thesis-patch loaded
+)) (/usr/share/texmf/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 149.
+LaTeX Info: Redefining \nocite on input line 214.
+Package: cite 2003/11/04  v 4.01
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count96
 ))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(/usr/share/texmf/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip58
+\subfigcapskip=\skip59
+\subfigcaptopadj=\dimen107
+\subfigbottomskip=\skip60
+\subfigcapmargin=\dimen108
+\subfiglabelskip=\skip61
+\c@subfigure=\count97
+\c@lofdepth=\count98
+\c@subtable=\count99
+\c@lotdepth=\count100
 
-! LaTeX Error: File `cite.sty' not found.
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip62
+\subfig@bottom=\skip63
+)
+(/usr/share/texmf/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen109
+\WF@size=\dimen110
+\c@WF@wrappedlines=\count101
+\WF@box=\box26
+\WF@everypar=\toks15
+Package: wrapfig 2003/01/31  v 3.6
+) (./jdthesis.aux
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+LaTeX Warning: Label `fig:neutrino_scattering' multiply defined.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.3 \usepackage
-               {graphicx}^^M
-*** (cannot \read from terminal in nonstop modes)
 
+LaTeX Warning: Label `fig:RealSkyMap' multiply defined.
+
+)
+\openout1 = `jdthesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
  
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\c@halfsig=\count102
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]\OT1/cmr/m/n/10.95 Professor Pablo La-guna, Com-mit-tee
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 39.
+***************** Dedication ******************
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+ []
+
+[2
+
+]
+***************** Preface ******************
+[3
+
+
+]
+***************** Acknowledgements ******************
+[4
+
+
+] [5
+
+
+] (./jdthesis.toc [6
+
+
+]
+Overfull \hbox (2.64603pt too wide) detected at line 54
+\OT1/cmr/bx/n/10.95 VIII 
+ []
+
+)
+\tf@toc=\write3
+\openout3 = `jdthesis.toc'.
+
+ [7] (./jdthesis.lot)
+\tf@lot=\write4
+\openout4 = `jdthesis.lot'.
+
+ [8
+
+
+] (./jdthesis.lof [9
+
+
+])
+\tf@lof=\write5
+\openout5 = `jdthesis.lof'.
+
+ [10]
+***************** Summary ******************
+[11
+
+
+]
+CHAPTER I.
+[1
+
+] [2]
+CHAPTER II.
+[3
+
+] <neutrino_nucelon_crosssections.png, id=55, 550.055pt x 803.0pt>
+File: neutrino_nucelon_crosssections.png Graphic file (type png)
+
+<use neutrino_nucelon_crosssections.png>
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 10
+7.
+
+<dis.png, id=56, 501.875pt x 358.33875pt>
+File: dis.png Graphic file (type png)
+ <use dis.png>
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
+7.
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 118--119
+[]\OT1/cmr/m/n/10.95 The prod-ucts left-over from high-energy
+ []
+
+[4 <./dis.png (PNG copy)> <./neutrino_nucelon_crosssections.png (PNG copy)>]
+[5]
+CHAPTER III.
+[6
+
+]
+CHAPTER IV.
+<SubPhotoFluence.png, id=67, 776.9025pt x 541.02126pt>
+File: SubPhotoFluence.png Graphic file (type png)
+
+<use SubPhotoFluence.png>
+<NearbySNCatalogue.png, id=68, 892.33376pt x 667.49374pt>
+File: NearbySNCatalogue.png Graphic file (type png)
+
+<use NearbySNCatalogue.png>
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 17
+1.
+
+[7
+
+ <./SubPhotoFluence.png (PNG copy)>] [8 <./NearbySNCatalogue.png (PNG copy)>]
+CHAPTER V.
+<ArrayWSeasonsLabels.pdf, id=76, 2569.6pt x 1756.5625pt>
+File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
+
+<use ArrayWSeasonsLabels.pdf> [9
+
+] [10 <./ArrayWSeasonsLabels.pdf>] [11]
+<IC86EDC_DeepCoreDiagram.pdf, id=91, 347.2975pt x 682.55pt>
+File: IC86EDC_DeepCoreDiagram.pdf Graphic file (type pdf)
+
+<use IC86EDC_DeepCoreDiagram.pdf> [12]
+<hese_cascade_event.png, id=95, 2107.875pt x 2810.5pt>
+File: hese_cascade_event.png Graphic file (type png)
+
+<use hese_cascade_event.png>
+
+LaTeX Warning: Float too large for page by 19.82814pt on input line 224.
+
+<hese_track_event.png, id=96, 2107.875pt x 2810.5pt>
+File: hese_track_event.png Graphic file (type png)
+
+<use hese_track_event.png>
+
+LaTeX Warning: Float too large for page by 17.69897pt on input line 236.
+
+[13] [14 <./IC86EDC_DeepCoreDiagram.pdf>] [15 <./hese_cascade_event.png (PNG co
+py)>] [16 <./hese_track_event.png (PNG copy)>]
+CHAPTER VI.
+<DomSchematic.png, id=154, 727.71875pt x 620.3175pt>
+File: DomSchematic.png Graphic file (type png)
+ <use DomSchematic.png>
+Underfull \hbox (badness 1038) in paragraph at lines 249--249
+[]\OT1/cmss/bx/n/10.95 Figure 9: \OT1/cmr/m/n/10.95 Schematic de-tail-ing DOM
+ []
+
+<LabDOM.pdf, id=155, 2457.18pt x 3276.24pt>
+File: LabDOM.pdf Graphic file (type pdf)
+ <use LabDOM.pdf> [17
+
+ <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>] [18]
+CHAPTER VII.
+
+LaTeX Warning: Reference `fig:' on page 19 undefined on input line 279.
+
+
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 279--280
+\OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
+-energy event se-lec-tion, the DeepCore-
+ []
+
+
+<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=167, 722.7pt x 578.16p
+t>
+File: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png Graphic file (type pn
+g)
+ <use FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png>
+<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=168, 722.7pt x 578.16pt>
+File: GENIE_FinalLevel_NeutrinoResolutionByNch.png Graphic file (type png)
+
+<use GENIE_FinalLevel_NeutrinoResolutionByNch.png> [19
+
+]
+<LESEventForThesis.png, id=172, 831.51102pt x 623.63326pt>
+File: LESEventForThesis.png Graphic file (type png)
+
+<use LESEventForThesis.png> [20 <./FinalLevel_NeutrinoResolutionByEnergy_JustGE
+NIE.png> <./GENIE_FinalLevel_NeutrinoResolutionByNch.png>] [21 <./LESEventForTh
+esis.png (PNG copy)>]
+CHAPTER VIII.
+[22
+
+] <NullMap996.png, id=187, 1084.05pt x 722.7pt>
+File: NullMap996.png Graphic file (type png)
+ <use NullMap996.png>
+[23 <./NullMap996.png>]
+CHAPTER IX.
+[24
+
+]
+CHAPTER X.
+<RealResultSkyMap.png, id=196, 1092.7224pt x 731.3724pt>
+File: RealResultSkyMap.png Graphic file (type png)
+
+<use RealResultSkyMap.png>
+<TestStatisticDistribution_WithResult.png, id=197, 578.16pt x 433.62pt>
+File: TestStatisticDistribution_WithResult.png Graphic file (type png)
+
+<use TestStatisticDistribution_WithResult.png> [25
+
+ <./RealResultSkyMap.png>]
+[26 <./TestStatisticDistribution_WithResult.png>]
+CHAPTER XI.
+[27
+
+]
+CHAPTER XII.
+[28
+
+]
+APPENDIX A.
+(./jdthesis.bbl [29
+
+
+] [30
+
+] [31] [32]) [33]
+***************** Vita ******************
+[34
+
+
+] [35
+
+
+] (./jdthesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 581 strings out of 495031
- 7441 string characters out of 6181531
- 54557 words of memory out of 5000000
- 3869 multiletter control sequences out of 15000+600000
- 3940 words of font info for 15 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 27i,0n,22p,181b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 1406 strings out of 256216
+ 19027 string characters out of 1917071
+ 69569 words of memory out of 1500000
+ 4686 multiletter control sequences out of 10000+200000
+ 9865 words of font info for 34 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 27i,9n,27p,1507b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb><
+/usr/share/texmf/fonts/type1/bluesky/cm/cmbxti10.pfb></usr/share/texmf/fonts/ty
+pe1/bluesky/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></us
+r/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bl
+uesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/s
+hare/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
+Output written on jdthesis.pdf (46 pages, 5902582 bytes).
+PDF statistics:
+ 285 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+

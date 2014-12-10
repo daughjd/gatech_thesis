@@ -14,15 +14,15 @@
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {I}\MakeUppercase {Introduction}}{1}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {II}\MakeUppercase {Neutrino Properties}}{2}
-\contentsline {section}{\numberline {2.1}Interactions in Matter}{2}
-\contentsline {subsection}{\numberline {2.1.1}Neutrino-Nucleon Scattering}{3}
-\contentsline {subsection}{\numberline {2.1.2}Deep Inelastic Scattering}{3}
-\contentsline {subsection}{\numberline {2.1.3}Propagation of Interaction Products}{3}
-\contentsline {section}{\numberline {2.2}Flavor Oscillations}{4}
+\contentsline {chapter}{\numberline {II}\MakeUppercase {Neutrino Properties}}{3}
+\contentsline {section}{\numberline {2.1}Interactions in Matter}{3}
+\contentsline {subsection}{\numberline {2.1.1}Neutrino-Nucleon Scattering}{4}
+\contentsline {subsection}{\numberline {2.1.2}Deep Inelastic Scattering}{4}
+\contentsline {subsection}{\numberline {2.1.3}Propagation of Interaction Products}{4}
+\contentsline {section}{\numberline {2.2}Flavor Oscillations}{5}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {III}\MakeUppercase {Neutrino Astronomy}}{5}
-\contentsline {section}{\numberline {3.1}Motivation}{5}
+\contentsline {chapter}{\numberline {III}\MakeUppercase {Neutrino Astronomy}}{6}
+\contentsline {section}{\numberline {3.1}Motivation}{6}
 \contentsline {section}{\numberline {3.2}Detection Methods}{6}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {IV}\MakeUppercase {Neutrino Sources}}{7}
