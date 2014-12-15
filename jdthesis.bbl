@@ -110,6 +110,11 @@
   Neutrino: A Confirmation},'' {\em Science}, vol.~124, pp.~103--104, July
   1956.
 
+\bibitem{PhysRevLett.20.1205}
+{\sc Davis, R.}, {\sc Harmer, D.}, and {\sc Hoffman, K.}, ``Search for
+  neutrinos from the sun,'' {\em Phys. Rev. Lett.}, vol.~20, pp.~1205--1209,
+  May 1968.
+
 \bibitem{2006NIMPA.567..214H}
 {\sc {Hanson}, K.} and {\sc {Tarasova}, O.}, ``{Design and production of the
   IceCube digital optical module},'' {\em Nuclear Instruments and Methods in
@@ -141,5 +146,9 @@
 {\sc {Murase}, K.}, {\sc {Kashiyama}, K.}, and {\sc {M{\'e}sz{\'a}ros}, P.},
   ``{Subphotospheric Neutrinos from Gamma-Ray Bursts: The Role of Neutrons},''
   {\em Physical Review Letters}, vol.~111, p.~131102, Sept. 2013.
+
+\bibitem{PauliLetter}
+{\sc {Pauli}, W.}, ``{Letter to the participants of the conference at
+  Tubingen}.'' private communication, 1930.
 
 \end{thebibliography}
