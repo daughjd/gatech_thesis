@@ -19,8 +19,8 @@
 %%\fourthreader{Professor }
 \department{School of Physics}
 \degree{Doctor of Philosophy}
-\copyrightyear{2014}
-\submitdate{January 2014}
+\copyrightyear{2015}
+\submitdate{January 2015}
 \bibfiles{jdthesis}
 %% The following are the defaults
 %%    \titlepagetrue
@@ -294,7 +294,7 @@ Because of the primary focus of this analysis on a lower-energy event selection,
 
 %% Insert DeepCore Filter Pic
 
-This filter actually consists of two separate streams which are differentiated by the definition of which DOMs comprise the detection (or fiducial) volume and which DOMs are treated as belonging to the veto region.
+This filter actually consists of two separate streams which are differentiated by the definition of which DOMs comprise the detection (or fiducial) volume and which DOMs are treated as belonging to the veto region. Inclusion of this additional branch using the relaxed veto allows for increased acceptance of higher-energy upgoing muon neutrino events that may be cut by the more stringent definition. The acceptance rate for the standard and relaxed veto filters is 17.25 Hz and 23.3 Hz respectively. The end result is a reduction in the trigger level data rate of nearly two orders of magnitude yielding a much more manageable data sample on which more advanced background reduction techinques can be applied.
 
 \section{Analysis Specific Cuts}
 
@@ -306,6 +306,7 @@ This filter actually consists of two separate streams which are differentiated b
 
 
 \section{Event Reconstruction}
+An accurate reconstruction of neutrino events in the data sample is critical for optimal performance of any pointing analysis. During the event selection process several iterations of reconstructions are performed so that downgoing muons from cosmic rays can easily be identified.
 \begin{figure}[ht]
 \centering
 \begin{minipage}[b]{0.45\linewidth}
@@ -355,10 +356,11 @@ Actual Data     & 0.774 \\ \hline
 
 \chapter{Analysis Method}
 %% Brief description of use of a time dependent search method
-The analysis presented in this thesis makes use of both directional and timing information from the final level event dataset. The techniques that are used in this analysis have been applied to other IceCube event selections in a similar fashion. As of yet, these time-dependent searches focused on IceCube events have yet to find any time-dependent neutrino sources of significance higher than background expectations \cite{}. A very thorough overview of the time-dependent likelihood analysis methods used in IceCube is given by Braun, et al. \cite{2010APh....33..175B}. 
+The analysis presented in this thesis makes use of both directional and timing information from the final level event dataset. The techniques that are used in this analysis have been applied to other IceCube event selections in a similar fashion. As of yet, these time-dependent searches focused on IceCube events have yet to find any time-dependent neutrino sources of significance higher than background expectations \cite{}. A very thorough overview of the time-dependent likelihood analysis methods used in IceCube is given by Braun, et al. \cite{2010APh....33..175B}. The method detailed in the following section is mostly the same, but there are a few minor modifications made to the process to improve performance on a low energy event selection.
 
 
 \section{Unbinned Likelihood Method}
+The identification of a statistically significant astrophysical signal amongst a high number of background events can be a difficult problem in astronomy. Searches will typically make use of timing, directional, and occasionally reconstructed energy information from events to find clustering indicative of a true astrophysical source. In order to accomplish this task, one can construct probability density functions or PDFs representative of the expected event spatial, temporal, or energy distributions for both signal and background possibilities.
 
 \begin{equation}
 S_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w) = \frac{\kappa}{4\pi \sinh \kappa} \exp \left(\kappa \cos |\mathbf{x}_i-\mathbf{x_s}|\right) * \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o)^2}{2 \sigma_w^2}\right)
