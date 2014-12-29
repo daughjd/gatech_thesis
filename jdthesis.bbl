@@ -98,6 +98,11 @@
   the South Pole},'' {\em Journal of Geophysical Research (Atmospheres)},
   vol.~111, p.~13203, July 2006.
 
+\bibitem{2009APh....31..138B}
+{\sc {Becker}, J.~K.} and {\sc {Biermann}, P.~L.}, ``{Neutrinos from active
+  black holes, sources of ultra high energy cosmic rays},'' {\em Astroparticle
+  Physics}, vol.~31, pp.~138--148, Mar. 2009.
+
 \bibitem{2010APh....33..175B}
 {\sc {Braun}, J.}, {\sc {Baker}, M.}, {\sc {Dumm}, J.}, {\sc {Finley}, C.},
   {\sc {Karle}, A.}, and {\sc {Montaruli}, T.}, ``{Time-dependent point source
@@ -142,6 +147,10 @@
   a five-megaton neutrino detector},'' {\em Phys. Rev. D}, vol.~83, p.~123008,
   June 2011.
 
+\bibitem{2014arXiv1410.0679K}
+{\sc {Kumar}, P.} and {\sc {Zhang}, B.}, ``{The Physics of Gamma-Ray Bursts and
+  Relativistic Jets},'' {\em ArXiv e-prints}, Oct. 2014.
+
 \bibitem{2013PhRvL.111m1102M}
 {\sc {Murase}, K.}, {\sc {Kashiyama}, K.}, and {\sc {M{\'e}sz{\'a}ros}, P.},
   ``{Subphotospheric Neutrinos from Gamma-Ray Bursts: The Role of Neutrons},''
@@ -150,5 +159,10 @@
 \bibitem{PauliLetter}
 {\sc {Pauli}, W.}, ``{Letter to the participants of the conference at
   Tubingen}.'' private communication, 1930.
+
+\bibitem{2004PhRvL..93r1101R}
+{\sc {Razzaque}, S.}, {\sc {M{\'e}sz{\'a}ros}, P.}, and {\sc {Waxman}, E.},
+  ``{TeV Neutrinos from Core Collapse Supernovae and Hypernovae},'' {\em
+  Physical Review Letters}, vol.~93, p.~181101, Oct. 2004.
 
 \end{thebibliography}

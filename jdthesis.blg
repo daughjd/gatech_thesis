@@ -7,45 +7,45 @@ Warning--string name "d10" is undefined
 Warning--I didn't find a database entry for ""
 Warning--to sort, need author or key in 2013JGlac..59.1117.
 Warning--empty author in 2013JGlac..59.1117.
-You've used 19 entries,
+You've used 22 entries,
             2221 wiz_defined-function locations,
-            665 strings with 10481 characters,
-and the built_in function-call counts, 14768 in all, are:
-= -- 1196
-> -- 1228
+            684 strings with 10946 characters,
+and the built_in function-call counts, 15865 in all, are:
+= -- 1309
+> -- 1272
 < -- 0
-+ -- 489
-- -- 470
-* -- 1751
-:= -- 2230
-add.period$ -- 19
-call.type$ -- 19
-change.case$ -- 292
++ -- 506
+- -- 484
+* -- 1839
+:= -- 2391
+add.period$ -- 22
+call.type$ -- 22
+change.case$ -- 308
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 594
-empty$ -- 767
-format.name$ -- 470
-if$ -- 2932
+cite$ -- 24
+duplicate$ -- 651
+empty$ -- 848
+format.name$ -- 484
+if$ -- 3180
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 18
-newline$ -- 60
-num.names$ -- 36
-pop$ -- 273
+int.to.str$ -- 22
+missing$ -- 21
+newline$ -- 69
+num.names$ -- 42
+pop$ -- 286
 preamble$ -- 1
-purify$ -- 273
+purify$ -- 286
 quote$ -- 0
-skip$ -- 376
+skip$ -- 427
 stack$ -- 0
-substring$ -- 461
-swap$ -- 423
+substring$ -- 516
+swap$ -- 453
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
+type$ -- 88
 warning$ -- 2
-while$ -- 63
-width$ -- 21
-write$ -- 188
+while$ -- 72
+width$ -- 24
+write$ -- 216
 (There were 4 warnings)
