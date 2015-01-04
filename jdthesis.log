@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.20)  2 JAN 2015 16:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.20)  3 JAN 2015 23:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -262,7 +262,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
-Overfull \hbox (2.64603pt too wide) detected at line 54
+Overfull \hbox (2.64603pt too wide) detected at line 53
 \OT1/cmr/bx/n/10.95 VIII 
  []
 
@@ -277,7 +277,12 @@ Overfull \hbox (2.64603pt too wide) detected at line 54
  [8
 
 
-] (./jdthesis.lof [9
+] (./jdthesis.lof
+
+LaTeX Warning: Citation `2012RvMP...84.1307F' on page ix undefined on input lin
+e 2.
+
+[9
 
 
 ])
@@ -297,209 +302,222 @@ CHAPTER I.
 CHAPTER II.
 [4
 
-] <neutrino_nucelon_crosssections.png, id=58, 550.055pt x 803.0pt>
+] [5]
+
+LaTeX Warning: Citation `2012RvMP...84.1307F' on page 6 undefined on input line
+ 115.
+
+<neutrino_nucelon_crosssections.png, id=62, 550.055pt x 803.0pt>
 File: neutrino_nucelon_crosssections.png Graphic file (type png)
 
 <use neutrino_nucelon_crosssections.png>
 Package pdftex.def Info: neutrino_nucelon_crosssections.png used on input line 
-109.
+120.
 (pdftex.def)             Requested size: 208.13574pt x 303.84438pt.
- [5]
+
+
+LaTeX Warning: Citation `2012RvMP...84.1307F' on page 6 undefined on input line
+ 122.
+
+
+LaTeX Warning: Citation `2012RvMP...84.1307F' on page 6 undefined on input line
+ 122.
+
 <dis.png, id=63, 501.875pt x 358.33875pt>
 File: dis.png Graphic file (type png)
  <use dis.png>
-Package pdftex.def Info: dis.png used on input line 119.
+Package pdftex.def Info: dis.png used on input line 129.
 (pdftex.def)             Requested size: 303.53267pt x 216.73273pt.
 
-Overfull \hbox (9.83124pt too wide) in paragraph at lines 125--125
-[]\OT1/cmr/bx/n/10.95 Propagation of In-ter-ac-tion Prod-
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 13
+5.
+
+[6]
+Underfull \hbox (badness 1584) in paragraph at lines 136--137
+[]\OT1/cmr/m/n/10.95 The prod-ucts left-over from high-energy
  []
 
-
-Underfull \hbox (badness 1584) in paragraph at lines 126--127
-\OT1/cmr/m/n/10.95 The prod-ucts left-over from high-energy
- []
-
-[6 <./neutrino_nucelon_crosssections.png (PNG copy)> <./dis.png (PNG copy)>]
-[7]
+[7 <./dis.png (PNG copy)> <./neutrino_nucelon_crosssections.png (PNG copy)>]
+[8]
 CHAPTER III.
-[8
+[9
 
 ]
 CHAPTER IV.
-<SubPhotoFluence.png, id=75, 776.9025pt x 541.02126pt>
+<SubPhotoFluence.png, id=78, 776.9025pt x 541.02126pt>
 File: SubPhotoFluence.png Graphic file (type png)
 
 <use SubPhotoFluence.png>
-Package pdftex.def Info: SubPhotoFluence.png used on input line 160.
+Package pdftex.def Info: SubPhotoFluence.png used on input line 170.
 (pdftex.def)             Requested size: 368.57965pt x 256.67406pt.
 
-<NearbySNCatalogue.png, id=76, 892.33376pt x 667.49374pt>
+<NearbySNCatalogue.png, id=79, 892.33376pt x 667.49374pt>
 File: NearbySNCatalogue.png Graphic file (type png)
 
 <use NearbySNCatalogue.png>
-Package pdftex.def Info: NearbySNCatalogue.png used on input line 174.
+Package pdftex.def Info: NearbySNCatalogue.png used on input line 184.
 (pdftex.def)             Requested size: 208.13574pt x 155.68976pt.
- [9
+ [10
 
  <./SubPhotoFluence.png>]
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 18
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 19
 0.
 
-[10 <./NearbySNCatalogue.png>]
+[11 <./NearbySNCatalogue.png>]
 CHAPTER V.
-<ArrayWSeasonsLabels.pdf, id=83, 2569.6pt x 1756.5625pt>
+<ArrayWSeasonsLabels.pdf, id=86, 2569.6pt x 1756.5625pt>
 File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
 
 <use ArrayWSeasonsLabels.pdf>
-Package pdftex.def Info: ArrayWSeasonsLabels.pdf used on input line 190.
+Package pdftex.def Info: ArrayWSeasonsLabels.pdf used on input line 200.
 (pdftex.def)             Requested size: 433.62001pt x 296.41383pt.
- [11
+ [12
 
-] [12 <./ArrayWSeasonsLabels.pdf>] [13]
-<IC86EDC_DeepCoreDiagram.pdf, id=97, 347.2975pt x 682.55pt>
+] [13 <./ArrayWSeasonsLabels.pdf>] [14]
+<IC86EDC_DeepCoreDiagram.pdf, id=101, 347.2975pt x 682.55pt>
 File: IC86EDC_DeepCoreDiagram.pdf Graphic file (type pdf)
 
 <use IC86EDC_DeepCoreDiagram.pdf>
-Package pdftex.def Info: IC86EDC_DeepCoreDiagram.pdf used on input line 213.
+Package pdftex.def Info: IC86EDC_DeepCoreDiagram.pdf used on input line 223.
 (pdftex.def)             Requested size: 303.53267pt x 596.56323pt.
- [14]
-<hese_cascade_event.png, id=102, 2107.875pt x 2810.5pt>
+ [15]
+<hese_cascade_event.png, id=105, 2107.875pt x 2810.5pt>
 File: hese_cascade_event.png Graphic file (type png)
 
 <use hese_cascade_event.png>
-Package pdftex.def Info: hese_cascade_event.png used on input line 229.
+Package pdftex.def Info: hese_cascade_event.png used on input line 239.
 (pdftex.def)             Requested size: 433.62001pt x 578.12894pt.
 
 
-LaTeX Warning: Float too large for page by 19.82814pt on input line 233.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 243.
 
-<hese_track_event.png, id=103, 2107.875pt x 2810.5pt>
+<hese_track_event.png, id=106, 2107.875pt x 2810.5pt>
 File: hese_track_event.png Graphic file (type png)
 
 <use hese_track_event.png>
-Package pdftex.def Info: hese_track_event.png used on input line 241.
+Package pdftex.def Info: hese_track_event.png used on input line 251.
 (pdftex.def)             Requested size: 433.62001pt x 578.12894pt.
 
 
-LaTeX Warning: Float too large for page by 17.69897pt on input line 245.
+LaTeX Warning: Float too large for page by 17.69897pt on input line 255.
 
-[15] [16 <./IC86EDC_DeepCoreDiagram.pdf>] [17 <./hese_cascade_event.png (PNG co
-py)>] [18 <./hese_track_event.png (PNG copy)>]
+[16] [17 <./IC86EDC_DeepCoreDiagram.pdf>] [18 <./hese_cascade_event.png (PNG co
+py)>] [19 <./hese_track_event.png (PNG copy)>]
 CHAPTER VI.
-<DomSchematic.png, id=159, 727.71875pt x 620.3175pt>
+<DomSchematic.png, id=162, 727.71875pt x 620.3175pt>
 File: DomSchematic.png Graphic file (type png)
  <use DomSchematic.png>
-Package pdftex.def Info: DomSchematic.png used on input line 257.
+Package pdftex.def Info: DomSchematic.png used on input line 267.
 (pdftex.def)             Requested size: 185.37068pt x 158.01323pt.
 
-Underfull \hbox (badness 1038) in paragraph at lines 258--258
+Underfull \hbox (badness 1038) in paragraph at lines 268--268
 []\OT1/cmss/bx/n/10.95 Figure 9: \OT1/cmr/m/n/10.95 Schematic de-tail-ing DOM
  []
 
-<LabDOM.pdf, id=160, 2457.18pt x 3276.24pt>
+<LabDOM.pdf, id=163, 2457.18pt x 3276.24pt>
 File: LabDOM.pdf Graphic file (type pdf)
  <use LabDOM.pdf>
-Package pdftex.def Info: LabDOM.pdf used on input line 264.
+Package pdftex.def Info: LabDOM.pdf used on input line 274.
 (pdftex.def)             Requested size: 146.34575pt x 195.11617pt.
- [19
+ [20
 
- <./DomSchematic.png> <./LabDOM.pdf>] [20]
+ <./DomSchematic.png> <./LabDOM.pdf>] [21]
 CHAPTER VII.
 
-LaTeX Warning: Reference `fig:' on page 21 undefined on input line 288.
+LaTeX Warning: Reference `fig:' on page 22 undefined on input line 298.
 
 
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 288--289
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 298--299
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
 
-[21
+[22
 
 ]
-<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=175, 722.7pt x 578.16p
+<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=178, 722.7pt x 578.16p
 t>
 File: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png Graphic file (type pn
 g)
  <use FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png>
 Package pdftex.def Info: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png us
-ed on input line 308.
+ed on input line 318.
 (pdftex.def)             Requested size: 185.37068pt x 148.2978pt.
 
-<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=177, 722.7pt x 578.16pt>
+<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=180, 722.7pt x 578.16pt>
 File: GENIE_FinalLevel_NeutrinoResolutionByNch.png Graphic file (type png)
 
 <use GENIE_FinalLevel_NeutrinoResolutionByNch.png>
 Package pdftex.def Info: GENIE_FinalLevel_NeutrinoResolutionByNch.png used on i
-nput line 315.
+nput line 325.
 (pdftex.def)             Requested size: 185.37068pt x 148.2978pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<LESEventForThesis.png, id=178, 831.51102pt x 623.63326pt>
+<LESEventForThesis.png, id=181, 831.51102pt x 623.63326pt>
 File: LESEventForThesis.png Graphic file (type png)
 
 <use LESEventForThesis.png>
-Package pdftex.def Info: LESEventForThesis.png used on input line 345.
+Package pdftex.def Info: LESEventForThesis.png used on input line 355.
 (pdftex.def)             Requested size: 433.62001pt x 325.21419pt.
- [22 <./FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png> <./GENIE_FinalLeve
-l_NeutrinoResolutionByNch.png>] [23 <./LESEventForThesis.png>]
+ [23 <./FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png> <./GENIE_FinalLeve
+l_NeutrinoResolutionByNch.png>] [24 <./LESEventForThesis.png>]
 CHAPTER VIII.
-[24
+[25
 
-] <NullMap996.png, id=192, 1084.05pt x 722.7pt>
+] <NullMap996.png, id=195, 1084.05pt x 722.7pt>
 File: NullMap996.png Graphic file (type png)
  <use NullMap996.png>
-Package pdftex.def Info: NullMap996.png used on input line 386.
+Package pdftex.def Info: NullMap996.png used on input line 396.
 (pdftex.def)             Requested size: 433.62001pt x 289.07487pt.
 
-[25] [26 <./NullMap996.png>]
+[26] [27 <./NullMap996.png>]
 CHAPTER IX.
-[27
+[28
 
 ]
 CHAPTER X.
-<RealResultSkyMap.png, id=205, 1092.7224pt x 731.3724pt>
+<RealResultSkyMap.png, id=209, 1092.7224pt x 731.3724pt>
 File: RealResultSkyMap.png Graphic file (type png)
 
 <use RealResultSkyMap.png>
-Package pdftex.def Info: RealResultSkyMap.png used on input line 410.
+Package pdftex.def Info: RealResultSkyMap.png used on input line 420.
 (pdftex.def)             Requested size: 433.62001pt x 290.22253pt.
 
-<TestStatisticDistribution_WithResult.png, id=206, 578.16pt x 433.62pt>
+<TestStatisticDistribution_WithResult.png, id=210, 578.16pt x 433.62pt>
 File: TestStatisticDistribution_WithResult.png Graphic file (type png)
 
 <use TestStatisticDistribution_WithResult.png>
 Package pdftex.def Info: TestStatisticDistribution_WithResult.png used on input
- line 419.
+ line 429.
 (pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
- [28
+ [29
 
  <./RealResultSkyMap.png>]
-[29 <./TestStatisticDistribution_WithResult.png>]
+[30 <./TestStatisticDistribution_WithResult.png>]
 CHAPTER XI.
-[30
-
-]
-CHAPTER XII.
 [31
 
 ]
+CHAPTER XII.
+[32
+
+]
 APPENDIX A.
-(./jdthesis.bbl [32
+(./jdthesis.bbl [33
 
 
-] [33
+] [34
 
-] [34] [35]) [36]
+] [35] [36]) [37]
 ***************** Vita ******************
-[37
+[38
 
 
-] [38
+] [39
 
 
 ] (./jdthesis.aux)
@@ -511,10 +529,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2340 strings out of 495031
- 34053 string characters out of 6181531
- 90072 words of memory out of 5000000
- 5500 multiletter control sequences out of 15000+600000
+ 2341 strings out of 495031
+ 34074 string characters out of 6181531
+ 90073 words of memory out of 5000000
+ 5501 multiletter control sequences out of 15000+600000
  9865 words of font info for 34 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,9n,27p,1507b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -532,10 +550,10 @@ cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssb
 x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on jdthesis.pdf (49 pages, 5979510 bytes).
+Output written on jdthesis.pdf (50 pages, 5983376 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
+ 299 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

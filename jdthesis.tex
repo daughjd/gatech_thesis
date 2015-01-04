@@ -102,17 +102,27 @@ One of the defining characteristics of the neutrino is the ability to stream thr
 
 \subsection{Neutrino-Nucleon Scattering}
 
-The dominant mode of interaction for neutrinos detected by IceCube is through scattering with a nucleon of a hydrogen or oxygen atom within the ice. This interaction is carried out via the weak nuclear force and involves the exchange between the neutrino and the nucleon of either a $W^{+}$, $W^{-}$, or Z boson. How deeply this interaction probes the interal structure of the target nucleon is ultimately dependent on energy of the incoming neutrino.
+The dominant mode of interaction for neutrinos detected by IceCube is through scattering with a nucleon of a hydrogen or oxygen atom within the ice. This interaction is carried out via the weak nuclear force and involves the exchange between the neutrino and the nucleon of either a $W^{+}$, $W^{-}$, or Z boson. Interactions in which a charged W boson is exchanged are referred to as charged-current (CC) and have the following form:
+\begin{eqnarray}
+\nu_{l} + N \rightarrow l + X
+\end{eqnarray}
+A neutrino of flavor $l$ will yield its counterpart charged lepton while the final state $X$ of nucleon $N$ will be dependent on the magnitude of the momentum exchange in the interaction and can range from ejection of a nucleon from the nucleus to total breakup and a particle shower. Neutral-current (NC) interactions occur via exchange of the chargeless Z boson and as such yield a different end state:
+\begin{eqnarray}
+\nu_{l} + N \rightarrow \nu_{l}' + X
+\end{eqnarray}
+Unlike CC interactions, only the energy imparted to the target nucleus will be observable as the outgoing neutrino $\nu_{l}'$ will carry some fraction of the energy. As is the case in the CC scenario, the end state for the nucleon in NC interactions will vary according to the energy departed by the neutrino.
+
+How deeply these interactions probe the interal structure of the target nucleon is ultimately dependent on energy of the incoming neutrino. For neutrinos below 20 GeV in energy, the exact manner in which the neutrino interacts with the target nucleon can be quite complicated as there are three categories of scattering interaction possible. These modes include quasi-elastic scattering, resonance production, and deep inelastic scattering \cite{2012RvMP...84.1307F}. Nearly all interaction products from neutrino events detected by IceCube are the result of deep inelastic scattering. However, other modes of interaction can be much more prevalent in a DeepCore sample as the energy threshold of the detector extends to approximately 10 GeV. Figure \ref{fig:neutrino_scattering} shows the relative size of the cross-section for each of the aforementioned processes as a function of neutrino energy. The higher number of possible end states provided by quasi-elastic and resonance scattering make simulation and proper estimation of the cross-section for neutrino events of 1-20 GeV events a fairly complex ordeal. 
+
 %% Insert Cross-section graph that shows predominance of DIS
 \begin{wrapfigure}{l}{0.5\textwidth}
   \begin{center}
     \includegraphics[width=0.48\textwidth,keepaspectratio]{neutrino_nucelon_crosssections.png}
   \end{center}
-  \caption{cross-sections}
+  \caption{Total inclusive cross-section is plotted above as a function of energy along with individual cross-sections for different interaction channels. Above a few tens of GeV, it's clear that deep inelastic scattering begins to dominate \cite{2012RvMP...84.1307F}.}
   \label{fig:neutrino_scattering}
 \end{wrapfigure}
 
-\subsection{Deep Inelastic Scattering}
 
 \begin{figure}[ht]
   \begin{center}
