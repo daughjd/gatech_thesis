@@ -37,7 +37,7 @@
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {VI}\MakeUppercase {Data Acquisition}}{20}
 \contentsline {section}{\numberline {6.1}The Digital Optical Module}{20}
-\contentsline {section}{\numberline {6.2}Hit Generation}{21}
+\contentsline {section}{\numberline {6.2}Hit Generation}{20}
 \contentsline {section}{\numberline {6.3}Data Synchronization}{21}
 \contentsline {section}{\numberline {6.4}Triggering and Event Building}{21}
 \setcounter {tocdepth}{2}
