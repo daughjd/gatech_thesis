@@ -20,57 +20,57 @@
 \contentsline {subsection}{\numberline {2.1.2}Propagation of Interaction Products}{7}
 \contentsline {section}{\numberline {2.2}Flavor Oscillations}{8}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {III}\MakeUppercase {Neutrino Astronomy}}{9}
-\contentsline {section}{\numberline {3.1}Motivation}{9}
-\contentsline {section}{\numberline {3.2}Detection Methods}{9}
+\contentsline {chapter}{\numberline {III}\MakeUppercase {Neutrino Astronomy}}{10}
+\contentsline {section}{\numberline {3.1}Motivation}{10}
+\contentsline {section}{\numberline {3.2}Detection Methods}{10}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {IV}\MakeUppercase {Neutrino Sources}}{10}
-\contentsline {section}{\numberline {4.1}Active Galactic Nuclei}{10}
-\contentsline {section}{\numberline {4.2}Gamma-ray Bursts}{10}
-\contentsline {section}{\numberline {4.3}Core-Collapse Supernovae}{10}
-\contentsline {section}{\numberline {4.4}Choked Gamma-ray Bursts}{11}
+\contentsline {chapter}{\numberline {IV}\MakeUppercase {Neutrino Sources}}{11}
+\contentsline {section}{\numberline {4.1}Active Galactic Nuclei}{11}
+\contentsline {section}{\numberline {4.2}Gamma-ray Bursts}{11}
+\contentsline {section}{\numberline {4.3}Core-Collapse Supernovae}{11}
+\contentsline {section}{\numberline {4.4}Choked Gamma-ray Bursts}{12}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {V}\MakeUppercase {Detector}}{12}
-\contentsline {section}{\numberline {5.1}IceCube and IceTop}{12}
-\contentsline {section}{\numberline {5.2}DeepCore}{14}
-\contentsline {section}{\numberline {5.3}Neutrino Events in IceCube}{15}
+\contentsline {chapter}{\numberline {V}\MakeUppercase {Detector}}{13}
+\contentsline {section}{\numberline {5.1}IceCube and IceTop}{13}
+\contentsline {section}{\numberline {5.2}DeepCore}{15}
+\contentsline {section}{\numberline {5.3}Neutrino Events in IceCube}{16}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VI}\MakeUppercase {Data Acquisition}}{20}
-\contentsline {section}{\numberline {6.1}The Digital Optical Module}{20}
-\contentsline {section}{\numberline {6.2}Hit Generation}{20}
-\contentsline {section}{\numberline {6.3}Data Synchronization}{21}
-\contentsline {section}{\numberline {6.4}Triggering and Event Building}{21}
+\contentsline {chapter}{\numberline {VI}\MakeUppercase {Data Acquisition}}{21}
+\contentsline {section}{\numberline {6.1}The Digital Optical Module}{21}
+\contentsline {section}{\numberline {6.2}Hit Generation}{21}
+\contentsline {section}{\numberline {6.3}Data Synchronization}{22}
+\contentsline {section}{\numberline {6.4}Triggering and Event Building}{22}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{22}
-\contentsline {section}{\numberline {7.1}Low-energy Channel}{22}
-\contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{23}
-\contentsline {subsection}{\numberline {7.2.1}Veto Cuts}{23}
-\contentsline {subsection}{\numberline {7.2.2}Quality Cuts}{23}
-\contentsline {subsection}{\numberline {7.2.3}Boosted Decision Tree}{23}
-\contentsline {section}{\numberline {7.3}Event Reconstruction}{23}
-\contentsline {section}{\numberline {7.4}Final Level Data}{23}
+\contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{23}
+\contentsline {section}{\numberline {7.1}Low-energy Channel}{23}
+\contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{24}
+\contentsline {subsection}{\numberline {7.2.1}Veto Cuts}{24}
+\contentsline {subsection}{\numberline {7.2.2}Quality Cuts}{24}
+\contentsline {subsection}{\numberline {7.2.3}Boosted Decision Tree}{24}
+\contentsline {section}{\numberline {7.3}Event Reconstruction}{24}
+\contentsline {section}{\numberline {7.4}Final Level Data}{24}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VIII}\MakeUppercase {Analysis Method}}{25}
-\contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{25}
-\contentsline {section}{\numberline {8.2}Sky Scan}{26}
-\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{26}
+\contentsline {chapter}{\numberline {VIII}\MakeUppercase {Analysis Method}}{27}
+\contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{27}
+\contentsline {section}{\numberline {8.2}Sky Scan}{28}
+\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{28}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {IX}\MakeUppercase {Systematic Effects}}{28}
-\contentsline {section}{\numberline {9.1}Ice Properties}{28}
-\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{28}
+\contentsline {chapter}{\numberline {IX}\MakeUppercase {Systematic Effects}}{30}
+\contentsline {section}{\numberline {9.1}Ice Properties}{30}
+\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{30}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{29}
+\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{31}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{31}
+\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{33}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{32}
+\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{34}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Final Level Event Distributions}}{33}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Final Level Event Distributions}}{35}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{38}
+\contentsline {chapter}{\MakeUppercase {Index}}{40}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Vita}}{39}
+\contentsline {chapter}{\MakeUppercase {Vita}}{41}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
