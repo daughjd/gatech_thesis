@@ -122,8 +122,12 @@ How deeply these interactions probe the interal structure of the target nucleon 
   \label{fig:neutrino_scattering}
 \end{wrapfigure}
 
-In the elastic (NC) or quasi-elastic (CC) scenario, an incoming neutrino will scatter off of the nucleon as a whole imparting some of its energy to the target. This is usually sufficient to eject the target nucleon and in some cases additional nucleons from the nucleus. The CC scattering is referred to as quasi-elastic due to the fact that it requires the conversion of the target proton(neutron) into a neutron(proton) to ensure charge conservation. This type of scattering does not probe the internal constituents of the nucleus (quarks and gluons collectively referred to as partons). The absolute cross-section, however, will depend heavily on nuclear properties of the target atom.
+In the elastic (NC) or quasi-elastic (CC) scenario, an incoming neutrino will scatter off of the nucleon as a whole imparting some of its energy to the target. This is usually sufficient to eject the target nucleon and in some cases additional nucleons from the nucleus. The CC scattering is referred to as quasi-elastic due to the fact that it requires the conversion of the target proton(neutron) into a neutron(proton) to ensure charge conservation. This type of scattering does not probe the internal constituents of the nucleus (quarks and gluons collectively referred to as partons). The absolute cross-section, however, will depend heavily on nuclear properties of the target atom. Examination of Figure \ref{fig:neutrino_scattering} shows that even in a DeepCore dominated event sample this process will very rare given the threshold for neutrino detection is approximately 10 GeV.
 
+Above 1 GeV in neutrino energy, resonance production overtakes over quasi-elastic scattering in relative contribution to the total interaction cross-section.
+Neutrinos interacting via resonance production actually make a sizable contribution to low energy event samples in DeepCore. However, the vast number of possible end states for these interactions makes proper simulation of the process complicated.
+
+\subsection{Deep Inelastic Scattering}
 The most important neutrino-matter interaction in IceCube is that of deep inelastic scattering. As Figure \ref{fig:neutrino_scattering} shows, it is far and away the dominant mode of interaction for neutrinos above the threshold energy for detection.
 
 \begin{figure}[ht]
@@ -134,10 +138,12 @@ The most important neutrino-matter interaction in IceCube is that of deep inelas
   \label{fig:dis_scattering}
 \end{figure}
 
+The generation of these hadronic cascades during nucleon breakup is often referred to as hadronization of the nucleon's constituent quarks, and the formation of these particles is necessitated by quark confinement which is a property of the strong nuclear interaction.
+
 \subsection{Propagation of Interaction Products}
 The products leftover from high-energy neutrino-nucleon interactions are generally very energetic as well. These particles will subsequently undergo many forms of energy loss and possible decay as they travel through a potential detection medium. In a given interaction, the total light yield and its spatial extent are contingent on the products of the interaction. The products themselves are ultimately determined by both the flavor of the primary neutrino and whether the neutrino interaction was of the charged- or neutral-current variety. This section will focus on how these secondaries interact and produce light and how that light propagates through glacial ice, the detection medium of IceCube.
 
-For neutrinos of sufficient energy to be seen by IceCube, scattering with nucleons in the ice via either neutral or charged boson exchange will result in the breakup of the nucleon target.
+For neutrinos of sufficient energy to be seen by IceCube, scattering with nucleons in the ice via either neutral or charged boson exchange will result in the breakup of the nucleon target. This breakup will result in the formation of a shower of short-lived hadrons (a particle composed of quarks) which will decay into more stable particles until the imparted energy is dissipated. The physical extent of these showers is much smaller than the spacing between light sensors in IceCube rendering them to be seen as point-like, spherically symmetric sources of light by the detector. 
 %% Hadronic Cascade
 %% EM cascade from tau and e-
 %% track produced via muon
@@ -146,18 +152,20 @@ The process in which the lepton flavor of a given neutrino can change during its
 
 
 \chapter{Neutrino Astronomy}
+As the name suggests, the field of neutrino astronomy is concerned with the detection of neutrinos of extraterrestrial origin for the use of identifying and classifying astrophysical sources. In a similar fashion to the advances made through expansion of traditional optical astronomy to the high-energy regime of x-rays and gamma-rays, it is thought that the unique window provided by neutrino astronomy can usher in a tremendous increase in our understanding of the universe.
 
 \section{Motivation}
 
+The detection of a neutrino flux for a source and measurement of its spectrum would provide critical insight into the processes governing the densest and most energetic regions of the source.
 
 %% Illustration of different messengers
 %% Cosmic ray -- Neutrion Connection
 
 \section{Detection Methods}
 
-The primary method for the detection of high-energy neutrinos is through observation of Cerenkov light produced by interaction secondaries in a transparent medium. Events can be detected either by surrounding a detection volume with light detectors (as is the case for Super-Kamiokande) or by placing the detectors within the detection medium itself (e.g. IceCube, ANTARES).
+The primary method for the detection of high-energy neutrinos is through observation of Cerenkov light produced by interaction secondaries in a transparent medium (typically water or ice). Events can be detected either by surrounding a detection volume with light detectors (as is the case for Super-Kamiokande \cite{?}) or by placing the detectors within the detection medium itself (e.g. IceCube, ANTARES).
 \chapter{Neutrino Sources}
-
+While no extra-solar high-energy neutrino sources have yet to be discovered (with the exception of SN 1987A), there is strong theoretical support  and indirect observational evidence for their existence. Most importantly, the measurement of extremely high-energy cosmic rays implies that a flux of energetic neutrinos must also be present due to the intimate link between hadronic acceleration and neutrino production in high-energy astrophysical environments. 
 
 \section{Active Galactic Nuclei}
 
@@ -170,7 +178,7 @@ The primary method for the detection of high-energy neutrinos is through observa
   \begin{center}
     \includegraphics[width=0.85\textwidth,keepaspectratio]{SubPhotoFluence.png}
   \end{center}
-  \caption{Energy Fluence of $\nu_{\mu}$ and $\bar{\nu}_{\nu}$ from high-luminosity GRB at a redshift of z=0.1 \cite{2013PhRvL.111m1102M}}
+  \caption{Energy fluence of $\nu_{\mu}$ and $\bar{\nu}_{\nu}$ from high-luminosity GRB at a redshift of z=0.1 in the sub-photospheric emission model \cite{2013PhRvL.111m1102M}.}
   \label{fig:subphotospheric_nus}
 \end{figure}
 
@@ -307,16 +315,19 @@ Because of the primary focus of this analysis on a lower-energy event selection,
 This filter actually consists of two separate streams which are differentiated by the definition of which DOMs comprise the detection (or fiducial) volume and which DOMs are treated as belonging to the veto region. Inclusion of this additional branch using the relaxed veto allows for increased acceptance of higher-energy upgoing muon neutrino events that may be cut by the more stringent definition. The acceptance rate for the standard and relaxed veto filters is 17.25 Hz and 23.3 Hz respectively. The end result is a reduction in the trigger level data rate of nearly two orders of magnitude yielding a much more manageable data sample on which more advanced background reduction techinques can be applied.
 
 \section{Analysis Specific Cuts}
-
+After reducing the IceCube data stream to specific filters, the selection criteria imposed by differing will begin to diverge in order to optimize sensitivity to their respective target signal. For this analysis, the data given by the low-energy filter is put through a series of cuts optimized to preserve upgoing and contained track-like events from muon neutrino interactions. What event traits to cut on and to what degree was decided through examination of many cut choices on a sample of simulated muon neutrino events and background simulation. The end result is a selection of event cuts that can be grouped into two categories. The first category consists of cuts derived from detector information in the veto region while the second focuses on event quality and reconstruction characteristics. Lastly, a cut developed through machine learning techniques and optimized with respect to analysis sensitivity is applied to achieve a final level data set ready for analysis.
 \subsection{Veto Cuts}
 
 \subsection{Quality Cuts}
 
-\subsection{Boosted Decision Tree}
+\subsection{Machine Learning Cut}
 
+%% Insert BDT Input Distributions
 
 \section{Event Reconstruction}
-An accurate reconstruction of neutrino events in the data sample is critical for optimal performance of any pointing analysis. During the event selection process several iterations of reconstructions are performed so that downgoing muons from cosmic rays can easily be identified. 
+An accurate reconstruction of neutrino events in the data sample is critical for optimal performance of any pointing analysis. During the event selection process several iterations of reconstructions are performed so that downgoing muons from cosmic rays can easily be identified. During data selection at lower levels, simpler reconstruction algorithms are often used to prevent a prohibitive amount of required CPU time for processing. These reconstructions then serve as the seed for more advanced techniques used at the analysis level. In this section the seed reconstructions for the final level will be discussed in addition to a detailed description of the final reconstruction whose results are used in the final analysis.
+
+Reconstruction of a physics event within the IceCube detector depends on the geometry of the DOMs registering light from the event, the time of arrival for photons at those DOMs, and the total amount of light received at the individual DOMs.
 
 \begin{figure}[ht]
 \centering
