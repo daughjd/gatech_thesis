@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.1.12)  14 JAN 2015 16:59
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.1.12)  15 JAN 2015 16:29
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -240,144 +240,144 @@ CHAPTER II.
 File: neutrino_nucelon_crosssections.png Graphic file (type png)
 
 <use neutrino_nucelon_crosssections.png> [6] [7 <./neutrino_nucelon_crosssectio
-ns.png (PNG copy)>] <dis.png, id=69, 501.875pt x 358.33875pt>
+ns.png (PNG copy)>] [8] <dis.png, id=74, 501.875pt x 358.33875pt>
 File: dis.png Graphic file (type png)
- <use dis.png>
-[8 <./dis.png (PNG copy)>] [9]
+
+<use dis.png> [9 <./dis.png (PNG copy)>] [10]
 CHAPTER III.
 
-LaTeX Warning: Citation `?' on page 10 undefined on input line 166.
+LaTeX Warning: Citation `?' on page 11 undefined on input line 179.
 
-[10
+[11
 
 ]
 CHAPTER IV.
-<SubPhotoFluence.png, id=80, 776.9025pt x 541.02126pt>
+<SubPhotoFluence.png, id=84, 776.9025pt x 541.02126pt>
 File: SubPhotoFluence.png Graphic file (type png)
 
-<use SubPhotoFluence.png> [11
+<use SubPhotoFluence.png> [12
 
  <./SubPhotoFluence.png (PNG copy)>]
-<NearbySNCatalogue.png, id=84, 892.33376pt x 667.49374pt>
+<NearbySNCatalogue.png, id=88, 892.33376pt x 667.49374pt>
 File: NearbySNCatalogue.png Graphic file (type png)
 
 <use NearbySNCatalogue.png>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 19
-9.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 21
+2.
 
-[12 <./NearbySNCatalogue.png (PNG copy)>]
+[13 <./NearbySNCatalogue.png (PNG copy)>]
 CHAPTER V.
-<ArrayWSeasonsLabels.pdf, id=88, 2569.6pt x 1756.5625pt>
+<ArrayWSeasonsLabels.pdf, id=92, 2569.6pt x 1756.5625pt>
 File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
 
-<use ArrayWSeasonsLabels.pdf> [13
+<use ArrayWSeasonsLabels.pdf> [14
 
-] [14 <./ArrayWSeasonsLabels.pdf>] [15]
-<IC86EDC_DeepCoreDiagram.pdf, id=104, 347.2975pt x 682.55pt>
+] [15 <./ArrayWSeasonsLabels.pdf>] [16]
+<IC86EDC_DeepCoreDiagram.pdf, id=108, 347.2975pt x 682.55pt>
 File: IC86EDC_DeepCoreDiagram.pdf Graphic file (type pdf)
 
-<use IC86EDC_DeepCoreDiagram.pdf> [16]
-<hese_cascade_event.png, id=108, 2107.875pt x 2810.5pt>
+<use IC86EDC_DeepCoreDiagram.pdf> [17]
+<hese_cascade_event.png, id=112, 2107.875pt x 2810.5pt>
 File: hese_cascade_event.png Graphic file (type png)
 
 <use hese_cascade_event.png>
 
-LaTeX Warning: Float too large for page by 19.82814pt on input line 252.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 265.
 
-<hese_track_event.png, id=109, 2107.875pt x 2810.5pt>
+<hese_track_event.png, id=113, 2107.875pt x 2810.5pt>
 File: hese_track_event.png Graphic file (type png)
 
 <use hese_track_event.png>
 
-LaTeX Warning: Float too large for page by 17.69897pt on input line 264.
+LaTeX Warning: Float too large for page by 17.69897pt on input line 277.
 
-[17] [18 <./IC86EDC_DeepCoreDiagram.pdf>] [19 <./hese_cascade_event.png (PNG co
-py)>] [20 <./hese_track_event.png (PNG copy)>]
+[18] [19 <./IC86EDC_DeepCoreDiagram.pdf>] [20 <./hese_cascade_event.png (PNG co
+py)>] [21 <./hese_track_event.png (PNG copy)>]
 CHAPTER VI.
-<DomSchematic.png, id=167, 727.71875pt x 620.3175pt>
+<DomSchematic.png, id=171, 727.71875pt x 620.3175pt>
 File: DomSchematic.png Graphic file (type png)
  <use DomSchematic.png>
-Underfull \hbox (badness 1038) in paragraph at lines 281--281
+Underfull \hbox (badness 1038) in paragraph at lines 294--294
 []\OT1/cmss/bx/n/10.95 Figure 9: \OT1/cmr/m/n/10.95 Schematic de-tail-ing DOM
  []
 
-<LabDOM.pdf, id=168, 2457.18pt x 3276.24pt>
+<LabDOM.pdf, id=172, 2457.18pt x 3276.24pt>
 File: LabDOM.pdf Graphic file (type pdf)
- <use LabDOM.pdf> [21
+ <use LabDOM.pdf> [22
 
-] [22 <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>]
+] [23 <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>]
 CHAPTER VII.
 
-LaTeX Warning: Reference `fig:' on page 23 undefined on input line 311.
+LaTeX Warning: Reference `fig:' on page 24 undefined on input line 324.
 
 
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 311--312
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 324--325
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
 
-[23
+[24
 
-] [24]
-<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=186, 722.7pt x 578.16p
+] [25]
+<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=190, 722.7pt x 578.16p
 t>
 File: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png Graphic file (type pn
 g)
  <use FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png>
-<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=187, 722.7pt x 578.16pt>
+<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=191, 722.7pt x 578.16pt>
 File: GENIE_FinalLevel_NeutrinoResolutionByNch.png Graphic file (type png)
 
 <use GENIE_FinalLevel_NeutrinoResolutionByNch.png>
-<LESEventForThesis.png, id=188, 831.51102pt x 623.63326pt>
+<LESEventForThesis.png, id=192, 831.51102pt x 623.63326pt>
 File: LESEventForThesis.png Graphic file (type png)
 
-<use LESEventForThesis.png> [25 <./FinalLevel_NeutrinoResolutionByEnergy_JustGE
-NIE.png> <./GENIE_FinalLevel_NeutrinoResolutionByNch.png>] [26 <./LESEventForTh
+<use LESEventForThesis.png> [26 <./FinalLevel_NeutrinoResolutionByEnergy_JustGE
+NIE.png> <./GENIE_FinalLevel_NeutrinoResolutionByNch.png>] [27 <./LESEventForTh
 esis.png (PNG copy)>]
 CHAPTER VIII.
-[27
+[28
 
-] <NullMap996.png, id=203, 1084.05pt x 722.7pt>
+] <NullMap996.png, id=207, 1084.05pt x 722.7pt>
 File: NullMap996.png Graphic file (type png)
  <use NullMap996.png>
-[28] [29 <./NullMap996.png>]
+[29] [30 <./NullMap996.png>]
 CHAPTER IX.
-[30
+[31
 
 ]
 CHAPTER X.
-<RealResultSkyMap.png, id=215, 1092.7224pt x 731.3724pt>
+<RealResultSkyMap.png, id=218, 1092.7224pt x 731.3724pt>
 File: RealResultSkyMap.png Graphic file (type png)
 
 <use RealResultSkyMap.png>
-<TestStatisticDistribution_WithResult.png, id=216, 578.16pt x 433.62pt>
+<TestStatisticDistribution_WithResult.png, id=219, 578.16pt x 433.62pt>
 File: TestStatisticDistribution_WithResult.png Graphic file (type png)
 
-<use TestStatisticDistribution_WithResult.png> [31
+<use TestStatisticDistribution_WithResult.png> [32
 
  <./RealResultSkyMap.png>]
-[32 <./TestStatisticDistribution_WithResult.png>]
+[33 <./TestStatisticDistribution_WithResult.png>]
 CHAPTER XI.
-[33
-
-]
-CHAPTER XII.
 [34
 
 ]
+CHAPTER XII.
+[35
+
+]
 APPENDIX A.
-(./jdthesis.bbl [35
+(./jdthesis.bbl [36
 
 
-] [36
+] [37
 
-] [37] [38]) [39]
+] [38] [39]) [40]
 ***************** Vita ******************
-[40
+[41
 
 
-] [41
+] [42
 
 
 ] (./jdthesis.aux)
@@ -406,9 +406,9 @@ r/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bl
 uesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/s
 hare/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/blue
 sky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-Output written on jdthesis.pdf (52 pages, 5924857 bytes).
+Output written on jdthesis.pdf (53 pages, 5927667 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
+ 307 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

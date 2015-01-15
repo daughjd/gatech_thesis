@@ -124,17 +124,23 @@ How deeply these interactions probe the interal structure of the target nucleon 
 
 In the elastic (NC) or quasi-elastic (CC) scenario, an incoming neutrino will scatter off of the nucleon as a whole imparting some of its energy to the target. This is usually sufficient to eject the target nucleon and in some cases additional nucleons from the nucleus. The CC scattering is referred to as quasi-elastic due to the fact that it requires the conversion of the target proton(neutron) into a neutron(proton) to ensure charge conservation. This type of scattering does not probe the internal constituents of the nucleus (quarks and gluons collectively referred to as partons). The absolute cross-section, however, will depend heavily on nuclear properties of the target atom. Examination of Figure \ref{fig:neutrino_scattering} shows that even in a DeepCore dominated event sample this process will very rare given the threshold for neutrino detection is approximately 10 GeV.
 
-Above 1 GeV in neutrino energy, resonance production overtakes over quasi-elastic scattering in relative contribution to the total interaction cross-section. In this form of inelastic scattering, the momentum transfer provided by the neutrino collision can excite the nucleon target. The decay of this excited state will generally involve the emission of an energetic meson (a particle consisting of a quark-anti-quark pair).
-Neutrinos interacting via resonance production actually make a sizable contribution to low energy event samples in DeepCore. However, the vast number of possible end states for these interactions makes proper simulation of the process complicated.
+Above 1 GeV in neutrino energy, resonance production overtakes quasi-elastic scattering in relative contribution to the total interaction cross-section. In this form of inelastic scattering, the momentum transfer provided by the neutrino collision can excite the nucleon target. The decay of this excited state will generally involve the emission of an energetic meson (a particle consisting of a quark-anti-quark pair). At lower energies the emitted meson will usually be a single pion ($\pi^{+},\pi^{-}$), however at higher energies multiple pions can be produced as well as strange mesons such as the kaon. An example muon neutrino resonance interaction takes the following form:
+
+\begin{eqnarray}
+\nu_{\mu} + N \rightarrow \mu^{-} + N^{*} \rightarrow \mu^{-} + N + \pi^{+}
+\end{eqnarray}
+In the scenario described above, the exited nucleon \textit{N} decays and emits a charged pion. Other end states yielding either charged or neutral pions are possible as well for either CC or NC interactions. An additional possibility is coherent scattering with the entirety of the nucleus. The momentum transfer in this case is rather low and results in little nuclear recoil and a heavily forward-scattered pion.
+
+As the momentum transfer in the interaction increases, more exotic resonances can arise which in turn can result in the production of multiple pions or heavier mesons. The large number of possible end states for these interactions makes proper simulation of the process complicated. This can be significant for specialized analyses focusing on the lowest energy events in DeepCore as neutrinos interacting via resonance production actually make a sizable contribution to the event sample. What is ultimately important, however, is that the total light yield from these interactions is estimated correctly by the simulation used for analysis purposes. While elastic scattering and resonance production are significant for the lowest energy analyses or possible future low energy extensions for IceCube, these processes only add a minor contribution to the event sample used in the analysis presented in this thesis.
 
 \subsection{Deep Inelastic Scattering}
-The most important neutrino-matter interaction in IceCube is that of deep inelastic scattering. As Figure \ref{fig:neutrino_scattering} shows, it is far and away the dominant mode of interaction for neutrinos above the threshold energy for detection.
+The most important neutrino-matter interaction in IceCube is that of deep inelastic scattering. As Figure \ref{fig:neutrino_scattering} shows, it is far and away the dominant mode of interaction for neutrinos above the threshold energy for detection in IceCube ($\sim$100 GeV). At these energies, the wavelength of the incoming neutrino becomes sufficiently small enough to begin probing the internal parton structure of the target proton or neutron. Like the scattering modes mentioned earlier, deep inelastic scattering can occur through either a CC or NC interaction. A diagram detailing the deep inelastic scattering process for a muon neutrino is shown in Figure \ref{fig:dis_scattering}.
 
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=0.7\textwidth,keepaspectratio]{dis.png}
   \end{center}
-  \caption{Feynman diagram of a $\nu_{\mu}$ undergoing deep inelastic scattering with a nucleon via charged-current interaction. A large momentum exchange through a charged $W$ boson leads to breakup of the nucleon.}
+  \caption{Feynman diagram of a $\nu_{\mu}$ undergoing deep inelastic scattering with a nucleon via charged-current interaction. A large momentum exchange through a charged $W$ boson leads to breakup of the nucleon \cite{2012RvMP...84.1307F}.}
   \label{fig:dis_scattering}
 \end{figure}
 
@@ -143,6 +149,8 @@ The generation of these hadronic cascades during nucleon breakup is often referr
 \subsection{Propagation of Interaction Products}
 The products leftover from high-energy neutrino-nucleon interactions are generally very energetic as well. These particles will subsequently undergo many forms of energy loss and possible decay as they travel through a potential detection medium. In a given interaction, the total light yield and its spatial extent are contingent on the products of the interaction. The products themselves are ultimately determined by both the flavor of the primary neutrino and whether the neutrino interaction was of the charged- or neutral-current variety. This section will focus on how these secondaries interact and produce light and how that light propagates through glacial ice, the detection medium of IceCube.
 
+%% Cerenkov Radiation
+
 For neutrinos of sufficient energy to be seen by IceCube, scattering with nucleons in the ice via either neutral or charged boson exchange will result in the breakup of the nucleon target. This breakup will result in the formation of a shower of short-lived hadrons (a particle composed of quarks) which will decay into more stable particles until the imparted energy is dissipated. The physical extent of these showers is much smaller than the spacing between light sensors in IceCube rendering them to be seen as point-like, spherically symmetric sources of light by the detector. 
 %% Hadronic Cascade
 %% EM cascade from tau and e-
@@ -150,6 +158,11 @@ For neutrinos of sufficient energy to be seen by IceCube, scattering with nucleo
 \section{Flavor Oscillations}
 The process in which the lepton flavor of a given neutrino can change during its propagation is one of the particles more intriguing properties. The unexpected observation of neutrino oscillations indicated that the neutrino, which was initially thought to be massless under the Standard Model, must actually have some non-zero mass after all. Recently, many experiments have studied this phenomenon with high precision in hopes of accurately determining the mass-splitting of the neutrino eigenstates as well as if neutrinos undergo CP violation. While the analysis being presented is in no way suited to studying the oscillation phenomenon, how the results are interpreted is very much dependent on how the modeled neutrino flavor ratio for a source evolves from its origin to its arrival at Earth. Thus, this section will describe in short detail the oscillation process over astronomical baselines and through the Earth, the scenarios most applicable to IceCube.
 
+[Two-flavor Scenario]
+
+[Vacuum Oscillations]
+
+[MSW]
 
 \chapter{Neutrino Astronomy}
 As the name suggests, the field of neutrino astronomy is concerned with the detection of neutrinos of extraterrestrial origin for the use of identifying and classifying astrophysical sources. In a similar fashion to the advances made through expansion of traditional optical astronomy to the high-energy regime of x-rays and gamma-rays, it is thought that the unique window provided by neutrino astronomy can usher in a tremendous increase in our understanding of the universe.
