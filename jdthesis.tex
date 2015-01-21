@@ -144,7 +144,7 @@ The most important neutrino-matter interaction for IceCube is that of deep inela
   \label{fig:dis_scattering}
 \end{figure}
 
-Like the scattering modes mentioned earlier, deep inelastic scattering can occur through either a CC or NC interaction. The hadronic shower will occur regardless of the interaction mode, while an end-state lepton will only be present in the CC scenario. Neutrino experiments can infer the properties of the interacting neutrino through examination of the end state products. The three possible leptons (e$^-$,$\mu$,$\tau$) produced in CC interactions each exhibit different behavior as they interact in the detection medium allowing for flavor identification of the original neutrino. In the case of NC scattering, however, only the hadronic cascade is observable by the experiment. This not only prevents flavor identification of the neutrino, but it also makes estimation of the neutrino energy very difficult as some fraction of the total energy is carried away by an outgoing neutrino.
+Like the scattering modes mentioned earlier, deep inelastic scattering can occur through either a CC or NC interaction. The hadronic shower will occur regardless of the interaction mode, while an end-state lepton will only be present in the CC scenario. Neutrino experiments can infer the properties of the interacting neutrino through examination of the end state products. The three possible leptons (e$^-$, $\mu$, $\tau$) produced in CC interactions each exhibit different behavior as they interact in the detection medium allowing for flavor identification of the original neutrino. In the case of NC scattering, however, only the hadronic cascade is observable by the experiment. This not only prevents flavor identification of the neutrino, but it also makes estimation of the neutrino energy very difficult as some fraction of the total energy is carried away by an outgoing neutrino.
 
 \begin{figure}[ht]
 \centering
@@ -163,8 +163,7 @@ Like the scattering modes mentioned earlier, deep inelastic scattering can occur
 \end{minipage}
 \end{figure}
 
-The cross-section for deep inelastic scattering increases with increasing neutrino energy.
-
+The cross-section for deep inelastic scattering increases with increasing neutrino energy as Figures \ref{fig:NeutrinoDIS_CS} and \ref{fig:AntiNeutrinoDIS_CS} show. While this increasing cross-section is generally favorable for detection purposes due to higher probability to interact in neutrino telescopes, a larger interaction cross-section at higher energies also leads to absorption of neutrinos within the Earth. Absorption is fairly infrequent for neutrinos below 10 TeV, but it becomes increasingly relevant for astrophysical neutrinos at the PeV or EeV scale \cite{2013arXiv1304.4891K}.
 
 \subsection{Propagation of Interaction Products}
 The products leftover from high-energy neutrino-nucleon interactions are generally very energetic as well. These particles will subsequently undergo many forms of energy loss and possible decay as they travel through a detection medium. In a given interaction, the total light yield and its spatial extent are contingent on the products of the interaction. The products themselves are ultimately determined by both the flavor of the primary neutrino and whether the neutrino interaction was of the charged- or neutral-current variety. This section will focus on how these secondaries interact and produce light and how that light propagates through glacial ice, the detection medium of IceCube.
@@ -213,7 +212,7 @@ The detection of a neutrino flux for a source and measurement of its spectrum wo
 
 The primary method for the detection of high-energy neutrinos is through observation of Cerenkov light produced by interaction secondaries in a transparent medium (typically water or ice). Events can be detected either by surrounding a detection volume with light detectors (as is the case for Super-Kamiokande \cite{?}) or by placing the detectors within the detection medium itself (e.g. IceCube, ANTARES).
 \chapter{Neutrino Sources}
-While no extra-solar high-energy neutrino sources have yet to be discovered (with the exception of SN 1987A), there is strong theoretical support  and indirect observational evidence for their existence. Most importantly, the measurement of extremely high-energy cosmic rays implies that a flux of energetic neutrinos must also be present due to the intimate link between hadronic acceleration and neutrino production in high-energy astrophysical environments. 
+While no individual extra-solar high-energy neutrino sources have yet to be discovered (with the exception of SN 1987A), there is strong theoretical support  and indirect observational evidence for their existence. The measurement of extremely high-energy cosmic rays implies that a flux of energetic neutrinos must also be present due to the intimate link between hadronic acceleration and neutrino production in high-energy astrophysical environments. Most importantly, the recent discovery of a flux of high-energy neutrinos of astrophysical origin by IceCube provides confirmation that
 
 \section{Active Galactic Nuclei}
 
@@ -356,11 +355,17 @@ A quick comparison between the rate at which atmospheric neutrinos trigger the I
 
 \section{Low-energy Channel}
 
-Because of the primary focus of this analysis on a lower-energy event selection, the DeepCore-dominated low-energy filter stream is taken as input. Selecting only events which pass this filter reduces the trigger-level data rate of 3 kHz to a much more manageable 37 Hz. The low-energy filter attempts to select a relatively background free sample by selecting a detection volume about DeepCore that does not extend to edge of the detector. This allows optical sensors outside of the detection volume to serve as dedicated downgoing muon detectors. Events that have hits on DOMs outside the defined detection volume that are causally correlated with the hits inside the volume are able to be identified as background muons. A schematic representation of this filtering algorithm is shown in \ref{fig:}. 
+Because of the primary focus of this analysis on a lower-energy event selection, the DeepCore-dominated low-energy filter stream is taken as input. Selecting only events which pass this filter reduces the trigger-level data rate of 3 kHz to a much more manageable 37 Hz. The low-energy filter attempts to select a relatively background free sample by selecting a detection volume about DeepCore that does not extend to edge of the detector. This allows optical sensors outside of the detection volume to serve as dedicated downgoing muon detectors. Events that have hits on DOMs outside the defined detection volume that are causally correlated with the hits inside the volume are able to be identified as background muons. A schematic representation of this filtering algorithm is shown in Figure \ref{fig:DCVetoSketch}. 
 
-%% Insert DeepCore Filter Pic
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=.5\textwidth,keepaspectratio]{DeepCoreVeto.jpg}
+  \end{center}
+  \caption{Diagram of a downgoing muon traveling through IceCube into DeepCore. The colored circles indicate DOMs triggered by the muon with red representing earlier times and blue representing later times. The times of DOM hits in a defined veto region are compared to the time and location of the center of gravity (COG) fiducial volume DOM hits in DeepCore. Events that are found to have more than one veto region DOM hit causally correlated with the COG in DeepCore are filtered out as likely downgoing cosmic ray muons \cite{2012APh....35..615A}.}
+  \label{fig:DCVetoSketch}
+\end{figure}
 
-This filter actually consists of two separate streams which are differentiated by the definition of which DOMs comprise the detection (or fiducial) volume and which DOMs are treated as belonging to the veto region. Inclusion of this additional branch using the relaxed veto allows for increased acceptance of higher-energy upgoing muon neutrino events that may be cut by the more stringent definition. The acceptance rate for the standard and relaxed veto filters is 17.25 Hz and 23.3 Hz respectively. The end result is a reduction in the trigger level data rate of nearly two orders of magnitude yielding a much more manageable data sample on which more advanced background reduction techinques can be applied.
+This filter actually consists of two separate streams which are differentiated by the definition of which DOMs comprise the detection (or fiducial) volume and which DOMs are treated as belonging to the veto region. Inclusion of this additional branch using the relaxed veto allows for increased acceptance of higher-energy upgoing muon neutrino events that may be cut by the more stringent definition. The acceptance rate for the standard and relaxed veto filters is 17.25 Hz and 23.3 Hz respectively. The end result is a reduction in the trigger level data rate of nearly two orders of magnitude yielding a much more manageable data sample on which more advanced background reduction techniques can be applied.
 
 \section{Analysis Specific Cuts}
 After reducing the IceCube data stream to specific filters, the selection criteria imposed by differing will begin to diverge in order to optimize sensitivity to their respective target signal. For this analysis, the data given by the low-energy filter is put through a series of cuts optimized to preserve upgoing and contained track-like events from muon neutrino interactions. What event traits to cut on and to what degree was decided through examination of many cut choices on a sample of simulated muon neutrino events and background simulation. The end result is a selection of event cuts that can be grouped into two categories. The first category consists of cuts derived from detector information in the veto region while the second focuses on event quality and reconstruction characteristics. Lastly, a cut developed through machine learning techniques and optimized with respect to analysis sensitivity is applied to achieve a final level data set ready for analysis.
@@ -473,10 +478,19 @@ In order to determine which bin has the most significant flare, we evaluate an e
 %% Insert Background Trials Best TS distribution
 
 \chapter{Systematic Effects}
-There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the \textit{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs.
+There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the \textit{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs. While there are other errors that could be considered such as the absolute neutrino cross-section, the contribution they provide to the overall error is negligible.
 
 \section{Ice Properties}
-The optical properties of the subsurface ice at the South Pole represent the most difficult systematic effect to adequately measure. This is largely due to the fact that this detection medium is inaccessible from the surface making direct measurement of the optical properties impossible.
+The optical properties of the subsurface ice at the South Pole represent the most difficult systematic effect to adequately measure. This is largely due to the fact that this detection medium is inaccessible from the surface making direct measurement of the optical properties impossible. The scattering and absorption lengths in the ice greatly impact how light will propagate from interaction secondaries. Increased scattering can delay the arrival of photons to DOMs giving a larger spread in possible event interaction times. Assuming an incorrect absorption length can be problematic as well as it leads to inaccurate estimation of the total energy deposited by the neutrino event. If one hopes to reconstruct neutrino events with high enough accuracy for pointing, then it is necessary to develop a detailed and accurate model of the ice in which the detector is located.
+
+%% Dust measurement pic
+
+Precise modeling of the polar ice has long been an outstanding task in the IceCube collaboration. Several iterations of proposed models have reduced what was once a severe systematic problem to a relatively mild contribution to error. 
+
+To make matters more difficult, the ice within IceCube's instrumented volume is not uniform in optical qualities and in fact varies significantly 
+
+
+
 \section{DOM Quantum Efficiency}
 
 \chapter{Results}
