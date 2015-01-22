@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.1.12)  21 JAN 2015 17:13
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.1.12)  22 JAN 2015 17:03
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -246,19 +246,24 @@ File: DIS_CS_Neutrino.png Graphic file (type png)
 <DIS_CS_AntiNeutrino.png, id=79, 954.56625pt x 627.34375pt>
 File: DIS_CS_AntiNeutrino.png Graphic file (type png)
 
-<use DIS_CS_AntiNeutrino.png> [10 <./DIS_CS_Neutrino.png (PNG copy)> <./DIS_CS_
-AntiNeutrino.png (PNG copy)>]
-<AstroBaselineOsc.png, id=83, 896.34875pt x 761.84625pt>
+<use DIS_CS_AntiNeutrino.png>
+Overfull \hbox (3.79967pt too wide) in paragraph at lines 171--172
+[]\OT1/cmr/m/n/10.95 The de-tec-tion method used by Ice-Cube de-pends on ob-ser
+v-ing what is known as Cherenkov
+ []
+
+[10 <./DIS_CS_Neutrino.png (PNG copy)> <./DIS_CS_AntiNeutrino.png (PNG copy)>]
+[11] <AstroBaselineOsc.png, id=86, 896.34875pt x 761.84625pt>
 File: AstroBaselineOsc.png Graphic file (type png)
 
-<use AstroBaselineOsc.png> [11] [12 <./AstroBaselineOsc.png (PNG copy)>]
+<use AstroBaselineOsc.png> [12 <./AstroBaselineOsc.png (PNG copy)>]
 CHAPTER III.
 <CosmicRaySpectrum.jpg, id=90, 287.16133pt x 274.37018pt>
 File: CosmicRaySpectrum.jpg Graphic file (type jpg)
 
 <use CosmicRaySpectrum.jpg>
 
-LaTeX Warning: Citation `?' on page 13 undefined on input line 213.
+LaTeX Warning: Citation `?' on page 13 undefined on input line 221.
 
 [13
 
@@ -275,8 +280,8 @@ File: NearbySNCatalogue.png Graphic file (type png)
 
 <use NearbySNCatalogue.png>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 24
-6.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 25
+4.
 
 [16 <./NearbySNCatalogue.png (PNG copy)>]
 CHAPTER V.
@@ -295,14 +300,14 @@ File: hese_cascade_event.png Graphic file (type png)
 
 <use hese_cascade_event.png>
 
-LaTeX Warning: Float too large for page by 19.82814pt on input line 299.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 307.
 
 <hese_track_event.png, id=127, 2107.875pt x 2810.5pt>
 File: hese_track_event.png Graphic file (type png)
 
 <use hese_track_event.png>
 
-LaTeX Warning: Float too large for page by 19.82814pt on input line 311.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 319.
 
 [21] [22 <./IC86EDC_DeepCoreDiagram.pdf>] [23 <./hese_cascade_event.png (PNG co
 py)>] [24 <./hese_track_event.png (PNG copy)>]
@@ -317,7 +322,7 @@ File: LabDOM.pdf Graphic file (type pdf)
 ] [26 <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>]
 CHAPTER VII.
 
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 358--359
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 366--367
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
@@ -414,7 +419,7 @@ r/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bl
 uesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/s
 hare/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/blue
 sky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-Output written on jdthesis.pdf (57 pages, 6255580 bytes).
+Output written on jdthesis.pdf (57 pages, 6257313 bytes).
 PDF statistics:
  325 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
