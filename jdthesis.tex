@@ -3,6 +3,7 @@
 \usepackage{graphicx}
 \usepackage{subfigure}
 \usepackage{wrapfig}
+\usepackage{changepage}
 
 
 %%
@@ -166,22 +167,47 @@ Like the scattering modes mentioned earlier, deep inelastic scattering can occur
 The cross-section for deep inelastic scattering increases with increasing neutrino energy as Figures \ref{fig:NeutrinoDIS_CS} and \ref{fig:AntiNeutrinoDIS_CS} show. While this increasing cross-section is generally favorable for detection purposes due to higher probability to interact in neutrino telescopes, a larger interaction cross-section at higher energies also leads to absorption of neutrinos within the Earth. Absorption is fairly infrequent for neutrinos below 10 TeV, but it becomes increasingly relevant for astrophysical neutrinos at the PeV or EeV scale \cite{2013arXiv1304.4891K}.
 
 \subsection{Propagation of Interaction Products}
-The products leftover from high-energy neutrino-nucleon interactions are generally very energetic as well. These particles will subsequently undergo many forms of energy loss and possible decay as they travel through a detection medium. In a given interaction, the total light yield and its spatial extent are contingent on the products of the interaction. The products themselves are ultimately determined by both the flavor of the primary neutrino and whether the neutrino interaction was of the charged- or neutral-current variety. This section will focus on how these secondaries interact and produce light and how that light propagates through glacial ice, the detection medium of IceCube.
+The products leftover from high-energy neutrino-nucleon interactions are generally very energetic as well. These particles will subsequently undergo many forms of energy loss and possible decay as they travel through a detection medium. In a given interaction, the total light yield and its spatial extent are contingent on the products of the interaction. The products themselves are ultimately determined by both the flavor of the primary neutrino and whether the neutrino interaction was of the charged- or neutral-current variety. This section will detail the important energy loss mechanisms for interaction products and how these losses produce an obserable signal for the IceCube detector. There are many modes of interaction for charged particles in materials some of which are highly energy dependent and stochastic in nature. Because IceCube was designed specifically to detect and track high energy muons, the description of energy loss mechanisms will primarily focus on how these mechanisms pertain to muons. The same interactions will occur for other charged particles produced in neutrino interactions, however, these particles fail to produce tracks long enough to be resolved by IceCube.
 
-The detection method used by IceCube depends on observing what is known as Cherenkov light emitted by the secondaries produced in neutrino-nucleon interactions. This emission occurs when a charged particle travels through a dielectric medium at a greater speed than the phase velocity of light in that medium. The particle will polarize the surrounding material as it travels, however the particle will have moved on before enough time as elapsed for the material to relax resulting in a build up of wavefronts. A shock front is produced that takes the shape of a cone about the particle track. This light cone has an opening angle given by
+The primary energy loss mechanisms for charged leptons are ionization, bremsstrahlung, and pair-production, and photo-nuclear interactions \cite{2001PhRvD..63i4020I}. These losses can be summarized as follows:
+
+\begin{adjustwidth}{2.5em}{2.5em}
+\setlength{\parindent}{0pt}
+\textbf{Ionization} - Ionization energy losses occur as the charged particle transfers energy to the electrons of intervening atoms and molecules. This energy loss is fairly continuous and is the dominant loss mode for sub-TeV muons in the ice.
+
+\textbf{Bremsstrahlung} - Energy losses via bremsstrahlung involve the deflection of the particle by another charged particle (typically a positively charged nucleus). This deflection results in the emission of a photon with energy equivalent to the kinetic energy lost in the interaction.
+
+\textbf{Pair-production} - As the name might suggest, pair-production is the process in which an electron-positron pair is produced in the Coulomb field of an atomic nucleus \cite{2001ADNDT..78..183G}.
+
+\textbf{Photo-nuclear} - 
+\end{adjustwidth}
+\setlength{\parindent}{17.5pt}
+The relative contribution to total energy loss these interactions provide will vary with particle energy. In practice, this is commonly parameterized so the average range of the particle in a given medium can be more easily computed \cite{2001ADNDT..78..183G}:
+\begin{equation}
+-\frac{dE}{dX} = a(E) + b(E) E
+\end{equation}
+Here $a(E)$ represents the more or less continuous energy losses from ionization (electron stopping power) while the $b(E)$ term includes the contributions from the various radiative energy loss processes (bremsstrahlung, pair-production, and photo-nuclear). The relative strength of these processes with respect to stopping power can be seen in Figure \ref{fig:MuonStoppingPower}. These losses determine both the brightness and length of muon tracks within the IceCube detector and ultimately how well their direction can be resolved.
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.4\textwidth,keepaspectratio]{dis.png}
+  \end{center}
+  \caption{asd \cite{2001ADNDT..78..183G}.}
+  \label{fig:MuonStoppingPower}
+\end{figure}
+
+While the previously described processes are most relevant for particle energy loss, the most import energy loss mechanism for particle detection in IceCube is the production of Cherenkov light. This emission occurs when a charged particle travels through a dielectric medium at a greater speed than the phase velocity of light in that medium. The particle will polarize the surrounding material as it travels, however the particle will have moved on before enough time as elapsed for the material to relax resulting in a build up of wavefronts. A shock front is produced that takes the shape of a cone about the particle track. This light cone has an opening angle given by
 \begin{equation}
 \cos{\theta}=\frac{1}{n\beta}
 \end{equation}
-where $n$ is the index of refraction for the material and $\beta$ is the ratio of the particle velocity and the speed of light $c$. If one takes a typical value for the refractive index in ice ($n=1.31$), an angle of roughly $40^{\circ}$ is obtained.
+where $n$ is the index of refraction for the material and $\beta$ is the ratio of the particle velocity and the speed of light $c$. If one takes a typical value for the refractive index in ice ($n=1.31$), an angle of roughly $40^{\circ}$ is obtained. Resolution of the Cherenkov cone of a single particle is a powerful technique for many particle detectors. However, the Cherenkov light fronts of only the most energetic and long-lived particle tracks are able to be resolved due to the large separation distances between individual light sensors in IceCube.
 
-For neutrinos of sufficient energy to be seen by IceCube, scattering with nucleons in the ice via either neutral or charged boson exchange will result in the breakup of the nucleon target. This breakup will result in the formation of a shower of short-lived hadrons (a particle composed of quarks) which will decay into more stable particles until the imparted energy is dissipated. The physical extent of these showers is typically on the order of a few meters, much smaller than the spacing between light sensors in IceCube. This ultimately renders them to be seen as point-like, spherically symmetric sources of light by the detector. All of the energetic particles composing the shower will emit Cherenkov radiation as they propagate in the ice giving a pool of light centered at the interaction vertex whose photon count is proportional to the energy of the interaction.
+For most neutrino events in IceCube, deep inelastic scattering with nucleons in the ice via either neutral or charged boson exchange deposits enough energy to cause the breakup of the nucleon target. This breakup will result in the formation of a shower of short-lived hadrons (a particle composed of quarks) which will suffer energy losses and decay into more stable particles. These longer lived particles will dissipate the remaining energy through ionization, bremsstrahlung, pair production, or nuclear interactions until the energy imparted by the neutrino is dissipated. The physical extent of these showers is typically on the order of a few meters, much smaller than the spacing between light sensors in IceCube. All of the energetic particles composing the shower will emit Cherenkov radiation as they propagate in the ice giving a pool of light centered at the interaction vertex whose photon count is proportional to the energy of the interaction.
 %% Hadronic Cascade
 
 %% EM cascade from tau and e-
 %% track produced via muon
-\begin{equation}
--\frac{dE}{dX} = \alpha + \beta E
-\end{equation}
+
 \section{Flavor Oscillations}
 The process in which the lepton flavor of a given neutrino can change during its propagation is one of the particles more intriguing properties. The unexpected observation of neutrino oscillations indicated that the neutrino, which was initially thought to be massless under the Standard Model, must actually have some non-zero mass after all. Recently, many experiments have studied this phenomenon with high precision in hopes of accurately determining the mass-splitting of the neutrino eigenstates as well as if neutrinos undergo CP violation. While the analysis being presented is in no way suited to studying the oscillation phenomenon, how the results are interpreted is very much dependent on how the modeled neutrino flavor ratio for a source evolves from its origin to its arrival at Earth. Thus, this section will describe in short detail the oscillation process over astronomical baselines and through the Earth, the scenarios most applicable to IceCube.
 
