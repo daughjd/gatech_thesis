@@ -3,50 +3,50 @@ The top-level auxiliary file: jdthesis.aux
 The style file: gatech-thesis.bst
 Database file #1: jdthesis.bib
 Warning--string name "d10" is undefined
---line 316 of file jdthesis.bib
+--line 360 of file jdthesis.bib
 Warning--I didn't find a database entry for "?"
 Warning--I didn't find a database entry for ""
 Warning--to sort, need author or key in 2013JGlac..59.1117.
 Warning--empty author in 2013JGlac..59.1117.
-You've used 27 entries,
+You've used 29 entries,
             2221 wiz_defined-function locations,
-            713 strings with 11928 characters,
-and the built_in function-call counts, 18080 in all, are:
-= -- 1517
-> -- 1397
+            728 strings with 12286 characters,
+and the built_in function-call counts, 18926 in all, are:
+= -- 1607
+> -- 1428
 < -- 0
-+ -- 555
-- -- 528
-* -- 2050
-:= -- 2723
-add.period$ -- 27
-call.type$ -- 27
-change.case$ -- 345
++ -- 567
+- -- 538
+* -- 2116
+:= -- 2841
+add.period$ -- 29
+call.type$ -- 29
+change.case$ -- 356
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 754
-empty$ -- 998
-format.name$ -- 528
-if$ -- 3655
+cite$ -- 31
+duplicate$ -- 799
+empty$ -- 1059
+format.name$ -- 538
+if$ -- 3852
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 26
-newline$ -- 84
-num.names$ -- 52
-pop$ -- 319
+int.to.str$ -- 29
+missing$ -- 28
+newline$ -- 90
+num.names$ -- 56
+pop$ -- 327
 preamble$ -- 1
-purify$ -- 318
+purify$ -- 327
 quote$ -- 0
-skip$ -- 505
+skip$ -- 549
 stack$ -- 0
-substring$ -- 617
-swap$ -- 510
+substring$ -- 667
+swap$ -- 537
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
+type$ -- 116
 warning$ -- 2
-while$ -- 87
-width$ -- 29
-write$ -- 262
+while$ -- 94
+width$ -- 31
+write$ -- 282
 (There were 5 warnings)

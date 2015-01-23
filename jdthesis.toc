@@ -58,20 +58,20 @@
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {IX}\MakeUppercase {Systematic Effects}}{37}
 \contentsline {section}{\numberline {9.1}Ice Properties}{37}
-\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{37}
+\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{38}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{38}
+\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{39}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{40}
+\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{41}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{41}
+\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{42}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Final Level Event Distributions}}{42}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Final Level Event Distributions}}{43}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{47}
+\contentsline {chapter}{\MakeUppercase {Index}}{49}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Vita}}{48}
+\contentsline {chapter}{\MakeUppercase {Vita}}{50}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}

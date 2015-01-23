@@ -179,7 +179,7 @@ The primary energy loss mechanisms for charged leptons are ionization, bremsstra
 
 \textbf{Pair-production} - As the name might suggest, pair-production is the process in which an electron-positron pair is produced in the Coulomb field of an atomic nucleus \cite{2001ADNDT..78..183G}.
 
-\textbf{Photo-nuclear} - 
+\textbf{Photo-nuclear} - At high energies, charged leptons can undergo inelastic scattering with nuclei and in the process create hadron showers \cite{2003PhRvD..67c4027B}. The process is similar to the neutrino-nucleon scattering processes described earlier but with photon-exchange taking place rather than $W$ or $Z$ boson exchange.
 \end{adjustwidth}
 \setlength{\parindent}{17.5pt}
 The relative contribution to total energy loss these interactions provide will vary with particle energy. In practice, this is commonly parameterized so the average range of the particle in a given medium can be more easily computed \cite{2001ADNDT..78..183G}:
@@ -190,23 +190,20 @@ Here $a(E)$ represents the more or less continuous energy losses from ionization
 
 \begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=0.4\textwidth,keepaspectratio]{dis.png}
+    \includegraphics[width=0.9\textwidth,keepaspectratio]{MuonStoppingPower.png}
   \end{center}
-  \caption{asd \cite{2001ADNDT..78..183G}.}
+  \caption{Total stopping power (solid line) of muons in copper as a function of kinetic energy. Contributions from individual processes are shown as well as the energy ranges in which these processes are most dominant. \cite{2001ADNDT..78..183G}.}
   \label{fig:MuonStoppingPower}
 \end{figure}
 
-While the previously described processes are most relevant for particle energy loss, the most import energy loss mechanism for particle detection in IceCube is the production of Cherenkov light. This emission occurs when a charged particle travels through a dielectric medium at a greater speed than the phase velocity of light in that medium. The particle will polarize the surrounding material as it travels, however the particle will have moved on before enough time as elapsed for the material to relax resulting in a build up of wavefronts. A shock front is produced that takes the shape of a cone about the particle track. This light cone has an opening angle given by
+While the previously described processes are most relevant for particle energy loss, the most import energy loss mechanism for particle detection in IceCube is the production of Cherenkov light. Cherenkov emission makes only a very small contribution to total energy loss by charged particles in materials. It does however produce light in the visible spectrum yielding an easily detectable signal. This emission occurs when a charged particle travels through a dielectric medium at a greater speed than the phase velocity of light in that medium. The particle will polarize the surrounding material as it travels, however the particle will have moved on before enough time has elapsed for the material to relax resulting in a build up of wavefronts. A shock front is produced that takes the shape of a cone about the particle track. This light cone has an opening angle given by
 \begin{equation}
 \cos{\theta}=\frac{1}{n\beta}
 \end{equation}
 where $n$ is the index of refraction for the material and $\beta$ is the ratio of the particle velocity and the speed of light $c$. If one takes a typical value for the refractive index in ice ($n=1.31$), an angle of roughly $40^{\circ}$ is obtained. Resolution of the Cherenkov cone of a single particle is a powerful technique for many particle detectors. However, the Cherenkov light fronts of only the most energetic and long-lived particle tracks are able to be resolved due to the large separation distances between individual light sensors in IceCube.
 
 For most neutrino events in IceCube, deep inelastic scattering with nucleons in the ice via either neutral or charged boson exchange deposits enough energy to cause the breakup of the nucleon target. This breakup will result in the formation of a shower of short-lived hadrons (a particle composed of quarks) which will suffer energy losses and decay into more stable particles. These longer lived particles will dissipate the remaining energy through ionization, bremsstrahlung, pair production, or nuclear interactions until the energy imparted by the neutrino is dissipated. The physical extent of these showers is typically on the order of a few meters, much smaller than the spacing between light sensors in IceCube. All of the energetic particles composing the shower will emit Cherenkov radiation as they propagate in the ice giving a pool of light centered at the interaction vertex whose photon count is proportional to the energy of the interaction.
-%% Hadronic Cascade
 
-%% EM cascade from tau and e-
-%% track produced via muon
 
 \section{Flavor Oscillations}
 The process in which the lepton flavor of a given neutrino can change during its propagation is one of the particles more intriguing properties. The unexpected observation of neutrino oscillations indicated that the neutrino, which was initially thought to be massless under the Standard Model, must actually have some non-zero mass after all. Recently, many experiments have studied this phenomenon with high precision in hopes of accurately determining the mass-splitting of the neutrino eigenstates as well as if neutrinos undergo CP violation. While the analysis being presented is in no way suited to studying the oscillation phenomenon, how the results are interpreted is very much dependent on how the modeled neutrino flavor ratio for a source evolves from its origin to its arrival at Earth. Thus, this section will describe in short detail the oscillation process over astronomical baselines and through the Earth, the scenarios most applicable to IceCube.
@@ -519,10 +516,17 @@ The optical properties of the subsurface ice at the South Pole represent the mos
 
 %% Dust measurement pic
 
-Precise modeling of the polar ice has long been an outstanding task in the IceCube collaboration. Several iterations of proposed models have reduced what was once a severe systematic problem to a relatively mild contribution to error. 
+Precise modeling of the polar ice has long been an ongoing task in the IceCube collaboration. Several iterations of models have reduced what was once a severe systematic problem to a relatively mild contribution to error. 
 
 To make matters more difficult, the ice within IceCube's instrumented volume is not uniform in optical qualities and in fact varies significantly 
 
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.48\textwidth,keepaspectratio]{LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png}
+  \end{center}
+  \caption{Bugaboo}
+  \label{fig:IceSysEffArea}
+\end{wrapfigure}
 
 
 \section{DOM Quantum Efficiency}
