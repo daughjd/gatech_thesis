@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.1.12)  23 JAN 2015 16:41
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.1.12)  26 JAN 2015 17:39
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -355,7 +355,7 @@ esis.png (PNG copy)>]
 CHAPTER VIII.
 [34
 
-] <NullMap996.png, id=232, 1084.05pt x 722.7pt>
+] <NullMap996.png, id=230, 1084.05pt x 722.7pt>
 File: NullMap996.png Graphic file (type png)
  <use NullMap996.png>
 [35] [36 <./NullMap996.png>]
@@ -368,7 +368,7 @@ ype png)
  <use LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png>
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 53
-2.
+3.
 
 [37
 
@@ -433,7 +433,7 @@ r/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bl
 uesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/s
 hare/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/blue
 sky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-Output written on jdthesis.pdf (61 pages, 6664037 bytes).
+Output written on jdthesis.pdf (61 pages, 6665021 bytes).
 PDF statistics:
  341 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)

@@ -54,7 +54,7 @@
 \contentsline {chapter}{\numberline {VIII}\MakeUppercase {Analysis Method}}{34}
 \contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{34}
 \contentsline {section}{\numberline {8.2}Sky Scan}{35}
-\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{35}
+\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{36}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {IX}\MakeUppercase {Systematic Effects}}{37}
 \contentsline {section}{\numberline {9.1}Ice Properties}{37}

@@ -410,6 +410,7 @@ Downgoing muons created in cosmic-ray air showers represent the most dominant ba
 
 %% Insert BDT Input Distributions
 
+
 \section{Event Reconstruction}
 An accurate reconstruction of neutrino events in the data sample is critical for optimal performance of any pointing analysis. During the event selection process several iterations of reconstructions are performed so that downgoing muons from cosmic rays can easily be identified. During data selection at lower levels, simpler reconstruction algorithms are often used to prevent a prohibitive amount of required CPU time for processing. These reconstructions then serve as the seed for more advanced techniques used at the analysis level. In this section the seed reconstructions for the final level will be discussed in addition to a detailed description of the final reconstruction whose results are used in the final analysis.
 
@@ -436,18 +437,16 @@ Reconstruction of a physics event within the IceCube detector depends on the geo
 
 
 \section{Final Level Data}
-After all cuts have been applied, we are left with a sample of 22,040 events during the observation period with an expected neutrino 'purity' of about 90$\%$. The bulk of these events are neutrinos of atmospheric origin and they represent the strongest background for the analysis.
+After all cuts have been applied, we are left with a sample of 22,040 events during the observation period with an expected neutrino 'purity' of about 90$\%$. The bulk of these events are neutrinos of atmospheric origin and they represent an irreducible background for the analysis.
 \begin{table}[h]
-\caption[Final level data rate.]{Summary of final level event rates in mHz. The amtospheric muon and neutrion rates are estimated through the use of Monte Carlo simulation (MC).\label{tab:event_rates}}
+\caption[Final level data rate.]{Summary of event rates in mHz at each selection level. The amtospheric muon and neutrino rates are estimated through the use of Monte Carlo simulation (MC).\label{tab:event_rates}}
 \begin{center}
-\begin{tabular}{|l|r|}
+\begin{tabular}{|l|r|r|r|}
   \hline
- \textbf{Event Type} &\textbf{ Rate (mHz)} \\
+ \textbf{Event Type} &\textbf{ Cosmic Ray $\mu$} &\textbf{ Atmospheric $\nu_{\mu}$} &\textbf{ Collected Data}\\
 \hline
-Cosmic ray $\mu$ & 0.065 \\
-Atmospheric $\nu_{\mu}$ & 0.94 \\
-Total MC & 1.001 \\ \hline
-Actual Data     & 0.774 \\ \hline
+Level 5 & ? & ? & ? \\ \hline
+\textbf{Final Level}     & \textbf{0.065 mHz} & \textbf{0.94 mHz} & \textbf{0.774 mHz} \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -470,7 +469,9 @@ The analysis presented in this thesis makes use of both directional and timing i
 
 
 \section{Unbinned Likelihood Method}
-The identification of a statistically significant astrophysical signal amongst a high number of background events can be a difficult problem in astronomy. Searches will typically make use of timing, directional, and occasionally reconstructed energy information from events to find clustering indicative of a true astrophysical source. In order to accomplish this task, one can construct probability density functions or PDFs representative of the expected event spatial, temporal, or energy distributions for both signal and background possibilities.
+The identification of a statistically significant astrophysical signal amongst a high number of background events can be a difficult problem in astronomy. Likelihood based methods are commonly used to solve this issue. Searches utilizing a likelihood method are able to provide a probabilistic interpretation of a signal hypothesis with respect to background fluctuations for the event dataset being examined. These searches will typically make use of timing, directional, and occasionally reconstructed energy information from events to find clustering indicative of a true astrophysical source. Determining whether or not events qualify as signal or background when testing for a hypothesis signal will differ depending on whether the search is 'binned' or 'unbinned'. For binned analyses, event characteristics such as arrival time, direction, and energy are used to determine if they are consistent with the source hypothesis. Those that are found to be consistent are considered signal events while others are attributable to background. This results in all events having a binary status with respect to association with a hypothetical source. 
+
+The unbinned scenario is typically more sensitive, however, as it allows for events to be seen as possibly signal or background. In order to accomplish this, probability density functions (PDFs) are constructed that are representative of the expected spatial, temporal, or energy distributions for both the signal and background possibilities. Thus, well-resolved events will strongly contribute to the likelihood calculation as signal- or background-like while more marginal events can make a contribution to either scenario with appropriate weighting instead of being sharply divided into either category.
 
 \begin{equation}
 S_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w) = \frac{\kappa}{4\pi \sinh \kappa} \exp \left(\kappa \cos |\mathbf{x}_i-\mathbf{x_s}|\right) * \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o)^2}{2 \sigma_w^2}\right)
