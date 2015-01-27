@@ -346,11 +346,7 @@ IceCube is designed specifically to be sensitive $\nu_{\mu}$ CC interactions due
 Maintaining smooth and efficient data acquisition for a detector consisting of such a large number of sensors presents a formidable challenge. Reconstructing physics events within the detector requires accurate timing of signals received by individual sensors coupled with a high degree of synchronization among all detection elements. In this section, a succinct description of the detection of the light-yield from particle interactions in the ice and the subsequent processing of that data is given. The reader interested in a much more thorough account is encouraged to consult the summary by Abbasi et al. \cite{2009NIMPA.601..294A}. 
 
 \section{The Digital Optical Module}
-The essential component of the IceCube detector is the DOM. Each of these sensor units contains a Hamamatsu R7081-02 25 cm photo-multiplier tube (PMT), attached digitizing electronics, and LED flashers all housed within a glass pressure vessel \cite{2006NIMPA.567..214H}. A penetrator cable breaches the pressure vessel to connect the DOM electronics to the supporting string cable enabling DOM-to-DOM as well as DOM-to-surface communications. Absolute quantum-efficiency measurements were made for all DOMs prior to deployment in the ice. In order to estimate how the efficiency might change after freeze-in, studies on the efficiency of DOMs at typical in-ice temperatures were performed in labs at IceCube member institutions. 
-
-%%Flasher Runs
-
-%% Mainboard Suite
+The essential component of the IceCube detector is the DOM. Each of these sensor units contains a Hamamatsu R7081-02 25 cm photo-multiplier tube (PMT), attached digitizing electronics, and LED flashers all housed within a glass pressure vessel \cite{2006NIMPA.567..214H}. A penetrator cable breaches the pressure vessel to connect the DOM electronics to the supporting string cable enabling DOM-to-DOM as well as DOM-to-surface communications. Figure \ref{fig:domscheme} provides an illustration of the DOM structure and its constituent components while Figure \ref{fig:dompic} gives a picture of a fully assembled DOM in its harness with breakout cable. Absolute quantum-efficiency measurements were made for all DOMs prior to deployment in the ice. In order to estimate how the efficiency might change after freeze-in, studies on the efficiency of DOMs at typical in-ice temperatures were performed in labs at IceCube member institutions. The inclusion of LED flashers at UV wavelength allows the DOM to simulate Cherenkov signals for the purpose of calibrating neighboring DOMs. These LEDs are also used to perform studies on the bulk ice properties near the DOM as well as the optical properties of the ice in the re-frozen water column in which the DOM is located.
 
 \begin{figure}[ht]
 \centering
@@ -369,12 +365,25 @@ The essential component of the IceCube detector is the DOM. Each of these sensor
 \end{minipage}
 \end{figure}
 
+The operational lifetime of IceCube is tied directly to the survival of the DOMs in the ice. The inability to access these modules necessitated a design with a high probability of survival under intense pressures and cold operating temperatures. The design has so far proven to be quite robust; the DOM survival rate since first installation until the 2013-2014 season is an impressive 98\%. The majority of DOM failures occurred during the "freeze-in" period of their deployment where the pressures acting on the glass vessel are strongest \cite{2009NIMPA.601..294A}. These failures are likely the result of stress on the breakout cable and its connection. Very few DOMs have suffered from failure of main board electronics components meaning any DOMs that survive through freeze-in will likely have a long lifetime.
 
 \section{Hit Generation}
 
-All data acquisition begins with the registering and processing of photon hits in individual DOMs. Cherenkov photons from nearby passing charged secondaries are detected when they intercept the photocathode of the PMT on the underside of the DOM. This generates a small current pulse which is subsequently amplified 
+All data acquisition begins with the registering and processing of photon hits in individual DOMs. The PMT of the DOM is configured so that the photocathode (which converts photons received by the PMT into electrons) is kept grounded while the anode is held at positive high-voltage.  Cherenkov photons from nearby passing charged secondaries are detected when they intercept the photocathode of the PMT on the underside of the DOM. This generates a small current pulse in the PMT which is subsequently amplified and sent to the main board of the DOM for digitization. After the pulse has been amplified, a local coincidence signal is sent from the DOM to its nearest and next nearest neighboring DOMs. In the event that a LC signal is then received from one of these neighboring DOMs, it is fed to an ATWD (Analog to Waveform Digitizer) which samples the input pulse 128 times at a rate of 40 Mhz. The capture and digitization process takes 29 $\mu$s, so the main board is equipped with two ATWDs that can run in parallel to minimize the amount of dead time in the DOM \cite{2009NIMPA.601..294A}. If the pulse received from the PMT is longer than the ATWD readout time, a ADC (Analog to Digital Converter) is also present to receive and digitize the signal. Additionally, pulses that fail to trigger LC with other DOMs will undergo digitization via the ADC rather than the ATWD. The pulses produced by the ADC have much coarser binning in time.
 
-\section{Data Synchronization}
+After digitization the pulses are sent to a FPGA (field-programmable gate array) which handles local coincidence triggering logic, generation of hits, and storing of hit information. This integrated circuit will readout the output from the digitizers and store the information until the hit information is ready to be communicated to the surface. Hits that satisfy the local coincidence criteria are known as HLC (hard local coincidence) while isolated hits that fail to show coincidence in other DOMs are referred to as SLC (soft local coincidence). The designation between HLC and SLC will determine how hits are handled further down the data processing pipeline. While some analyses prefer to work solely in the realm of HLC hit information to minimize the contribution of background effects, many reconstruction algorithms and low-energy analyses will favor the inclusion of SLC hits as they can represent true physics hits from a fainter source.
+
+Collection of hit information from the DOMs is controlled by the DOMHub machines located in the IceCube Laboratory (ICL) at the surface (see Figure \ref{fig:icl}). The DOMHub provides power and communicates with all 60 DOMs that lie on a single IceCube string.
+
+
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{ICL.jpg}
+  \end{center}
+  \caption{The IceCube Laboratory at South Pole. DOMHub computers located within the ICL communicate with all DOMs on a respective string. The cables carrying power and information for each DOM arrive at the ICL and enter the building from either the left or right tower near the ceiling (Photo credit: J. Daughhetee).}
+  \label{fig:icl}
+\end{figure}
 
 \section{Triggering and Event Building}
 
