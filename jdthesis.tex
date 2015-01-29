@@ -4,7 +4,7 @@
 \usepackage{subfigure}
 \usepackage{wrapfig}
 \usepackage{changepage}
-
+\usepackage{amssymb}
 
 %%
 %% This example is adapted from ucthesis.tex, a part of the
@@ -243,7 +243,7 @@ The detection of a neutrino flux for a source and measurement of its spectrum wo
 
 The primary method for the detection of high-energy neutrinos is through observation of Cherenkov light produced by interaction secondaries in a transparent medium (typically water or ice). Events can be detected either by surrounding a detection volume with light detectors (as is the case for Super-Kamiokande \cite{?}) or by placing the detectors within the detection medium itself (e.g. IceCube, ANTARES).
 \chapter{Neutrino Sources}
-While no individual extra-solar high-energy neutrino sources have yet to be discovered (with the exception of SN 1987A), there is strong theoretical support  and indirect observational evidence for their existence. The measurement of extremely high-energy cosmic rays implies that a flux of energetic neutrinos must also be present due to the intimate link between hadronic acceleration and neutrino production in high-energy astrophysical environments. Most importantly, the recent discovery of a flux of high-energy neutrinos of astrophysical origin by IceCube provides confirmation that
+While no individual extra-solar high-energy neutrino sources have yet to be discovered (with the exception of SN 1987A), there is strong theoretical support  and indirect observational evidence for their existence. The measurement of extremely high-energy cosmic rays implies that a flux of energetic neutrinos must also be present due to the intimate link between hadronic acceleration and neutrino production in high-energy astrophysical environments. Most importantly, the recent discovery of a flux of high-energy neutrinos of astrophysical origin by IceCube \cite{2013Sci...342E...1I} provides confirmation that there must be some sources of high-energy neutrinos though they may be very diffuse.
 
 \section{Active Galactic Nuclei}
 
@@ -275,7 +275,7 @@ The detection of several neutrino events in temporal coincidence with supernova 
 \end{wrapfigure}
 
 \section{Choked Gamma-ray Bursts}
-
+The core-collapse of a massive star is thought to be the mostly likely engine for powering the jets responsible for gamma-ray emission from long duration GRBs \cite{}. This suggests that a correlation between long duration GRBs and supernovae should exist. In fact, some instances of GRB association with SNe have been observed \cite{} \cite{}. This has led some to speculate that jet production during core-collapse might occur in a higher fraction of SNe than the observed GRB-SNe fraction would indicate.
 
 
 \chapter{Detector}
@@ -373,7 +373,7 @@ All data acquisition begins with the registering and processing of photon hits i
 
 After digitization the pulses are sent to a FPGA (field-programmable gate array) which handles local coincidence triggering logic, generation of hits, and storing of hit information. This integrated circuit will readout the output from the digitizers and store the information until the hit information is ready to be communicated to the surface. Hits that satisfy the local coincidence criteria are known as HLC (hard local coincidence) while isolated hits that fail to show coincidence in other DOMs are referred to as SLC (soft local coincidence). The designation between HLC and SLC will determine how hits are handled further down the data processing pipeline. While some analyses prefer to work solely in the realm of HLC hit information to minimize the contribution of background effects, many reconstruction algorithms and low-energy analyses will favor the inclusion of SLC hits as they can represent true physics hits from a fainter source.
 
-Collection of hit information from the DOMs is controlled by the DOMHub machines located in the IceCube Laboratory (ICL) at the surface (see Figure \ref{fig:icl}). The DOMHub provides power and communicates with all 60 DOMs that lie on a single IceCube string.
+Collection of hit information from the DOMs is controlled by DOMHub computers located in the IceCube Laboratory (ICL) at the surface (see Figure \ref{fig:icl}). Each DOMHub machine is responsible for all 60 DOMs on a single IceCube string. The DOMHub computers are equipped with eight DOM readout (DOR) cards each of which is capable of handling communications with up to eight DOMs. The DOR cards signal the run state for the DOM, maintain time synchronization, send software updates, and monitors for any software or hardware failures \cite{2009NIMPA.601..294A}. The entire system is kept synchronized by a master clock updated by GPS and set to UTC. All of these components come together to ensure that all hit times measured by DOMs are reliable without any drift in relative time between separate DOMs or DOMHubs.
 
 
 
@@ -387,6 +387,7 @@ Collection of hit information from the DOMs is controlled by the DOMHub machines
 
 \section{Triggering and Event Building}
 
+The stream of DOM hit information arriving in the ICL must be parsed into physics events before any meaningful data analysis can be performed. During the average snapshot of the detector over a short time period ($\sim 10 \mu$s), there will typically only be DOM hits triggered by noise within the detector. In order to select out only interesting events, the IceCube data acquisition system (DAQ) examines the hit information continuously until a certain hit patter 'triggers' the system to readout the data and construct a physics event.
 
 \chapter{Event Selection}
 A quick comparison between the rate at which atmospheric neutrinos trigger the IceCube and DeepCore detectors ($\sim$ 10 mHz) and the overall event rate ($\sim 3$ kHz) readily shows that the data generated by IceCube is very strongly dominated by background. This background is almost entirely due to energetic muons produced in cosmic ray air showers passing through the detector from above. Due to the large range of physics capabilities of the detector, many different filters exist to reduce the data volume and select out events of interest to specific analyses. Event selection for IceCube analyses generally consists of selecting the appropriate filter(s) for the expected signal followed by application of several iterations of cuts optimized to reduce background to an acceptable level while maintaining efficiency with respect to signal events.
@@ -454,6 +455,9 @@ After all cuts have been applied, we are left with a sample of 22,040 events dur
   \hline
  \textbf{Event Type} &\textbf{ Cosmic Ray $\mu$} &\textbf{ Atmospheric $\nu_{\mu}$} &\textbf{ Collected Data}\\
 \hline
+Filter Level & ? & ? & ? \\ \hline
+Level 3 & ? & ? & ? \\ \hline
+Level 4 & ? & ? & ? \\ \hline
 Level 5 & ? & ? & ? \\ \hline
 \textbf{Final Level}     & \textbf{0.065 mHz} & \textbf{0.94 mHz} & \textbf{0.774 mHz} \\ \hline
 \end{tabular}
@@ -478,13 +482,23 @@ The analysis presented in this thesis makes use of both directional and timing i
 
 
 \section{Unbinned Likelihood Method}
-The identification of a statistically significant astrophysical signal amongst a high number of background events can be a difficult problem in astronomy. Likelihood based methods are commonly used to solve this issue. Searches utilizing a likelihood method are able to provide a probabilistic interpretation of a signal hypothesis with respect to background fluctuations for the event dataset being examined. These searches will typically make use of timing, directional, and occasionally reconstructed energy information from events to find clustering indicative of a true astrophysical source. Determining whether or not events qualify as signal or background when testing for a hypothesis signal will differ depending on whether the search is 'binned' or 'unbinned'. For binned analyses, event characteristics such as arrival time, direction, and energy are used to determine if they are consistent with the source hypothesis. Those that are found to be consistent are considered signal events while others are attributable to background. This results in all events having a binary status with respect to association with a hypothetical source. 
+The identification of a statistically significant astrophysical signal amongst a high number of background events can be a difficult problem in astronomy. Likelihood based methods are commonly used to solve this issue. Searches utilizing a likelihood method are able to provide a probabilistic interpretation of a signal hypothesis with respect to background fluctuations for the event dataset being examined. These searches will typically make use of timing, directional, and occasionally reconstructed energy information from events to find clustering indicative of a true astrophysical source. Whether or not individual events qualify as signal or background when testing a source hypothesis can differ depending on whether the search is 'binned' or 'unbinned'. For binned analyses, event characteristics such as arrival time, direction, and energy are used to determine if they are consistent with the source hypothesis. Those that are found to be consistent are considered signal events while others are attributable to background. This results in all events having a binary status with respect to association with a hypothetical source. 
 
-The unbinned scenario is typically more sensitive, however, as it allows for events to be seen as possibly signal or background. In order to accomplish this, probability density functions (PDFs) are constructed that are representative of the expected spatial, temporal, or energy distributions for both the signal and background possibilities. Thus, well-resolved events will strongly contribute to the likelihood calculation as signal- or background-like while more marginal events can make a contribution to either scenario with appropriate weighting instead of being sharply divided into either category.
+The unbinned method, which is the method chosen for this analysis, is typically more sensitive as it allows for events to be seen as both signal or background. In order to accomplish this, probability density functions (p.d.f.s) are constructed that are representative of the expected spatial, temporal, or energy distributions for both the signal and background possibilities. Thus, well-resolved events will strongly contribute to the likelihood calculation as signal- or background-like while more marginal events can make a contribution to either scenario with appropriate weighting instead of being sharply divided into either category. This makes the unbinned method much better suited for analysis of event samples with a wide range of resolutions.
 
+The probability for seeing an event $i$ in our analysis given a time-dependent source hypothesis takes the following form:
 \begin{equation}
-S_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w) = \frac{\kappa}{4\pi \sinh \kappa} \exp \left(\kappa \cos |\mathbf{x}_i-\mathbf{x_s}|\right) * \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o)^2}{2 \sigma_w^2}\right)
+P_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w,\sigma_i) = \frac{n_s}{n_{\mathrm{tot}}} \mathcal{S_i} + \left(1-\frac{n_s}{n_{\mathrm{tot}}}\right) \mathcal{B_i}
 \end{equation}
+where $S_i$ and $B_i$ are the signal and background p.d.f.s respectively. The values of these PDFs depends on the reconstructed direction of the event \textbf{$x_i$}, the point spread function (PSF) of the event $\sigma_i$, the arrival time of the event $t_i$, the location of the hypothetical source \textbf{$x_s$}, the mean time of the flare $t_o$, the duration of the flare $\sigma_w$, and lastly the number of signal events $n_s$. The signal p.d.f. consists of both a spatial and temporal term. While the target sources for this analysis are expected to be point-like, the spatial term assumes a normalized extended distribution about \textbf{$x_s$} to account for the PSF of individual events $\sigma_i$. The signal p.d.f. is constructed in this way
+\begin{equation}
+\mathcal{S_i}(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w,\sigma_i) = S_i(|\mathbf{x}_i-\mathbf{x}_s|,\sigma_i) \cdot T_i(t_i,t_o,\sigma_w)
+\end{equation}
+\begin{equation}
+S_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w) = \frac{\kappa}{4\pi \sinh \kappa} \exp \left(\kappa \cos |\mathbf{x}_i-\mathbf{x_s}|\right) \cdot \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o)^2}{2 \sigma_w^2}\right)
+\end{equation}
+with the spatial term represented by the Kent-Fisher distribution \cite{1982} and the temporal term given by a Gaussian with mean time of $t_o$ and a width of $\sigma_w$. The concentration parameter $\kappa = \sigma_{i}^{-2}$ is determined by the event resolution. The inclusion of the Kent-Fisher in the spatial p.d.f. represents a slight deviation from the standard construction of $S_i$ in IceCube analyses. It is analogous to the 2-dimensional Gaussian distribution on a flat surface, and for small values of $\sigma_{i}$ ($\lesssim 3^{\circ}$) the distributions are nearly identical. However, the Kent-Fisher distribution is properly normalized to the surface of a sphere. It therefore gives a better description of the spatial p.d.f. for events with larger uncertainties (which are common at the lower energies used in this analysis).
+
 
 
 \begin{equation}
@@ -510,12 +524,12 @@ The analysis performed is not a triggered search, and therefore it is necessary 
   \begin{center}
     \includegraphics[width=1.0\textwidth,keepaspectratio]{NullMap996.png}
   \end{center}
-  \caption{Randomized sky map of pre-trials p-values for best flares per bin. Random map generated by scrambling arrival times of real events. The black circle shows the location of the most significant flare found by the method. }
+  \caption{Randomized sky map in celesital coordinates of pre-trials p-values for best flares per bin. Random map generated by scrambling arrival times of real events. The black circle shows the location of the most significant flare found by the method. }
   \label{fig:NullTrialSkyMap}
 \end{figure}
 
 \section{Significance and Trials Factors}
-In order to determine which bin has the most significant flare, we evaluate an estimated p-value based on the maximized test statistic $\lambda$ for that bin. The distribution of test statistic values for individual bins is not known \textit{a priori} however.
+In order to determine which bin has the most significant flare, we evaluate an estimated p-value based on the maximized test statistic $\lambda$ for that bin. The distribution of test statistic values for individual bins is not known \textit{a priori} however. Therefore it is necessary to perform many iterations of the analysis method using scrambled versions of the dataset to determine the distribution of the test statistic with no real signal present in the data.
 %% Insert Background Trials Best TS distribution
 
 \chapter{Systematic Effects}
@@ -565,17 +579,13 @@ To make matters more difficult, the ice within IceCube's instrumented volume is 
 
 \chapter{Interpretation}
 
-%%Limits on Choked GRB fluence
 
 
-%%
 \chapter{Conclusion}
 
 \appendix
 \chapter{Appendix A -- Final Level Event Distributions}
 
-%Ancillary material should be put in appendices, which 
-%appear just before the bibliography. 
 
 \begin{postliminary}
 \bibliography{jdthesis}{}

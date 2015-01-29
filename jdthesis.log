@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.1.12)  27 JAN 2015 17:06
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.1.12)  29 JAN 2015 17:37
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -127,7 +127,17 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count102
 \cp@tempcnt=\count103
 )
-(./jdthesis.aux
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)) (./jdthesis.aux
 
 LaTeX Warning: Label `fig:RealSkyMap' multiply defined.
 
@@ -165,12 +175,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []\OT1/cmr/m/n/10.95 Professor Pablo La-guna, Com-mit-tee
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 40.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 40.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
 ***************** Dedication ******************
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -276,10 +289,8 @@ CHAPTER IV.
 <SubPhotoFluence.png, id=105, 776.9025pt x 541.02126pt>
 File: SubPhotoFluence.png Graphic file (type png)
 
-<use SubPhotoFluence.png> [17
-
- <./SubPhotoFluence.png (PNG copy)>]
-<NearbySNCatalogue.png, id=109, 892.33376pt x 667.49374pt>
+<use SubPhotoFluence.png>
+<NearbySNCatalogue.png, id=106, 892.33376pt x 667.49374pt>
 File: NearbySNCatalogue.png Graphic file (type png)
 
 <use NearbySNCatalogue.png>
@@ -287,7 +298,14 @@ File: NearbySNCatalogue.png Graphic file (type png)
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 27
 7.
 
-[18 <./NearbySNCatalogue.png (PNG copy)>]
+
+Underfull \hbox (badness 1874) in paragraph at lines 278--279
+[]\OT1/cmr/m/n/10.95 The core-collapse of a mas-sive star is
+ []
+
+[17
+
+ <./NearbySNCatalogue.png (PNG copy)>] [18 <./SubPhotoFluence.png (PNG copy)>]
 CHAPTER V.
 <ArrayWSeasonsLabels.pdf, id=113, 2569.6pt x 1756.5625pt>
 File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
@@ -323,14 +341,13 @@ File: DomSchematic.png Graphic file (type png)
 File: LabDOM.pdf Graphic file (type pdf)
  <use LabDOM.pdf> [27
 
-] [28 <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>] <ICL.jpg, id=205, 963.6pt
- x 722.7pt>
+] [28 <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>] [29]
+<ICL.jpg, id=208, 963.6pt x 722.7pt>
 File: ICL.jpg Graphic file (type jpg)
-
-<use ICL.jpg> [29] [30 <./ICL.jpg>]
+ <use ICL.jpg> [30 <./ICL.jpg>]
 CHAPTER VII.
 
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 398--399
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 399--400
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
@@ -359,56 +376,56 @@ esis.png (PNG copy)>]
 CHAPTER VIII.
 [36
 
-] <NullMap996.png, id=237, 1084.05pt x 722.7pt>
+] [37] <NullMap996.png, id=242, 1084.05pt x 722.7pt>
 File: NullMap996.png Graphic file (type png)
  <use NullMap996.png>
-[37] [38 <./NullMap996.png>]
+[38] [39 <./NullMap996.png>]
 CHAPTER IX.
 
-<LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png, id=248, 867.24pt x 
+<LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png, id=252, 867.24pt x 
 867.24pt>
 File: LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png Graphic file (t
 ype png)
  <use LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png>
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 54
-2.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 55
+6.
 
-[39
+[40
 
-] [40 <./LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png>]
+] [41 <./LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png>]
 CHAPTER X.
-<RealResultSkyMap.png, id=256, 1092.7224pt x 731.3724pt>
+<RealResultSkyMap.png, id=260, 1092.7224pt x 731.3724pt>
 File: RealResultSkyMap.png Graphic file (type png)
 
 <use RealResultSkyMap.png>
-<TestStatisticDistribution_WithResult.png, id=257, 578.16pt x 433.62pt>
+<TestStatisticDistribution_WithResult.png, id=261, 578.16pt x 433.62pt>
 File: TestStatisticDistribution_WithResult.png Graphic file (type png)
 
-<use TestStatisticDistribution_WithResult.png> [41
+<use TestStatisticDistribution_WithResult.png> [42
 
  <./RealResultSkyMap.png>]
-[42 <./TestStatisticDistribution_WithResult.png>]
+[43 <./TestStatisticDistribution_WithResult.png>]
 CHAPTER XI.
-[43
-
-]
-CHAPTER XII.
 [44
 
 ]
+CHAPTER XII.
+[45
+
+]
 APPENDIX A.
-(./jdthesis.bbl [45
+(./jdthesis.bbl [46
 
 
-] [46
+] [47
 
-] [47] [48] [49]) [50]
+] [48] [49] [50]) [51]
 ***************** Vita ******************
-[51
+[52
 
 
-] [52
+] [53
 
 
 ] (./jdthesis.aux)
@@ -420,13 +437,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1510 strings out of 256216
- 21041 string characters out of 1917072
- 70085 words of memory out of 1500000
- 4778 multiletter control sequences out of 10000+200000
- 9865 words of font info for 34 fonts, out of 1200000 for 2000
+ 1803 strings out of 256216
+ 24221 string characters out of 1917072
+ 71493 words of memory out of 1500000
+ 5050 multiletter control sequences out of 10000+200000
+ 11783 words of font info for 43 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 27i,10n,27p,1502b,371s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 27i,10n,27p,1502b,386s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
 ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb><
 /usr/share/texmf/fonts/type1/bluesky/cm/cmbxti10.pfb></usr/share/texmf/fonts/ty
@@ -436,10 +453,11 @@ e1/bluesky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></us
 r/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bl
 uesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/s
 hare/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/blue
-sky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-Output written on jdthesis.pdf (63 pages, 6780739 bytes).
+sky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/shar
+e/texmf/fonts/type1/bluesky/ams/msam10.pfb>
+Output written on jdthesis.pdf (64 pages, 6790423 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
+ 355 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
