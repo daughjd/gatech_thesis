@@ -5,6 +5,7 @@
 \usepackage{wrapfig}
 \usepackage{changepage}
 \usepackage{amssymb}
+\usepackage{amsmath}
 
 %%
 %% This example is adapted from ucthesis.tex, a part of the
@@ -229,8 +230,8 @@ As the name suggests, the field of neutrino astronomy is concerned with the dete
 
 The detection of a neutrino flux for a source and measurement of its spectrum would provide critical insight into the processes governing the densest and most energetic regions of the source.
 
-%% Illustration of different messengers
-%% Cosmic ray -- Neutrino Connection
+[Illustration of different messengers]
+[ Cosmic ray -- Neutrino Connection]
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=0.85\textwidth,keepaspectratio]{CosmicRaySpectrum.jpg}
@@ -239,14 +240,20 @@ The detection of a neutrino flux for a source and measurement of its spectrum wo
   \label{fig:cosmicray_spec}
 \end{figure}
 
+[What can neutrino astronomy reveal?]
+
 \section{Detection Methods}
 
 The primary method for the detection of high-energy neutrinos is through observation of Cherenkov light produced by interaction secondaries in a transparent medium (typically water or ice). Events can be detected either by surrounding a detection volume with light detectors (as is the case for Super-Kamiokande \cite{?}) or by placing the detectors within the detection medium itself (e.g. IceCube, ANTARES).
+
+[Not a lot to this section...]
 \chapter{Neutrino Sources}
 While no individual extra-solar high-energy neutrino sources have yet to be discovered (with the exception of SN 1987A), there is strong theoretical support  and indirect observational evidence for their existence. The measurement of extremely high-energy cosmic rays implies that a flux of energetic neutrinos must also be present due to the intimate link between hadronic acceleration and neutrino production in high-energy astrophysical environments. Most importantly, the recent discovery of a flux of high-energy neutrinos of astrophysical origin by IceCube \cite{2013Sci...342E...1I} provides confirmation that there must be some sources of high-energy neutrinos though they may be very diffuse.
 
-\section{Active Galactic Nuclei}
+[Finish section intro]
 
+\section{Active Galactic Nuclei}
+[Talk about neutrinos from AGN flares? Probably don't need much on this.]
 \section{Gamma-ray Bursts}
 
 %% Fireball model, neutrino production in jets
@@ -277,6 +284,7 @@ The detection of several neutrino events in temporal coincidence with supernova 
 \section{Choked Gamma-ray Bursts}
 The core-collapse of a massive star is thought to be the mostly likely engine for powering the jets responsible for gamma-ray emission from long duration GRBs \cite{}. This suggests that a correlation between long duration GRBs and supernovae should exist. In fact, some instances of GRB association with SNe have been observed \cite{} \cite{}. This has led some to speculate that jet production during core-collapse might occur in a higher fraction of SNe than the observed GRB-SNe fraction would indicate.
 
+[Primary source of interest. Should be most detailed neutrino source section]
 
 \chapter{Detector}
 \section{IceCube and IceTop}
@@ -387,7 +395,19 @@ Collection of hit information from the DOMs is controlled by DOMHub computers lo
 
 \section{Triggering and Event Building}
 
-The stream of DOM hit information arriving in the ICL must be parsed into physics events before any meaningful data analysis can be performed. During the average snapshot of the detector over a short time period ($\sim 10 \mu$s), there will typically only be DOM hits triggered by noise within the detector. In order to select out only interesting events, the IceCube data acquisition system (DAQ) examines the hit information continuously until a certain hit patter 'triggers' the system to readout the data and construct a physics event.
+The stream of DOM hit information arriving in the ICL must be parsed into physics events before any meaningful data analysis can be performed. During the average snapshot of the detector over a short time period ($\sim 10 \mu$s), there will typically only be DOM hits triggered by noise within the detector. In order to select out only interesting events, the IceCube data acquisition system (DAQ) examines the hit information continuously until a certain hit pattern 'triggers' the system to readout the data and construct a physics event. These triggers generally search for a clustering of events coincident in time that are consistent with a particle track or shower. Due to the diversity of analyses in IceCube, there are several triggers optimized for specific physics events. Only the three triggers taken as input for this analysis will be described, though. They can be summarized as follows:
+
+\begin{adjustwidth}{2.5em}{2.5em}
+\setlength{\parindent}{0pt}
+\textbf{Simple Majority Trigger (8)} - 
+
+\textbf{Volume Trigger (4)} - 
+
+\textbf{DeepCore Simple Majority Trigger (3)} - 
+\end{adjustwidth}
+\setlength{\parindent}{17.5pt}
+
+[Fill-in trigger descriptions. Mention length of physics events and how they feed into filters.]
 
 \chapter{Event Selection}
 A quick comparison between the rate at which atmospheric neutrinos trigger the IceCube and DeepCore detectors ($\sim$ 10 mHz) and the overall event rate ($\sim 3$ kHz) readily shows that the data generated by IceCube is very strongly dominated by background. This background is almost entirely due to energetic muons produced in cosmic ray air showers passing through the detector from above. Due to the large range of physics capabilities of the detector, many different filters exist to reduce the data volume and select out events of interest to specific analyses. Event selection for IceCube analyses generally consists of selecting the appropriate filter(s) for the expected signal followed by application of several iterations of cuts optimized to reduce background to an acceptable level while maintaining efficiency with respect to signal events.
@@ -445,6 +465,8 @@ Reconstruction of a physics event within the IceCube detector depends on the geo
 \end{minipage}
 \end{figure}
 
+[Add Error Estimation from Paraboloid]
+
 
 \section{Final Level Data}
 After all cuts have been applied, we are left with a sample of 22,040 events during the observation period with an expected neutrino 'purity' of about 90$\%$. The bulk of these events are neutrinos of atmospheric origin and they represent an irreducible background for the analysis.
@@ -466,6 +488,7 @@ Level 5 & ? & ? & ? \\ \hline
 
 %%% Insert Table for final level rates
 %%% Refer to App. A for Pictures of Final Level Distributions
+%%% Insert Effective Area Plot
 
 \begin{figure}[ht]
   \begin{center}
@@ -506,7 +529,7 @@ with the spatial term represented by the Kent-Fisher distribution \cite{1982} an
 where $\delta_i$ and $\alpha_i$ are the event's reconstructed declination and detector azimuth respectively and $T$ is the total livetime of the analysis. By constructing the p.d.f. directly from the dataset we are able to fold in the declination dependence of both the muon and neutrino background as well as the difference in detector response. The IceCube detector is azimuthally symmetric, but the triangular lattice formed by its constituent strings do produce preferred corridors for background events to sneak through. This effect is fairly minor at the final event level, nonetheless it is also taken into consideration via the $P_{BkgAz}(\alpha_i)$ term. Lastly, the time dependence of the background is assumed to be flat. While there is seasonal variation in the atmospheric muon and neutrino rates, these modulations are not large at the final event level and the timescale of variation is much greater than the expected duration of neutrino emission from the target sources.
 
 In order to find the best fit for the source parameters $n_s$, $t_o$, $\sigma_w$ at a specified location \textbf{$x_s$}, an optimizable likelihood function is needed. This function is given by the product sum of all individual event probabilities from the dataset:
-\begin{equation}
+\begin{equation}\label{eq:LLH}
 \mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w) = \prod \mathcal{P}_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w,\sigma_i)
 \end{equation}
 The value of this function will depend on all events within the dataset. Furthermore, we can maximize the ratio of the likelihood function with specific choices of signal terms to the value of the function under the null hypothesis ($n_s=0$) to yield a best fit to the data. The maximum value of the likelihood ratio yields a test statistic TS given by
@@ -524,21 +547,44 @@ The introduction of the marginalization factor $T/\sqrt{2\pi}\sigma$ brings the 
 To summarize, this analysis uses a likelihood ratio method to find the best values for a signal-plus-background model of the dataset. This is accomplished through maximization of ratio of the likelihood function with best fit parameters to the value of the function under the null hypothesis to generate a test statistic. The test statistic serves as figure of merit that characterizes the degree to which the data is better explained by a signal hypothesis rather than the background only scenario. Because we are not selecting any specific locations to test for flaring, the test statistic must be maximized at each possible location in the sky. The details of this process are described in the following section.
 \section{Sky Scan}
 
-The analysis performed is not a triggered search, and therefore it is necessary to examine the entire solid angle domain of the analysis for any possible transient sources. The difficulty in rejecting background muons at lower energies limits the analysis to up-going and horizontal events ($< 5^{\circ}$ above the horizon). Because of IceCube's location at the South Pole, this results in a search over all right ascension in a declination band ranging from -$5^{\circ}$ to $90^{\circ}$. The search method discretizes the northern portion of the sky into many bins. The coordinates of these bins serve as the location of a hypothetical flaring source to be tested. The fairly large median resolution of the event sample (see Fig. \ref{fig:EventSampleRes_Energy}) allows the size of the search bins to be set to a relatively coarse 2$^{\circ}$ by 2$^{\circ}$ in angular area. 
+The analysis performed is not a triggered search, and therefore it is necessary to examine the entire solid angle domain of the analysis for any possible transient sources. The difficulty in rejecting background muons at lower energies limits the analysis to up-going and horizontal events ($< 5^{\circ}$ above the horizon). Because of IceCube's location at the South Pole, this results in a search over all right ascension in a declination band ranging from -$5^{\circ}$ to $90^{\circ}$. The search method discretizes the northern portion of the sky into many bins, and the coordinates of these bins serve as the location of a hypothetical flaring source to be tested. The fairly large median resolution of the event sample (see Fig. \ref{fig:EventSampleRes_Energy}) allows the size of the search bins to be set to a relatively coarse 2$^{\circ}$ by 2$^{\circ}$ in angular area. 
 
-
-
+Maximization of the likelihood given by eq. \eqref{eq:LLH} is done at each location in the grid with $\mathbf{x_s}$ set to the location of the bin. This results in each bin having a best-fit neutrino flare with its own values of $\hat{n_s}$, $\hat{t}_o$, $\hat{\sigma}_w$, and test statistic $TS$. After this scan over the 2$^{\circ}$ by 2$^{\circ}$ is completed, a finer follow-up scan with 0.5$^{\circ}$ by 0.5$^{\circ}$ binning is performed on any coarse bins with $-\log_{10}(p_{val}) > 1.75$ where $p_{val}$ is the estimated pre-trials p-value of the maximized test statistic. Following the completion of the fine-scan, the best-fit flare from the bin with the most significant test statistic is returned as the final result of the search. The results of a scan over a scrambled dataset consisting of only background events is shown in Figure \ref{fig:NullTrialSkyMap}.
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=1.0\textwidth,keepaspectratio]{NullMap996.png}
   \end{center}
-  \caption{Randomized sky map in celesital coordinates of pre-trials p-values for best flares per bin. Random map generated by scrambling arrival times of real events. The black circle shows the location of the most significant flare found by the method. }
+  \caption{Sky map in celesital coordinates of pre-trials p-values for best-fit flares per bin for a randomized dataset. Random map generated by scrambling arrival times of real events. The black circle shows the location of the most significant flare found by the method. }
   \label{fig:NullTrialSkyMap}
 \end{figure}
 
+We calculate the sensitivity of this method by checking how well the search is able to pick out various levels of signal strength from background fluctuations. This procedure begins by selecting a point in the sky to perform our likelihood maximization. A background dataset is then generated by scrambling the time of arrival of the events. Due to the detector's location at the South Pole, this effectively scrambles the events in azimuth as well while keeping the declination distribution the same. The likelihood is then maximized for this set of scrambled data and the p-value obtained from the best fit is stored. This process is iterated many times to build a background p-value distribution. Injected signal events are now included in addition to the scrambled background data. Events are injected from an assumed source spectrum with a Poisson mean of $n_s$ that is increased until the desired fraction of p-values from signal injections (typically 90\%) beat the median p-value from the background only distribution. This is repeated for several different timescales in for a generic source with an $E^{-3}$ spectrum in Figure \ref{fig:SensE3}.
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=.8\textwidth,keepaspectratio]{LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png}
+  \end{center}
+  \caption{Calculated event sensitivity of the analysis at Declination $\delta$=$16^{\circ}$ for an $E^{-3}$ spectrum.}
+  \label{fig:SensE3}
+\end{figure}
+
+The discovery potential (which is also plotted in Figure \ref{fig:SensE3}) is calculated in a similar fashion. Rather than building a background p-value distribution, a threshold p-value is chosen. In this case, the value is set to the probability equivalent to that of a one-sided 5$\sigma$ deviation. Injections are performed until the mean value of injected $n_s$ results in flares whose recovered p-value exceeds the threshold p-value 50\% of the time. This does not, however, take into account any trials factors that arise from performing the scan over the whole northern sky. It is clear that the sensitivity of this method will suffer greatly for flares of longer duration. This limits the application of the method to sources with duration of approximately $10^4$s or shorter. However, given that the analysis was developed with short transient sources such as core-collapse SNe ($\Delta T \sim 1-100s$), this degradation in performance at longer timescales should not be an issue.
+
 \section{Significance and Trials Factors}
-In order to determine which bin has the most significant flare, we evaluate an estimated p-value based on the maximized test statistic $\lambda$ for that bin. The distribution of test statistic values for individual bins is not known \textit{a priori} however. Therefore it is necessary to perform many iterations of the analysis method using scrambled versions of the dataset to determine the distribution of the test statistic with no real signal present in the data.
-%% Insert Background Trials Best TS distribution
+In order to determine which bin has the most significant flare, we evaluate an estimated p-value based on the maximized test statistic $\lambda$ for that bin. The distribution of test statistic values for individual bins is assumed to be $\chi^2$ distributed, however the test statistic distribution of best-fit flares for searches over background only datasets is not known \textit{a priori} however. Therefore it is necessary to perform many iterations of the analysis method using scrambled versions of the dataset to determine the distribution of the test statistic with no real signal present in the data. The desired level of statistical significance determines the number of trials required, e.g. determining what value of the test statistic constitutes a 3$\sigma$ outlier would require approximately $10^4$ scramblings. The background test statistic distribution for such scramblings $2\times 10^4$ is shown in \ref{fig:NullScramblingDistribution}.
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.98\textwidth,keepaspectratio]{TestStatisticDistribution_Null.png}
+  \end{center}
+  \caption{Distribution of maximized test statistic $\lambda$ for $2\times 10^4$ searches performed on randomized datasets. Dashed lines mark the location of one-sided $\sigma$ deviations.}
+  \label{fig:NullScramblingDistribution}
+\end{figure}
+
+Once this distribution is adequately determined, the test statistic from any result we obtain from the analysis can be compared with the distribution we generated solely from background trials. This allows us to determine the probability of seeing a flare from just background fluctuations. This is sometimes referred to as the "p-value of the p-value" which is essentially the true p-value for the flare after properly accounting for all trials factors. This corrected p-value will be used when citing the significance of the final analysis result. 
+
+The scrambled background trials also serve as a check for any biases in the analysis method with respect to best-fit parameters. The recovered flare parameters for these trials show no strong pull towards certain flare parameters, though their is some mild declination dependence which is expected (the atmospheric background distribution is declination dependent). The symmetry of the detector is evident through the lack of preference in the azimuthal location of the best-fit flares. A more thorough examination of these distributions including plots can be found in Appendix \textbf{B}.
+
+[Maybe just add the scrambled trial distributions here and drop the appendix]
 
 \chapter{Systematic Effects}
 There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the \textit{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs. While there are other errors that could be considered such as the absolute neutrino cross-section, the contribution they provide to the overall error is negligible.
@@ -548,7 +594,7 @@ The optical properties of the subsurface ice at the South Pole represent the mos
 
 %% Dust measurement pic
 
-Precise modeling of the polar ice has long been an ongoing task in the IceCube collaboration. Several iterations of models have reduced what was once a severe systematic problem to a relatively mild contribution to total systematic error. Current ice models consider several factors including depth dependence, tilt of ice layers, direction of glacial flow, and grain size distribution.
+Precise modeling of the polar ice is an ongoing task in the IceCube collaboration. Several iterations of models have reduced what was once a severe systematic problem to a relatively mild contribution to total systematic error. Current ice models consider several factors including depth dependence, tilt of ice layers, direction of glacial flow, and grain size distribution \cite{2013arXiv1301.5361I}. The absolute values of the optical properties such as absorption and scattering length are not known, however. Therefore we generate simulation that assumes different values for these parameters to estimate how large of an impact any error in the model will make at the final level of the analysis.
 
 \begin{figure}[ht]
   \begin{center}
@@ -576,6 +622,18 @@ Applying the defined analysis method on the unscrambled dataset yields a skymap 
   \label{fig:RealSkyMap}
 \end{figure}
 
+\begin{table}[h]
+\caption[Best-fit signal parameters]{\label{tab:best_fit_flare}}
+\begin{center}
+\begin{tabular}{|c|c|}
+  \hline
+ \textbf{Signal Parameter} &\textbf{ Best-fit Value} \\
+\hline
+$\hat{n}_s$ & ? \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
 %% Post-trials p-value
 \begin{figure}[ht]
   \begin{center}
@@ -594,6 +652,7 @@ Applying the defined analysis method on the unscrambled dataset yields a skymap 
 \appendix
 \chapter{Appendix A -- Final Level Event Distributions}
 
+\chapter{Appendix B -- Scrambled Background Trials}
 
 \begin{postliminary}
 \bibliography{jdthesis}{}
