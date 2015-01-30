@@ -482,43 +482,51 @@ The analysis presented in this thesis makes use of both directional and timing i
 
 
 \section{Unbinned Likelihood Method}
-The identification of a statistically significant astrophysical signal amongst a high number of background events can be a difficult problem in astronomy. Likelihood based methods are commonly used to solve this issue. Searches utilizing a likelihood method are able to provide a probabilistic interpretation of a signal hypothesis with respect to background fluctuations for the event dataset being examined. These searches will typically make use of timing, directional, and occasionally reconstructed energy information from events to find clustering indicative of a true astrophysical source. Whether or not individual events qualify as signal or background when testing a source hypothesis can differ depending on whether the search is 'binned' or 'unbinned'. For binned analyses, event characteristics such as arrival time, direction, and energy are used to determine if they are consistent with the source hypothesis. Those that are found to be consistent are considered signal events while others are attributable to background. This results in all events having a binary status with respect to association with a hypothetical source. 
+The identification of a statistically significant astrophysical signal amongst a high number of background events can be a difficult problem in astronomy. Likelihood based methods are commonly used to solve this issue. Searches utilizing a likelihood method are able to provide a probabilistic interpretation of a signal hypothesis with respect to background fluctuations for the event dataset being examined. These searches will typically make use of timing, directional, and occasionally reconstructed energy information from events to find clustering indicative of a true astrophysical source. Whether or not individual events qualify as signal or background when testing a source hypothesis can differ depending on whether the search is 'binned' or 'unbinned'. For binned analyses, the signal hypothesis generates a set of coniditions that an event must meet to be considered as signal-like. This usually consists of selecting an area about the source location (a bin) that the reconstructed direction of the event must lie in. Events are then classified as either belonging to signal or being attributable to background. This results in all events having a binary status with respect to association with a hypothetical source. 
 
 The unbinned method, which is the method chosen for this analysis, is typically more sensitive as it allows for events to be seen as both signal or background. In order to accomplish this, probability density functions (p.d.f.s) are constructed that are representative of the expected spatial, temporal, or energy distributions for both the signal and background possibilities. Thus, well-resolved events will strongly contribute to the likelihood calculation as signal- or background-like while more marginal events can make a contribution to either scenario with appropriate weighting instead of being sharply divided into either category. This makes the unbinned method much better suited for analysis of event samples with a wide range of resolutions.
 
 The probability for seeing an event $i$ in our analysis given a time-dependent source hypothesis takes the following form:
 \begin{equation}
-P_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w,\sigma_i) = \frac{n_s}{n_{\mathrm{tot}}} \mathcal{S_i} + \left(1-\frac{n_s}{n_{\mathrm{tot}}}\right) \mathcal{B_i}
+\mathcal{P}_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w,\sigma_i) = \frac{n_s}{n_{\mathrm{tot}}} \mathcal{S}_i + \left(1-\frac{n_s}{n_{\mathrm{tot}}}\right) \mathcal{B}_i
 \end{equation}
 where $S_i$ and $B_i$ are the signal and background p.d.f.s respectively. The values of these PDFs depends on the reconstructed direction of the event \textbf{$x_i$}, the point spread function (PSF) of the event $\sigma_i$, the arrival time of the event $t_i$, the location of the hypothetical source \textbf{$x_s$}, the mean time of the flare $t_o$, the duration of the flare $\sigma_w$, and lastly the number of signal events $n_s$. The signal p.d.f. consists of both a spatial and temporal term. While the target sources for this analysis are expected to be point-like, the spatial term assumes a normalized extended distribution about \textbf{$x_s$} to account for the PSF of individual events $\sigma_i$. The signal p.d.f. is constructed in this way
 \begin{equation}
-\mathcal{S_i}(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w,\sigma_i) = S_i(|\mathbf{x}_i-\mathbf{x}_s|,\sigma_i) \cdot T_i(t_i,t_o,\sigma_w)
+\mathcal{S}_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w,\sigma_i) = S_i(|\mathbf{x}_i-\mathbf{x}_s|,\sigma_i) \cdot T_i(t_i,t_o,\sigma_w)
 \end{equation}
 \begin{equation}
 S_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w) = \frac{\kappa}{4\pi \sinh \kappa} \exp \left(\kappa \cos |\mathbf{x}_i-\mathbf{x_s}|\right) \cdot \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o)^2}{2 \sigma_w^2}\right)
 \end{equation}
-with the spatial term represented by the Kent-Fisher distribution \cite{1982} and the temporal term given by a Gaussian with mean time of $t_o$ and a width of $\sigma_w$. The concentration parameter $\kappa = \sigma_{i}^{-2}$ is determined by the event resolution. The inclusion of the Kent-Fisher in the spatial p.d.f. represents a slight deviation from the standard construction of $S_i$ in IceCube analyses. It is analogous to the 2-dimensional Gaussian distribution on a flat surface, and for small values of $\sigma_{i}$ ($\lesssim 3^{\circ}$) the distributions are nearly identical. However, the Kent-Fisher distribution is properly normalized to the surface of a sphere. It therefore gives a better description of the spatial p.d.f. for events with larger uncertainties (which are common at the lower energies used in this analysis).
-
-
-
+with the spatial term represented by the Kent-Fisher distribution \cite{1982} and the temporal term given by a Gaussian with mean time of $t_o$ and a width of $\sigma_w$. The concentration parameter $\kappa = \sigma_{i}^{-2}$ is determined by the event resolution. The inclusion of the Kent-Fisher distribution in the spatial p.d.f. represents a slight deviation from the standard construction of $S_i$ in IceCube analyses. It is analogous to the 2-dimensional Gaussian distribution on a flat surface, and for small values of $\sigma_{i}$ ($\lesssim 3^{\circ}$) the distributions are nearly identical. However, the Kent-Fisher distribution is properly normalized to the surface of a sphere. It therefore gives a better description of the spatial p.d.f. for events with larger uncertainties (which are common at the lower energies used in this analysis).
+	
+	The dataset being examined is heavily background dominated. This allows to simply derive our background p.d.f. directly from the final level dataset without having to make any assumptions about what the background should look like. Thus, the background p.d.f. will look like 
 \begin{equation}
-B_i(\mathbf{x}_i,t_i) = P_{BkgDec}\left(\mathbf{x}_i\right)\frac{P_{BkgAz}(\delta_i,\alpha_i)}{T}
+\mathcal{B}_i(\mathbf{x}_i,t_i) = P_{BkgDec}(\delta_i)\frac{P_{BkgAz}(\alpha_i)}{T}
 \end{equation}
+where $\delta_i$ and $\alpha_i$ are the event's reconstructed declination and detector azimuth respectively and $T$ is the total livetime of the analysis. By constructing the p.d.f. directly from the dataset we are able to fold in the declination dependence of both the muon and neutrino background as well as the difference in detector response. The IceCube detector is azimuthally symmetric, but the triangular lattice formed by its constituent strings do produce preferred corridors for background events to sneak through. This effect is fairly minor at the final event level, nonetheless it is also taken into consideration via the $P_{BkgAz}(\alpha_i)$ term. Lastly, the time dependence of the background is assumed to be flat. While there is seasonal variation in the atmospheric muon and neutrino rates, these modulations are not large at the final event level and the timescale of variation is much greater than the expected duration of neutrino emission from the target sources.
 
+In order to find the best fit for the source parameters $n_s$, $t_o$, $\sigma_w$ at a specified location \textbf{$x_s$}, an optimizable likelihood function is needed. This function is given by the product sum of all individual event probabilities from the dataset:
 \begin{equation}
-\mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w) = \prod P_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w)
+\mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w) = \prod \mathcal{P}_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w,\sigma_i)
 \end{equation}
-
+The value of this function will depend on all events within the dataset. Furthermore, we can maximize the ratio of the likelihood function with specific choices of signal terms to the value of the function under the null hypothesis ($n_s=0$) to yield a best fit to the data. The maximum value of the likelihood ratio yields a test statistic TS given by
 \begin{equation}
-\log \lambda = \log \left(\frac{\sqrt{2\pi}\hat{\sigma}_w}{T}\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right)
+TS = -2\log \left[\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right]
 \end{equation}
+with $\mathcal{L}(n_s = 0)$ being the null hypothesis and $\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)$ as the optimized values for a signal plus background hypothesis. The statistic is defined as such so that the distriubtion of $TS$ values from datasets consisting of only background events are well-modeled by a $\chi^2$ distribution with degrees of freedom equivalent to the number of parameters being fitted. Given that the background distribution is $\chi^2$ distributed, Wilks's theorem can be used to estimate the probability or p-value of seeing a clustering of neutrino events with test statistic $TS$ \cite{wilks1938}. This p-value allows the method to reliably identify the most statistically significant neutrino flare in the dataset.
 
+While this formulation of $TS$ has been shown to yield a $\chi^2$ distribution of background test statistics for time-independent searches in IceCube, it does not produce a distribution similar to $\chi^2$ when used in time-dependent searches \cite{2012ApJ...744....1A}. This is due to a bias towards shorter flare durations by the method. For a dataset of a given duration, it is possible to divide the data into many more short flare events than long flares. This creates an effective trials factor for shorter flares, and so the definition of the test statistic must be changed in orderto compensate for this effect:
+\begin{equation}
+TS = -2\log \left[\frac{\sqrt{2\pi}\hat{\sigma}_w}{T}\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right]
+\end{equation}
+The introduction of the marginalization factor $T/\sqrt{2\pi}\sigma$ brings the background $TS$ distribution back into agreement with the appropriate $\chi^2$ distribution \cite{2012ApJ...744....1A}.
 
+To summarize, this analysis uses a likelihood ratio method to find the best values for a signal-plus-background model of the dataset. This is accomplished through maximization of ratio of the likelihood function with best fit parameters to the value of the function under the null hypothesis to generate a test statistic. The test statistic serves as figure of merit that characterizes the degree to which the data is better explained by a signal hypothesis rather than the background only scenario. Because we are not selecting any specific locations to test for flaring, the test statistic must be maximized at each possible location in the sky. The details of this process are described in the following section.
 \section{Sky Scan}
 
 The analysis performed is not a triggered search, and therefore it is necessary to examine the entire solid angle domain of the analysis for any possible transient sources. The difficulty in rejecting background muons at lower energies limits the analysis to up-going and horizontal events ($< 5^{\circ}$ above the horizon). Because of IceCube's location at the South Pole, this results in a search over all right ascension in a declination band ranging from -$5^{\circ}$ to $90^{\circ}$. The search method discretizes the northern portion of the sky into many bins. The coordinates of these bins serve as the location of a hypothetical flaring source to be tested. The fairly large median resolution of the event sample (see Fig. \ref{fig:EventSampleRes_Energy}) allows the size of the search bins to be set to a relatively coarse 2$^{\circ}$ by 2$^{\circ}$ in angular area. 
 
-%% Insert Sky Map
+
 
 \begin{figure}[ht]
   \begin{center}
@@ -540,23 +548,23 @@ The optical properties of the subsurface ice at the South Pole represent the mos
 
 %% Dust measurement pic
 
-Precise modeling of the polar ice has long been an ongoing task in the IceCube collaboration. Several iterations of models have reduced what was once a severe systematic problem to a relatively mild contribution to error. 
+Precise modeling of the polar ice has long been an ongoing task in the IceCube collaboration. Several iterations of models have reduced what was once a severe systematic problem to a relatively mild contribution to total systematic error. Current ice models consider several factors including depth dependence, tilt of ice layers, direction of glacial flow, and grain size distribution.
 
-To make matters more difficult, the ice within IceCube's instrumented volume is not uniform in optical qualities and in fact varies significantly 
-
-\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=0.48\textwidth,keepaspectratio]{LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png}
+    \includegraphics[width=0.98\textwidth,keepaspectratio]{LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png}
   \end{center}
-  \caption{Bugaboo}
+  \caption{Effective area at final event level as a function of energy for different possible ice properties. Increased absorption and scattering lead to very little degradation of the neutrino effective area at even the lowest energies.}
   \label{fig:IceSysEffArea}
-\end{wrapfigure}
+\end{figure}
 
 
 \section{DOM Quantum Efficiency}
 
-\chapter{Results}
+TBD
 
+\chapter{Results}
+Applying the defined analysis method on the unscrambled dataset yields a skymap of the pre-trials p-values derived from the maximized test statistic for each bin (see Figure \ref{fig:RealSkyMap}).
 
 %% Hottest Spot
 %% SkyMap
@@ -574,7 +582,7 @@ To make matters more difficult, the ice within IceCube's instrumented volume is 
     \includegraphics[width=1.0\textwidth,keepaspectratio]{TestStatisticDistribution_WithResult.png}
   \end{center}
   \caption{Distribution of test statistic $\lambda$ of most signficant flare found in 1,985 background trials. The test statistic value for the best fit flare on the unscrambled data set is also plotted.}
-  \label{fig:RealSkyMap}
+  \label{fig:PostTrialsComparison}
 \end{figure}
 
 \chapter{Interpretation}

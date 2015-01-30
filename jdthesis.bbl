@@ -42,6 +42,14 @@
   ``{Search for dark matter from the Galactic halo with the IceCube Neutrino
   Telescope},'' {\em Phys. Rev. D}, vol.~84, p.~022004, July 2011.
 
+\bibitem{2012ApJ...744....1A}
+{\sc {Abbasi}, R.}, {\sc {Abdou}, Y.}, {\sc {Abu-Zayyad}, T.}, {\sc {Adams},
+  J.}, {\sc {Aguilar}, J.~A.}, {\sc {Ahlers}, M.}, {\sc {Andeen}, K.}, {\sc
+  {Auffenberg}, J.}, {\sc {Bai}, X.}, {\sc {Baker}, M.}, and {\sc et~al.},
+  ``{Time-dependent Searches for Point Sources of Neutrinos with the 40-string
+  and 22-string Configurations of IceCube},'' {\em ApJ}, vol.~744, p.~1, Jan.
+  2012.
+
 \bibitem{2013NIMPA.700..188A}
 {\sc {Abbasi}, R.}, {\sc {Abdou}, Y.}, {\sc {Ackermann}, M.}, {\sc {Adams},
   J.}, {\sc {Aguilar}, J.~A.}, {\sc {Ahlers}, M.}, {\sc {Altmann}, D.}, {\sc
@@ -206,5 +214,10 @@
 {\sc {Razzaque}, S.}, {\sc {M{\'e}sz{\'a}ros}, P.}, and {\sc {Waxman}, E.},
   ``{TeV Neutrinos from Core Collapse Supernovae and Hypernovae},'' {\em
   Physical Review Letters}, vol.~93, p.~181101, Oct. 2004.
+
+\bibitem{wilks1938}
+{\sc Wilks, S.~S.}, ``The large-sample distribution of the likelihood ratio for
+  testing composite hypotheses,'' {\em Ann. Math. Statist.}, vol.~9,
+  pp.~60--62, 03 1938.
 
 \end{thebibliography}

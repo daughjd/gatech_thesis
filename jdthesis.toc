@@ -52,25 +52,25 @@
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {VIII}\MakeUppercase {Analysis Method}}{36}
 \contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{36}
-\contentsline {section}{\numberline {8.2}Sky Scan}{38}
-\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{38}
+\contentsline {section}{\numberline {8.2}Sky Scan}{40}
+\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{41}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {IX}\MakeUppercase {Systematic Effects}}{40}
-\contentsline {section}{\numberline {9.1}Ice Properties}{40}
-\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{41}
+\contentsline {chapter}{\numberline {IX}\MakeUppercase {Systematic Effects}}{42}
+\contentsline {section}{\numberline {9.1}Ice Properties}{42}
+\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{43}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{42}
+\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{45}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{44}
+\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{47}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{45}
+\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{48}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Final Level Event Distributions}}{46}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Final Level Event Distributions}}{49}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{52}
+\contentsline {chapter}{\MakeUppercase {Index}}{55}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Vita}}{53}
+\contentsline {chapter}{\MakeUppercase {Vita}}{56}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
