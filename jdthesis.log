@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.20)  30 JAN 2015 03:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.20)  30 JAN 2015 08:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,9 +564,6 @@ APPENDIX A.
 ] (./jdthesis.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
