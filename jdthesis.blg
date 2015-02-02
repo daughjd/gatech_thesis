@@ -1,5 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: jdthesis.aux
 The style file: gatech-thesis.bst
 Database file #1: jdthesis.bib
@@ -9,45 +8,45 @@ Warning--I didn't find a database entry for "?"
 Warning--I didn't find a database entry for ""
 Warning--to sort, need author or key in 2013JGlac..59.1117.
 Warning--empty author in 2013JGlac..59.1117.
-You've used 32 entries,
+You've used 34 entries,
             2221 wiz_defined-function locations,
-            748 strings with 12802 characters,
-and the built_in function-call counts, 20365 in all, are:
-= -- 1747
-> -- 1500
+            758 strings with 13226 characters,
+and the built_in function-call counts, 21170 in all, are:
+= -- 1811
+> -- 1565
 < -- 0
-+ -- 598
-- -- 564
-* -- 2252
-:= -- 3053
-add.period$ -- 32
-call.type$ -- 32
-change.case$ -- 378
++ -- 624
+- -- 588
+* -- 2341
+:= -- 3185
+add.period$ -- 35
+call.type$ -- 34
+change.case$ -- 396
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 865
-empty$ -- 1158
-format.name$ -- 564
-if$ -- 4164
+cite$ -- 36
+duplicate$ -- 893
+empty$ -- 1210
+format.name$ -- 588
+if$ -- 4320
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 31
-newline$ -- 99
-num.names$ -- 62
-pop$ -- 344
+int.to.str$ -- 34
+missing$ -- 32
+newline$ -- 106
+num.names$ -- 66
+pop$ -- 366
 preamble$ -- 1
-purify$ -- 346
+purify$ -- 362
 quote$ -- 0
-skip$ -- 601
+skip$ -- 614
 stack$ -- 0
-substring$ -- 750
-swap$ -- 575
+substring$ -- 760
+swap$ -- 588
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 128
+type$ -- 136
 warning$ -- 2
-while$ -- 106
-width$ -- 34
-write$ -- 313
+while$ -- 110
+width$ -- 36
+write$ -- 331
 (There were 5 warnings)

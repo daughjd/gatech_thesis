@@ -9,7 +9,7 @@
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\MakeUppercase {List of Figures} }{ix}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\MakeUppercase {Summary}}{xi}
+\contentsline {chapter}{\MakeUppercase {Summary}}{xii}
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {I}\MakeUppercase {Introduction}}{1}
@@ -36,43 +36,43 @@
 \contentsline {section}{\numberline {5.2}DeepCore}{21}
 \contentsline {section}{\numberline {5.3}Neutrino Events in IceCube}{22}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VI}\MakeUppercase {Data Acquisition}}{27}
-\contentsline {section}{\numberline {6.1}The Digital Optical Module}{27}
-\contentsline {section}{\numberline {6.2}Hit Generation}{28}
-\contentsline {section}{\numberline {6.3}Triggering and Event Building}{30}
+\contentsline {chapter}{\numberline {VI}\MakeUppercase {Data Acquisition}}{28}
+\contentsline {section}{\numberline {6.1}The Digital Optical Module}{28}
+\contentsline {section}{\numberline {6.2}Hit Generation}{29}
+\contentsline {section}{\numberline {6.3}Triggering and Event Building}{31}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{32}
-\contentsline {section}{\numberline {7.1}Low-energy Channel}{32}
-\contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{33}
-\contentsline {subsection}{\numberline {7.2.1}Veto Cuts}{34}
-\contentsline {subsection}{\numberline {7.2.2}Quality Cuts}{34}
-\contentsline {subsection}{\numberline {7.2.3}Machine Learning Cut}{34}
-\contentsline {section}{\numberline {7.3}Event Reconstruction}{34}
-\contentsline {section}{\numberline {7.4}Final Level Data}{35}
+\contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{34}
+\contentsline {section}{\numberline {7.1}Low-energy Channel}{34}
+\contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{35}
+\contentsline {subsection}{\numberline {7.2.1}Veto Cuts}{36}
+\contentsline {subsection}{\numberline {7.2.2}Quality Cuts}{36}
+\contentsline {subsection}{\numberline {7.2.3}Machine Learning Cut}{36}
+\contentsline {section}{\numberline {7.3}Event Reconstruction}{36}
+\contentsline {section}{\numberline {7.4}Final Level Data}{37}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VIII}\MakeUppercase {Analysis Method}}{37}
-\contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{37}
-\contentsline {section}{\numberline {8.2}Sky Scan}{41}
-\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{43}
+\contentsline {chapter}{\numberline {VIII}\MakeUppercase {Analysis Method}}{39}
+\contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{39}
+\contentsline {section}{\numberline {8.2}Sky Scan}{43}
+\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{45}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {IX}\MakeUppercase {Systematic Effects}}{46}
-\contentsline {section}{\numberline {9.1}Ice Properties}{46}
-\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{47}
+\contentsline {chapter}{\numberline {IX}\MakeUppercase {Systematic Effects}}{48}
+\contentsline {section}{\numberline {9.1}Ice Properties}{48}
+\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{49}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{48}
+\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{51}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{50}
+\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{53}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{51}
+\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{54}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Final Level Event Distributions}}{52}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Final Level Event Distributions}}{55}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Scrambled Background Trials}}{53}
+\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Scrambled Background Trials}}{56}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{59}
+\contentsline {chapter}{\MakeUppercase {Index}}{62}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Vita}}{60}
+\contentsline {chapter}{\MakeUppercase {Vita}}{63}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
