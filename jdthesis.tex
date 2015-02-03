@@ -226,7 +226,7 @@ The process in which the lepton flavor of a given neutrino can change during its
 [MSW]
 
 \chapter{Neutrino Astronomy}
-As the name suggests, the field of neutrino astronomy is concerned with the detection of neutrinos of extraterrestrial origin for the use of identifying and classifying astrophysical sources. In a similar fashion to the advances made through expansion of traditional optical astronomy to the high-energy regime of x-rays and gamma-rays, it is thought that the unique window provided by neutrino astronomy can facilitate tremendous increases in our understanding of the universe.
+As the name suggests, the field of neutrino astronomy is concerned with the detection of neutrinos of extraterrestrial origin for the use of identifying and classifying astrophysical sources. In a similar fashion to the advances made through expansion of traditional optical astronomy to the high-energy regime of x-rays and gamma-rays, it is thought that the unique window provided by neutrino astronomy can facilitate tremendous increases in our understanding of the universe. However, the detection of astrophysical neutrino events presents a exceedingly difficult challenge. Therefore, it is relevant to discuss the potential scientific rewards neutrino astronomy can provide.
 
 \section{Motivation}
 
@@ -439,7 +439,7 @@ Because of the primary focus of this analysis on a lower-energy event selection,
 This filter actually consists of two separate streams which are differentiated by the definition of which DOMs comprise the detection (or fiducial) volume and which DOMs are treated as belonging to the veto region. Inclusion of this additional branch using the relaxed veto allows for increased acceptance of higher-energy upgoing muon neutrino events that may be cut by the more stringent definition. The acceptance rate for the standard and relaxed veto filters is 17.25 Hz and 23.3 Hz respectively. The end result is a reduction in the trigger level data rate of nearly two orders of magnitude yielding a much more manageable data sample on which more advanced background reduction techniques can be applied.
 
 \section{Analysis Specific Cuts}
-After reducing the IceCube data stream to specific filters, the selection criteria imposed by differing will begin to diverge in order to optimize sensitivity to their respective target signal. For this analysis, the data given by the low-energy filter is put through a series of cuts optimized to preserve upgoing and contained track-like events from muon neutrino interactions. What event traits to cut on and to what degree was decided through examination of many cut choices on a sample of simulated muon neutrino events and background simulation. The end result is a selection of event cuts that can be grouped into two categories. The first category consists of cuts derived from detector information in the veto region while the second focuses on event quality and reconstruction characteristics. Lastly, a cut developed through machine learning techniques and optimized with respect to analysis sensitivity is applied to achieve a final level data set ready for analysis.
+After reducing the IceCube data stream to specific filters, the selection criteria imposed by differing will begin to diverge in order to optimize sensitivity to their respective target signal. For this analysis, the data given by the low-energy filter is put through a series of cuts optimized to preserve upgoing and contained track-like events from muon neutrino interactions. What event traits to cut on and to what degree was decided through examination of many cut choices on a sample of simulated muon neutrino events and background simulation. The end result is a selection of event cuts that can be grouped into two categories. The first category consists of cuts derived from detector information in the veto region while the second focuses on event quality and reconstruction characteristics. Lastly, a cut developed through machine learning techniques and optimized with respect to analysis sensitivity is applied to achieve a final level data set ready for analysis. The reader interested in a fully detailed description of the data selection process is encouraged to consult Appendix A.
 
 \subsection{Veto Cuts}
 Downgoing muons created in cosmic-ray air showers represent the most dominant background for muon neutrino analyses. As such, event selection processes go through extensive effort to identify and screen out these events.
@@ -592,9 +592,9 @@ In order to determine which bin has the most significant flare, we evaluate an e
 
 Once this distribution is adequately determined, the test statistic from any result we obtain from the analysis can be compared with the distribution we generated solely from background trials. This allows us to determine the probability of seeing a flare from just background fluctuations. This is sometimes referred to as the "p-value of the p-value" which is essentially the true p-value for the flare after properly accounting for all trials factors. This corrected p-value will be used when citing the significance of the final analysis result. 
 
-The scrambled background trials also serve as a check for any biases in the analysis method with respect to best-fit parameters. The recovered flare parameters for these trials show no strong pull towards certain flare parameters, though their is some mild declination dependence which is expected (the atmospheric background distribution is declination dependent). The symmetry of the detector is evident through the lack of preference in the azimuthal location of the best-fit flares. A more thorough examination of these distributions including plots can be found in Appendix \textbf{B}.
+The scrambled background trials also serve as a check for any biases in the analysis method with respect to best-fit parameters. The recovered flare parameters for these trials show no strong pull towards certain flare parameter values, though their is some mild declination dependence which is expected (the atmospheric background distribution is declination dependent). The distributions of best fit flare parameters for background trials can be seen in Figure \ref{fig:}. The symmetry of the detector is evident through the lack of preference in the azimuthal location of the best-fit flares. Additionally, the smooth distribution in recovered flare times reveals that the analysis method is able to avoid locking on to specific timescales.
 
-[Maybe just add the scrambled trial distributions here and drop the appendix]
+[INSERT FLARE PARAMETER DISTRIBUTIONS]
 
 \chapter{Systematic Effects}
 There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the \textit{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs. While there are other errors that could be considered such as the absolute neutrino cross-section, the contribution they provide to the overall error is negligible.
@@ -667,9 +667,9 @@ $\hat{n}_s$ & ? \\ \hline
 \chapter{Conclusion}
 
 \appendix
-\chapter{Appendix A -- Final Level Event Distributions}
+\chapter{Appendix A -- Data Selection Process}
 
-\chapter{Appendix B -- Scrambled Background Trials}
+\chapter{Appendix B -- Final Level Event Distributions}
 
 \begin{postliminary}
 \bibliography{jdthesis}{}

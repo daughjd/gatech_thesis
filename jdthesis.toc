@@ -66,9 +66,9 @@
 \contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{54}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Final Level Event Distributions}}{55}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Data Selection Process}}{55}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Scrambled Background Trials}}{56}
+\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Final Level Event Distributions}}{56}
 \setcounter {tocdepth}{0}
 \contentsline {chapter}{\MakeUppercase {Index}}{62}
 \setcounter {tocdepth}{0}
