@@ -168,26 +168,31 @@ Like the scattering modes mentioned earlier, deep inelastic scattering can occur
 The cross-section for deep inelastic scattering increases with increasing neutrino energy as Figures \ref{fig:NeutrinoDIS_CS} and \ref{fig:AntiNeutrinoDIS_CS} show. While this increasing cross-section is generally favorable for detection purposes due to higher probability to interact in neutrino telescopes, a larger interaction cross-section at higher energies also leads to absorption of neutrinos within the Earth. Absorption is fairly infrequent for neutrinos below 10 TeV, but it becomes increasingly relevant for astrophysical neutrinos at the PeV or EeV scale \cite{2013arXiv1304.4891K}.
 
 \subsection{Propagation of Interaction Products}
-The products leftover from high-energy neutrino-nucleon interactions are generally very energetic as well. These particles will subsequently undergo many forms of energy loss and possible decay as they travel through a detection medium. In a given interaction, the total light yield and its spatial extent are contingent on the products of the interaction. The products themselves are ultimately determined by both the flavor of the primary neutrino and whether the neutrino interaction was of the charged- or neutral-current variety. This section will detail the important energy loss mechanisms for interaction products and how these losses produce an obserable signal for the IceCube detector. There are many modes of interaction for charged particles in materials some of which are highly energy dependent and stochastic in nature. Because IceCube was designed specifically to detect and track high energy muons, the description of energy loss mechanisms will primarily focus on how these mechanisms pertain to muons. The same interactions will occur for other charged particles produced in neutrino interactions, however, these particles fail to produce tracks long enough to be resolved by IceCube.
+The products leftover from high-energy neutrino-nucleon interactions are generally very energetic as well. These particles will subsequently undergo many forms of energy loss and possibly decay as they travel through a detection medium. In a given interaction, the total light yield and its spatial extent are contingent on the products of the interaction. The products themselves are ultimately determined by both the flavor of the primary neutrino and whether the neutrino interaction was of the charged- or neutral-current variety. This section will detail the important energy loss mechanisms for interaction products and how these losses produce an observable signal in the IceCube detector. There are many modes of interaction for charged particles in materials some of which are highly energy dependent and stochastic in nature. Because IceCube was designed specifically to detect and track high energy muons, the description of energy loss mechanisms will primarily focus on how these mechanisms pertain to muons. The same interactions will occur for other charged particles produced in neutrino interactions, however, these particles fail under normal circumstances to produce tracks long enough to be resolved by IceCube.
 
-The primary energy loss mechanisms for charged leptons are ionization, bremsstrahlung, and pair-production, and photo-nuclear interactions \cite{2001PhRvD..63i4020I}. These losses can be summarized as follows:
+The primary energy loss mechanisms for charged leptons are ionization, bremsstrahlung, pair-production, and photo-nuclear interactions \cite{2001PhRvD..63i4020I}. These losses are described below:
 
 \begin{adjustwidth}{2.5em}{2.5em}
 \setlength{\parindent}{0pt}
-\textbf{Ionization} - Ionization energy losses occur as the charged particle transfers energy to the electrons of intervening atoms and molecules. This energy loss is fairly continuous and is the dominant loss mode for sub-TeV muons in the ice.
+\textbf{Ionization} - Ionization energy losses occur as the charged particle transfers energy to the electrons of intervening atoms and molecules. This energy loss is fairly continuous and is the dominant loss mode for sub-TeV muons in the ice \cite{2001ADNDT..78..183G}.
 
-\textbf{Bremsstrahlung} - Energy losses via bremsstrahlung involve the deflection of the particle by another charged particle (typically a positively charged nucleus). This deflection results in the emission of a photon with energy equivalent to the kinetic energy lost in the interaction.
+\textbf{Bremsstrahlung} - Energy losses via bremsstrahlung involve the deflection of the particle by another charged particle (typically a positively charged nucleus). This deflection results in the emission of a photon with energy equivalent to the kinetic energy lost in the interaction. These photons can often be energetic enough to produce a electromagnetic shower through electron-positron pair-production.
 
-\textbf{Pair-production} - As the name might suggest, pair-production is the process in which an electron-positron pair is produced in the Coulomb field of an atomic nucleus \cite{2001ADNDT..78..183G}.
+\textbf{Pair-production} - As the name might suggest, pair-production is the process in which an electron-positron pair is produced in the Coulomb field of an atomic nucleus \cite{2001ADNDT..78..183G}. If the energy imparted to the electron-positron pair is large enough, an electromagnetic shower can be produced.
 
 \textbf{Photo-nuclear} - At high energies, charged leptons can undergo inelastic scattering with nuclei and in the process create hadron showers \cite{2003PhRvD..67c4027B}. The process is similar to the neutrino-nucleon scattering processes described earlier but with photon-exchange taking place rather than $W$ or $Z$ boson exchange.
 \end{adjustwidth}
 \setlength{\parindent}{17.5pt}
 The relative contribution to total energy loss these interactions provide will vary with particle energy. In practice, this is commonly parameterized so the average range of the particle in a given medium can be more easily computed \cite{2001ADNDT..78..183G}:
-\begin{equation}
+\begin{equation}\label{eq:stopping_power}
 -\frac{dE}{dX} = a(E) + b(E) E
 \end{equation}
-Here $a(E)$ represents the more or less continuous energy losses from ionization (electron stopping power) while the $b(E)$ term includes the contributions from the various radiative energy loss processes (bremsstrahlung, pair-production, and photo-nuclear). The relative strength of these processes with respect to stopping power can be seen in Figure \ref{fig:MuonStoppingPower}. These losses determine both the brightness and length of muon tracks within the IceCube detector and ultimately how well their direction can be resolved.
+Here $a(E)$ represents the more or less continuous energy losses from ionization (electron stopping power) while the $b(E)$ term includes the contributions from the various radiative energy loss processes (bremsstrahlung, pair-production, and photo-nuclear). The relative strength of these processes with respect to stopping power can be seen in Figure \ref{fig:MuonStoppingPower}. By integrating the stopping power from Eq. \ref{eq:stopping_power}, we arrive at the following expression for particle range
+\begin{equation}\label{eq:range}
+R(E) = \int_{E_0}^{E}[a(E') + b(E')E']dE'
+\end{equation}
+with $E_0$ being the final energy of the particle \cite{2001ADNDT..78..183G}.
+With a few approximations Eq. \ref{eq:range} can be simplified into a simple expression yielding particle range from just the initial energy. Such assumptions must neglect the stochastic nature of many of these energy losses and therefore any range derived this way is more representative of an average range. The most important thing to note is that these losses determine both the brightness and length of muon tracks within the IceCube detector and ultimately how well their direction can be resolved.
 
 \begin{figure}[ht]
   \begin{center}
@@ -197,11 +202,11 @@ Here $a(E)$ represents the more or less continuous energy losses from ionization
   \label{fig:MuonStoppingPower}
 \end{figure}
 
-While the previously described processes are most relevant for particle energy loss, the most import energy loss mechanism for particle detection in IceCube is the production of Cherenkov light. Cherenkov emission makes only a very small contribution to total energy loss by charged particles in materials. It does however produce light in the visible spectrum yielding an easily detectable signal. This emission occurs when a charged particle travels through a dielectric medium at a greater speed than the phase velocity of light in that medium. The particle will polarize the surrounding material as it travels, however the particle will have moved on before enough time has elapsed for the material to relax resulting in a build up of wavefronts. A shock front is produced that takes the shape of a cone about the particle track. This light cone has an opening angle given by
+While the previously described processes are most relevant for particle energy loss, the most import energy loss mechanism for particle detection in IceCube is the production of Cherenkov light. Cherenkov emission only makes a small contribution to total energy loss by charged particles in materials. It does however produce light in the visible spectrum yielding an easily detectable signal. This emission occurs when a charged particle travels through a dielectric medium at a greater speed than the phase velocity of light in that medium. The particle will polarize the surrounding material as it travels, however the particle will have moved on before enough time has elapsed for the material to relax resulting in a build up of wave fronts. A shock front is produced that takes the shape of a cone about the particle track. This light cone has an opening angle given by
 \begin{equation}
 \cos{\theta}=\frac{1}{n\beta}
 \end{equation}
-where $n$ is the index of refraction for the material and $\beta$ is the ratio of the particle velocity and the speed of light $c$. If one takes a typical value for the refractive index in ice ($n=1.31$), an angle of roughly $40^{\circ}$ is obtained. Resolution of the Cherenkov cone of a single particle is a powerful technique for many particle detectors. However, the Cherenkov light fronts of only the most energetic and long-lived particle tracks are able to be resolved due to the large separation distances between individual light sensors in IceCube.
+where $n$ is the index of refraction for the material and $\beta$ is the ratio of the particle velocity and the speed of light $c$. If one takes a typical value for the refractive index in ice ($n=1.31$), an angle of roughly $40^{\circ}$ is obtained. Resolution of the Cherenkov cone of a single particle is a powerful identification technique for many particle detectors. However, the Cherenkov light fronts of only the most energetic and long-lived particle tracks are able to be resolved in IceCube due to the large separation distances between individual light sensors.
 
 %% Diagram of Cherenkov Cone?
 
@@ -209,7 +214,7 @@ For most neutrino events in IceCube, deep inelastic scattering with nucleons in 
 
 
 \section{Flavor Oscillations}
-The process in which the lepton flavor of a given neutrino can change during its propagation is one of the particles more intriguing properties. The unexpected observation of neutrino oscillations indicated that the neutrino, which was initially thought to be massless under the Standard Model, must actually have some non-zero mass after all. Recently, many experiments have studied this phenomenon with high precision in hopes of accurately determining the mass-splitting of the neutrino eigenstates as well as if neutrinos undergo CP violation. While the analysis being presented is in no way suited to studying the oscillation phenomenon, how the results are interpreted is very much dependent on how the modeled neutrino flavor ratio for a source evolves from its origin to its arrival at Earth. Thus, this section will describe in short detail the oscillation process over astronomical baselines and through the Earth, the scenarios most applicable to IceCube.
+The process in which the lepton flavor of a given neutrino can change during its propagation is one of the particle's more intriguing properties. The unexpected observation of neutrino oscillations indicated that the neutrino, which was initially thought to be massless under the Standard Model, must actually have some non-zero mass after all. Recently, many experiments have studied this phenomenon with high precision in hopes of accurately determining the mass-splitting of the neutrino eigenstates as well as if neutrinos undergo CP violation. While the analysis being presented is in no way suited to studying the oscillation phenomenon, how the results are interpreted is very much dependent on how the modeled neutrino flavor ratio for a source evolves from its origin to its arrival at Earth. Thus, this section will describe in short detail the oscillation process over astronomical baselines and through the Earth, the scenarios most applicable to IceCube.
 
 [Two-flavor Scenario]
 
@@ -229,8 +234,8 @@ The process in which the lepton flavor of a given neutrino can change during its
 As the name suggests, the field of neutrino astronomy is concerned with the detection of neutrinos of extraterrestrial origin for the use of identifying and classifying astrophysical sources. In a similar fashion to the advances made through expansion of traditional optical astronomy to the high-energy regime of x-rays and gamma-rays, it is thought that the unique window provided by neutrino astronomy can facilitate tremendous increases in our understanding of the universe. However, the detection of astrophysical neutrino events presents a exceedingly difficult challenge. Therefore, it is relevant to discuss the potential scientific rewards neutrino astronomy can provide.
 
 \section{Motivation}
-
-The detection of a neutrino flux for a source and measurement of its spectrum would provide critical insight into the processes governing the densest and most energetic regions of the source.
+Neutrinos provide a novel and unperturbed view into furthest reaches of the universe. 
+The detection of a neutrino flux from a source and measurement of its spectrum would provide critical insight into the processes governing the densest and most energetic regions of that object.
 
 [Illustration of different messengers]
 [ Cosmic ray -- Neutrino Connection]
@@ -256,9 +261,12 @@ While no individual extra-solar high-energy neutrino sources have yet to be disc
 
 \section{Active Galactic Nuclei}
 [Talk about neutrinos from AGN flares? Probably don't need much on this.]
-\section{Gamma-ray Bursts}
 
+\section{Gamma-ray Bursts}
+Gamma-ray Bursts (GRBs) have been considered as a possible source for the most energetic of cosmic rays. Certain cosmic ray acceleration models also suggest that GRBs are prominent neutrino sources as well.
 %% Fireball model, neutrino production in jets
+
+
 %% subphotospheric model
 
 \begin{figure}[ht]
@@ -270,7 +278,7 @@ While no individual extra-solar high-energy neutrino sources have yet to be disc
 \end{figure}
 
 \section{Core-Collapse Supernovae}
-The detection of several neutrino events in temporal coincidence with supernova 1987A marked the first detection of an extra-solar neutrino source. Neutrino events were observed in three separate detectors a few hours prior to the optical observation. Such an observation was made possible by the close proximity of the progenitor which was located within the Large Magellanic Cloud($\sim$50 kpc from Earth). Detection of these events confirmed the theoretical prediction of an enormous liberation of energy in the form of neutrinos during the collapse of the core of a massive star.
+The detection of several neutrino events in temporal coincidence with supernova 1987A marked the first detection of an extra-solar neutrino source. Neutrino events were observed in three separate detectors a few hours prior to the optical observation. Such an observation was possible due to the close proximity of the progenitor which was located within the Large Magellanic Cloud ($\sim$50 kpc from Earth). Detection of these events confirmed the theoretical prediction of an enormous liberation of energy in the form of neutrinos during the collapse of the core of a massive star.
 
 
 %% neutrino production from neutron conversion, SN1987A
@@ -284,7 +292,10 @@ The detection of several neutrino events in temporal coincidence with supernova 
 \end{wrapfigure}
 
 \section{Choked Gamma-ray Bursts}
-The core-collapse of a massive star is thought to be the mostly likely engine for powering the jets responsible for gamma-ray emission from long duration GRBs \cite{}. This suggests that a correlation between long duration GRBs and supernovae should exist. In fact, some instances of GRB association with SNe have been observed \cite{} \cite{}. This has led some to speculate that jet production during core-collapse might occur in a higher fraction of SNe than the observed GRB-SNe fraction would indicate.
+The core-collapse of a massive star is thought to be the mostly likely engine for powering the jets responsible for gamma-ray emission from long duration GRBs \cite{2004RvMP...76.1143P}. This suggests that a correlation between long duration GRBs and supernovae should exist. In fact, some instances of GRB association with SNe have been observed \cite{2006ARA&A..44..507W}, \cite{2011AN....332..434M}. This has led some to speculate that jet production during core-collapse might occur in a higher fraction of SNe than the observed GRB-SNe fraction would indicate. Gamma rays from these jets may be hidden from direct observation because they are insufficiently energetic to breakout from the surrounding stellar envelope of the progenitor and are effectively 'choked' off. However, if these jets produce neutrinos in the same manner as the jets in GRBs, it may be possible to observe such a source through its neutrino emission despite the fact that the optical signature remains hidden. In this scenario, a continuum class of objects would exist in which GRBs represent CC-SNe harboring the most energetic of jets.
+
+
+
 
 [Primary source of interest. Should be most detailed neutrino source section]
 

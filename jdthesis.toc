@@ -29,50 +29,50 @@
 \contentsline {section}{\numberline {4.1}Active Galactic Nuclei}{17}
 \contentsline {section}{\numberline {4.2}Gamma-ray Bursts}{17}
 \contentsline {section}{\numberline {4.3}Core-Collapse Supernovae}{17}
-\contentsline {section}{\numberline {4.4}Choked Gamma-ray Bursts}{17}
+\contentsline {section}{\numberline {4.4}Choked Gamma-ray Bursts}{18}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {V}\MakeUppercase {Detector}}{19}
-\contentsline {section}{\numberline {5.1}IceCube and IceTop}{19}
-\contentsline {section}{\numberline {5.2}DeepCore}{21}
-\contentsline {section}{\numberline {5.3}Neutrino Events in IceCube}{22}
+\contentsline {chapter}{\numberline {V}\MakeUppercase {Detector}}{20}
+\contentsline {section}{\numberline {5.1}IceCube and IceTop}{20}
+\contentsline {section}{\numberline {5.2}DeepCore}{22}
+\contentsline {section}{\numberline {5.3}Neutrino Events in IceCube}{23}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VI}\MakeUppercase {Data Acquisition}}{28}
-\contentsline {section}{\numberline {6.1}The Digital Optical Module}{28}
-\contentsline {section}{\numberline {6.2}Hit Generation}{29}
-\contentsline {section}{\numberline {6.3}Triggering and Event Building}{31}
+\contentsline {chapter}{\numberline {VI}\MakeUppercase {Data Acquisition}}{29}
+\contentsline {section}{\numberline {6.1}The Digital Optical Module}{29}
+\contentsline {section}{\numberline {6.2}Hit Generation}{30}
+\contentsline {section}{\numberline {6.3}Triggering and Event Building}{32}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{34}
-\contentsline {section}{\numberline {7.1}Low-energy Channel}{34}
-\contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{35}
-\contentsline {subsection}{\numberline {7.2.1}Veto Cuts}{36}
-\contentsline {subsection}{\numberline {7.2.2}Quality Cuts}{36}
-\contentsline {subsection}{\numberline {7.2.3}Machine Learning Cut}{36}
-\contentsline {section}{\numberline {7.3}Event Reconstruction}{36}
-\contentsline {section}{\numberline {7.4}Final Level Data}{37}
+\contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{35}
+\contentsline {section}{\numberline {7.1}Low-energy Channel}{35}
+\contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{36}
+\contentsline {subsection}{\numberline {7.2.1}Veto Cuts}{37}
+\contentsline {subsection}{\numberline {7.2.2}Quality Cuts}{37}
+\contentsline {subsection}{\numberline {7.2.3}Machine Learning Cut}{37}
+\contentsline {section}{\numberline {7.3}Event Reconstruction}{37}
+\contentsline {section}{\numberline {7.4}Final Level Data}{38}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VIII}\MakeUppercase {Analysis Method}}{39}
-\contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{39}
-\contentsline {section}{\numberline {8.2}Sky Scan}{43}
-\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{45}
+\contentsline {chapter}{\numberline {VIII}\MakeUppercase {Analysis Method}}{40}
+\contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{40}
+\contentsline {section}{\numberline {8.2}Sky Scan}{44}
+\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{46}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {IX}\MakeUppercase {Systematic Effects}}{48}
-\contentsline {section}{\numberline {9.1}Ice Properties}{48}
-\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{49}
+\contentsline {chapter}{\numberline {IX}\MakeUppercase {Systematic Effects}}{49}
+\contentsline {section}{\numberline {9.1}Ice Properties}{49}
+\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{50}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{51}
+\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{52}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{53}
+\contentsline {chapter}{\numberline {XI}\MakeUppercase {Interpretation}}{54}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{54}
+\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{55}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Data Selection Process}}{55}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Data Selection Process}}{56}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Final Level Event Distributions}}{56}
+\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Final Level Event Distributions}}{57}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{62}
+\contentsline {chapter}{\MakeUppercase {Index}}{63}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Vita}}{63}
+\contentsline {chapter}{\MakeUppercase {Vita}}{64}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}

@@ -213,6 +213,10 @@
 {\sc {Kumar}, P.} and {\sc {Zhang}, B.}, ``{The Physics of Gamma-Ray Bursts and
   Relativistic Jets},'' {\em ArXiv e-prints}, Oct. 2014.
 
+\bibitem{2011AN....332..434M}
+{\sc {Modjaz}, M.}, ``{Stellar forensics with the supernova-GRB connection},''
+  {\em Astronomische Nachrichten}, vol.~332, pp.~434--447, June 2011.
+
 \bibitem{2013PhRvL.111m1102M}
 {\sc {Murase}, K.}, {\sc {Kashiyama}, K.}, and {\sc {M{\'e}sz{\'a}ros}, P.},
   ``{Subphotospheric Neutrinos from Gamma-Ray Bursts: The Role of Neutrons},''
@@ -221,6 +225,10 @@
 \bibitem{PauliLetter}
 {\sc {Pauli}, W.}, ``{Letter to the participants of the conference at
   Tubingen}.'' private communication, 1930.
+
+\bibitem{2004RvMP...76.1143P}
+{\sc {Piran}, T.}, ``{The physics of gamma-ray bursts},'' {\em Reviews of
+  Modern Physics}, vol.~76, pp.~1143--1210, Oct. 2004.
 
 \bibitem{2004PhRvL..93r1101R}
 {\sc {Razzaque}, S.}, {\sc {M{\'e}sz{\'a}ros}, P.}, and {\sc {Waxman}, E.},
@@ -231,5 +239,10 @@
 {\sc Wilks, S.~S.}, ``The large-sample distribution of the likelihood ratio for
   testing composite hypotheses,'' {\em Ann. Math. Statist.}, vol.~9,
   pp.~60--62, 03 1938.
+
+\bibitem{2006ARA&A..44..507W}
+{\sc {Woosley}, S.~E.} and {\sc {Bloom}, J.~S.}, ``{The Supernova Gamma-Ray
+  Burst Connection},'' {\em Annual Review of Astronomy \& Astrophysics},
+  vol.~44, pp.~507--556, Sept. 2006.
 
 \end{thebibliography}
