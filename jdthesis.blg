@@ -4,49 +4,53 @@ The style file: gatech-thesis.bst
 Database file #1: jdthesis.bib
 Warning--string name "d10" is undefined
 --line 360 of file jdthesis.bib
+Repeated entry---line 594 of file jdthesis.bib
+ : @article{2012ApJ...744....1A
+ :                             ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "?"
 Warning--I didn't find a database entry for ""
 Warning--to sort, need author or key in 2013JGlac..59.1117.
 Warning--empty author in 2013JGlac..59.1117.
-You've used 37 entries,
+You've used 39 entries,
             2221 wiz_defined-function locations,
-            777 strings with 13621 characters,
-and the built_in function-call counts, 22381 in all, are:
-= -- 1945
-> -- 1592
+            791 strings with 13867 characters,
+and the built_in function-call counts, 23252 in all, are:
+= -- 2039
+> -- 1617
 < -- 0
-+ -- 635
-- -- 596
-* -- 2430
-:= -- 3353
-add.period$ -- 38
-call.type$ -- 37
-change.case$ -- 409
++ -- 645
+- -- 604
+* -- 2499
+:= -- 3474
+add.period$ -- 40
+call.type$ -- 39
+change.case$ -- 419
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 953
-empty$ -- 1310
-format.name$ -- 596
-if$ -- 4608
+cite$ -- 41
+duplicate$ -- 995
+empty$ -- 1379
+format.name$ -- 604
+if$ -- 4812
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 35
-newline$ -- 115
-num.names$ -- 72
-pop$ -- 373
+int.to.str$ -- 39
+missing$ -- 37
+newline$ -- 121
+num.names$ -- 76
+pop$ -- 379
 preamble$ -- 1
-purify$ -- 372
+purify$ -- 380
 quote$ -- 0
-skip$ -- 675
+skip$ -- 716
 stack$ -- 0
-substring$ -- 867
-swap$ -- 621
+substring$ -- 941
+swap$ -- 645
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
+type$ -- 156
 warning$ -- 2
-while$ -- 122
-width$ -- 39
-write$ -- 361
-(There were 5 warnings)
+while$ -- 130
+width$ -- 41
+write$ -- 381
+(There was 1 error message)

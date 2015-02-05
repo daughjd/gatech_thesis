@@ -216,9 +216,46 @@ For most neutrino events in IceCube, deep inelastic scattering with nucleons in 
 \section{Flavor Oscillations}
 The process in which the lepton flavor of a given neutrino can change during its propagation is one of the particle's more intriguing properties. The unexpected observation of neutrino oscillations indicated that the neutrino, which was initially thought to be massless under the Standard Model, must actually have some non-zero mass after all. Recently, many experiments have studied this phenomenon with high precision in hopes of accurately determining the mass-splitting of the neutrino eigenstates as well as if neutrinos undergo CP violation. While the analysis being presented is in no way suited to studying the oscillation phenomenon, how the results are interpreted is very much dependent on how the modeled neutrino flavor ratio for a source evolves from its origin to its arrival at Earth. Thus, this section will describe in short detail the oscillation process over astronomical baselines and through the Earth, the scenarios most applicable to IceCube.
 
-[Two-flavor Scenario]
+The mixing of neutrino states arises due to the fact that the neutrino mass eigenstates do not directly correspond to the neutrino flavor eigenstates \cite{1978PhRvD..17.2369W}. While neutrinos are produced through weak interactions giving them a definite lepton flavor state, the mass of that neutrino is actually a superposition of three separate mass states. Likewise, the mass state of the neutrino is given by a superposition of the three lepton states. The phase of the mass states will evolve differently during propagation according to the mass differences between the mass eigenstates. Thus, when the neutrino interacts with matter again via the weak force it may be observed in a flavor state other than the its state during production. This mixing possibility can be described by a mixing matrix $U$:
+\begin{equation}
+\nu_{\alpha} = \sum_{i=1}^{3} U_{\alpha i} \nu_{i}
+\end{equation}
+where $\nu_{\alpha}$ are the lepton states ($e^-,\mu,\tau$) and $\nu_i$ are the mass states (1,2,3). Using the notation of Nunokawa et. al \cite{2008PrPNP..60..338N}, the matrix $U$ has the form
+\begin{equation}
+U = \left(\begin{array}{ccc}
+1 & 0 & 0 \\
+0 & c_{23} & s_{23} \\
+0 & -s_{23} & c_{23}
+\end{array}\right)
+\left(\begin{array}{ccc}
+c_{13} & 0 & s_{13}e^{i\delta} \\
+0 & 1 & 0 \\
+-s_{13}e^{i\delta} & 0 & c_{13}
+\end{array}\right)
+\left(\begin{array}{ccc}
+c_{12} & s_{12} & 0 \\
+-s_{12} & c_{12} & 0 \\
+0 & 0 & 1
+\end{array}\right)
+\end{equation}
+\begin{equation}
+=
+\left(\begin{array}{ccc}
+c_{12}c_{13} & s_{12}c_{13} & s_{13}e^{i\delta} \\
+-s_{12}c_{23}-c_{12}s_{23}s_{13}e^{i\delta} & c_{12}c_{23}-s_{12}s_{23}s_{13}e^{i\delta} & s_{23}c_{13}\\
+s_{12}s_{23}-c_{12}c_{23}s_{13}e^{i\delta} & -c_{12}s_{23}-s_{12}c_{23}s_{13}e^{i\delta} & c_{23}c_{13} \\
+\end{array}\right)
+\end{equation}
+In the above, $c_{ij}$ and $s_{ij}$ are shorthand notation for cos $ \theta_{ij}$ and sin $\theta_{ij}$ respectively while the $\delta$ term is related to charge-parity (CP) violation. By taking the inner product of the two states after application of the mixing matrix one arrives at Eq. \ref{eq:oscprob} which gives the probability of transition of a neutrino of flavor $\alpha$ to one of flavor $\beta$ during propagation \cite{2008PrPNP..60..338N}.
+\begin{equation}\label{eq:oscprob}
+P(\nu_{\alpha}\rightarrow \nu_{\beta}) = \left| \sum_{i} U_{\alpha i}^* U_{\beta i} e^{-i\frac{m_{i}^2}{2E}L}\right| ^2
+\end{equation}
 
-[Vacuum Oscillations]
+The full-fledged oscillation probability is complicated, but the most important thing to takeaway from the expression given by Eq. \ref{eq:oscprob} is that the probability of observing the neutrino in a different state depends on the propagation length $L$ and the energy of the particle $E$.
+
+
+
+
 
 \begin{figure}[ht]
   \begin{center}
@@ -294,7 +331,7 @@ The detection of several neutrino events in temporal coincidence with supernova 
 \section{Choked Gamma-ray Bursts}
 The core-collapse of a massive star is thought to be the mostly likely engine for powering the jets responsible for gamma-ray emission from long duration GRBs \cite{2004RvMP...76.1143P}. This suggests that a correlation between long duration GRBs and supernovae should exist. In fact, some instances of GRB association with SNe have been observed \cite{2006ARA&A..44..507W}, \cite{2011AN....332..434M}. This has led some to speculate that jet production during core-collapse might occur in a higher fraction of SNe than the observed GRB-SNe fraction would indicate. Gamma rays from these jets may be hidden from direct observation because they are insufficiently energetic to breakout from the surrounding stellar envelope of the progenitor and are effectively 'choked' off. However, if these jets produce neutrinos in the same manner as the jets in GRBs, it may be possible to observe such a source through its neutrino emission despite the fact that the optical signature remains hidden. In this scenario, a continuum class of objects would exist in which GRBs represent CC-SNe harboring the most energetic of jets.
 
-
+Because choked GRBs may occur at a much higher rate in the nearby universe, they are a prime target for time-dependent neutrino analyses. 
 
 
 [Primary source of interest. Should be most detailed neutrino source section]
@@ -522,7 +559,7 @@ Level 5 & ? & ? & ? \\ \hline
 
 \chapter{Analysis Method}
 %% Brief description of use of a time dependent search method
-The analysis presented in this thesis makes use of both directional and timing information from the final level event dataset. The techniques that are used in this analysis have been applied to other IceCube event selections in a similar fashion. As of yet, these time-dependent searches focused on IceCube events have yet to find any time-dependent neutrino sources of significance higher than background expectations \cite{}. A very thorough overview of the time-dependent likelihood analysis methods used in IceCube is given by Braun, et al. \cite{2010APh....33..175B}. The method detailed in the following section is mostly the same, but there are a few minor modifications made to the process to improve performance on a low energy event selection.
+The analysis presented in this thesis makes use of both directional and timing information from the final level event dataset. The techniques that are used in this analysis have been applied to other IceCube event selections in a similar fashion. As of yet, these time-dependent searches focused on IceCube events have yet to find any time-dependent neutrino sources of significance higher than background expectations \cite{2012ApJ...744....1A}. A very thorough overview of the time-dependent likelihood analysis methods used in IceCube is given by Braun, et al. \cite{2010APh....33..175B}. The method detailed in the following section is mostly the same, but there are a few minor modifications made to the process to improve performance on a low energy event selection.
 
 
 \section{Unbinned Likelihood Method}
@@ -553,17 +590,23 @@ In order to find the best fit for the source parameters $n_s$, $t_o$, $\sigma_w$
 \begin{equation}\label{eq:LLH}
 \mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w) = \prod \mathcal{P}_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w,\sigma_i)
 \end{equation}
-The value of this function will depend on all events within the dataset. Furthermore, we can maximize the ratio of the likelihood function with specific choices of signal terms to the value of the function under the null hypothesis ($n_s=0$) to yield a best fit to the data. The maximum value of the likelihood ratio yields a test statistic TS given by
+The value of this function will depend on all events within the dataset. Furthermore, we can maximize the ratio of the likelihood function with specific choices of signal terms to the value of the function under the null hypothesis ($n_s=0$) to yield a best fit to the data. The value of the likelihood ratio yields a test statistic $\lambda$ given by
 \begin{equation}
-TS = -2\log \left[\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right]
+\lambda = -2\log \left[\frac{\mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w)}{\mathcal{L}(n_s = 0)} \right]
 \end{equation}
-with $\mathcal{L}(n_s = 0)$ being the null hypothesis and $\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)$ as the optimized values for a signal plus background hypothesis. The statistic is defined as such so that the distriubtion of $TS$ values from datasets consisting of only background events are well-modeled by a $\chi^2$ distribution with degrees of freedom equivalent to the number of parameters being fitted. Given that the background distribution is $\chi^2$ distributed, Wilks's theorem can be used to estimate the probability or p-value of seeing a clustering of neutrino events with test statistic $TS$ \cite{wilks1938}. This p-value allows the method to reliably identify the most statistically significant neutrino flare in the dataset.
+with $\mathcal{L}(n_s = 0)$ being the null hypothesis and $\mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w)$ as the signal hypothesis being tested. Maximization of $\lambda$ through variation of the flare parameters yields
+\begin{equation}
+\hat{\lambda} = -2\log \left[\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right]
+\end{equation}
+where $\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)$ are the optimized flare parameters. 
 
-While this formulation of $TS$ has been shown to yield a $\chi^2$ distribution of background test statistics for time-independent searches in IceCube, it does not produce a distribution similar to $\chi^2$ when used in time-dependent searches \cite{2012ApJ...744....1A}. This is due to a bias towards shorter flare durations by the method. For a dataset of a given duration, it is possible to divide the data into many more short flare events than long flares. This creates an effective trials factor for shorter flares, and so the definition of the test statistic must be changed in orderto compensate for this effect:
+The test statistic is defined as such so that the distribution of $\lambda$ values from datasets consisting of only background events are well-modeled by a $\chi^2$ distribution with degrees of freedom equivalent to the number of parameters being fitted. Given that the background distribution is $\chi^2$ distributed, Wilks's theorem can be used to estimate the probability or p-value of seeing a clustering of neutrino events with test statistic $\lambda$ \cite{wilks1938}. This p-value allows the method to reliably identify the most statistically significant neutrino flare in the dataset.
+
+While this formulation of $\lambda$ has been shown to yield a $\chi^2$ distribution of background test statistics for time-independent searches in IceCube, it does not produce a distribution similar to $\chi^2$ when used in time-dependent searches \cite{2012ApJ...744....1A}. This is due to a bias towards shorter flare duration in the analysis method. For a dataset of a given duration, it is possible to divide the data into many more short flare events than long flares. This creates an effective trials factor for shorter flares, and so the definition of the test statistic must be changed in order to compensate for this effect:
 \begin{equation}
-TS = -2\log \left[\frac{\sqrt{2\pi}\hat{\sigma}_w}{T}\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right]
+\hat{\lambda} = -2\log \left[\frac{\sqrt{2\pi}\hat{\sigma}_w}{T}\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right]
 \end{equation}
-The introduction of the marginalization factor $T/\sqrt{2\pi}\sigma$ brings the background $TS$ distribution back into agreement with the appropriate $\chi^2$ distribution \cite{2012ApJ...744....1A}.
+The introduction of the marginalization factor $T/\sqrt{2\pi}\sigma$ brings the background $\lambda$ distribution back into agreement with the appropriate $\chi^2$ distribution \cite{2012ApJ...744....1A}.
 
 To summarize, this analysis uses a likelihood ratio method to find the best values for a signal-plus-background model of the dataset. This is accomplished through maximization of ratio of the likelihood function with best fit parameters to the value of the function under the null hypothesis to generate a test statistic. The test statistic serves as figure of merit that characterizes the degree to which the data is better explained by a signal hypothesis rather than the background only scenario. Because we are not selecting any specific locations to test for flaring, the test statistic must be maximized at each possible location in the sky. The details of this process are described in the following section.
 \section{Sky Scan}
@@ -603,9 +646,16 @@ In order to determine which bin has the most significant flare, we evaluate an e
 
 Once this distribution is adequately determined, the test statistic from any result we obtain from the analysis can be compared with the distribution we generated solely from background trials. This allows us to determine the probability of seeing a flare from just background fluctuations. This is sometimes referred to as the "p-value of the p-value" which is essentially the true p-value for the flare after properly accounting for all trials factors. This corrected p-value will be used when citing the significance of the final analysis result. 
 
-The scrambled background trials also serve as a check for any biases in the analysis method with respect to best-fit parameters. The recovered flare parameters for these trials show no strong pull towards certain flare parameter values, though their is some mild declination dependence which is expected (the atmospheric background distribution is declination dependent). The distributions of best fit flare parameters for background trials can be seen in Figure \ref{fig:}. The symmetry of the detector is evident through the lack of preference in the azimuthal location of the best-fit flares. Additionally, the smooth distribution in recovered flare times reveals that the analysis method is able to avoid locking on to specific timescales.
+The scrambled background trials also serve as a check for any biases in the analysis method with respect to best-fit parameters. The recovered flare parameters for these trials show no strong pull towards certain flare parameter values, though their is some mild declination dependence which is expected (the atmospheric background distribution is declination dependent). The distributions of best fit flare parameters for background trials can be seen in Figure \ref{fig:scramble_trials_parameters}. The symmetry of the detector is evident through the lack of preference in the azimuthal location of the best-fit flares. Additionally, the smooth distribution in recovered flare times reveals that the analysis method is able to avoid locking on to specific timescales.
 
-[INSERT FLARE PARAMETER DISTRIBUTIONS]
+\begin{figure}\label{fig:scramble_trials_parameters}
+\centering
+\subfigure[Right Acension]{\label{fig:a}\includegraphics[width=70mm]{RightAcensionDistribution_Null.png}}
+\subfigure[Declination]{\label{fig:b}\includegraphics[width=70mm]{DeclinationDistribution_Null.png}}
+\subfigure[Signal Strength $n_s$]{\label{fig:c}\includegraphics[width=70mm]{NSignalDistribution_Null.png}}
+\subfigure[Flare Width $\sigma_w$]{\label{fig:d}\includegraphics[width=70mm]{SigmaDistribution_Null.png}}
+\caption{Distribution of flare parameters for the most significant flares identified by analysis method in $2\times 10^4$ trials on scrambled background-only data. The values plotted are the location of the flare in R.A. (a) and Declination (b). Also, the distribution of flare strengths measured in number of signal events is shown in (c) while the best fit flare duration is given by (d).} 
+\end{figure}
 
 \chapter{Systematic Effects}
 There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the \textit{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs. While there are other errors that could be considered such as the absolute neutrino cross-section, the contribution they provide to the overall error is negligible.
@@ -636,8 +686,9 @@ TBD
   \label{fig:DOMSysEffArea}
 \end{figure}
 
-\chapter{Results}
+\chapter{Results and Interpretation}
 
+\subsection{Search Result}
 Applying the defined analysis method on the unscrambled dataset yields a skymap of the pre-trials p-values derived from the maximized test statistic for each bin (see Figure \ref{fig:RealSkyMap}).
 
 %% Hottest Spot
@@ -671,15 +722,15 @@ $\hat{n}_s$ & ? \\ \hline
   \label{fig:PostTrialsComparison}
 \end{figure}
 
-\chapter{Interpretation}
+\subsection{Event Upper Limit}
 
-
+\subsection{Limits on Choked GRBs}
 
 \chapter{Conclusion}
 
 \appendix
 \chapter{Appendix A -- Data Selection Process}
-
+Selection of an appropriate event sample required many iterations of trial cuts and background rejection methods. The final established selection criteria were settled on after careful study using Monte Carlo simulation of background and signal events in addition to the real background-dominated data.
 \chapter{Appendix B -- Final Level Event Distributions}
 
 \begin{postliminary}
