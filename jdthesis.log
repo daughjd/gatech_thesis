@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.1.12)  6 FEB 2015 17:58
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.1.12)  7 FEB 2015 16:51
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -268,31 +268,31 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
-Overfull \hbox (2.64603pt too wide) detected at line 53
+Overfull \hbox (2.64603pt too wide) detected at line 57
 \OT1/cmr/bx/n/10.95 VIII 
  []
 
-)
+[7])
 \tf@toc=\write3
 \openout3 = `jdthesis.toc'.
 
- [7] (./jdthesis.lot)
+ [8] (./jdthesis.lot)
 \tf@lot=\write4
 \openout4 = `jdthesis.lot'.
 
- [8
+ [9
 
 
-] (./jdthesis.lof [9
+] (./jdthesis.lof [10
 
 
-] [10])
+] [11])
 \tf@lof=\write5
 \openout5 = `jdthesis.lof'.
 
- [11]
+ [12]
 ***************** Summary ******************
-[12
+[13
 
 
 ]
@@ -303,42 +303,38 @@ CHAPTER I.
 CHAPTER II.
 [4
 
-] [5] <neutrino_nucelon_crosssections.png, id=64, 550.055pt x 803.0pt>
+] [5] <neutrino_nucelon_crosssections.png, id=67, 550.055pt x 803.0pt>
 File: neutrino_nucelon_crosssections.png Graphic file (type png)
 
 <use neutrino_nucelon_crosssections.png> [6] [7 <./neutrino_nucelon_crosssectio
-ns.png (PNG copy)>] [8] <dis.png, id=77, 501.875pt x 358.33875pt>
+ns.png (PNG copy)>] [8] <dis.png, id=80, 501.875pt x 358.33875pt>
 File: dis.png Graphic file (type png)
 
 <use dis.png> [9 <./dis.png (PNG copy)>]
-<DIS_CS_Neutrino.png, id=81, 910.40125pt x 631.35875pt>
+<DIS_CS_Neutrino.png, id=84, 910.40125pt x 631.35875pt>
 File: DIS_CS_Neutrino.png Graphic file (type png)
 
 <use DIS_CS_Neutrino.png>
-<DIS_CS_AntiNeutrino.png, id=82, 954.56625pt x 627.34375pt>
+<DIS_CS_AntiNeutrino.png, id=85, 954.56625pt x 627.34375pt>
 File: DIS_CS_AntiNeutrino.png Graphic file (type png)
 
 <use DIS_CS_AntiNeutrino.png> [10 <./DIS_CS_Neutrino.png (PNG copy)> <./DIS_CS_
 AntiNeutrino.png (PNG copy)>] [11]
-<MuonStoppingPower.png, id=89, 1150.2975pt x 607.26875pt>
+<MuonStoppingPower.png, id=92, 1150.2975pt x 607.26875pt>
 File: MuonStoppingPower.png Graphic file (type png)
 
 <use MuonStoppingPower.png> [12 <./MuonStoppingPower.png (PNG copy)>] [13]
 [14]
 
-LaTeX Warning: Citation `1998PhRvL..81.1562F' on page 15 undefined on input lin
-e 254.
-
-
 LaTeX Warning: Reference `tab:osc_param' on page 15 undefined on input line 258
 .
 
-<AstroBaselineOsc.png, id=102, 896.34875pt x 761.84625pt>
+<AstroBaselineOsc.png, id=105, 896.34875pt x 761.84625pt>
 File: AstroBaselineOsc.png Graphic file (type png)
 
 <use AstroBaselineOsc.png> [15] [16 <./AstroBaselineOsc.png (PNG copy)>]
 CHAPTER III.
-<CosmicRaySpectrum.jpg, id=110, 287.16133pt x 274.37018pt>
+<CosmicRaySpectrum.jpg, id=113, 287.16133pt x 274.37018pt>
 File: CosmicRaySpectrum.jpg Graphic file (type jpg)
 
 <use CosmicRaySpectrum.jpg>
@@ -349,94 +345,98 @@ LaTeX Warning: Citation `?' on page 17 undefined on input line 294.
 
 ] [18 <./CosmicRaySpectrum.jpg>]
 CHAPTER IV.
-<SubPhotoFluence.png, id=117, 776.9025pt x 541.02126pt>
+<NearbySNCatalogue.png, id=121, 892.33376pt x 667.49374pt>
+File: NearbySNCatalogue.png Graphic file (type png)
+
+<use NearbySNCatalogue.png>
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 32
+1.
+
+[19
+
+] <SubPhotoFluence.png, id=125, 776.9025pt x 541.02126pt>
 File: SubPhotoFluence.png Graphic file (type png)
 
 <use SubPhotoFluence.png>
-<NearbySNCatalogue.png, id=118, 892.33376pt x 667.49374pt>
-File: NearbySNCatalogue.png Graphic file (type png)
-
-<use NearbySNCatalogue.png> [19
-
-]
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 33
-4.
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 335--336
-[]\OT1/cmr/m/n/10.95 The core-collapse of a mas-sive star is
+Overfull \hbox (26.36758pt too wide) in paragraph at lines 339--339
+[]\OT1/cmr/bx/it/14.4 Choked Gamma-ray Bursts 
  []
 
-[20 <./SubPhotoFluence.png (PNG copy)> <./NearbySNCatalogue.png (PNG copy)>]
+
+Underfull \hbox (badness 1874) in paragraph at lines 340--341
+\OT1/cmr/m/n/10.95 The core-collapse of a mas-sive star is
+ []
+
+[20 <./NearbySNCatalogue.png (PNG copy)> <./SubPhotoFluence.png (PNG copy)>]
 [21]
 CHAPTER V.
-<ArrayWSeasonsLabels.pdf, id=129, 2569.6pt x 1756.5625pt>
+<ArrayWSeasonsLabels.pdf, id=132, 2569.6pt x 1756.5625pt>
 File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
 
 <use ArrayWSeasonsLabels.pdf> [22
 
 ] [23 <./ArrayWSeasonsLabels.pdf>]
-<BoreholeLaserDustLogging.png, id=141, 1075.01625pt x 401.5pt>
+<BoreholeLaserDustLogging.png, id=144, 1075.01625pt x 401.5pt>
 File: BoreholeLaserDustLogging.png Graphic file (type png)
 
 <use BoreholeLaserDustLogging.png> [24]
-<IC86EDC_DeepCoreDiagram.pdf, id=145, 347.2975pt x 682.55pt>
+<IC86EDC_DeepCoreDiagram.pdf, id=149, 347.2975pt x 682.55pt>
 File: IC86EDC_DeepCoreDiagram.pdf Graphic file (type pdf)
 
 <use IC86EDC_DeepCoreDiagram.pdf> [25 <./BoreholeLaserDustLogging.png (PNG copy
-)>] <hese_cascade_event.png, id=150, 2107.875pt x 2810.5pt>
+)>] <hese_cascade_event.png, id=153, 2107.875pt x 2810.5pt>
 File: hese_cascade_event.png Graphic file (type png)
 
 <use hese_cascade_event.png>
 
-LaTeX Warning: Float too large for page by 19.82814pt on input line 399.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 406.
 
-[26] <hese_track_event.png, id=154, 2107.875pt x 2810.5pt>
+[26] <hese_track_event.png, id=157, 2107.875pt x 2810.5pt>
 File: hese_track_event.png Graphic file (type png)
 
 <use hese_track_event.png>
 
-LaTeX Warning: Float too large for page by 19.82814pt on input line 411.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 418.
 
 [27] [28 <./IC86EDC_DeepCoreDiagram.pdf>] [29 <./hese_cascade_event.png (PNG co
 py)>] [30 <./hese_track_event.png (PNG copy)>]
 CHAPTER VI.
-<DomSchematic.png, id=210, 727.71875pt x 620.3175pt>
+<DomSchematic.png, id=214, 727.71875pt x 620.3175pt>
 File: DomSchematic.png Graphic file (type png)
  <use DomSchematic.png>
-<LabDOM.pdf, id=211, 2457.18pt x 3276.24pt>
+<LabDOM.pdf, id=215, 2457.18pt x 3276.24pt>
 File: LabDOM.pdf Graphic file (type pdf)
  <use LabDOM.pdf> [31
 
 ] [32 <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>] [33]
-<ICL.jpg, id=227, 963.6pt x 722.7pt>
+<ICL.jpg, id=230, 963.6pt x 722.7pt>
 File: ICL.jpg Graphic file (type jpg)
  <use ICL.jpg> [34 <./ICL.jpg>] [35]
 [36]
 CHAPTER VII.
 
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 480--481
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 487--488
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
 
-<DeepCoreVeto.jpg, id=237, 172.04097pt x 214.25177pt>
+<DeepCoreVeto.jpg, id=241, 172.04097pt x 214.25177pt>
 File: DeepCoreVeto.jpg Graphic file (type jpg)
  <use DeepCoreVeto.jpg>
 [37
 
 ] [38 <./DeepCoreVeto.jpg>] [39]
-<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=248, 722.7pt x 578.16p
+<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=251, 722.7pt x 578.16p
 t>
 File: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png Graphic file (type pn
 g)
  <use FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png>
-<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=249, 722.7pt x 578.16pt>
+<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=252, 722.7pt x 578.16pt>
 File: GENIE_FinalLevel_NeutrinoResolutionByNch.png Graphic file (type png)
 
 <use GENIE_FinalLevel_NeutrinoResolutionByNch.png>
-<LESEventForThesis.png, id=250, 831.51102pt x 623.63326pt>
+<LESEventForThesis.png, id=253, 831.51102pt x 623.63326pt>
 File: LESEventForThesis.png Graphic file (type png)
 
 <use LESEventForThesis.png> [40 <./FinalLevel_NeutrinoResolutionByEnergy_JustGE
@@ -445,34 +445,34 @@ esis.png (PNG copy)>]
 CHAPTER VIII.
 [42
 
-] [43] [44] [45] <NullMap996.png, id=274, 1084.05pt x 722.7pt>
+] [43] [44] [45] <NullMap996.png, id=277, 1084.05pt x 722.7pt>
 File: NullMap996.png Graphic file (type png)
 
 <use NullMap996.png>
-<LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png, id=275, 722.7pt 
+<LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png, id=278, 722.7pt 
 x 578.16pt>
 File: LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png Graphic file
  (type png)
  <use LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png>
 [46] [47 <./NullMap996.png>] [48 <./LowEnTransient_NEventDiscoveryPotentialANDS
 ensitivity_E3.png>]
-<TestStatisticDistribution_Null.png, id=287, 722.7pt x 578.16pt>
+<TestStatisticDistribution_Null.png, id=291, 722.7pt x 578.16pt>
 File: TestStatisticDistribution_Null.png Graphic file (type png)
 
 <use TestStatisticDistribution_Null.png> [49 <./TestStatisticDistribution_Null.
-png>] <RightAcensionDistribution_Null.png, id=293, 722.7pt x 578.16pt>
+png>] <RightAcensionDistribution_Null.png, id=296, 722.7pt x 578.16pt>
 File: RightAcensionDistribution_Null.png Graphic file (type png)
 
 <use RightAcensionDistribution_Null.png>
-<DeclinationDistribution_Null.png, id=294, 722.7pt x 578.16pt>
+<DeclinationDistribution_Null.png, id=297, 722.7pt x 578.16pt>
 File: DeclinationDistribution_Null.png Graphic file (type png)
 
 <use DeclinationDistribution_Null.png>
-<NSignalDistribution_Null.png, id=295, 722.7pt x 578.16pt>
+<NSignalDistribution_Null.png, id=298, 722.7pt x 578.16pt>
 File: NSignalDistribution_Null.png Graphic file (type png)
 
 <use NSignalDistribution_Null.png>
-<SigmaDistribution_Null.png, id=296, 722.7pt x 578.16pt>
+<SigmaDistribution_Null.png, id=299, 722.7pt x 578.16pt>
 File: SigmaDistribution_Null.png Graphic file (type png)
 
 <use SigmaDistribution_Null.png> [50] [51 <./RightAcensionDistribution_Null.png
@@ -480,7 +480,7 @@ File: SigmaDistribution_Null.png Graphic file (type png)
 aDistribution_Null.png>]
 CHAPTER IX.
 
-<LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png, id=309, 867.24pt x 
+<LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png, id=312, 867.24pt x 
 867.24pt>
 File: LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png Graphic file (t
 ype png)
@@ -488,7 +488,7 @@ ype png)
 [52
 
 ]
-<LowEnTransient_EffArea_SysGENIE_DomEfficiency.png, id=313, 867.24pt x 867.24pt
+<LowEnTransient_EffArea_SysGENIE_DomEfficiency.png, id=316, 867.24pt x 867.24pt
 >
 File: LowEnTransient_EffArea_SysGENIE_DomEfficiency.png Graphic file (type png)
 
@@ -496,11 +496,11 @@ File: LowEnTransient_EffArea_SysGENIE_DomEfficiency.png Graphic file (type png)
 EffArea_SysNugen_IceEffect_300GeVTrunc.png>] [54 <./LowEnTransient_EffArea_SysG
 ENIE_DomEfficiency.png>]
 CHAPTER X.
-<RealResultSkyMap.png, id=322, 1092.7224pt x 731.3724pt>
+<RealResultSkyMap.png, id=326, 1092.7224pt x 731.3724pt>
 File: RealResultSkyMap.png Graphic file (type png)
 
 <use RealResultSkyMap.png>
-<TestStatisticDistribution_WithResult.png, id=323, 578.16pt x 433.62pt>
+<TestStatisticDistribution_WithResult.png, id=327, 578.16pt x 433.62pt>
 File: TestStatisticDistribution_WithResult.png Graphic file (type png)
 
 <use TestStatisticDistribution_WithResult.png> [55
@@ -517,28 +517,28 @@ APPENDIX A.
 
 ]
 APPENDIX B.
-<FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png, id=339, 722.7pt x 578.16pt>
+<FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png, id=342, 722.7pt x 578.16pt>
 File: FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png Graphic file (type png)
 
 <use FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png>
-<FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png, id=340, 722.7pt x 578.16pt>
+<FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png, id=343, 722.7pt x 578.16pt>
 File: FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png Graphic file (type png)
 
 <use FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png>
-<LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=341, 722.7pt x 578.16pt>
+<LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=344, 722.7pt x 578.16pt>
 File: LES_SplineMPE_AzimuthDist_FinalLevelDist.png Graphic file (type png)
 
 <use LES_SplineMPE_AzimuthDist_FinalLevelDist.png>
-<LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=342, 722.7pt x 578.16pt>
+<LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=345, 722.7pt x 578.16pt>
 File: LES_SplineMPE_ZenithDist_FinalLevelDist.png Graphic file (type png)
 
 <use LES_SplineMPE_ZenithDist_FinalLevelDist.png>
-<LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png, id=343, 722.7pt x 578.16pt
+<LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png, id=346, 722.7pt x 578.16pt
 >
 File: LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png Graphic file (type png
 )
  <use LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png>
-<LES_BDTParam_FiniteReco_Z_FinalLevelDist.png, id=344, 722.7pt x 578.16pt>
+<LES_BDTParam_FiniteReco_Z_FinalLevelDist.png, id=347, 722.7pt x 578.16pt>
 File: LES_BDTParam_FiniteReco_Z_FinalLevelDist.png Graphic file (type png)
 
 <use LES_BDTParam_FiniteReco_Z_FinalLevelDist.png> (./jdthesis.bbl [59
@@ -550,18 +550,18 @@ plineMPE_ZenithDist_FinalLevelDist.png> <./LES_BDTParam_SplineMPEMod_RLogL_Fina
 lLevelDist.png> <./LES_BDTParam_FiniteReco_Z_FinalLevelDist.png>] [62
 
 ] [63]
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 166--169
+[64] [65]
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
 []\OT1/cmr/m/sc/10.95 IceCube Col-lab-o-ra-tion\OT1/cmr/m/n/10.95 , ``I3Live Mo
 n-i-tor-ing Cal-en-dar.''
  []
 
-[65] [66]) [67]
+[66] [67]) [68]
 ***************** Vita ******************
-[68
+[69
 
 
-] [69
+] [70
 
 
 ] (./jdthesis.aux)
@@ -570,10 +570,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2524 strings out of 256216
- 34539 string characters out of 1917072
- 81027 words of memory out of 1500000
- 5731 multiletter control sequences out of 10000+200000
+ 2527 strings out of 256216
+ 34602 string characters out of 1917072
+ 83043 words of memory out of 1500000
+ 5734 multiletter control sequences out of 10000+200000
  14599 words of font info for 54 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  27i,10n,27p,1502b,394s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -590,9 +590,9 @@ m/cmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/te
 xmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
 cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf
 /fonts/type1/bluesky/ams/msam10.pfb>
-Output written on jdthesis.pdf (81 pages, 8107202 bytes).
+Output written on jdthesis.pdf (83 pages, 8114343 bytes).
 PDF statistics:
- 449 PDF objects out of 1000 (max. 8388607)
+ 455 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

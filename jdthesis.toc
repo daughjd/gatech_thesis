@@ -5,11 +5,11 @@
 \contentsline {chapter}{\MakeUppercase {Acknowledgements}}{v}
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\MakeUppercase {List of Tables} }{viii}
+\contentsline {chapter}{\MakeUppercase {List of Tables} }{ix}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\MakeUppercase {List of Figures} }{ix}
+\contentsline {chapter}{\MakeUppercase {List of Figures} }{x}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\MakeUppercase {Summary}}{xii}
+\contentsline {chapter}{\MakeUppercase {Summary}}{xiii}
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {I}\MakeUppercase {Introduction}}{1}
@@ -27,9 +27,13 @@
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {IV}\MakeUppercase {Neutrino Sources}}{19}
 \contentsline {section}{\numberline {4.1}Active Galactic Nuclei}{19}
-\contentsline {section}{\numberline {4.2}Gamma-ray Bursts}{19}
-\contentsline {section}{\numberline {4.3}Core-Collapse Supernovae}{19}
+\contentsline {section}{\numberline {4.2}Core-Collapse Supernovae}{19}
+\contentsline {section}{\numberline {4.3}Gamma-ray Bursts}{19}
+\contentsline {subsection}{\numberline {4.3.1}Fireball Model}{20}
+\contentsline {subsection}{\numberline {4.3.2}Subphotospheric Model}{20}
 \contentsline {section}{\numberline {4.4}Choked Gamma-ray Bursts}{20}
+\contentsline {subsection}{\numberline {4.4.1}Neutrino Emission Model}{21}
+\contentsline {subsection}{\numberline {4.4.2}Model Limits on SN2008D}{21}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {V}\MakeUppercase {Detector}}{22}
 \contentsline {section}{\numberline {5.1}IceCube and IceTop}{22}
@@ -71,9 +75,9 @@
 \setcounter {tocdepth}{0}
 \contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Final Level Event Distributions}}{59}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{68}
+\contentsline {chapter}{\MakeUppercase {Index}}{69}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Vita}}{69}
+\contentsline {chapter}{\MakeUppercase {Vita}}{70}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
