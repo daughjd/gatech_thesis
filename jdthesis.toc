@@ -35,29 +35,31 @@
 \contentsline {subsection}{\numberline {4.4.1}Neutrino Emission Model}{21}
 \contentsline {subsection}{\numberline {4.4.2}Model Limits on SN2008D}{21}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {V}\MakeUppercase {Detector}}{22}
-\contentsline {section}{\numberline {5.1}IceCube and IceTop}{22}
-\contentsline {section}{\numberline {5.2}DeepCore}{24}
-\contentsline {section}{\numberline {5.3}Neutrino Events in IceCube}{25}
+\contentsline {chapter}{\numberline {V}\MakeUppercase {Detector}}{23}
+\contentsline {section}{\numberline {5.1}IceCube and IceTop}{23}
+\contentsline {section}{\numberline {5.2}DeepCore}{25}
+\contentsline {section}{\numberline {5.3}Neutrino Events in IceCube}{27}
+\contentsline {subsection}{\numberline {5.3.1}Cascades}{27}
+\contentsline {subsection}{\numberline {5.3.2}Muon Tracks}{28}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VI}\MakeUppercase {Data Acquisition}}{31}
-\contentsline {section}{\numberline {6.1}The Digital Optical Module}{31}
-\contentsline {section}{\numberline {6.2}Hit Generation}{32}
-\contentsline {section}{\numberline {6.3}Triggering and Event Building}{34}
+\contentsline {chapter}{\numberline {VI}\MakeUppercase {Data Acquisition}}{32}
+\contentsline {section}{\numberline {6.1}The Digital Optical Module}{32}
+\contentsline {section}{\numberline {6.2}Hit Generation}{33}
+\contentsline {section}{\numberline {6.3}Triggering and Event Building}{35}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{37}
-\contentsline {section}{\numberline {7.1}Low-energy Channel}{37}
-\contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{39}
-\contentsline {subsection}{\numberline {7.2.1}Veto Cuts}{39}
-\contentsline {subsection}{\numberline {7.2.2}Quality Cuts}{39}
-\contentsline {subsection}{\numberline {7.2.3}Machine Learning Cut}{39}
-\contentsline {section}{\numberline {7.3}Event Reconstruction}{39}
-\contentsline {section}{\numberline {7.4}Final Level Data}{40}
+\contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{38}
+\contentsline {section}{\numberline {7.1}Low-energy Channel}{38}
+\contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{40}
+\contentsline {subsection}{\numberline {7.2.1}Veto Cuts}{40}
+\contentsline {subsection}{\numberline {7.2.2}Quality Cuts}{40}
+\contentsline {subsection}{\numberline {7.2.3}Machine Learning Cut}{40}
+\contentsline {section}{\numberline {7.3}Event Reconstruction}{40}
+\contentsline {section}{\numberline {7.4}Final Level Data}{41}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VIII}\MakeUppercase {Analysis Method}}{42}
-\contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{42}
-\contentsline {section}{\numberline {8.2}Sky Scan}{46}
-\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{48}
+\contentsline {chapter}{\numberline {VIII}\MakeUppercase {Analysis Method}}{43}
+\contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{43}
+\contentsline {section}{\numberline {8.2}Sky Scan}{47}
+\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{49}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {IX}\MakeUppercase {Systematic Effects}}{52}
 \contentsline {section}{\numberline {9.1}Ice Properties}{52}
@@ -73,7 +75,7 @@
 \setcounter {tocdepth}{0}
 \contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Data Selection Process}}{58}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Final Level Event Distributions}}{59}
+\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Final Level Distributions}}{59}
 \setcounter {tocdepth}{0}
 \contentsline {chapter}{\MakeUppercase {Index}}{69}
 \setcounter {tocdepth}{0}
