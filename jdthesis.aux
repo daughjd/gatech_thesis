@@ -26,7 +26,7 @@
 \citation{2013Sci...342E...1I}
 \citation{2009NIMPA.601..294A}
 \citation{2012APh....35..615A}
-\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {Summary}}{xiii}}
+\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {Summary}}{xiv}}
 \@writefile{toc}{\setcounter {tocdepth}{2}}
 \@writefile{toc}{\setcounter {tocdepth}{2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {I}\MakeUppercase  {Introduction}}{1}}
@@ -205,115 +205,125 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Level 4}{42}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.2.3}Level 5}{42}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.2.4}Level 6}{42}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Final Level Data}{42}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Final level data rate.}}{42}}
-\newlabel{tab:event_rates}{{1}{42}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}Event Reconstruction}{42}}
-\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Event display for a final level neutrino track event originating in DeepCore. The colored spheres represent DOMs that have registered a hit during the event. The size of the spheres are indicative of the total light received by the PMT on that DOM. The color denotes the timing of the hit with red corresponding to earlier times and blue corresponding to later times.}}{43}}
-\newlabel{fig:LESEventFinal}{{21}{43}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.5}Error Estimation}{43}}
-\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Median event resolution as a function of energy for simulation events passing all cuts.}}{44}}
-\newlabel{fig:EventSampleRes_Energy}{{22}{44}}
-\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Median event resolution as a function of number of hit DOMs for simulation events passing all cuts.}}{44}}
-\newlabel{fig:EventSampleRes_Nch}{{23}{44}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.4.1}Machine Learning Cut}{42}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.4.2}Quality Cuts}{42}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Contour plot showing the ratio of the signal and background p.d.f. values for different choices of event-source separtion ($\Delta \Psi $) and event resolution ($\sigma _{res}$). Parameter choices that lie within the contours have a signal-to-background ratio large enough to be included in the analysis.}}{43}}
+\newlabel{fig:QualityCutParameterSpace}{{21}{43}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Final Level Data}{44}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Final level data rate.}}{44}}
+\newlabel{tab:event_rates}{{1}{44}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Event Reconstruction}{44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Event display for a final level neutrino track event originating in DeepCore. The colored spheres represent DOMs that have registered a hit during the event. The size of the spheres are indicative of the total light received by the PMT on that DOM. The color denotes the timing of the hit with red corresponding to earlier times and blue corresponding to later times.}}{45}}
+\newlabel{fig:LESEventFinal}{{22}{45}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Event display for a final level neutrino track event with reconstructed track. This event is fairly energetic with respect to the usual events in the final sample. The red arrow shows the best fit from the 16-iteration SplineMPE reconstruction. The dust layer is clearly visible through the lack of DOMs registering light in the middle of the event track.}}{46}}
+\newlabel{fig:HESEventWithReco}{{23}{46}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}Error Estimation}{46}}
+\newlabel{fig:EventRes}{{7.4}{47}}
+\newlabel{fig:res1}{{24(a)}{47}}
+\newlabel{sub@fig:res1}{{(a)}{47}}
+\newlabel{fig:res2}{{24(b)}{47}}
+\newlabel{sub@fig:res2}{{(b)}{47}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Median event resolution as a function of primary neutrino energy (a) and as a function of DOMs receiving light in the event (b). These distributions are for events belonging to the low-energy branch (LES) of the event selection.}}{47}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Neutrino Resolution by Energy}}}{47}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Neutrino Resolution by Number of DOMs}}}{47}}
 \citation{2012ApJ...744....1A}
 \citation{2010APh....33..175B}
 \@writefile{toc}{\setcounter {tocdepth}{2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {VIII}\MakeUppercase  {Analysis Method}}{45}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{45}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {VIII}\MakeUppercase  {Analysis Method}}{48}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Unbinned Likelihood Method}{48}}
 \citation{1982}
-\newlabel{eq:LLH}{{18}{47}}
+\newlabel{eq:LLH}{{18}{50}}
 \citation{wilks1938}
 \citation{2012ApJ...744....1A}
-\newlabel{fig:BkgOnly_Zen_And_Azi}{{8.1}{48}}
-\newlabel{fig:alpha}{{24(a)}{48}}
-\newlabel{sub@fig:alpha}{{(a)}{48}}
-\newlabel{fig:beta}{{24(b)}{48}}
-\newlabel{sub@fig:beta}{{(b)}{48}}
-\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Distirbution of final dataset events in zenith and azimuth in dector coordinates. These distributions are used to create the spatial terms in the background p.d.f. used in the likelihood calculation.}}{48}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Final Level Event Azimuth Distribution}}}{48}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Final Level Event Zenith Distribution}}}{48}}
+\newlabel{fig:BkgOnly_Zen_And_Azi}{{8.1}{51}}
+\newlabel{fig:alpha}{{25(a)}{51}}
+\newlabel{sub@fig:alpha}{{(a)}{51}}
+\newlabel{fig:beta}{{25(b)}{51}}
+\newlabel{sub@fig:beta}{{(b)}{51}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Distirbution of final dataset events in zenith and azimuth in dector coordinates. These distributions are used to create the spatial terms in the background p.d.f. used in the likelihood calculation.}}{51}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Final Level Event Azimuth Distribution}}}{51}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Final Level Event Zenith Distribution}}}{51}}
 \citation{2012ApJ...744....1A}
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}Sky Scan}{49}}
-\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Sky map in celesital coordinates of pre-trials p-values for best-fit flares per bin for a randomized dataset. Random map generated by scrambling arrival times of real events. The black circle shows the location of the most significant flare found by the method. }}{50}}
-\newlabel{fig:NullTrialSkyMap}{{25}{50}}
-\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Calculated event sensitivity of the analysis at Declination $\delta $=$16^{\circ }$ for an $E^{-3}$ spectrum.}}{51}}
-\newlabel{fig:SensE3}{{26}{51}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{52}}
-\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Distribution of maximized test statistic $\lambda $ for $2\times 10^4$ searches performed on randomized datasets. Dashed lines mark the location of one-sided $\sigma $ deviations.}}{53}}
-\newlabel{fig:NullScramblingDistribution}{{27}{53}}
-\newlabel{fig:scramble_trials_parameters}{{8.3}{54}}
-\newlabel{fig:a}{{28(a)}{54}}
-\newlabel{sub@fig:a}{{(a)}{54}}
-\newlabel{fig:b}{{28(b)}{54}}
-\newlabel{sub@fig:b}{{(b)}{54}}
-\newlabel{fig:c}{{28(c)}{54}}
-\newlabel{sub@fig:c}{{(c)}{54}}
-\newlabel{fig:d}{{28(d)}{54}}
-\newlabel{sub@fig:d}{{(d)}{54}}
-\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Distribution of flare parameters for the most significant flares identified by analysis method in $2\times 10^4$ trials on scrambled background-only data. The values plotted are the location of the flare in R.A. (a) and Declination (b). Also, the distribution of flare strengths measured in number of signal events is shown in (c) while the best fit flare duration is given by (d).}}{54}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Right Acension}}}{54}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Declination}}}{54}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Signal Strength $n_s$}}}{54}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {Flare Width $\sigma _w$}}}{54}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Sky Scan}{52}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Sky map in celesital coordinates of pre-trials p-values for best-fit flares per bin for a randomized dataset. Random map generated by scrambling arrival times of real events. The black circle shows the location of the most significant flare found by the method. }}{53}}
+\newlabel{fig:NullTrialSkyMap}{{26}{53}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Calculated event sensitivity of the analysis at Declination $\delta $=$16^{\circ }$ for an $E^{-3}$ spectrum.}}{54}}
+\newlabel{fig:SensE3}{{27}{54}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}Significance and Trials Factors}{55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Distribution of maximized test statistic $\lambda $ for $2\times 10^4$ searches performed on randomized datasets. Dashed lines mark the location of one-sided $\sigma $ deviations.}}{56}}
+\newlabel{fig:NullScramblingDistribution}{{28}{56}}
+\newlabel{fig:scramble_trials_parameters}{{8.3}{57}}
+\newlabel{fig:a}{{29(a)}{57}}
+\newlabel{sub@fig:a}{{(a)}{57}}
+\newlabel{fig:b}{{29(b)}{57}}
+\newlabel{sub@fig:b}{{(b)}{57}}
+\newlabel{fig:c}{{29(c)}{57}}
+\newlabel{sub@fig:c}{{(c)}{57}}
+\newlabel{fig:d}{{29(d)}{57}}
+\newlabel{sub@fig:d}{{(d)}{57}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces Distribution of flare parameters for the most significant flares identified by analysis method in $2\times 10^4$ trials on scrambled background-only data. The values plotted are the location of the flare in R.A. (a) and Declination (b). Also, the distribution of flare strengths measured in number of signal events is shown in (c) while the best fit flare duration is given by (d).}}{57}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Right Acension}}}{57}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Declination}}}{57}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Signal Strength $n_s$}}}{57}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {Flare Width $\sigma _w$}}}{57}}
 \citation{2013arXiv1301.5361I}
 \@writefile{toc}{\setcounter {tocdepth}{2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {IX}\MakeUppercase  {Systematic Effects}}{55}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.1}Ice Properties}{55}}
-\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces Effective area at final event level as a function of energy for different possible ice properties. Increased absorption and scattering lead to very little degradation of the neutrino effective area at even the lowest energies.}}{56}}
-\newlabel{fig:IceSysEffArea}{{29}{56}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{57}}
-\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces Effective area at final event level as a function of energy for different possible DOM efficiency settings. At lower energies, the change in effective area becomes approximately proportional to the relative change in DOM efficiency.}}{57}}
-\newlabel{fig:DOMSysEffArea}{{30}{57}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {IX}\MakeUppercase  {Systematic Effects}}{58}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.1}Ice Properties}{58}}
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces Effective area at final event level as a function of energy for different possible ice properties. Increased absorption and scattering lead to very little degradation of the neutrino effective area at even the lowest energies.}}{59}}
+\newlabel{fig:IceSysEffArea}{{30}{59}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.2}DOM Quantum Efficiency}{60}}
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces Effective area at final event level as a function of energy for different possible DOM efficiency settings. At lower energies, the change in effective area becomes approximately proportional to the relative change in DOM efficiency.}}{60}}
+\newlabel{fig:DOMSysEffArea}{{31}{60}}
 \@writefile{toc}{\setcounter {tocdepth}{2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {X}\MakeUppercase  {Results}}{58}}
-\@writefile{toc}{\contentsline {section}{\numberline {10.1}Search Result}{58}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Best-fit signal parameters}}{58}}
-\newlabel{tab:best_fit_flare}{{2}{58}}
-\@writefile{toc}{\contentsline {section}{\numberline {10.2}Event Upper Limit}{58}}
-\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces Sky map of pre-trials p-values for best flares per bin. The black circle identifies the location of the most significant flare found at RA = 268.75$^\circ $ and Declination = 54.25$^\circ $.}}{59}}
-\newlabel{fig:RealSkyMap}{{31}{59}}
-\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Distribution of test statistic $\lambda $ of most signficant flare found in 1,985 background trials. The test statistic value for the best fit flare on the unscrambled data set is also plotted.}}{60}}
-\newlabel{fig:PostTrialsComparison}{{32}{60}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {X}\MakeUppercase  {Results}}{61}}
+\@writefile{toc}{\contentsline {section}{\numberline {10.1}Search Result}{61}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Best-fit signal parameters}}{61}}
+\newlabel{tab:best_fit_flare}{{2}{61}}
+\@writefile{toc}{\contentsline {section}{\numberline {10.2}Event Upper Limit}{61}}
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Sky map of pre-trials p-values for best flares per bin. The black circle identifies the location of the most significant flare found at RA = 268.75$^\circ $ and Declination = 54.25$^\circ $.}}{62}}
+\newlabel{fig:RealSkyMap}{{32}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces Distribution of test statistic $\lambda $ of most signficant flare found in 1,985 background trials. The test statistic value for the best fit flare on the unscrambled data set is also plotted.}}{63}}
+\newlabel{fig:PostTrialsComparison}{{33}{63}}
 \@writefile{toc}{\setcounter {tocdepth}{2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {XI}\MakeUppercase  {Limits on Choked GRBs}}{61}}
-\@writefile{toc}{\contentsline {section}{\numberline {11.1}Parameter Dependent Upper Limit}{61}}
-\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces guh}}{61}}
-\newlabel{fig:ParameterDep_UL}{{33}{61}}
-\@writefile{toc}{\contentsline {section}{\numberline {11.2}Visibility Distance}{61}}
-\@writefile{toc}{\contentsline {section}{\numberline {11.3}Volumetric Rate Limit on Choked GRBs}{61}}
-\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces guh}}{62}}
-\newlabel{fig:ParameterDepVisDist}{{34}{62}}
-\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces guh}}{63}}
-\newlabel{fig:ParameterDepRateLimit}{{35}{63}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {XI}\MakeUppercase  {Limits on Choked GRBs}}{64}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.1}Parameter Dependent Upper Limit}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces guh}}{64}}
+\newlabel{fig:ParameterDep_UL}{{34}{64}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.2}Visibility Distance}{64}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.3}Volumetric Rate Limit on Choked GRBs}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces guh}}{65}}
+\newlabel{fig:ParameterDepVisDist}{{35}{65}}
+\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces guh}}{66}}
+\newlabel{fig:ParameterDepRateLimit}{{36}{66}}
 \@writefile{toc}{\setcounter {tocdepth}{2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {XII}\MakeUppercase  {Conclusion}}{64}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {XII}\MakeUppercase  {Conclusion}}{67}}
 \bibdata{jdthesis}
 \@writefile{toc}{\setcounter {tocdepth}{0}}
 \@writefile{toc}{\setcounter {tocdepth}{0}}
-\@writefile{toc}{\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase  {Appendix A -- Final Level Distributions}}{65}}
-\newlabel{fig:FL_nch_by_energy}{{A}{66}}
-\newlabel{fig:i}{{36(a)}{66}}
-\newlabel{sub@fig:i}{{(a)}{66}}
-\newlabel{fig:ii}{{36(b)}{66}}
-\newlabel{sub@fig:ii}{{(b)}{66}}
-\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces NCh-Energy relation for simulated $\nu _\mu $ neutrino events at the final level. Nch is a shorthand term for the number of DOMs receiving light from an event. Subfigure (a) shows the correlation for events belonging to the Low-Energy Stream (LES) branch of the event selection while (b) shows the same for events belonging to the High-Energy Stream or HES branch.}}{66}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {LES Nch-Energy Relation}}}{66}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {HES Nch-Energy Relation}}}{66}}
-\newlabel{fig:final_level_distros}{{A}{67}}
-\newlabel{fig:reco_azi}{{37(a)}{67}}
-\newlabel{sub@fig:reco_azi}{{(a)}{67}}
-\newlabel{fig:reco_zen}{{37(b)}{67}}
-\newlabel{sub@fig:reco_zen}{{(b)}{67}}
-\newlabel{fig:reco_rlogl}{{37(c)}{67}}
-\newlabel{sub@fig:reco_rlogl}{{(c)}{67}}
-\newlabel{fig:reco_z}{{37(d)}{67}}
-\newlabel{sub@fig:reco_z}{{(d)}{67}}
-\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces Distributions of for simulation and real data at the final event level. Plots above for the Low-Energy Stream (\textbf  {LES}) branch of the event sample.}}{67}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Reconstructed Event Azimuth}}}{67}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Reconstructed Event Zenith}}}{67}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Reconstruction Reduced Log-likelihood}}}{67}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {Reconstructed Event Vertex Detector Z-position}}}{67}}
+\@writefile{toc}{\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase  {Appendix A -- Final Level Distributions}}{68}}
+\newlabel{fig:FL_nch_by_energy}{{A}{69}}
+\newlabel{fig:i}{{37(a)}{69}}
+\newlabel{sub@fig:i}{{(a)}{69}}
+\newlabel{fig:ii}{{37(b)}{69}}
+\newlabel{sub@fig:ii}{{(b)}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces NCh-Energy relation for simulated $\nu _\mu $ neutrino events at the final level. Nch is a shorthand term for the number of DOMs receiving light from an event. Subfigure (a) shows the correlation for events belonging to the Low-Energy Stream (LES) branch of the event selection while (b) shows the same for events belonging to the High-Energy Stream or HES branch.}}{69}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {LES Nch-Energy Relation}}}{69}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {HES Nch-Energy Relation}}}{69}}
+\newlabel{fig:final_level_distros}{{A}{70}}
+\newlabel{fig:reco_azi}{{38(a)}{70}}
+\newlabel{sub@fig:reco_azi}{{(a)}{70}}
+\newlabel{fig:reco_zen}{{38(b)}{70}}
+\newlabel{sub@fig:reco_zen}{{(b)}{70}}
+\newlabel{fig:reco_rlogl}{{38(c)}{70}}
+\newlabel{sub@fig:reco_rlogl}{{(c)}{70}}
+\newlabel{fig:reco_z}{{38(d)}{70}}
+\newlabel{sub@fig:reco_z}{{(d)}{70}}
+\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces Distributions of for simulation and real data at the final event level. Plots above for the Low-Energy Stream (\textbf  {LES}) branch of the event sample.}}{70}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Reconstructed Event Azimuth}}}{70}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Reconstructed Event Zenith}}}{70}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Reconstruction Reduced Log-likelihood}}}{70}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {Reconstructed Event Vertex Detector Z-position}}}{70}}
 \bibcite{2013JGlac..59.1117.}{1}
 \bibcite{2013PhRvL.111h1801A}{2}
 \bibcite{2013PhRvL.110m1302A}{3}
@@ -361,9 +371,9 @@
 \bibcite{wilks1938}{44}
 \bibcite{1978PhRvD..17.2369W}{45}
 \bibcite{2006ARA&A..44..507W}{46}
-\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {Index}}{75}}
+\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {Index}}{78}}
 \@writefile{toc}{\setcounter {tocdepth}{0}}
 \@writefile{toc}{\setcounter{tocdepth}{3}}
-\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {Vita}}{76}}
+\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {Vita}}{79}}
 \@writefile{toc}{\setcounter {tocdepth}{0}}
 \@writefile{toc}{\setcounter {tocdepth}{2}}

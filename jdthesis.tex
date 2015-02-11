@@ -115,7 +115,7 @@ A neutrino of flavor $l$ will yield its counterpart charged lepton while the fin
 \end{eqnarray}
 Unlike CC interactions, only the energy imparted to the target nucleus will be observable as the outgoing neutrino $\nu_{l}'$ will carry some fraction of the energy. As is the case in the CC scenario, the end state for the nucleon in NC interactions will vary according to the energy departed by the neutrino.
 
-How deeply these interactions probe the interal structure of the target nucleon is ultimately dependent on energy of the incoming neutrino. For neutrinos below 20 GeV in energy, the exact manner in which the neutrino interacts with the target nucleon can be quite complicated as there are three categories of scattering interaction possible. These modes include quasi-elastic scattering, resonance production, and deep inelastic scattering \cite{2012RvMP...84.1307F}. Nearly all interaction products from neutrino events detected by IceCube are the result of deep inelastic scattering. However, other modes of interaction can be much more prevalent in a DeepCore sample as the energy threshold of the detector extends to approximately 10 GeV. Figure \ref{fig:neutrino_scattering} shows the relative size of the cross-section for each of the aforementioned processes as a function of neutrino energy. The higher number of possible end states provided by quasi-elastic and resonance scattering make simulation and proper estimation of the cross-section for neutrino events of 1-20 GeV events a fairly complex ordeal. Quasi-elastic scattering and resonance production will only be briefly described as very few of the neutrino events present in the final event sample of the presented analysis interacted through either of these means.
+How deeply these interactions probe the internal structure of the target nucleon is ultimately dependent on energy of the incoming neutrino. For neutrinos below 20 GeV in energy, the exact manner in which the neutrino interacts with the target nucleon can be quite complicated as there are three categories of scattering interaction possible. These modes include quasi-elastic scattering, resonance production, and deep inelastic scattering \cite{2012RvMP...84.1307F}. Nearly all interaction products from neutrino events detected by IceCube are the result of deep inelastic scattering. However, other modes of interaction can be much more prevalent in a DeepCore sample as the energy threshold of the detector extends to approximately 10 GeV. Figure \ref{fig:neutrino_scattering} shows the relative size of the cross-section for each of the aforementioned processes as a function of neutrino energy. The higher number of possible end states provided by quasi-elastic and resonance scattering make simulation and proper estimation of the cross-section for neutrino events of 1-20 GeV events a fairly complex ordeal. Quasi-elastic scattering and resonance production will only be briefly described as very few of the neutrino events present in the final event sample of the presented analysis interacted through either of these means.
 
 \begin{wrapfigure}{l}{0.5\textwidth}
   \begin{center}
@@ -540,38 +540,57 @@ This filter actually consists of two separate streams which are differentiated b
 \section{Analysis Specific Cuts}
 After reducing the IceCube data stream to specific filters, the selection criteria imposed by differing will begin to diverge in order to optimize sensitivity to their respective target signal. For this analysis, the data given by the low-energy filter is put through a series of cuts optimized to preserve upgoing and contained track-like events from muon neutrino interactions. What event traits to cut on and to what degree was decided through examination of many cut choices on a sample of simulated muon neutrino events and background simulation. The end result is a selection of event cuts that can be grouped into two categories. The first category consists of cuts derived from detector information in the veto region while the second focuses on event quality and reconstruction characteristics. Lastly, a cut developed through machine learning techniques and optimized with respect to analysis sensitivity is applied to achieve a final level data set ready for analysis.
 
-Each iteration of data selection criteria are often referred to as `levels'. In IceCube, the output of the various physics filters is known as Level 1 or L1 data. This data is subject to additional processing involving more CPU intensive reconstructions. This post-processed data is referred to as L2, and it is at this level that specific analyzers in IceCube will begin to impose their own selection criteria. We will continue use of this nomenclature to describe the various steps involved in the event selection process specific to this analysis (L3, L4, etc.). 
+Each iteration of data selection criteria are often referred to as `levels'. In IceCube, the output of the various physics filters is known as Level 1 or L1 data. This L1 data is subject to additional processing involving more CPU intensive reconstructions. This post-processed data is referred to as L2, and it is at this level that specific analyzers in IceCube will begin to impose their own selection criteria. We will continue use of this nomenclature to describe the various steps involved in the event selection process specific to this analysis (L3, L4, etc.). 
 
 \subsection{Level 3}
-Despite the best efforts of the low-energy filter, downgoing muons created in cosmic-ray air showers still represent the most dominant background at this level.
+Despite the best efforts of the low-energy filter, downgoing muons created in cosmic-ray air showers still represent the most dominant background at this level. Another large contributor to our event rate at this level is the presence of events triggered by correlated noise in DeepCore DOMs. These noise events consist of a handful of DOMs (3-4) in the central part of the detector that all happen to have noise-induced pulses over a time period shorter than the DeepCore trigger window (2.5 $\mu s$).
 
 \subsection{Level 4}
 
 \subsection{Level 5}
 
 \subsection{Level 6}
+Rather than making simple straight cuts on event parameters, the last step in the event selection process makes use machine learning techniques. The background that still remains at this level is not as easily separated from obvious signal events due to large overlap in the distributions of their event parameters. We can however use the differences in the shapes of these distributions to form a multi-dimensional cut that is optimized for signal retention. Once this cut has been applied, a final straight cut is imposed that ensures event quality for the final level dataset.
+\subsubsection{Machine Learning Cut}
 
-%% Insert BDT Input Distributions
+\subsubsection{Quality Cuts}
+Application of the BDT cut yields a manageable dataset that should be fairly pure. Some of the events that remain, however, are of suspect quality and are likely not useful to include in the analysis. By imposing a cut on event quality, we can eliminate some of these events without further degrading the sensitivity of our analysis. The quality parameter that is cut on is an estimation of the resolution of the event known as paraboloid sigma $\sigma_{para}$. This quantity is derived from the final level event reconstruction (see 7.4), and $\sigma_{para}$ itself is described in detail in section 7.5. For the discussion at hand, $\sigma_{para}$ can simply be understood as a measure of the event resolution.
+
+Events having a value of $\sigma_{para}$ greater than 45$^{\circ}$ are removed from the final sample. The choice of a cut at 45$^{\circ}$ stems from a particular feature present in the analysis code. Overall, this quality cut reduces the overall data rate by about $10\%$. The events removed by this cut generally produce very few hits within the detector, and therefore their true direction is incredibly difficult to constrain.
+
+One could argue that the timing information provided by such events could still prove useful in identifying potential neutrino flares. However, certain intricacies of the analysis code prevent these events from contributing to the signal hypothesis. During the analysis of final level events, the reconstructed direction of an event will be checked against a hypothetical source location to determine if the event could be associated with that source. This process involves the comparison of two probability density functions (p.d.f.s) which describe the event distributions expected from signal and background respectively \footnote{The mathematical details of these functions are provided in the discussion of the analysis method in chapter VIII.}. In order to decrease computation time, only events whose signal-to-background ($S/B$) ratio is greater than a specified threshold will actually contribute to the likelihood calculation. This effect is visualized in Figure \ref{fig:QualityCutParameterSpace}. The contours indicate different choices for this $S/B$ threshold, and only events with values of spatial separation ($\Delta \Psi$) and resolution ($\sigma_{para}$) that lie within the contour are able to contribute to a signal hypothesis. In practice we have chosen a $S/B$ threshold value of 8 which imposes a restriction on the maximal allowed value of $\sigma_{para}$ of 45$^{\circ}$.
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=.65\textwidth,keepaspectratio]{SignalOverBackground_ContourMap.png}
+  \end{center}
+  \caption{Contour plot showing the ratio of the signal and background p.d.f. values for different choices of event-source separtion ($\Delta \Psi$) and event resolution ($\sigma_{res}$). Parameter choices that lie within the contours have a signal-to-background ratio large enough to be included in the analysis.}
+  \label{fig:QualityCutParameterSpace}
+\end{figure}
+
 
 \section{Final Level Data}
-After all cuts have been applied, we are left with a sample of 22,040 events during the observation period with an expected neutrino 'purity' of about 90$\%$. The bulk of these events are neutrinos of atmospheric origin and they represent an irreducible background for the analysis.
+After all cuts have been applied, we are left with a sample of 22,040 events during the observation period with an expected neutrino `purity' of about 90$\%$. The bulk of these events are neutrinos of atmospheric origin and they represent an irreducible background for the analysis. While the sample does still contain some background cosmic ray muon events, these events do not greatly affect the sensitivity of our time-dependent analysis. As we are not trying to make any precision measurements on the atmospheric neutrino spectrum, we are able to be a bit loose with our cuts so that signal retention is maximized. The level-by-level data rates expected from simulation as well as the actual data rates are listed in Table \ref{tab:event_rates}. Distributions for various event parameters including reconstructed azimuth, zenith, and event vertex location are shown in Appendix A.
+
 \begin{table}[h]
-\caption[Final level data rate.]{Summary of event rates in mHz at each selection level. The amtospheric muon and neutrino rates are estimated through the use of Monte Carlo simulation (MC).\label{tab:event_rates}}
+\caption[Final level data rate.]{Summary of event rates at each selection level. The amtospheric muon and neutrino rates are estimated through the use of Monte Carlo simulation (MC). The discrepancy between the data rate and summed MC rates at pre-final levels (Filter,L3,L4,L5) can largely be attributed to unsimulated correlated noise events in the detector in addition to a small contribution from $\nu_e$ events. Many early level data cuts focus on these noise events, which are properly handled in newer simulation datasets.\label{tab:event_rates}}
 \begin{center}
-\begin{tabular}{|l|r|r|r|}
+\begin{tabular}{cccc}
   \hline
  \textbf{Event Type} &\textbf{ Cosmic Ray $\mu$} &\textbf{ Atmospheric $\nu_{\mu}$} &\textbf{ Collected Data}\\
 \hline
-Filter Level & ? & ? & ? \\ \hline
-Level 3 & ? & ? & ? \\ \hline
-Level 4 & ? & ? & ? \\ \hline
-Level 5 & ? & ? & ? \\ \hline
-\textbf{Final Level}     & \textbf{0.065 mHz} & \textbf{0.94 mHz} & \textbf{0.774 mHz} \\ \hline
+Filter Level & 38.6 Hz & 7.8 mHz & 40.5 Hz \\ 
+Level 3 & 1.79 Hz & 5.58 mHz & 2.16 Hz \\ 
+Level 4 & 7.65 mHz & 1.64 mHz & 15.2 mHz \\ 
+Level 5 & 2.5 mHz & 1.35 mHz & 6.3 mHz \\ \hline
+\textbf{L6 -- Final Level}     & \textbf{0.065 mHz} & \textbf{0.81 mHz} & \textbf{0.774 mHz} \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
 
-%%% Insert Table for final level rates
+We estimate the sensitivity of this event selection to potential neutrino source fluxes by calculating a neutrino effective area through the use of our muon neutrino Monte Carlo simulation. 
+
+
 %%% Refer to App. A for Pictures of Final Level Distributions
 %%% Insert Effective Area Plot
 
@@ -588,30 +607,26 @@ An accurate reconstruction of neutrino events in the data sample is critical for
 
 Reconstruction of a physics event within the IceCube detector depends on the geometry of the DOMs registering light from the event, the time of arrival for photons at those DOMs, and the total amount of light received at the individual DOMs.
 
-%% Picture of Track event with reconstruction, PMT pulses
-
 \begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{HES_Upgoing_WithReco.png}
+  \end{center}
+  \caption{Event display for a final level neutrino track event with reconstructed track. This event is fairly energetic with respect to the usual events in the final sample. The red arrow shows the best fit from the 16-iteration SplineMPE reconstruction. The dust layer is clearly visible through the lack of DOMs registering light in the middle of the event track.}
+  \label{fig:HESEventWithReco}
+\end{figure}
+
+\begin{figure}\label{fig:EventRes}
 \centering
-\begin{minipage}[b]{0.45\linewidth}
-\includegraphics[width=0.95\textwidth]{FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png}
-\caption{Median event resolution as a function of energy for simulation events passing all cuts.}
-\label{fig:EventSampleRes_Energy}
-\end{minipage}
-\quad
-\begin{minipage}[b]{0.45\linewidth}
-
-\includegraphics[width=0.95\textwidth]{GENIE_FinalLevel_NeutrinoResolutionByNch.png}
-
-\caption{Median event resolution as a function of number of hit DOMs for simulation events passing all cuts.}
-\label{fig:EventSampleRes_Nch}
-\end{minipage}
+\subfigure[Neutrino Resolution by Energy]{\label{fig:res1}\includegraphics[width=70mm]{FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png}}
+\subfigure[Neutrino Resolution by Number of DOMs]{\label{fig:res2}\includegraphics[width=70mm]{GENIE_FinalLevel_NeutrinoResolutionByNch.png}}
+\caption{Median event resolution as a function of primary neutrino energy (a) and as a function of DOMs receiving light in the event (b). These distributions are for events belonging to the low-energy branch (LES) of the event selection.} 
 \end{figure}
 
 \section{Error Estimation}
 Given a reconstruction for an event, it is essential to have an accurate estimation of the possible error of that reconstruction. While it is impossible to know this error on an event-by-event basis, we can examine a large set of simulated events to obtain a statistical estimation of how well an individual event will be resolved.
 
 \chapter{Analysis Method}
-%% Brief description of use of a time dependent search method
+
 The analysis presented in this thesis makes use of both directional and timing information from the final level event dataset. The techniques that are used in this analysis have been applied to other IceCube event selections in a similar fashion. As of yet, these time-dependent searches focused on IceCube events have yet to find any time-dependent neutrino sources of significance higher than background expectations \cite{2012ApJ...744....1A}. A very thorough overview of the time-dependent likelihood analysis methods used in previous IceCube analyses is given by Braun, et al. \cite{2010APh....33..175B}. The method detailed in the following section is mostly the same, but there are a few minor modifications made to the process to improve performance on a low energy event selection.
 
 
