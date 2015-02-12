@@ -1,5 +1,67 @@
 Turn this whole thing into a .dtx file with actual documentation...
 
-Turn NOTES into a USEFUL TIPS...a chapter in 'COMPLIANCE'?  I dunno; 
-there is an awful lot of docu duplication here.  It'd really be nice
-to consolidate it all into a single .tex (==.dvi,.pdf) file...
+
+INTRO
+-proofread
+
+NEUTRINO PROPERTIES
+X muon range / range of 1 TeV muon example
+X tidy-up propagation of secondaries
+- Finish Oscillations
+- proofread
+
+NEUTRINO ASTRONOMY
+- Basically write whole section
+- Neutrino advantages
+- Multi-messenger provides complete picture
+- UHECR-Neutrino connection
+- proofread
+
+NEUTRINO SOURCES
+- AGN Flaring (brief)
+- Core-collapse SNe (brief)
+- GRBs (Fireball,sub-photospheric)
+- Choked GRBs (detailed!, RMW/AB, production mechanism,spectrum, SN2008D)
+- proofread
+
+DETECTOR
+- proofread
+
+DAQ
+- add LC diagram?
+- proofread
+
+EVENT SELECTION
+- Simulation used
+- table for sim sets
+- break it down into levels
+- add event reco information
+X determine how to deal with sim excess at final level
+- proofread
+
+ANALYSIS METHOD
+- cleanup and organize
+- add more sentences; more explicit
+- add a background p-value distribution? (How do I get this!!)
+-  Sky Scan and Significance sections a little mixed up
+- proofread
+
+SYSTEMATIC EFFECTS
+- ice set table
+- energy dependence of ice effect plot
+- dom set table
+- energy dependence of dom eff plot
+- total error on the eff area
+- plot of original eff are with sys-adjusted eff area
+- proofread
+
+RESULTS AND INTERPRETATION
+X add in best fit parameters
+- mention followup look for SNe or TeVcat
+- upper limit for p-value > 50%
+- many subsections for Choked GRB limit
+- proofread
+
+CONCLUSION
+-write it last bud
+-proofread
