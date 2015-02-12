@@ -260,7 +260,7 @@ c_{12}c_{13} & s_{12}c_{13} & s_{13}e^{i\delta} \\
 s_{12}s_{23}-c_{12}c_{23}s_{13}e^{i\delta} & -c_{12}s_{23}-s_{12}c_{23}s_{13}e^{i\delta} & c_{23}c_{13} \\
 \end{array}\right)
 \end{equation}
-In the above, $c_{ij}$ and $s_{ij}$ are shorthand notation for cos $ \theta_{ij}$ and sin $\theta_{ij}$ respectively while the $\delta$ term is related to charge-parity (CP) violation. By taking the inner product of the two states after application of the mixing matrix one arrives at Eq. \ref{eq:oscprob} which gives the probability of transition of a neutrino of flavor $\alpha$ to one of flavor $\beta$ during propagation \cite{2008PrPNP..60..338N}.
+In the above, $c_{ij}$ and $s_{ij}$ are shorthand notation for cos $ \theta_{ij}$ and sin $\theta_{ij}$ respectively while $\delta$ is a phase term related to charge-parity (CP) violation. By taking the inner product of the two states after application of the mixing matrix one arrives at Eq. \ref{eq:oscprob} which gives the probability of transition of a neutrino of flavor $\alpha$ to one of flavor $\beta$ during propagation \cite{2008PrPNP..60..338N}.
 \begin{equation}\label{eq:oscprob}
 P(\nu_{\alpha}\rightarrow \nu_{\beta}) = \left| \sum_{i} U_{\alpha i}^* U_{\beta i} e^{-i\frac{m_{i}^2}{2E}L}\right| ^2
 \end{equation}
@@ -269,10 +269,27 @@ The full-fledged oscillation probability is complicated, but the most important 
 \begin{equation}\label{eq:2doscprob}
 P(\nu_{\alpha}\rightarrow \nu_{\beta}) = sin^22\theta sin^2\left(\frac{1.27\Delta m^2 (eV^2) L (km)}{E_\nu (GeV)}\right)
 \end{equation}
-This formulation will yield the probability of oscillation provided you know the mixing angle $\theta$ between $\alpha$ and $\beta$ and the mass-squared difference $\Delta m^2$ for the neutrino mass eigenstates. This approximation is commonly used by several experiments (e.g. IceCube \cite{2013PhRvL.111h1801A}) to make measurements on specific mixing angles. The current best-fit values for neutrino oscillation parameters are given in Table \ref{tab:osc_param} \cite{PhysRevD.89.093018}.
+This formulation will yield the probability of oscillation provided you know the mixing angle $\theta$ between $\alpha$ and $\beta$ and the mass-squared difference $\Delta m^2$ for the neutrino mass eigenstates. This approximation is commonly used by several experiments (e.g. IceCube \cite{2013PhRvL.111h1801A}) to make measurements on specific mixing angles. Using an accelerator produced neutrino beam with known energy, neutrino detectors can be placed long distances from the source where the oscillation probability given by Eq. \ref{eq:2doscprob} is maximized. These long-baseline experiments provide the most precise measurements of neutrino oscillation parameters. The current best-fit values for these parameters are given in Table \ref{tab:osc_param} \cite{PhysRevD.89.093018}.
+\begin{table}[h]
+\caption[Best Fit Neutrino Oscillation Parameters]{Best fit values for oscillation mixing angles $\theta_{ij}$ and squared mass differences $\Delta m^{2}$. These values are for the normal mass hierarchy scenario wherein $m_1 < m_2 , m_3$. We define $\Delta m^{2}$ here as $m_{3}^2 - (m_1^2 + m_2^2)/2$ \cite{PhysRevD.89.093018}.\label{tab:osc_param}}
+\begin{center}
+\begin{tabular}{cc}
+\hline
+\textbf{Parameter} &\textbf{ Best Fit}\\
+\hline
+sin$^2 \theta_{12}$ & 0.308\\
+sin$^2 \theta_{13}$ & 0.0234\\
+sin$^2 \theta_{23}$ & 0.437\\
+$\delta / \pi$ & 1.39 \\
+$\Delta m^2$ & 2.43$\cdot 10^{-3}$ eV\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
 
-The IceCube detector is not uniformly sensitive to all neutrino types. Therefore, it is important to estimate how the flavor ratio of a neutrino flux changes source during its propagation from an astrophysical source to Earth.
+The IceCube detector is not uniformly sensitive to all neutrino types. Therefore, it is important to estimate how the flavor ratio of a neutrino flux changes source during its propagation from an astrophysical source to Earth. The method of generation of a neutrino flux at the source will determine the initial flavor flux ratio. The flavor ratio for a given flux is usually given as a relative ratio of the flux of one flavor to the whole, e.g. (1:2:1) with the numbers in the parenthetical relating to the flavors as ($\nu_e$:$\nu_{\mu}$:$\nu_{\tau}$). Some common neutrino production scenarios include muon-suppressed pion decay, pion and muon deacy, and neutron decay which have flavor flux ratios of (0:1:0), (1:2:0), and (1:0:0) respectively. These production mechanisms will be described in more detail in Chapter 4, but for now we are just interested in how these flavor ratios evolve during propagation to Earth. 
 
+The effect is visualized in Figure \ref{fig:baseline_osc}. Here we see that the initial ratio of (0:1:0) from muon-suppresed pion decay ultimate arrives at Earth with a ratio of approximately (1:2:2). Three-flavor oscillations tend to average out the ratio between the flavors, but there is still a distinct difference at Earth for the differing production mechanisms. When placing limits on the neutrino emission from a possible source, the choice of flavor ratio at Earth will influence the degree to which a flux from that source can be excluded. In the event that astrophysical neutrino sources begin to be resolved, high statistics measurement of their flavor ratios should be able to identify what mode of neutrino production is at work at the source.
 
 \begin{figure}[ht]
   \begin{center}
@@ -628,12 +645,59 @@ Reconstruction of a physics event within the IceCube detector depends on the geo
 \end{figure}
 
 \section{Error Estimation}
-Given a reconstruction for an event, it is essential to have an accurate estimation of the possible error of that reconstruction. While it is impossible to know this error on an event-by-event basis, we can examine a large set of simulated events to obtain a statistical estimation of how well an individual event will be resolved.
+Given a reconstruction for an event, it is essential to have an accurate estimation of the possible error of that reconstruction. While it is impossible to know this error on an event-by-event basis, we can examine a large set of simulated events to obtain a statistical estimation of how well an individual event will be resolved. The reconstruction method used for events in this analysis utilizes a likelihood technique in which the directional parameter space is scanned over to optimize the fit. Events that are well-reconstructed will generally have a likelihood space with a strong minimum well centered about the true direction of the muon. On the other hand, the likelihood space of poorly resolved events is usually characterized by a very broad minimum in which there is no strong preference for a certain direction.
 
+The shape of the likelihood space from event reconstruction correlates quite strongly with the resolution of the event. In order to estimate how well the event is resolved, a paraboloid (a two-dimensional surface defined by parabolic curve) centered to the likelihood minimum is fit to the likelihood space to estimate the depth of the minimum well.
+
+
+%% paraboloid \cite{2006APh....25..220N}
+\chapter{Systematic Effects}
+There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the \textit{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs. While there are other errors that could be considered such as the absolute neutrino cross-section, the contribution they provide to the overall error is negligible.
+
+\section{Ice Properties}
+The optical properties of the subsurface ice at the South Pole represent the most difficult systematic effect to adequately measure. This is largely due to the fact that this detection medium is inaccessible from the surface making direct measurement of the optical properties impossible. The scattering and absorption lengths in the ice greatly impact how light will propagate from interaction secondaries. Increased scattering can delay the arrival of photons to DOMs giving a larger spread in possible event interaction times. Assuming an incorrect absorption length can be problematic as well as it leads to inaccurate estimation of the total energy deposited by the neutrino event. If one hopes to reconstruct neutrino events with high enough accuracy for pointing, then it is necessary to develop a detailed and accurate model of the ice in which the detector is located.
+
+Precise modeling of the polar ice is an ongoing task in the IceCube collaboration. Several iterations of models have reduced what was once a severe systematic problem to a relatively mild contribution to total systematic error. Current ice models consider several factors including depth dependence, tilt of ice layers, direction of glacial flow, and grain size distribution \cite{2013arXiv1301.5361I}. The absolute values of the optical properties such as absorption and scattering length are not known, however. Therefore we generate simulation that assumes different values for these parameters to estimate how large of an impact any error in the model will make at the final level of the analysis. To determine the degree to which this uncertainty affects our analysis, three datasets with differing values of absorption and scattering lengths are examined at the final level. The specifics of these datasets are listed in \ref{tab:ice_sets}.
+
+\begin{table}[h]
+\caption[Ice Properties Systematic Datasets]{List of simulation sets used to estimate systematic error from improper modeling of the ice properites. The listed percentages give the dataset's deviation from the nominal values. Variation in the absorption and scattering lengths lead to fairly minor changes in the analysis effective area with the strongest effects seen at lower energies.\label{tab:ice_sets}}
+\begin{center}
+\begin{tabular}{ccccc}
+\hline
+\textbf{Simulator} & \textbf{Set Number} &\textbf{Spectrum} & \textbf{Scattering} & \textbf{Absorption}\\
+\midrule
+NUGEN & 10039 & E$^{-2}$ & -- & +10$\%$ \\
+NUGEN & 10040 & E$^{-2}$ & +10$\%$ & -- \\
+NUGEN & 10041 & E$^{-2}$ & -7.1$\%$ & -7.1$\%$ \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.98\textwidth,keepaspectratio]{LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png}
+  \end{center}
+  \caption{Effective area at final event level as a function of energy for different possible ice properties. Increased absorption and scattering lead to very little degradation of the neutrino effective area at even the lowest energies.}
+  \label{fig:IceSysEffArea}
+\end{figure}
+
+
+\section{DOM Quantum Efficiency}
+
+TBD
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.98\textwidth,keepaspectratio]{LowEnTransient_EffArea_SysGENIE_DomEfficiency.png}
+  \end{center}
+  \caption{Effective area at final event level as a function of energy for different possible DOM efficiency settings. At lower energies, the change in effective area becomes approximately proportional to the relative change in DOM efficiency.}
+  \label{fig:DOMSysEffArea}
+\end{figure}
 \chapter{Analysis Method}
 
 The analysis presented in this thesis makes use of both directional and timing information from the final level event dataset. The techniques that are used in this analysis have been applied to other IceCube event selections in a similar fashion. As of yet, these time-dependent searches focused on IceCube events have yet to find any time-dependent neutrino sources of significance higher than background expectations \cite{2012ApJ...744....1A}. A very thorough overview of the time-dependent likelihood analysis methods used in previous IceCube analyses is given by Braun, et al. \cite{2010APh....33..175B}. The method detailed in the following section is mostly the same, but there are a few minor modifications made to the process to improve performance on a low energy event selection.
-
 
 \section{Unbinned Likelihood Method}
 The identification of a statistically significant astrophysical signal amongst a high number of background events can be a difficult problem in astronomy. Likelihood based methods are commonly used to solve this issue. Searches utilizing a likelihood method are able to provide a probabilistic interpretation of a signal hypothesis with respect to background fluctuations for the event dataset being examined. These searches will typically make use of timing, directional, and occasionally reconstructed energy information from events to find clustering indicative of a true astrophysical source. Whether or not individual events qualify as signal or background when testing a source hypothesis can differ depending on whether the search is 'binned' or 'unbinned'. For binned analyses, the signal hypothesis generates a set of coniditions that an event must meet to be considered as signal-like. This usually consists of selecting an area about the source location (a bin) that the reconstructed direction of the event must lie in. Events are then classified as either belonging to signal or being attributable to background. This results in all events having a binary status with respect to association with a hypothetical source. 
@@ -737,38 +801,7 @@ The scrambled background trials also serve as a check for any biases in the anal
 \caption{Distribution of flare parameters for the most significant flares identified by analysis method in $2\times 10^4$ trials on scrambled background-only data. The values plotted are the location of the flare in R.A. (a) and Declination (b). Also, the distribution of flare strengths measured in number of signal events is shown in (c) while the best fit flare duration is given by (d).} 
 \end{figure}
 
-\chapter{Systematic Effects}
-There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the \textit{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs. While there are other errors that could be considered such as the absolute neutrino cross-section, the contribution they provide to the overall error is negligible.
 
-\section{Ice Properties}
-The optical properties of the subsurface ice at the South Pole represent the most difficult systematic effect to adequately measure. This is largely due to the fact that this detection medium is inaccessible from the surface making direct measurement of the optical properties impossible. The scattering and absorption lengths in the ice greatly impact how light will propagate from interaction secondaries. Increased scattering can delay the arrival of photons to DOMs giving a larger spread in possible event interaction times. Assuming an incorrect absorption length can be problematic as well as it leads to inaccurate estimation of the total energy deposited by the neutrino event. If one hopes to reconstruct neutrino events with high enough accuracy for pointing, then it is necessary to develop a detailed and accurate model of the ice in which the detector is located.
-
-Precise modeling of the polar ice is an ongoing task in the IceCube collaboration. Several iterations of models have reduced what was once a severe systematic problem to a relatively mild contribution to total systematic error. Current ice models consider several factors including depth dependence, tilt of ice layers, direction of glacial flow, and grain size distribution \cite{2013arXiv1301.5361I}. The absolute values of the optical properties such as absorption and scattering length are not known, however. Therefore we generate simulation that assumes different values for these parameters to estimate how large of an impact any error in the model will make at the final level of the analysis. To determine the degree to which this uncertainty affects our analysis, three datasets with differing values of absorption and scattering lengths are examined at the final level. The specifics of these datasets are listed in \ref{tab:ice_sets}.
-
-%% Insert Ice Set Tabulature
-
-
-
-\begin{figure}[ht]
-  \begin{center}
-    \includegraphics[width=0.98\textwidth,keepaspectratio]{LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png}
-  \end{center}
-  \caption{Effective area at final event level as a function of energy for different possible ice properties. Increased absorption and scattering lead to very little degradation of the neutrino effective area at even the lowest energies.}
-  \label{fig:IceSysEffArea}
-\end{figure}
-
-
-\section{DOM Quantum Efficiency}
-
-TBD
-
-\begin{figure}[ht]
-  \begin{center}
-    \includegraphics[width=0.98\textwidth,keepaspectratio]{LowEnTransient_EffArea_SysGENIE_DomEfficiency.png}
-  \end{center}
-  \caption{Effective area at final event level as a function of energy for different possible DOM efficiency settings. At lower energies, the change in effective area becomes approximately proportional to the relative change in DOM efficiency.}
-  \label{fig:DOMSysEffArea}
-\end{figure}
 
 \chapter{Results}
 We can now examine our selected dataset utilizing the analysis method described in Chapter \textbf{VIII}. This will provide us with a fit to parameters of the most significant flare found in the dataset. The test statistic of this flare can then be compared to the distribution of most significant flares found during our scrambled trials with only background events. This yields a trials-corrected $p$-value that represents the true significance of the flare found by our method.
