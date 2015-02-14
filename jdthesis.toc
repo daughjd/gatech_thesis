@@ -26,15 +26,17 @@
 \contentsline {section}{\numberline {3.1}Motivation}{19}
 \contentsline {section}{\numberline {3.2}Multi-Messenger Astronomy}{19}
 \contentsline {section}{\numberline {3.3}Cosmic Ray - Neutrino Connection}{20}
-\contentsline {section}{\numberline {3.4}Detection Methods}{20}
+\contentsline {subsection}{\numberline {3.3.1}Proton Acceleration}{20}
+\contentsline {subsection}{\numberline {3.3.2}Neutrino Production}{20}
+\contentsline {section}{\numberline {3.4}Detection Methods}{21}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {IV}\MakeUppercase {Neutrino Sources}}{22}
 \contentsline {section}{\numberline {4.1}Active Galactic Nuclei}{22}
 \contentsline {section}{\numberline {4.2}Core-Collapse Supernovae}{23}
 \contentsline {section}{\numberline {4.3}Gamma-ray Bursts}{23}
-\contentsline {subsection}{\numberline {4.3.1}Fireball Model}{23}
-\contentsline {subsection}{\numberline {4.3.2}Subphotospheric Model}{23}
-\contentsline {section}{\numberline {4.4}Choked Gamma-ray Bursts}{23}
+\contentsline {subsection}{\numberline {4.3.1}Fireball Model}{24}
+\contentsline {subsection}{\numberline {4.3.2}Subphotospheric Model}{24}
+\contentsline {section}{\numberline {4.4}Choked Gamma-ray Bursts}{24}
 \contentsline {subsection}{\numberline {4.4.1}Neutrino Emission Model}{25}
 \contentsline {subsection}{\numberline {4.4.2}Model Limits on SN2008D}{25}
 \setcounter {tocdepth}{2}
@@ -51,17 +53,17 @@
 \contentsline {section}{\numberline {6.3}Triggering and Event Building}{39}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{42}
-\contentsline {section}{\numberline {7.1}Low-energy Channel}{42}
+\contentsline {section}{\numberline {7.1}Low-energy Channel}{43}
 \contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{44}
-\contentsline {subsection}{\numberline {7.2.1}Level 3}{44}
+\contentsline {subsection}{\numberline {7.2.1}Level 3}{45}
 \contentsline {subsection}{\numberline {7.2.2}Level 4}{45}
 \contentsline {subsection}{\numberline {7.2.3}Level 5}{45}
 \contentsline {subsection}{\numberline {7.2.4}Level 6}{45}
 \contentsline {subsubsection}{\numberline {7.2.4.1}Machine Learning Cut}{45}
 \contentsline {subsubsection}{\numberline {7.2.4.2}Quality Cuts}{45}
-\contentsline {section}{\numberline {7.3}Final Level Data}{47}
+\contentsline {section}{\numberline {7.3}Final Level Data}{46}
 \contentsline {section}{\numberline {7.4}Event Reconstruction}{47}
-\contentsline {section}{\numberline {7.5}Error Estimation}{49}
+\contentsline {section}{\numberline {7.5}Error Estimation}{48}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {VIII}\MakeUppercase {Systematic Effects}}{51}
 \contentsline {section}{\numberline {8.1}Ice Properties}{51}
