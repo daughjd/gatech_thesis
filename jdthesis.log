@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.20)  14 FEB 2015 10:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.20)  15 FEB 2015 01:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -219,26 +219,27 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count118
 \@lastruleclass=\count119
 \@thisrulewidth=\dimen132
-) (./jdthesis.aux
-
-LaTeX Warning: Label `tab:ice_sets' multiply defined.
-
 )
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+) (./jdthesis.aux)
 \openout1 = `jdthesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count120
 \scratchdimen=\dimen133
@@ -313,15 +314,15 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \c@halfsig=\count126
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 []\OT1/cmr/m/n/10.95 Professor Pablo La-guna, Com-mit-tee
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 42.
+LaTeX Font Info:    Try loading font information for U+msa on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -374,11 +375,11 @@ Overfull \hbox (2.64603pt too wide) detected at line 68
 ] (./jdthesis.lof [10
 
 
-] [11])
+] [11] [12])
 \tf@lof=\write5
 \openout5 = `jdthesis.lof'.
 
- [12] [13]
+ [13]
 ***************** Summary ******************
 [14
 
@@ -396,49 +397,49 @@ File: neutrino_nucelon_crosssections.png Graphic file (type png)
 
 <use neutrino_nucelon_crosssections.png>
 Package pdftex.def Info: neutrino_nucelon_crosssections.png used on input line 
-122.
+123.
 (pdftex.def)             Requested size: 208.13574pt x 303.84438pt.
  [6] [7 <./neutrino_nucelon_crosssections.png (PNG copy)>] [8] <dis.png, id=84,
  501.875pt x 358.33875pt>
 File: dis.png Graphic file (type png)
 
 <use dis.png>
-Package pdftex.def Info: dis.png used on input line 144.
+Package pdftex.def Info: dis.png used on input line 145.
 (pdftex.def)             Requested size: 303.53267pt x 216.73273pt.
  [9 <./dis.png (PNG copy)>]
 <DIS_CS_Neutrino.png, id=88, 910.40125pt x 631.35875pt>
 File: DIS_CS_Neutrino.png Graphic file (type png)
 
 <use DIS_CS_Neutrino.png>
-Package pdftex.def Info: DIS_CS_Neutrino.png used on input line 155.
+Package pdftex.def Info: DIS_CS_Neutrino.png used on input line 156.
 (pdftex.def)             Requested size: 185.37068pt x 128.5527pt.
 
 <DIS_CS_AntiNeutrino.png, id=89, 954.56625pt x 627.34375pt>
 File: DIS_CS_AntiNeutrino.png Graphic file (type png)
 
 <use DIS_CS_AntiNeutrino.png>
-Package pdftex.def Info: DIS_CS_AntiNeutrino.png used on input line 162.
+Package pdftex.def Info: DIS_CS_AntiNeutrino.png used on input line 163.
 (pdftex.def)             Requested size: 195.12767pt x 128.23297pt.
  [10 <./DIS_CS_Neutrino.png> <./DIS_CS_AntiNeutrino.png>] [11] <MuonStoppingPow
 er.png, id=97, 1150.2975pt x 607.26875pt>
 File: MuonStoppingPower.png Graphic file (type png)
 
 <use MuonStoppingPower.png>
-Package pdftex.def Info: MuonStoppingPower.png used on input line 204.
+Package pdftex.def Info: MuonStoppingPower.png used on input line 205.
 (pdftex.def)             Requested size: 390.25536pt x 206.02386pt.
  [12]
 <CherenkovCartoon.png, id=103, 491.58656pt x 245.41687pt>
 File: CherenkovCartoon.png Graphic file (type png)
 
 <use CherenkovCartoon.png>
-Package pdftex.def Info: CherenkovCartoon.png used on input line 221.
+Package pdftex.def Info: CherenkovCartoon.png used on input line 222.
 (pdftex.def)             Requested size: 281.85036pt x 140.7129pt.
  [13 <./MuonStoppingPower.png>] [14 <./CherenkovCartoon.png>] [15] [16] <AstroB
 aselineOsc.png, id=119, 896.34875pt x 761.84625pt>
 File: AstroBaselineOsc.png Graphic file (type png)
 
 <use AstroBaselineOsc.png>
-Package pdftex.def Info: AstroBaselineOsc.png used on input line 296.
+Package pdftex.def Info: AstroBaselineOsc.png used on input line 297.
 (pdftex.def)             Requested size: 325.215pt x 276.41502pt.
  [17] [18 <./AstroBaselineOsc.png>]
 CHAPTER III.
@@ -448,13 +449,13 @@ CHAPTER III.
 File: CosmicRaySpectrum.jpg Graphic file (type jpg)
 
 <use CosmicRaySpectrum.jpg>
-Package pdftex.def Info: CosmicRaySpectrum.jpg used on input line 318.
+Package pdftex.def Info: CosmicRaySpectrum.jpg used on input line 323.
 (pdftex.def)             Requested size: 368.57965pt x 352.16391pt.
+ [20 <./CosmicRaySpectrum.jpg>]
 
+LaTeX Warning: Citation `?' on page 21 undefined on input line 337.
 
-LaTeX Warning: Citation `?' on page 20 undefined on input line 332.
-
-[20 <./CosmicRaySpectrum.jpg>] [21]
+[21]
 CHAPTER IV.
 [22
 
@@ -462,32 +463,27 @@ CHAPTER IV.
 File: NearbySNCatalogue.png Graphic file (type png)
 
 <use NearbySNCatalogue.png>
-Package pdftex.def Info: NearbySNCatalogue.png used on input line 356.
+Package pdftex.def Info: NearbySNCatalogue.png used on input line 361.
 (pdftex.def)             Requested size: 208.13574pt x 155.68976pt.
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 36
-3.
+8.
 
 [23 <./NearbySNCatalogue.png>]
 <SubPhotoFluence.png, id=145, 776.9025pt x 541.02126pt>
 File: SubPhotoFluence.png Graphic file (type png)
 
 <use SubPhotoFluence.png>
-Package pdftex.def Info: SubPhotoFluence.png used on input line 376.
+Package pdftex.def Info: SubPhotoFluence.png used on input line 381.
 (pdftex.def)             Requested size: 368.57965pt x 256.67406pt.
-
-
-LaTeX Warning: Citation `2004IJMPA..19.2385Z' on page 24 undefined on input lin
-e 384.
-
-[24 <./SubPhotoFluence.png>]
+ [24 <./SubPhotoFluence.png>]
 <FluxPlot_Canonical_RespectiveFluenceNorm.png, id=149, 578.16pt x 433.62pt>
 File: FluxPlot_Canonical_RespectiveFluenceNorm.png Graphic file (type png)
 
 <use FluxPlot_Canonical_RespectiveFluenceNorm.png>
 Package pdftex.def Info: FluxPlot_Canonical_RespectiveFluenceNorm.png used on i
-nput line 405.
+nput line 410.
 (pdftex.def)             Requested size: 368.57965pt x 276.43074pt.
  [25] [26 <./FluxPlot_Canonical_RespectiveFluenceNorm.png>]
 CHAPTER V.
@@ -495,7 +491,7 @@ CHAPTER V.
 File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
 
 <use ArrayWSeasonsLabels.pdf>
-Package pdftex.def Info: ArrayWSeasonsLabels.pdf used on input line 423.
+Package pdftex.def Info: ArrayWSeasonsLabels.pdf used on input line 428.
 (pdftex.def)             Requested size: 433.62001pt x 296.41383pt.
  [27
 
@@ -504,31 +500,31 @@ Package pdftex.def Info: ArrayWSeasonsLabels.pdf used on input line 423.
 File: BoreholeLaserDustLogging.png Graphic file (type png)
 
 <use BoreholeLaserDustLogging.png>
-Package pdftex.def Info: BoreholeLaserDustLogging.png used on input line 444.
+Package pdftex.def Info: BoreholeLaserDustLogging.png used on input line 449.
 (pdftex.def)             Requested size: 424.94576pt x 158.71022pt.
  [29]
 <IC86EDC_DeepCoreDiagram.pdf, id=173, 347.2975pt x 682.55pt>
 File: IC86EDC_DeepCoreDiagram.pdf Graphic file (type pdf)
 
 <use IC86EDC_DeepCoreDiagram.pdf>
-Package pdftex.def Info: IC86EDC_DeepCoreDiagram.pdf used on input line 454.
+Package pdftex.def Info: IC86EDC_DeepCoreDiagram.pdf used on input line 459.
 (pdftex.def)             Requested size: 303.53267pt x 596.56323pt.
  [30 <./BoreholeLaserDustLogging.png>]
 <hese_cascade_event.png, id=177, 2107.875pt x 2810.5pt>
 File: hese_cascade_event.png Graphic file (type png)
 
 <use hese_cascade_event.png>
-Package pdftex.def Info: hese_cascade_event.png used on input line 470.
+Package pdftex.def Info: hese_cascade_event.png used on input line 475.
 (pdftex.def)             Requested size: 433.62001pt x 578.12894pt.
 
 
-LaTeX Warning: Float too large for page by 19.82814pt on input line 474.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 479.
 
 [31] <hese_track_event.png, id=181, 2107.875pt x 2810.5pt>
 File: hese_track_event.png Graphic file (type png)
 
 <use hese_track_event.png>
-Package pdftex.def Info: hese_track_event.png used on input line 484.
+Package pdftex.def Info: hese_track_event.png used on input line 489.
 (pdftex.def)             Requested size: 433.62001pt x 578.12894pt.
  [32] [33 <./IC86EDC_DeepCoreDiagram.pdf>] [34 <./hese_cascade_event.png (PNG c
 opy)>] [35 <./hese_track_event.png (PNG copy)>]
@@ -536,13 +532,13 @@ CHAPTER VI.
 <DomSchematic.png, id=238, 727.71875pt x 620.3175pt>
 File: DomSchematic.png Graphic file (type png)
  <use DomSchematic.png>
-Package pdftex.def Info: DomSchematic.png used on input line 500.
+Package pdftex.def Info: DomSchematic.png used on input line 505.
 (pdftex.def)             Requested size: 185.37068pt x 158.01323pt.
 
 <LabDOM.pdf, id=239, 2457.18pt x 3276.24pt>
 File: LabDOM.pdf Graphic file (type pdf)
  <use LabDOM.pdf>
-Package pdftex.def Info: LabDOM.pdf used on input line 507.
+Package pdftex.def Info: LabDOM.pdf used on input line 512.
 (pdftex.def)             Requested size: 146.34575pt x 195.11617pt.
  [36
 
@@ -551,69 +547,69 @@ Package pdftex.def Info: LabDOM.pdf used on input line 507.
 File: ICL.jpg Graphic file (type jpg)
 
 <use ICL.jpg>
-Package pdftex.def Info: ICL.jpg used on input line 528.
+Package pdftex.def Info: ICL.jpg used on input line 533.
 (pdftex.def)             Requested size: 433.62001pt x 325.21199pt.
  [39 <./ICL.jpg>] [40] [41]
 CHAPTER VII.
+[42
 
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 573--574
+]
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 583--584
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
 
-[42
-
-] <DeepCoreVeto.jpg, id=267, 172.04097pt x 214.25177pt>
+<DeepCoreVeto.jpg, id=267, 172.04097pt x 214.25177pt>
 File: DeepCoreVeto.jpg Graphic file (type jpg)
-
-<use DeepCoreVeto.jpg>
-Package pdftex.def Info: DeepCoreVeto.jpg used on input line 577.
+ <use DeepCoreVeto.jpg>
+Package pdftex.def Info: DeepCoreVeto.jpg used on input line 587.
 (pdftex.def)             Requested size: 216.81pt x 270.01749pt.
- [43 <./DeepCoreVeto.jpg>] [44] [45]
+
+[43] [44 <./DeepCoreVeto.jpg>] [45]
 <SignalOverBackground_ContourMap.png, id=277, 722.7pt x 578.16pt>
 File: SignalOverBackground_ContourMap.png Graphic file (type png)
 
 <use SignalOverBackground_ContourMap.png>
 Package pdftex.def Info: SignalOverBackground_ContourMap.png used on input line
- 610.
+ 620.
 (pdftex.def)             Requested size: 281.85036pt x 225.48149pt.
  [46]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<LESEventForThesis.png, id=282, 831.51102pt x 623.63326pt>
-File: LESEventForThesis.png Graphic file (type png)
-
-<use LESEventForThesis.png>
-Package pdftex.def Info: LESEventForThesis.png used on input line 644.
-(pdftex.def)             Requested size: 433.62001pt x 325.21419pt.
- [47 <./SignalOverBackground_ContourMap.png>]
-<HES_Upgoing_WithReco.png, id=288, 519.69438pt x 389.77078pt>
+<HES_Upgoing_WithReco.png, id=282, 519.69438pt x 389.77078pt>
 File: HES_Upgoing_WithReco.png Graphic file (type png)
 
 <use HES_Upgoing_WithReco.png>
-Package pdftex.def Info: HES_Upgoing_WithReco.png used on input line 657.
+Package pdftex.def Info: HES_Upgoing_WithReco.png used on input line 633.
 (pdftex.def)             Requested size: 433.62001pt x 325.21657pt.
 
-<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=289, 722.7pt x 578.16p
+<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=283, 722.7pt x 578.16p
 t>
 File: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png Graphic file (type pn
 g)
  <use FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png>
 Package pdftex.def Info: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png us
-ed on input line 665.
+ed on input line 641.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
 
-<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=290, 722.7pt x 578.16pt>
+<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=284, 722.7pt x 578.16pt>
 File: GENIE_FinalLevel_NeutrinoResolutionByNch.png Graphic file (type png)
 
 <use GENIE_FinalLevel_NeutrinoResolutionByNch.png>
 Package pdftex.def Info: GENIE_FinalLevel_NeutrinoResolutionByNch.png used on i
-nput line 666.
+nput line 642.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
- [48] [49 <./LESEventForThesis.png>] [50 <./HES_Upgoing_WithReco.png> <./FinalL
-evel_NeutrinoResolutionByEnergy_JustGENIE.png> <./GENIE_FinalLevel_NeutrinoReso
-lutionByNch.png>]
+ [47 <./SignalOverBackground_ContourMap.png>] [48 <./HES_Upgoing_WithReco.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<LESEventForThesis.png, id=293, 831.51102pt x 623.63326pt>
+File: LESEventForThesis.png Graphic file (type png)
+
+<use LESEventForThesis.png>
+Package pdftex.def Info: LESEventForThesis.png used on input line 678.
+(pdftex.def)             Requested size: 433.62001pt x 325.21419pt.
+ [49 <./FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png> <./GENIE_FinalLeve
+l_NeutrinoResolutionByNch.png>] [50 <./LESEventForThesis.png>]
 CHAPTER VIII.
 [51
 
@@ -624,7 +620,7 @@ File: LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png Graphic file (t
 ype png)
  <use LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png>
 Package pdftex.def Info: LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.
-png used on input line 703.
+png used on input line 711.
 (pdftex.def)             Requested size: 424.94576pt x 424.95132pt.
 
 <LowEnTransient_EffArea_SysGENIE_DomEfficiency.png, id=306, 867.24pt x 867.24pt
@@ -633,218 +629,238 @@ File: LowEnTransient_EffArea_SysGENIE_DomEfficiency.png Graphic file (type png)
 
  <use LowEnTransient_EffArea_SysGENIE_DomEfficiency.png>
 Package pdftex.def Info: LowEnTransient_EffArea_SysGENIE_DomEfficiency.png used
- on input line 716.
+ on input line 737.
 (pdftex.def)             Requested size: 424.94576pt x 424.95132pt.
  [52] [53 <./LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png>] [54 <.
 /LowEnTransient_EffArea_SysGENIE_DomEfficiency.png>]
 CHAPTER IX.
 [55
 
-] [56]
-<BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=326, 722.7pt x 578.16
+] [56] [57]
+<BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=330, 722.7pt x 578.16
 pt>
 File: BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png Graphic file (type p
 ng)
  <use BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png>
 Package pdftex.def Info: BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png u
-sed on input line 751.
+sed on input line 781.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=327, 722.7pt x 578.16p
+<BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=331, 722.7pt x 578.16p
 t>
 File: BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png Graphic file (type pn
 g)
  <use BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png>
 Package pdftex.def Info: BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png us
-ed on input line 752.
+ed on input line 782.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
- [57] [58 <./BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png> <./BkgOnly_L
-ES_SplineMPE_ZenithDist_FinalLevelDist.png>]
+ [58 <./BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png> <./BkgOnly_LES_Sp
+lineMPE_ZenithDist_FinalLevelDist.png>] [59]
 
-LaTeX Warning: Reference `fig:EventSampleRes_Energy' on page 59 undefined on in
-put line 781.
+LaTeX Warning: Reference `fig:EventSampleRes_Energy' on page 60 undefined on in
+put line 812.
 
-<NullMap996.png, id=337, 1084.05pt x 722.7pt>
+<NullMap996.png, id=341, 1084.05pt x 722.7pt>
 File: NullMap996.png Graphic file (type png)
  <use NullMap996.png>
-Package pdftex.def Info: NullMap996.png used on input line 786.
+Package pdftex.def Info: NullMap996.png used on input line 817.
 (pdftex.def)             Requested size: 433.62001pt x 289.07487pt.
- [59]
+
 <LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png, id=342, 722.7pt 
 x 578.16pt>
 File: LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png Graphic file
  (type png)
  <use LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png>
 Package pdftex.def Info: LowEnTransient_NEventDiscoveryPotentialANDSensitivity_
-E3.png used on input line 795.
+E3.png used on input line 826.
 (pdftex.def)             Requested size: 346.89732pt x 277.51364pt.
 
-[60 <./NullMap996.png>] [61 <./LowEnTransient_NEventDiscoveryPotentialANDSensit
-ivity_E3.png>]
-<TestStatisticDistribution_Null.png, id=351, 722.7pt x 578.16pt>
+[60] [61 <./NullMap996.png>] [62 <./LowEnTransient_NEventDiscoveryPotentialANDS
+ensitivity_E3.png>]
+<TestStatisticDistribution_Null.png, id=354, 722.7pt x 578.16pt>
 File: TestStatisticDistribution_Null.png Graphic file (type png)
 
 <use TestStatisticDistribution_Null.png>
 Package pdftex.def Info: TestStatisticDistribution_Null.png used on input line 
-808.
+839.
 (pdftex.def)             Requested size: 424.94576pt x 339.95576pt.
- [62]
-<RightAcensionDistribution_Null.png, id=355, 722.7pt x 578.16pt>
+ [63 <./TestStatisticDistribution_Null.png>] <RightAcensionDistribution_Null.pn
+g, id=359, 722.7pt x 578.16pt>
 File: RightAcensionDistribution_Null.png Graphic file (type png)
 
 <use RightAcensionDistribution_Null.png>
 Package pdftex.def Info: RightAcensionDistribution_Null.png used on input line 
-820.
+851.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
 
-<DeclinationDistribution_Null.png, id=356, 722.7pt x 578.16pt>
+<DeclinationDistribution_Null.png, id=360, 722.7pt x 578.16pt>
 File: DeclinationDistribution_Null.png Graphic file (type png)
 
 <use DeclinationDistribution_Null.png>
-Package pdftex.def Info: DeclinationDistribution_Null.png used on input line 82
-1.
+Package pdftex.def Info: DeclinationDistribution_Null.png used on input line 85
+2.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
 
-<NSignalDistribution_Null.png, id=357, 722.7pt x 578.16pt>
+<NSignalDistribution_Null.png, id=361, 722.7pt x 578.16pt>
 File: NSignalDistribution_Null.png Graphic file (type png)
 
 <use NSignalDistribution_Null.png>
-Package pdftex.def Info: NSignalDistribution_Null.png used on input line 822.
+Package pdftex.def Info: NSignalDistribution_Null.png used on input line 853.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
 
-<SigmaDistribution_Null.png, id=358, 722.7pt x 578.16pt>
+<SigmaDistribution_Null.png, id=362, 722.7pt x 578.16pt>
 File: SigmaDistribution_Null.png Graphic file (type png)
 
 <use SigmaDistribution_Null.png>
-Package pdftex.def Info: SigmaDistribution_Null.png used on input line 823.
+Package pdftex.def Info: SigmaDistribution_Null.png used on input line 854.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
- [63 <./TestStatisticDistribution_Null.png>]
-[64 <./RightAcensionDistribution_Null.png> <./DeclinationDistribution_Null.png>
- <./NSignalDistribution_Null.png> <./SigmaDistribution_Null.png>]
+ [64] [65 <./RightAcensionDistribution_Null.png> <./DeclinationDistribution_Nul
+l.png> <./NSignalDistribution_Null.png> <./SigmaDistribution_Null.png>]
 CHAPTER X.
-<RealResultSkyMap.png, id=371, 1092.7224pt x 731.3724pt>
+<RealResultSkyMap.png, id=375, 1092.7224pt x 731.3724pt>
 File: RealResultSkyMap.png Graphic file (type png)
 
 <use RealResultSkyMap.png>
-Package pdftex.def Info: RealResultSkyMap.png used on input line 838.
+Package pdftex.def Info: RealResultSkyMap.png used on input line 884.
 (pdftex.def)             Requested size: 433.62001pt x 290.22253pt.
 
-<TestStatisticDistribution_WithResult.png, id=372, 578.16pt x 433.62pt>
+<SpatialPDFValue_EventsArrivingNearFlareTime.png, id=376, 722.7pt x 578.16pt>
+File: SpatialPDFValue_EventsArrivingNearFlareTime.png Graphic file (type png)
+
+<use SpatialPDFValue_EventsArrivingNearFlareTime.png>
+Package pdftex.def Info: SpatialPDFValue_EventsArrivingNearFlareTime.png used o
+n input line 892.
+(pdftex.def)             Requested size: 260.17465pt x 208.13744pt.
+ [66
+
+]
+<TestStatisticDistribution_WithResult.png, id=380, 578.16pt x 433.62pt>
 File: TestStatisticDistribution_WithResult.png Graphic file (type png)
 
 <use TestStatisticDistribution_WithResult.png>
 Package pdftex.def Info: TestStatisticDistribution_WithResult.png used on input
- line 866.
-(pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
- [65
+ line 903.
+(pdftex.def)             Requested size: 325.215pt x 243.91064pt.
+ [67 <./RealResultSkyMap.png>]
+[68 <./SpatialPDFValue_EventsArrivingNearFlareTime.png>]
+File: LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png Graphic file
+ (type png)
 
-] [66 <./RealResultSkyMap.png>] [67 <./TestStatisticDistribution_WithResult.png
->]
+<use LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png>
+Package pdftex.def Info: LowEnTransient_NEventDiscoveryPotentialANDSensitivity_
+E3.png used on input line 918.
+(pdftex.def)             Requested size: 284.52756pt x 227.62523pt.
+
+<LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFinalCut.png, id=389, 722.
+7pt x 578.16pt>
+File: LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFinalCut.png Graphic 
+file (type png)
+
+<use LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFinalCut.png>
+Package pdftex.def Info: LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFi
+nalCut.png used on input line 919.
+(pdftex.def)             Requested size: 284.52756pt x 227.62523pt.
+ [69 <./TestStatisticDistribution_WithResult.png>] [70 <./LowEnTransient_TIFlux
+Sensitivity_E3_MergedSim_ActualFinalCut.png>]
 CHAPTER XI.
-<UpperLimit_2DHisto_SysAdj.png, id=385, 578.16pt x 433.62pt>
+<UpperLimit_2DHisto_SysAdj.png, id=399, 578.16pt x 433.62pt>
 File: UpperLimit_2DHisto_SysAdj.png Graphic file (type png)
 
 <use UpperLimit_2DHisto_SysAdj.png>
-Package pdftex.def Info: UpperLimit_2DHisto_SysAdj.png used on input line 882.
+Package pdftex.def Info: UpperLimit_2DHisto_SysAdj.png used on input line 933.
 (pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
 
-<DistanceLimit_2DHisto_WithContours_SysAdj.png, id=386, 578.16pt x 433.62pt>
+<DistanceLimit_2DHisto_WithContours_SysAdj.png, id=400, 578.16pt x 433.62pt>
 File: DistanceLimit_2DHisto_WithContours_SysAdj.png Graphic file (type png)
 
 <use DistanceLimit_2DHisto_WithContours_SysAdj.png>
 Package pdftex.def Info: DistanceLimit_2DHisto_WithContours_SysAdj.png used on 
-input line 892.
+input line 943.
 (pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
 
-<RateLimit_2DHisto_wContours_SysAdj.png, id=387, 578.16pt x 433.62pt>
+<RateLimit_2DHisto_wContours_SysAdj.png, id=401, 578.16pt x 433.62pt>
 File: RateLimit_2DHisto_wContours_SysAdj.png Graphic file (type png)
 
 <use RateLimit_2DHisto_wContours_SysAdj.png>
 Package pdftex.def Info: RateLimit_2DHisto_wContours_SysAdj.png used on input l
-ine 902.
+ine 953.
 (pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
- [68
+ [71
 
- <./UpperLimit_2DHisto_SysAdj.png>] [69 <./DistanceLimit_2DHisto_WithContours_S
-ysAdj.png>] [70 <./RateLimit_2DHisto_wContours_SysAdj.png>]
+] [72 <./UpperLimit_2DHisto_SysAdj.png>] [73 <./DistanceLimit_2DHisto_WithConto
+urs_SysAdj.png>] [74 <./RateLimit_2DHisto_wContours_SysAdj.png>]
 CHAPTER XII.
-[71
+[75
 
 ]
 APPENDIX A.
-<FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png, id=404, 722.7pt x 578.16pt>
+[76
+
+
+] <FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png, id=425, 722.7pt x 578.16pt>
 File: FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png Graphic file (type png)
 
 <use FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png>
 Package pdftex.def Info: FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png used on inpu
-t line 929.
+t line 981.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png, id=405, 722.7pt x 578.16pt>
+<FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png, id=426, 722.7pt x 578.16pt>
 File: FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png Graphic file (type png)
 
 <use FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png>
 Package pdftex.def Info: FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png used on inpu
-t line 930.
+t line 982.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=406, 722.7pt x 578.16pt>
+<LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=427, 722.7pt x 578.16pt>
 File: LES_SplineMPE_AzimuthDist_FinalLevelDist.png Graphic file (type png)
 
 <use LES_SplineMPE_AzimuthDist_FinalLevelDist.png>
 Package pdftex.def Info: LES_SplineMPE_AzimuthDist_FinalLevelDist.png used on i
-nput line 936.
+nput line 988.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=407, 722.7pt x 578.16pt>
+<LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=428, 722.7pt x 578.16pt>
 File: LES_SplineMPE_ZenithDist_FinalLevelDist.png Graphic file (type png)
 
 <use LES_SplineMPE_ZenithDist_FinalLevelDist.png>
 Package pdftex.def Info: LES_SplineMPE_ZenithDist_FinalLevelDist.png used on in
-put line 937.
+put line 989.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png, id=408, 722.7pt x 578.16pt
+<LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png, id=429, 722.7pt x 578.16pt
 >
 File: LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png Graphic file (type png
 )
  <use LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png>
 Package pdftex.def Info: LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png use
-d on input line 938.
+d on input line 990.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<LES_BDTParam_FiniteReco_Z_FinalLevelDist.png, id=409, 722.7pt x 578.16pt>
+<LES_BDTParam_FiniteReco_Z_FinalLevelDist.png, id=430, 722.7pt x 578.16pt>
 File: LES_BDTParam_FiniteReco_Z_FinalLevelDist.png Graphic file (type png)
 
 <use LES_BDTParam_FiniteReco_Z_FinalLevelDist.png>
 Package pdftex.def Info: LES_BDTParam_FiniteReco_Z_FinalLevelDist.png used on i
-nput line 939.
+nput line 991.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
- (./jdthesis.bbl [72
-
-
-]
-[73 <./FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png> <./FinalLevel_Nch_Vs_Energy_N
-uMu_HESOnly.png>] [74 <./LES_SplineMPE_AzimuthDist_FinalLevelDist.png> <./LES_S
+ (./jdthesis.bbl [77]
+[78 <./FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png> <./FinalLevel_Nch_Vs_Energy_N
+uMu_HESOnly.png>] [79 <./LES_SplineMPE_AzimuthDist_FinalLevelDist.png> <./LES_S
 plineMPE_ZenithDist_FinalLevelDist.png> <./LES_BDTParam_SplineMPEMod_RLogL_Fina
-lLevelDist.png> <./LES_BDTParam_FiniteReco_Z_FinalLevelDist.png>] [75
+lLevelDist.png> <./LES_BDTParam_FiniteReco_Z_FinalLevelDist.png>] [80
 
-] [76]
+] [81]
 Missing character: There is no Ï in font cmr8!
 Missing character: There is no „ in font cmr8!
 
-[77] [78]
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
-[]\OT1/cmr/m/sc/10.95 IceCube Col-lab-o-ra-tion\OT1/cmr/m/n/10.95 , ``I3Live Mo
-n-i-tor-ing Cal-en-dar.''
- []
-
-[79] [80]) [81]
+[82] [83] [84] [85] [86]) [87]
 ***************** Vita ******************
-[82
+[88
 
 
-] [83
+] [89
 
 
 ] (./jdthesis.aux)
@@ -852,17 +868,17 @@ n-i-tor-ing Cal-en-dar.''
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 3586 strings out of 495031
- 52990 string characters out of 6181531
- 104207 words of memory out of 5000000
- 6663 multiletter control sequences out of 15000+600000
- 14581 words of font info for 54 fonts, out of 8000000 for 9000
+ 3685 strings out of 495031
+ 54688 string characters out of 6181531
+ 105385 words of memory out of 5000000
+ 6755 multiletter control sequences out of 15000+600000
+ 14749 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,10n,27p,1545b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,27p,1545b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -878,13 +894,15 @@ cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on jdthesis.pdf (97 pages, 7699497 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msam10.pfb>
+Output written on jdthesis.pdf (103 pages, 7820130 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
+ 551 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

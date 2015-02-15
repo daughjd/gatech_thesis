@@ -7,6 +7,7 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{booktabs}
+\usepackage{url}
 
 %%
 %% This example is adapted from ucthesis.tex, a part of the
@@ -287,7 +288,7 @@ $\Delta m^2$ & 2.43$\cdot 10^{-3}$ eV\\
 \end{center}
 \end{table}
 
-The IceCube detector is not uniformly sensitive to all neutrino types. Therefore, it is important to estimate how the flavor ratio of a neutrino flux changes source during its propagation from an astrophysical source to Earth. The method of generation of a neutrino flux at the source will determine the initial flavor flux ratio. The flavor ratio for a given flux is usually given as a relative ratio of the flux of one flavor to the whole, e.g. (1:2:1) with the numbers in the parenthetical relating to the flavors as ($\nu_e$:$\nu_{\mu}$:$\nu_{\tau}$). Some common neutrino production scenarios include muon-suppressed pion decay, pion and muon deacy, and neutron decay which have flavor flux ratios of (0:1:0), (1:2:0), and (1:0:0) respectively. These production mechanisms will be described in more detail in Chapter 4, but for now we are just interested in how these flavor ratios evolve during propagation to Earth. 
+The IceCube detector is not uniformly sensitive to all neutrino types. Therefore, it is important to estimate how the flavor ratio of a neutrino flux changes source during its propagation from an astrophysical source to Earth. The method of generation of a neutrino flux at the source will determine the initial flavor flux ratio. The flavor ratio for a given flux is usually given as a relative ratio of the flux of one flavor to the whole, e.g. (1:2:1) with the numbers in the parenthetical relating to the flavors as ($\nu_e$:$\nu_{\mu}$:$\nu_{\tau}$). Some common neutrino production scenarios include muon-suppressed pion decay, pion and muon deacy, and neutron decay which have flavor flux ratios of (0:1:0), (1:2:0), and (1:0:0) respectively. These production mechanisms will be described in more detail in Chapters 3 and 4, but for now we are just interested in how these flavor ratios evolve during propagation to Earth. 
 
 The effect is visualized in Figure \ref{fig:baseline_osc}. Here we see that the initial ratio of (0:1:0) from muon-suppresed pion decay ultimate arrives at Earth with a ratio of approximately (1:2:2). Three-flavor oscillations tend to average out the ratio between the flavors, but there is still a distinct difference at Earth for the differing production mechanisms. When placing limits on the neutrino emission from a possible source, the choice of flavor ratio at Earth will influence the degree to which a flux from that source can be excluded. In the event that astrophysical neutrino sources begin to be resolved, high statistics measurement of their flavor ratios should be able to identify what mode of neutrino production is at work at the source.
 
@@ -303,7 +304,11 @@ The effect is visualized in Figure \ref{fig:baseline_osc}. Here we see that the 
 As the name suggests, the field of neutrino astronomy is concerned with the detection of neutrinos of extraterrestrial origin for the use of identifying and classifying astrophysical sources. In a similar fashion to the advances made through expansion of traditional optical astronomy to the high-energy regime of x-rays and gamma-rays, it is thought that the unique window provided by neutrino astronomy can facilitate tremendous increases in our understanding of the universe. However, the detection of astrophysical neutrino events presents a exceedingly difficult challenge with detection of an appreciable number of neutrinos from a single source requiring enormous instrumented volumes. Therefore, it is relevant to discuss the potential scientific rewards neutrino astronomy can provide.
 
 \section{Motivation}
-Neutrinos provide a novel and unexplored view into furthest reaches of the universe. The small cross-section for neutrino interactions in matter is somewhat of a double-edged sword. While it makes the detection of neutrinos immensely difficult, it also means that neutrinos will stream unperturbed through even the densest astrophysical media.
+Neutrinos provide a novel and unexplored view into furthest reaches of the universe. The small cross-section for neutrino interactions in matter is somewhat of a double-edged sword. While it makes the detection of neutrinos immensely difficult, it also means that neutrinos will stream unperturbed through even the densest astrophysical media. The cross-section for interaction is still very low at even the highest energies. This allows neutrinos to provide information about processes at energies where other possible messengers, such as cosmic rays or photons, are attenuated significantly over astrophysical distances. The development of neutrino astronomy would therefore complement other high-energy astronomy methods quite nicely creating a more complete picture of the high-energy universe.
+
+%% Props
+
+%% Multi-messenger
 The detection of a neutrino flux from a source and measurement of its spectrum would provide critical insight into the processes governing the densest and most energetic regions of that object.
 
 \section{Multi-Messenger Astronomy}
@@ -552,15 +557,20 @@ A quick comparison between the rate at which atmospheric neutrinos trigger the I
 
 
 \begin{table}[h]
-\caption[Ice Properties Systematic Datasets]{List of simulation sets used to estimate systematic error from improper modeling of the ice properites. The listed percentages give the dataset's deviation from the nominal values. Variation in the absorption and scattering lengths lead to fairly minor changes in the analysis effective area with the strongest effects seen at lower energies.\label{tab:ice_sets}}
+\caption[Ice Properties Systematic Datasets]{List of simulation sets used in the development of data selection cuts and analysis sensitivity. Background simulation is provided by CORSIKA which simulates the muons produced in cosmic ray air-showers. NUGEN and GENIE neutrino datasets estimate atmospheric neutrino rates as well as the sensitivity of the analysis to neutrino sources. \label{tab:event_sel_sim}}
 \begin{center}
 \begin{tabular}{ccccc}
-\hline
-\textbf{Simulator} & \textbf{Set Number} &\textbf{Spectrum} & \textbf{Scattering} & \textbf{Absorption}\\
+\toprule
+\textbf{Simulator} & \textbf{Set Number} &\textbf{Type} & \textbf{Spectrum} & \textbf{Energy Range}\\
 \midrule
-NUGEN & 10039 & E$^{-2}$ & -- & +10$\%$ \\
-NUGEN & 10040 & E$^{-2}$ & +10$\%$ & -- \\
-NUGEN & 10041 & E$^{-2}$ & -7.1$\%$ & -7.1$\%$ \\
+CORSIKA & 9622 & Cosmic Ray Primaries & E$^{-2.6}$ & 600-10$^{5}$ GeV \\
+CORSIKA & 9255 & Cosmic Ray Primaries & E$^{-2.0}$ & 10$^{5}$-10$^{11}$ GeV \\
+NUGEN & 10090 & $\nu_{\mu}$ + $\bar{\nu_{\mu}}$ & E$^{-2}$ & 10-10$^9$ GeV \\
+NUGEN & 10193 & $\nu_{e}$ + $\bar{\nu_{e}}$ & E$^{-2}$ & 10-10$^9$ GeV \\
+GENIE & 1314 & $\bar{\nu_{\mu}}$ & E$^{-2.5}$ & 4-190 GeV \\
+GENIE & 1414 & $\nu_{\mu}$ & E$^{-2.5}$ & 4-190 GeV \\
+GENIE & 1114 & $\bar{\nu_{e}}$ & E$^{-2.5}$ & 4-190 GeV \\
+GENIE & 1214 & $\nu_{e}$ & E$^{-2.5}$ & 4-190 GeV \\
 \hline
 \end{tabular}
 \end{center}
@@ -613,6 +623,30 @@ One could argue that the timing information provided by such events could still 
   \label{fig:QualityCutParameterSpace}
 \end{figure}
 
+\section{Event Reconstruction}
+An accurate reconstruction of neutrino events in the data sample is critical for optimal performance of any pointing analysis. During the event selection process several iterations of reconstructions are performed so that downgoing muons from cosmic rays can easily be identified. During data selection at lower levels, simpler reconstruction algorithms are often used to prevent a prohibitive amount of required CPU time for processing. These reconstructions then serve as the seed for more advanced techniques used at the analysis level. In this section the seed reconstructions for the final level will be discussed in addition to a detailed description of the final reconstruction whose results are used in the final analysis.
+
+Reconstruction of a physics event within the IceCube detector depends on the geometry of the DOMs registering light from the event, the time of arrival for photons at those DOMs, and the total amount of light received at the individual DOMs.
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{HES_Upgoing_WithReco.png}
+  \end{center}
+  \caption{Event display for a final level neutrino track event with reconstructed track. This event is fairly energetic with respect to the usual events in the final sample. The red arrow shows the best fit from the 16-iteration SplineMPE reconstruction. The dust layer is clearly visible through the lack of DOMs registering light in the middle of the event track.}
+  \label{fig:HESEventWithReco}
+\end{figure}
+
+\begin{figure}\label{fig:EventRes}
+\centering
+\subfigure[Neutrino Resolution by Energy]{\label{fig:res1}\includegraphics[width=70mm]{FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png}}
+\subfigure[Neutrino Resolution by Number of DOMs]{\label{fig:res2}\includegraphics[width=70mm]{GENIE_FinalLevel_NeutrinoResolutionByNch.png}}
+\caption{Median event resolution as a function of primary neutrino energy (a) and as a function of DOMs receiving light in the event (b). These distributions are for events belonging to the low-energy branch (LES) of the event selection.} 
+\end{figure}
+
+\section{Error Estimation}
+Given a reconstruction for an event, it is essential to have an accurate estimation of the possible error of that reconstruction. While it is impossible to know this error on an event-by-event basis, we can examine a large set of simulated events to obtain a statistical estimation of how well an individual event will be resolved. The reconstruction method used for events in this analysis utilizes a likelihood technique in which the directional parameter space is scanned over to optimize the fit. Events that are well-reconstructed will generally have a likelihood space with a strong minimum well centered about the true direction of the muon. On the other hand, the likelihood space of poorly resolved events is usually characterized by a very broad minimum in which there is no strong preference for a certain direction.
+
+The shape of the likelihood space from event reconstruction correlates quite strongly with the resolution of the event. In order to estimate how well the event is resolved, a paraboloid (a two-dimensional surface defined by parabolic curve) centered to the likelihood minimum is fit to the likelihood space to estimate the depth of the minimum well. The position of the particle track in the detector is removed from the likelihood calculation so that the dimensionality of the likelihood space is reduced to only a two-dimensional surface.
 
 \section{Final Level Data}
 After all cuts have been applied, we are left with a sample of 22,040 events during the observation period with an expected neutrino `purity' of about 90$\%$. The bulk of these events are neutrinos of atmospheric origin and they represent an irreducible background for the analysis. While the sample does still contain some background cosmic ray muon events, these events do not greatly affect the sensitivity of our time-dependent analysis. As we are not trying to make any precision measurements on the atmospheric neutrino spectrum, we are able to be a bit loose with our cuts so that signal retention is maximized. The level-by-level data rates expected from simulation as well as the actual data rates are listed in Table \ref{tab:event_rates}. Distributions for various event parameters including reconstructed azimuth, zenith, and event vertex location are shown in Appendix A.
@@ -647,32 +681,6 @@ We estimate the sensitivity of this event selection to potential neutrino source
   \label{fig:LESEventFinal}
 \end{figure}
 
-\section{Event Reconstruction}
-An accurate reconstruction of neutrino events in the data sample is critical for optimal performance of any pointing analysis. During the event selection process several iterations of reconstructions are performed so that downgoing muons from cosmic rays can easily be identified. During data selection at lower levels, simpler reconstruction algorithms are often used to prevent a prohibitive amount of required CPU time for processing. These reconstructions then serve as the seed for more advanced techniques used at the analysis level. In this section the seed reconstructions for the final level will be discussed in addition to a detailed description of the final reconstruction whose results are used in the final analysis.
-
-Reconstruction of a physics event within the IceCube detector depends on the geometry of the DOMs registering light from the event, the time of arrival for photons at those DOMs, and the total amount of light received at the individual DOMs.
-
-\begin{figure}[ht]
-  \begin{center}
-    \includegraphics[width=1.0\textwidth,keepaspectratio]{HES_Upgoing_WithReco.png}
-  \end{center}
-  \caption{Event display for a final level neutrino track event with reconstructed track. This event is fairly energetic with respect to the usual events in the final sample. The red arrow shows the best fit from the 16-iteration SplineMPE reconstruction. The dust layer is clearly visible through the lack of DOMs registering light in the middle of the event track.}
-  \label{fig:HESEventWithReco}
-\end{figure}
-
-\begin{figure}\label{fig:EventRes}
-\centering
-\subfigure[Neutrino Resolution by Energy]{\label{fig:res1}\includegraphics[width=70mm]{FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png}}
-\subfigure[Neutrino Resolution by Number of DOMs]{\label{fig:res2}\includegraphics[width=70mm]{GENIE_FinalLevel_NeutrinoResolutionByNch.png}}
-\caption{Median event resolution as a function of primary neutrino energy (a) and as a function of DOMs receiving light in the event (b). These distributions are for events belonging to the low-energy branch (LES) of the event selection.} 
-\end{figure}
-
-\section{Error Estimation}
-Given a reconstruction for an event, it is essential to have an accurate estimation of the possible error of that reconstruction. While it is impossible to know this error on an event-by-event basis, we can examine a large set of simulated events to obtain a statistical estimation of how well an individual event will be resolved. The reconstruction method used for events in this analysis utilizes a likelihood technique in which the directional parameter space is scanned over to optimize the fit. Events that are well-reconstructed will generally have a likelihood space with a strong minimum well centered about the true direction of the muon. On the other hand, the likelihood space of poorly resolved events is usually characterized by a very broad minimum in which there is no strong preference for a certain direction.
-
-The shape of the likelihood space from event reconstruction correlates quite strongly with the resolution of the event. In order to estimate how well the event is resolved, a paraboloid (a two-dimensional surface defined by parabolic curve) centered to the likelihood minimum is fit to the likelihood space to estimate the depth of the minimum well. The position of the particle track in the detector is removed from the likelihood calculation so that the dimensionality of the likelihood space is reduced to only a two-dimensional surface.
-
-
 %% paraboloid \cite{2006APh....25..220N}
 \chapter{Systematic Effects}
 There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the \textit{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs. While there are other errors that could be considered such as the absolute neutrino cross-section, the contribution they provide to the overall error is negligible.
@@ -686,7 +694,7 @@ Precise modeling of the polar ice is an ongoing task in the IceCube collaboratio
 \caption[Ice Properties Systematic Datasets]{List of simulation sets used to estimate systematic error from improper modeling of the ice properites. The listed percentages give the dataset's deviation from the nominal values. Variation in the absorption and scattering lengths lead to fairly minor changes in the analysis effective area with the strongest effects seen at lower energies.\label{tab:ice_sets}}
 \begin{center}
 \begin{tabular}{ccccc}
-\hline
+\toprule
 \textbf{Simulator} & \textbf{Set Number} &\textbf{Spectrum} & \textbf{Scattering} & \textbf{Absorption}\\
 \midrule
 NUGEN & 10039 & E$^{-2}$ & -- & +10$\%$ \\
@@ -709,7 +717,20 @@ NUGEN & 10041 & E$^{-2}$ & -7.1$\%$ & -7.1$\%$ \\
 
 \section{DOM Quantum Efficiency}
 
-TBD
+\begin{table}[h]
+\caption[DOM Efficiency Systematic Datasets]{List of simulation sets used to estimate systematic error from possible differences in simulated and real DOM efficiency. The listed percentages give the dataset's deviation from the nominal values. These datasets are all derived from a single GENIE dataset produced with 120$\%$ DOM efficiency. The sets are then scaled down to their respective efficiencies by dropping the appropriate fraction of photon hits from the dataset events.\label{tab:eff_sets}}
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+\textbf{Simulator} & \textbf{Set Number} &\textbf{Spectrum} & \textbf{DOM Efficiency} \\
+\midrule
+GENIE & 800011 & E$^{-2}$ & Nominal  \\
+GENIE & 800011 & E$^{-2}$ & 90$\%$ \\
+GENIE & 800011 & E$^{-2}$ & 110$\%$ \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
 
 \begin{figure}[ht]
   \begin{center}
@@ -723,28 +744,37 @@ TBD
 The analysis presented in this thesis makes use of both directional and timing information from the final level event dataset. The techniques that are used in this analysis have been applied to other IceCube event selections in a similar fashion. As of yet, these time-dependent searches focused on IceCube events have yet to find any time-dependent neutrino sources of significance higher than background expectations \cite{2012ApJ...744....1A}. A very thorough overview of the time-dependent likelihood analysis methods used in previous IceCube analyses is given by Braun, et al. \cite{2010APh....33..175B}. The method detailed in the following section is mostly the same, but there are a few minor modifications made to the process to improve performance on a low energy event selection.
 
 \section{Unbinned Likelihood Method}
-The identification of a statistically significant astrophysical signal amongst a high number of background events can be a difficult problem in astronomy. Likelihood based methods are commonly used to solve this issue. Searches utilizing a likelihood method are able to provide a probabilistic interpretation of a signal hypothesis with respect to background fluctuations for the event dataset being examined. These searches will typically make use of timing, directional, and occasionally reconstructed energy information from events to find clustering indicative of a true astrophysical source. Whether or not individual events qualify as signal or background when testing a source hypothesis can differ depending on whether the search is 'binned' or 'unbinned'. For binned analyses, the signal hypothesis generates a set of coniditions that an event must meet to be considered as signal-like. This usually consists of selecting an area about the source location (a bin) that the reconstructed direction of the event must lie in. Events are then classified as either belonging to signal or being attributable to background. This results in all events having a binary status with respect to association with a hypothetical source. 
+The identification of a statistically significant astrophysical signal amongst a high number of background events can be a difficult problem in astronomy. Likelihood based methods are commonly used to address this issue. Searches utilizing a likelihood method are able to provide a probabilistic interpretation of a signal hypothesis with respect to background fluctuations for the event dataset being examined. These searches will typically make use of timing, directional, and occasionally reconstructed energy information from events to find clustering indicative of a true astrophysical source. Whether or not individual events qualify as signal or background when testing a source hypothesis can differ depending on whether the search is 'binned' or 'unbinned'. For binned analyses, the signal hypothesis generates a set of coniditions that an event must meet to be considered as signal-like. This usually consists of selecting an area about the source location (a bin) that the reconstructed direction of the event must lie in. Events are then classified as either belonging to signal or being attributable to background. This results in all events having a binary status with respect to association with a hypothetical source. 
 
 The unbinned method, which is the method chosen for this analysis, is typically more sensitive as it allows for events to be seen as both signal or background. In order to accomplish this, probability density functions (p.d.f.s) are constructed that are representative of the expected spatial, temporal, or energy distributions for both the signal and background possibilities. Thus, well-resolved events will strongly contribute to the likelihood calculation as signal- or background-like while more marginal events can make a contribution to either scenario with appropriate weighting instead of being sharply divided into either category. This makes the unbinned method much better suited for analysis of event samples with a wide range of resolutions.
 
 The probability for seeing an event $i$ in our analysis given a time-dependent source hypothesis takes the following form:
-\begin{equation}
+\begin{equation}\label{eq:EventProb}
 \mathcal{P}_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w,\sigma_i) = \frac{n_s}{n_{\mathrm{tot}}} \mathcal{S}_i + \left(1-\frac{n_s}{n_{\mathrm{tot}}}\right) \mathcal{B}_i
 \end{equation}
-where $S_i$ and $B_i$ are the signal and background p.d.f.s respectively. The values of these PDFs depends on the reconstructed direction of the event \textbf{$x_i$}, the point spread function (PSF) of the event $\sigma_i$, the arrival time of the event $t_i$, the location of the hypothetical source \textbf{$x_s$}, the mean time of the flare $t_o$, the duration of the flare $\sigma_w$, and lastly the number of signal events $n_s$. The signal p.d.f. consists of both a spatial and temporal term. While the target sources for this analysis are expected to be point-like, the spatial term assumes a normalized extended distribution about \textbf{$x_s$} to account for the PSF of individual events $\sigma_i$. The signal p.d.f. is constructed in this way
+where $S_i$ and $B_i$ are the signal and background p.d.f.s introduced below. The values of these PDFs depend on the reconstructed direction of the event \textbf{$x_i$}, the angular resolution of the event $\sigma_i$, the arrival time of the event $t_i$, the location of the hypothetical source \textbf{$x_s$}, the mean time of the source flare $t_o$, the duration of the flare $\sigma_w$, the total number of events in the dataset $n_tot$, and lastly the number of signal events $n_s$. The formulation of event-by-event probability given by \ref{eq:EventProb} provides a quantifiable method through which we can weigh various signal hypotheses for the dataset against the null hypothesis in which none of the events are the result of a signal source.
+
+\subsection{Signal P.D.F.}
+The signal p.d.f. describes the expected distribution in time and space for neutrino events that orginate from the source model being tested. The signal p.d.f. consists of both a spatial and temporal part and is constructed in this way
 \begin{equation}
 \mathcal{S}_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w,\sigma_i) = S_i(|\mathbf{x}_i-\mathbf{x}_s|,\sigma_i) \cdot T_i(t_i,t_o,\sigma_w)
 \end{equation}
+where
 \begin{equation}
-S_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w) = \frac{\kappa}{4\pi \sinh \kappa} \exp \left(\kappa \cos |\mathbf{x}_i-\mathbf{x_s}|\right) \cdot \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o)^2}{2 \sigma_w^2}\right)
+S_i(|\mathbf{x}_i-\mathbf{x}_s|,\sigma_i) = \frac{\kappa}{4\pi \sinh \kappa} \exp \left(\kappa \cos |\mathbf{x}_i-\mathbf{x_s}|\right)
 \end{equation}
-with the spatial term represented by the Kent-Fisher distribution \cite{1982} and the temporal term given by a Gaussian with mean time of $t_o$ and a width of $\sigma_w$. The concentration parameter $\kappa = \sigma_{i}^{-2}$ is determined by the event resolution. The inclusion of the Kent-Fisher distribution in the spatial p.d.f. represents a slight deviation from the standard construction of $S_i$ in IceCube analyses. It is analogous to the 2-dimensional Gaussian distribution on a flat surface, and for small values of $\sigma_{i}$ ($\lesssim 3^{\circ}$) the distributions are nearly identical. However, the Kent-Fisher distribution is properly normalized to the surface of a sphere. It therefore gives a better description of the spatial p.d.f. for events with larger uncertainties (which are common at the lower energies used in this analysis).
+and
+\begin{equation}
+T_i(t_i,t_o,\sigma_w) = \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o)^2}{2 \sigma_w^2}\right)
+\end{equation}
+The function representing the spatial term $S_i$ is the Kent-Fisher distribution \cite{1982}. The inclusion of the this distribution in the spatial p.d.f. represents a slight deviation from the standard construction of $S_i$ in IceCube analyses. It is analogous to the 2-dimensional Gaussian distribution on a flat surface, and for small values of $\sigma_{i}$ ($\lesssim 3^{\circ}$) the distributions are nearly identical. However, the Kent-Fisher distribution is properly normalized to the surface of a sphere. It therefore gives a better description of the spatial p.d.f. for events with larger uncertainties which are common in the lower energy sample used in this analysis. The concentration parameter $\kappa$ can be thought as the counterpart of the Gaussian sigma for the Kent-Fisher distribution, and it is determined by the event resolution ($\kappa = \sigma_{i}^{-2}$). The temporal term $T_i$ is simply a Gaussian with mean time of $t_o$ and a width of $\sigma_w$. Other source time profiles could be considered for this analysis, but testing has shown that the choice does not strongly affect the analysis sensitivity. Due to the untriggered nature of this analysis, the Gaussian profile is chosen to keep the method simple and relatively model independent. 
 	
-The dataset being examined is heavily background dominated. This allows to simply derive our background p.d.f. directly from the final level dataset without having to make any assumptions about what the background should look like. Thus, the background p.d.f. will look like 
+\subsection{Background P.D.F.}
+The dataset being examined is heavily background dominated. This allows to simply derive our background p.d.f. directly from the final level dataset without having to make any assumptions about what the background should look like. Thus, the background p.d.f. looks like 
 \begin{equation}
 \mathcal{B}_i(\mathbf{x}_i,t_i) = P_{BkgDec}(\delta_i)\frac{P_{BkgAz}(\alpha_i)}{T}
 \end{equation}
-where $\delta_i$ and $\alpha_i$ are the event's reconstructed declination and detector azimuth respectively and $T$ is the total livetime of the analysis. By constructing the p.d.f. directly from the dataset we are able to fold in the declination dependence of both the muon and neutrino background as well as the difference in detector response. The IceCube detector is azimuthally symmetric, but the triangular lattice formed by its constituent strings do produce preferred corridors for background events to sneak through. This effect is fairly minor at the final event level, nonetheless it is also taken into consideration via the $P_{BkgAz}(\alpha_i)$ term. Lastly, the time dependence of the background is assumed to be flat. While there is seasonal variation in the atmospheric muon and neutrino rates, these modulations are not large at the final event level and the timescale of variation is much greater than the expected duration of neutrino emission from the target sources.
+where $\delta_i$ and $\alpha_i$ are the event's reconstructed declination and detector azimuth respectively and $T$ is the total livetime of the analysis. The azimuthal and declination p.d.fs are taken from distributions of final level data as shown in Figure \ref{fig:BkgOnly_Zen_And_Azi}. By constructing the p.d.f. directly from the dataset we are able to fold in the declination dependence of both the muon and neutrino background as well as the difference in detector response. The IceCube detector is azimuthally symmetric, but the triangular lattice formed by its constituent strings do produce preferred corridors for background events to sneak through. This effect is fairly minor at the final event level, nonetheless it is also taken into consideration via the $P_{BkgAz}(\alpha_i)$ term. Lastly, the time dependence of the background is assumed to be flat. While there is seasonal variation in the atmospheric muon and neutrino rates, these modulations are not large at the final event level and the timescale of variation is much greater than the expected duration of neutrino emission from the target sources.
 
 \begin{figure}\label{fig:BkgOnly_Zen_And_Azi}
 \centering
@@ -753,11 +783,12 @@ where $\delta_i$ and $\alpha_i$ are the event's reconstructed declination and de
 \caption{Distirbution of final dataset events in zenith and azimuth in dector coordinates. These distributions are used to create the spatial terms in the background p.d.f. used in the likelihood calculation.} 
 \end{figure}
 
+\subsection{Likelihood Function}
 In order to find the best fit for the source parameters $n_s$, $t_o$, $\sigma_w$ at a specified location \textbf{$x_s$}, an optimizable likelihood function is needed. This function is given by the product sum of all individual event probabilities from the dataset:
 \begin{equation}\label{eq:LLH}
 \mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w) = \prod \mathcal{P}_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w,\sigma_i)
 \end{equation}
-The value of this function will depend on all events within the dataset. Furthermore, we can maximize the ratio of the likelihood function with specific choices of signal terms to the value of the function under the null hypothesis ($n_s=0$) to yield a best fit to the data. The value of the likelihood ratio yields a test statistic $\lambda$ given by
+The value of this function will depend on all events within the dataset and will vary for different choices of the signal parameters $\mathbf{x}_s,n_s,t_o,\sigma_w$. Furthermore, we can maximize the ratio of the likelihood function with specific choices of signal terms to the value of the function under the null hypothesis ($n_s=0$) to yield a best fit to the data. The value of the likelihood ratio yields a test statistic $\lambda$ given by
 \begin{equation}
 \lambda = 2\log \left[\frac{\mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w)}{\mathcal{L}(n_s = 0)} \right]
 \end{equation}
@@ -771,14 +802,14 @@ The test statistic is defined as such so that the distribution of $\lambda$ valu
 
 While this formulation of $\lambda$ has been shown to yield a $\chi^2$ distribution of background test statistics for time-independent searches in IceCube, it does not produce a distribution similar to $\chi^2$ when used in time-dependent searches \cite{2012ApJ...744....1A}. This is due to a bias towards shorter flare duration in the analysis method. For a dataset of a given duration, it is possible to divide the data into many more short flare events than long flares. This creates an effective trials factor for shorter flares, and so the definition of the test statistic must be changed in order to compensate for this effect:
 \begin{equation}
-\hat{\lambda} = -2\log \left[\frac{\sqrt{2\pi}\hat{\tau}_w}{T}\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\tau}_w)}{\mathcal{L}(n_s = 0)} \right]
+\hat{\lambda} = 2\log \left[\frac{\sqrt{2\pi}\hat{\tau}_w}{T}\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\tau}_w)}{\mathcal{L}(n_s = 0)} \right]
 \end{equation}
 The introduction of the marginalization factor $sqrt{2\pi}\tau /T$ brings the background $\lambda$ distribution back into agreement with the appropriate $\chi^2$ distribution \cite{2012ApJ...744....1A}.
 
 To summarize, this analysis uses a likelihood ratio method to find the best values for a signal-plus-background model of the dataset. This is accomplished through maximization of ratio of the likelihood function with best fit parameters to the value of the function under the null hypothesis to generate a test statistic. The test statistic serves as figure of merit that characterizes the degree to which the data is better explained by a signal hypothesis rather than the background only scenario. Because we are not selecting any specific locations to test for flaring, the test statistic must be maximized at each possible location in the sky. The details of this process are described in the following section.
 \section{Sky Scan}
 
-The analysis performed is not a triggered search, and therefore it is necessary to examine the entire solid angle domain of the analysis for any possible transient sources. The difficulty in rejecting background muons at lower energies limits the analysis to up-going and horizontal events ($< 5^{\circ}$ above the horizon). Because of IceCube's location at the South Pole, this results in a search over all right ascension in a declination band ranging from -$5^{\circ}$ to $90^{\circ}$. The search method discretizes the northern portion of the sky into many bins, and the coordinates of these bins serve as the location of a hypothetical flaring source to be tested. The fairly large median resolution of the event sample (see Fig. \ref{fig:EventSampleRes_Energy}) allows the size of the search bins to be set to a relatively coarse 2$^{\circ}$ by 2$^{\circ}$ in angular area. 
+The analysis performed is not a triggered search, and therefore it is necessary to examine the entire solid angle domain of the analysis for any possible transient sources. The difficulty in rejecting background muons at lower energies limits the analysis to up-going and horizontal events ($< 5^{\circ}$ above the horizon). Because of IceCube's location at the South Pole, this results in a search over all right ascension in a declination band ranging from -$5^{\circ}$ to $90^{\circ}$. The search method discretizes the northern portion of the sky into many bins, and the coordinates of these bins serve as the location of a hypothetical flaring source to be tested. The fairly large median resolution of the event sample (see Fig. \ref{fig:EventSampleRes_Energy}) allows the size of the search bins to be set to a relatively coarse 2$^{\circ}$ by 2$^{\circ}$. 
 
 Maximization of the likelihood given by eq. \eqref{eq:LLH} is done at each location in the grid with $\mathbf{x_s}$ set to the location of the bin. This results in each bin having a best-fit neutrino flare with its own values of $\hat{n_s}$, $\hat{t}_o$, $\hat{\sigma}_w$, and test statistic $TS$. After this scan over the 2$^{\circ}$ by 2$^{\circ}$ is completed, a finer follow-up scan with 0.5$^{\circ}$ by 0.5$^{\circ}$ binning is performed on any coarse bins with $-\log_{10}(p_{val}) > 1.75$ where $p_{val}$ is the estimated pre-trials p-value of the maximized test statistic. Following the completion of the fine-scan, the best-fit flare from the bin with the most significant test statistic is returned as the final result of the search. The results of a scan over a scrambled dataset consisting of only background events is shown in Figure \ref{fig:NullTrialSkyMap}.
 \begin{figure}[ht]
@@ -827,11 +858,26 @@ The scrambled background trials also serve as a check for any biases in the anal
 
 
 \chapter{Results}
-We can now examine our selected dataset utilizing the analysis method described in Chapter \textbf{VIII}. This will provide us with a fit to parameters of the most significant flare found in the dataset. The test statistic of this flare can then be compared to the distribution of most significant flares found during our scrambled trials with only background events. This yields a trials-corrected $p$-value that represents the true significance of the flare found by our method.
-\section{Search Result}
-Applying the defined analysis method on the unscrambled dataset yields a skymap of the pre-trials p-values derived from the maximized test statistic for each bin (see Figure \ref{fig:RealSkyMap}).
+Applying the defined analysis method on the unscrambled dataset yields a skymap of the pre-trials p-values derived from the maximized test statistic for each bin. This map is shown in Figure \ref{fig:RealSkyMap}. The black circle in Figure \ref{fig:RealSkyMap} shows the hottest spot after the completion of the sky scan. The best fit to flare parameters for this hot spot are listed in Table \ref{tab:best_fit_flare}. The lack of a high test statistic value in any adjacent bins in the sky map indicates that our hottest spot is dominated by a single highly resolved track event. Examination of the most signal-like events for this flare reveals that this is indeed the case. Figure \ref{fig:TopEvents} shows the spatial p.d.f. values for these events in addition to their time of arrival. Due to the event with the highest spatial p.d.f. value being well-localized ($<$1$^{\circ}$ estimated error), its signal-like contribution to the likelihood is limited solely to the bin it in which its reconstructed direction lies.
 
-%% Hottest Spot
+\begin{table}[h]
+\caption[Best-fit signal parameters]{Best-fit values for flare location, duration, strength and time. The value listed for -log$_{10}(p)$ is the probability of seeing such a flare before applying the appropriate trials factor correction. The real probability of seeing a flare as or more significant as the one observed is given by the post-trials corrected $p$-value listed in the last row.\label{tab:best_fit_flare}}
+\begin{center}
+\begin{tabular}{cc}
+  \toprule
+ \textbf{Flare Parameter} &\textbf{ Best-fit Value} \\
+\midrule
+R.A. & 268.75$^{\circ}$ \\ 
+Dec & 54.25$^{\circ}$ \\ 
+$\hat{n}_s$ & 13.528 \\ 
+$\hat{t}_0$ & 56107.8 MJD \\ 
+$\hat{\sigma}_w$ & 5.89 days \\ 
+-log$_{10}(p)$ & 4.1751 \\
+Post-trials $p$ & 0.56 \\
+\end{tabular}
+\end{center}
+\end{table}
+
 %% SkyMap
 \begin{figure}[ht]
   \begin{center}
@@ -841,39 +887,44 @@ Applying the defined analysis method on the unscrambled dataset yields a skymap 
   \label{fig:RealSkyMap}
 \end{figure}
 
-\begin{table}[h]
-\caption[Best-fit signal parameters]{\label{tab:best_fit_flare}}
-\begin{center}
-\begin{tabular}{|c|c|}
-  \hline
- \textbf{Flare Parameter} &\textbf{ Best-fit Value} \\
-\hline
-\textbf{R.A.} & 268.75$^{\circ}$ \\ \hline
-\textbf{Dec} & 54.25$^{\circ}$ \\ \hline
-$\hat{n}_s$ & 13.528 \\ \hline
-$\hat{t}_0$ & 56107.8 MJD \\ \hline
-$\hat{\tau}_w$ & 5.89 days \\ \hline
--log$_{10}(p)$ & 4.1751 \\ \hline
-\end{tabular}
-\end{center}
-\end{table}
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.6\textwidth,keepaspectratio]{SpatialPDFValue_EventsArrivingNearFlareTime.png}
+  \end{center}
+  \caption{Plot above shows the signal spatial p.d.f. values for several of the most signal-like events for the best fit flare. The y-axis denotes the value of the spatial p.d.f. while the x-axis gives the time of arrival for the event in MJD. The blue gaussian is the time profile for the best fit flare found by the method.}
+  \label{fig:TopEvents}
+\end{figure}
 
-
+The pre-trials significance of this flare was found to be about 3.82 $\sigma$. However, this flare represents the most significant flare found after examination of the entire sky, and so the true significance must factor in a trials penalty. The exact penalty that must be factored in is unknown \textit{apriori}, but it can be determined from background trials via the method described in section 9.3. The test statistic value for our result flare is compared to the distribution of test statistics from the most significant flares found in background-only trials in Figure \ref{fig:PostTrialsComparison}. Comparing the best-fit flare result from the analysis to this background distribution yields a highly background compatible trials-corrected $p$-value of 56$\%$. Despite the low significance of the best-fit flare, some cursory checks with high-energy astrophysical source catalogs were performed to see if any known sources may be associated with the found flare. The TeVCat catalog \cite{TeVCat}, which catalogs discovered TeV gamma ray sources, showed no known sources at or nearby the flare location. An additional check with the IAU list of known supernovae also revealed no known sources in temporal and spatial coincidence with the best-fit flare result \cite{SNeCatIAU}.
 
 %% Post-trials p-value
 \begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=1.0\textwidth,keepaspectratio]{TestStatisticDistribution_WithResult.png}
+    \includegraphics[width=0.75\textwidth,keepaspectratio]{TestStatisticDistribution_WithResult.png}
   \end{center}
-  \caption{Distribution of test statistic $\lambda$ of most signficant flare found in 1,985 background trials. The test statistic value for the best fit flare on the unscrambled data set is also plotted.}
+  \caption{Distribution of test statistic $TS =$ log$_{10}(\lambda)$ of most signficant flare found in 1,985 background trials. The test statistic value for the best fit flare on the unscrambled data set is given by the dashed line.}
   \label{fig:PostTrialsComparison}
 \end{figure}
 
-\section{Event Upper Limit}
+The flare found by the analysis method is entirely consistent with a dataset consisting of only background events suggesting no significant sources of neutrino emission for which the analysis is sensitive. In light of this null result, we can construct a limit on the neutrino flux of any unknown neutrino flare that occured during the observation period. Making this limit requires some assumptions about the shape of the neutrino spectrum. The generic source limit provided in this chapter will assume a simple E$^{-3}$ power-law neutrino spectrum from a source with a Gaussian time profile. A detailed examination of the neutrino emission model for the primary target source of this analysis, choked GRBs, is given in the following chapter.
+
+The standard IceCube procedure in the event that the $p$-value of the result of the analysis is greater than 50$\%$ is to derive an upper limit from the calculated sensitivity of the analysis (which by definition corresponds to a $p$-value of 50$\%$). Figure \ref{fig:SensE3} shows the event sensitivity of the analysis for a neutrino source with a E$^{-3}$ spectrum. This plot details the number of neutrino events $n_s$ required for a source to be visible to the analysis method with 90$\%$ confidence. In order to calculate a limit on source neutrino flux, we must calculate the magnitude of the flux required to generate the number of events in the detector given by the event upper limit. The relationship between neutrino flux and number of observed events is given in Eq. \ref{eq:n_obs_from_flux}.
+\begin{equation}\label{eq:n_obs_from_flux}
+N_{obs} = \int dEA_{eff}(E)F_{\nu}(E)dE
+\end{equation}
+Integration of the analysis effective area $A_{eff}$ with an assumed neutrino flux $F_{\nu}$ yields event expectation in the detector. Setting $N_{obs}$ to our calculated event upper limit from Figure \ref{fig:SensE3} determines the normalization constant for the neutrino flux. Once the normalization has been determined, the upper limit can be given in terms of time-integrated flux (Figure \ref{fig:time_int_flux_limit}). The degradation of the limit at longer flare widths is due to the increasing likelihood of background events to be found in the on-source region.
+\begin{figure}\label{fig:time_int_flux_limit}
+\centering
+\subfigure[Event Upper Limit for E$^{-3}$ Spectrum]{\label{fig:eh}\includegraphics[width=100mm]{LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png}}
+\subfigure[Time-Integrated Flux Upper Limit for E$^{-3}$ Spectrum]{\label{fig:bee}\includegraphics[width=100mm]{LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFinalCut.png}}
+\caption{(a) Event upper limit as a function of flare width for an E$^{-3}$ source flux. Event upper limit is defined as the number of signal events required for a source to be detectable by the analysis method with 90$\%$ confidence. (b) Upper limit on the total time-integrated neutrino flux for a neutrino flare with E$^{-3}$ power law emission. Flux upper limit derived directly from event upper limit and the analysis effective area.} 
+\end{figure}
+
 
 \chapter{Limits on Choked GRBs}
+The upper limits described in the previous chapter provide an estimation of the sensitivity of the analysis method with respect to a generic neutrino source. If we assume a specific source model, however, the event upper limit given by the analysis result can be used to examine the detectability of the source under certain choices of model parameters. In this chapter we will examine the neutrino emission model for choked GRBs (see section 4.4) in light of this source class being the primary motivation for the development of this anlaysis.
 
-
+The model for neutrino emission put forward by Razzaque, M\'{e}sz\'{a}ros and Waxman predicts a doubly broken power law with break energies set by hadronic and radiative cooling of the parent pions of the neutrinos \cite{2004PhRvL..93r1101R}. The model was extend by Ando and Beacom to include neutrinos from kaon decay resulting in a slighly more complicated spectral shape given the different break energies for the respective mesons \cite{2005PhRvL..95f1103A}. In the combined model, the neutrino spectrum shape and total fluence depend primarily on the energy E$_{j}$ and bulk lorentz factor $\Gamma_{b}$ of the relativistic jet in which the parent mesons are produced. For this reason, we examine the RMW/AB model in E$_{j}$--$\Gamma_{b}$ phase space to determine what choices of E$_{j}$ and $\Gamma_{b}$ would have been detectable by the analysis method if a choked GRB occurred during the livetime of the analysis.
 
 \section{Parameter Dependent Upper Limit}
 
@@ -915,16 +966,17 @@ This appendix contains distributions of select event parameters for both simulat
 \setlength{\parindent}{0pt}
 \textbf{N Channel} - N Channel or Nch refers to the number of DOMs receiving light from the event. This can be interpreted as a crude energy proxy as more energetic events will have a larger light yield.
 
-\textbf{Detector Azimuth} -
+\textbf{Detector Azimuth} - The detector azimuth for a given event is the best fit azimuthal direction from the track reconstruction method. A azimuth value of 0$^{\circ}$ corresponds to due East in local grid coordinates.
 
-\textbf{Detector Zenith} - 
+\textbf{Detector Zenith} - The detector zenith for a given event is the best fit zenith direction from the track reconstruction method. This value ranges from 0$^{\circ}$ to 180$^{\circ}$ with 0$^{\circ}$ representing events traveling downward from the Southern sky above the detector and 180$^{\circ}$ representing events coming upward through the Earth.
 
 \textbf{Reduced Log-likelihood} - The reconstruction method used in this analysis makes use of a likelihood method to obtain a best fit to the event data. The method references a splined table of ice model parameters in addition to probabilities for certain DOMs in the array to generate hits from light emitted by a hypothetical particle track. Low values of reduced log-likelihood (rllh) indicate the track hypothesis has a good fit to the data.
 
 \textbf{Finite Reco Z} - A separate reconstruction makes an attempt to fit a starting and stopping point to the best fit track of the event. This reconstruction also uses a likelihood method to arrive at an optimized solution. Finite Reco Z is the location of the starting vertex of the event in the detector z-coordinate. Events that start at lower depths in the ice are more likely to be upgoing neutrinos as opposed to downgoing atmospheric muons.
 \end{adjustwidth}
+The plotted distributions are also separated by whether they belong to the high-energy event selection stream (HES) or the low-energy stream (LES). This allows one to compare the data-simulation agreement between the two branches. Additionally, the simulation sets used for development of both branches are not the same which can lead to differing levels of agreement at the final level.
 
-\begin{figure}\label{fig:FL_nch_by_energy}
+\begin{figure}[0.05]\label{fig:FL_nch_by_energy}
 \centering
 \subfigure[LES Nch-Energy Relation]{\label{fig:i}\includegraphics[width=75mm]{FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png}}
 \subfigure[HES Nch-Energy Relation]{\label{fig:ii}\includegraphics[width=75mm]{FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png}}

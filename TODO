@@ -48,9 +48,9 @@ ANALYSIS METHOD
 - proofread
 
 SYSTEMATIC EFFECTS
-- ice set table
+X ice set table
 - energy dependence of ice effect plot
-- dom set table
+X dom set table
 - energy dependence of dom eff plot
 - total error on the eff area
 - plot of original eff are with sys-adjusted eff area
@@ -58,8 +58,8 @@ SYSTEMATIC EFFECTS
 
 RESULTS AND INTERPRETATION
 X add in best fit parameters
-- mention followup look for SNe or TeVcat
-- upper limit for p-value > 50%
+X mention followup look for SNe or TeVcat
+X upper limit for p-value > 50%
 - many subsections for Choked GRB limit
 - proofread
 

@@ -9,45 +9,45 @@ Warning--I didn't find a database entry for "?"
 Warning--I didn't find a database entry for ""
 Warning--to sort, need author or key in 2013JGlac..59.1117.
 Warning--empty author in 2013JGlac..59.1117.
-You've used 48 entries,
+You've used 52 entries,
             2221 wiz_defined-function locations,
-            849 strings with 18589 characters,
-and the built_in function-call counts, 33210 in all, are:
-= -- 2750
-> -- 2623
+            876 strings with 19253 characters,
+and the built_in function-call counts, 34502 in all, are:
+= -- 2889
+> -- 2663
 < -- 0
-+ -- 1047
-- -- 996
-* -- 3837
-:= -- 5032
-add.period$ -- 49
-call.type$ -- 48
-change.case$ -- 642
++ -- 1063
+- -- 1008
+* -- 3920
+:= -- 5217
+add.period$ -- 55
+call.type$ -- 52
+change.case$ -- 660
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 1344
-empty$ -- 1817
-format.name$ -- 996
-if$ -- 6657
+cite$ -- 54
+duplicate$ -- 1405
+empty$ -- 1928
+format.name$ -- 1008
+if$ -- 6962
 int.to.chr$ -- 0
-int.to.str$ -- 48
-missing$ -- 46
-newline$ -- 148
-num.names$ -- 94
-pop$ -- 589
+int.to.str$ -- 52
+missing$ -- 48
+newline$ -- 162
+num.names$ -- 102
+pop$ -- 613
 preamble$ -- 1
-purify$ -- 594
+purify$ -- 608
 quote$ -- 0
-skip$ -- 869
+skip$ -- 930
 stack$ -- 0
-substring$ -- 1146
-swap$ -- 912
+substring$ -- 1214
+swap$ -- 942
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 192
+type$ -- 208
 warning$ -- 2
-while$ -- 161
-width$ -- 50
-write$ -- 470
+while$ -- 172
+width$ -- 54
+write$ -- 510
 (There were 5 warnings)
