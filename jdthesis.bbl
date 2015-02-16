@@ -111,6 +111,15 @@
   Gamma-Ray Burst Connection with TeV Neutrinos},'' {\em Physical Review
   Letters}, vol.~95, p.~061103, Aug. 2005.
 
+\bibitem{2010NIMPA.614...87A}
+{\sc {Andreopoulos}, C.}, {\sc {Bell}, A.}, {\sc {Bhattacharya}, D.}, {\sc
+  {Cavanna}, F.}, {\sc {Dobson}, J.}, {\sc {Dytman}, S.}, {\sc {Gallagher},
+  H.}, {\sc {Guzowski}, P.}, {\sc {Hatcher}, R.}, {\sc {Kehayias}, P.}, {\sc
+  {Meregaglia}, A.}, {\sc {Naples}, D.}, {\sc {Pearce}, G.}, {\sc {Rubbia},
+  A.}, {\sc {Whalley}, M.}, and {\sc {Yang}, T.}, ``{The GENIE neutrino Monte
+  Carlo generator},'' {\em Nuclear Instruments and Methods in Physics Research
+  A}, vol.~614, pp.~87--104, Feb. 2010.
+
 \bibitem{2013APh....41....7A}
 {\sc {Asaoka}, Y.} and {\sc {Sasaki}, M.}, ``{Cherenkov {$\tau$} shower
   earth-skimming method for PeV-EeV {$\nu$}$_{τ}$ observation with Ashra},''
@@ -209,6 +218,11 @@
   ``{Neutrino interactions at ultrahigh-energies},'' {\em Phys.Rev.}, vol.~D58,
   p.~093009, 1998.
 
+\bibitem{2005CoPhC.172..203G}
+{\sc {Gazizov}, A.} and {\sc {Kowalski}, M.}, ``{ANIS: High energy neutrino
+  generator for neutrino telescopes},'' {\em Computer Physics Communications},
+  vol.~172, pp.~203--213, Nov. 2005.
+
 \bibitem{2001ADNDT..78..183G}
 {\sc {Groom}, D.~E.}, {\sc {Mokhov}, N.~V.}, and {\sc {Striganov}, S.~I.},
   ``{Muon Stopping Power and Range Tables 10 MeV-100 TeV},'' {\em Atomic Data
@@ -222,6 +236,12 @@
 {\sc {Hanson}, K.} and {\sc {Tarasova}, O.}, ``{Design and production of the
   IceCube digital optical module},'' {\em Nuclear Instruments and Methods in
   Physics Research A}, vol.~567, pp.~214--217, Nov. 2006.
+
+\bibitem{1998cmcc.book.....H}
+{\sc {Heck}, D.}, {\sc {Knapp}, J.}, {\sc {Capdevielle}, J.~N.}, {\sc {Schatz},
+  G.}, and {\sc {Thouw}, T.}, {\em {CORSIKA: a Monte Carlo code to simulate
+  extensive air showers.}}
+\newblock Feb. 1998.
 
 \bibitem{0004-637X-738-2-154}
 {\sc Horiuchi, S.}, {\sc Beacom, J.~F.}, {\sc Kochanek, C.~S.}, {\sc Prieto,

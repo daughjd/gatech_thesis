@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.20)  15 FEB 2015 01:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.20)  16 FEB 2015 00:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -471,6 +471,14 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 36
 8.
 
 [23 <./NearbySNCatalogue.png>]
+
+LaTeX Warning: Citation `2011PhRvL.106n1101A' on page 24 undefined on input lin
+e 371.
+
+
+LaTeX Warning: Citation `2012Natur.484..351I' on page 24 undefined on input lin
+e 371.
+
 <SubPhotoFluence.png, id=145, 776.9025pt x 541.02126pt>
 File: SubPhotoFluence.png Graphic file (type png)
 
@@ -553,332 +561,379 @@ Package pdftex.def Info: ICL.jpg used on input line 533.
 CHAPTER VII.
 [42
 
-]
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 583--584
+] [43]
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 584--585
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
 
-<DeepCoreVeto.jpg, id=267, 172.04097pt x 214.25177pt>
+<DeepCoreVeto.jpg, id=270, 172.04097pt x 214.25177pt>
 File: DeepCoreVeto.jpg Graphic file (type jpg)
  <use DeepCoreVeto.jpg>
-Package pdftex.def Info: DeepCoreVeto.jpg used on input line 587.
+Package pdftex.def Info: DeepCoreVeto.jpg used on input line 588.
 (pdftex.def)             Requested size: 216.81pt x 270.01749pt.
 
-[43] [44 <./DeepCoreVeto.jpg>] [45]
-<SignalOverBackground_ContourMap.png, id=277, 722.7pt x 578.16pt>
+
+LaTeX Warning: Reference `' on page 44 undefined on input line 594.
+
+[44] [45 <./DeepCoreVeto.jpg>] [46]
+<StdDC_MicroHits.png, id=280, 867.24pt x 722.7pt>
+File: StdDC_MicroHits.png Graphic file (type png)
+ <use StdDC_MicroHits.png>
+Package pdftex.def Info: StdDC_MicroHits.png used on input line 620.
+(pdftex.def)             Requested size: 199.16928pt x 165.9749pt.
+
+<StdDC_MicroCharge.png, id=281, 867.24pt x 722.7pt>
+File: StdDC_MicroCharge.png Graphic file (type png)
+
+<use StdDC_MicroCharge.png>
+Package pdftex.def Info: StdDC_MicroCharge.png used on input line 621.
+(pdftex.def)             Requested size: 199.16928pt x 165.9749pt.
+ [47] [48 <./StdDC_MicroHits.png> <./StdDC_MicroCharge.png>] [49]
+<SignalOverBackground_ContourMap.png, id=295, 722.7pt x 578.16pt>
 File: SignalOverBackground_ContourMap.png Graphic file (type png)
 
 <use SignalOverBackground_ContourMap.png>
 Package pdftex.def Info: SignalOverBackground_ContourMap.png used on input line
- 620.
+ 647.
 (pdftex.def)             Requested size: 281.85036pt x 225.48149pt.
- [46]
-<HES_Upgoing_WithReco.png, id=282, 519.69438pt x 389.77078pt>
+ [50]
+<HES_Upgoing_WithReco.png, id=299, 519.69438pt x 389.77078pt>
 File: HES_Upgoing_WithReco.png Graphic file (type png)
 
 <use HES_Upgoing_WithReco.png>
-Package pdftex.def Info: HES_Upgoing_WithReco.png used on input line 633.
+Package pdftex.def Info: HES_Upgoing_WithReco.png used on input line 660.
 (pdftex.def)             Requested size: 433.62001pt x 325.21657pt.
 
-<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=283, 722.7pt x 578.16p
+<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=300, 722.7pt x 578.16p
 t>
 File: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png Graphic file (type pn
 g)
  <use FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png>
 Package pdftex.def Info: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png us
-ed on input line 641.
+ed on input line 668.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
 
-<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=284, 722.7pt x 578.16pt>
+<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=301, 722.7pt x 578.16pt>
 File: GENIE_FinalLevel_NeutrinoResolutionByNch.png Graphic file (type png)
 
 <use GENIE_FinalLevel_NeutrinoResolutionByNch.png>
 Package pdftex.def Info: GENIE_FinalLevel_NeutrinoResolutionByNch.png used on i
-nput line 642.
+nput line 669.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
- [47 <./SignalOverBackground_ContourMap.png>] [48 <./HES_Upgoing_WithReco.png>]
+ [51 <./SignalOverBackground_ContourMap.png>] [52 <./HES_Upgoing_WithReco.png>]
 
+<LowEnTransient_EffArea_GENIE_Nugen.png, id=309, 722.7pt x 578.16pt>
+File: LowEnTransient_EffArea_GENIE_Nugen.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use LowEnTransient_EffArea_GENIE_Nugen.png>
+Package pdftex.def Info: LowEnTransient_EffArea_GENIE_Nugen.png used on input l
+ine 700.
+(pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<LESEventForThesis.png, id=293, 831.51102pt x 623.63326pt>
+<LowEnTransient_EffArea_GENIE_DiffBin.png, id=310, 722.7pt x 578.16pt>
+File: LowEnTransient_EffArea_GENIE_DiffBin.png Graphic file (type png)
+
+<use LowEnTransient_EffArea_GENIE_DiffBin.png>
+Package pdftex.def Info: LowEnTransient_EffArea_GENIE_DiffBin.png used on input
+ line 701.
+(pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
+ [53 <./FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png> <./GENIE_FinalLeve
+l_NeutrinoResolutionByNch.png>]
+[54 <./LowEnTransient_EffArea_GENIE_Nugen.png> <./LowEnTransient_EffArea_GENIE_
+DiffBin.png>] <LESEventForThesis.png, id=322, 831.51102pt x 623.63326pt>
 File: LESEventForThesis.png Graphic file (type png)
 
 <use LESEventForThesis.png>
-Package pdftex.def Info: LESEventForThesis.png used on input line 678.
+Package pdftex.def Info: LESEventForThesis.png used on input line 712.
 (pdftex.def)             Requested size: 433.62001pt x 325.21419pt.
- [49 <./FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png> <./GENIE_FinalLeve
-l_NeutrinoResolutionByNch.png>] [50 <./LESEventForThesis.png>]
+ [55 <./LESEventForThesis.png>]
 CHAPTER VIII.
-[51
+[56
 
 ]
-<LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png, id=305, 867.24pt x 
+<LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png, id=329, 867.24pt x 
 867.24pt>
 File: LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png Graphic file (t
 ype png)
  <use LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png>
 Package pdftex.def Info: LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.
-png used on input line 711.
-(pdftex.def)             Requested size: 424.94576pt x 424.95132pt.
+png used on input line 744.
+(pdftex.def)             Requested size: 303.53267pt x 303.53854pt.
 
-<LowEnTransient_EffArea_SysGENIE_DomEfficiency.png, id=306, 867.24pt x 867.24pt
+[57] [58 <./LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png>]
+<LowEnTransient_EffArea_SysGENIE_DomEfficiency.png, id=337, 867.24pt x 867.24pt
 >
 File: LowEnTransient_EffArea_SysGENIE_DomEfficiency.png Graphic file (type png)
 
  <use LowEnTransient_EffArea_SysGENIE_DomEfficiency.png>
 Package pdftex.def Info: LowEnTransient_EffArea_SysGENIE_DomEfficiency.png used
- on input line 737.
-(pdftex.def)             Requested size: 424.94576pt x 424.95132pt.
- [52] [53 <./LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png>] [54 <.
-/LowEnTransient_EffArea_SysGENIE_DomEfficiency.png>]
-CHAPTER IX.
-[55
+ on input line 775.
+(pdftex.def)             Requested size: 303.53267pt x 303.53854pt.
 
-] [56] [57]
-<BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=330, 722.7pt x 578.16
+<GENIE_EffectiveAreaRatioTrend_DomEff.png, id=338, 578.16pt x 433.62pt>
+File: GENIE_EffectiveAreaRatioTrend_DomEff.png Graphic file (type png)
+
+<use GENIE_EffectiveAreaRatioTrend_DomEff.png>
+Package pdftex.def Info: GENIE_EffectiveAreaRatioTrend_DomEff.png used on input
+ line 783.
+(pdftex.def)             Requested size: 303.53267pt x 227.6473pt.
+ [59]
+File: GENIE_EffectiveAreaRatioTrend_DomEff.png Graphic file (type png)
+
+<use GENIE_EffectiveAreaRatioTrend_DomEff.png>
+Package pdftex.def Info: GENIE_EffectiveAreaRatioTrend_DomEff.png used on input
+ line 797.
+(pdftex.def)             Requested size: 303.53267pt x 227.6473pt.
+ [60 <./LowEnTransient_EffArea_SysGENIE_DomEfficiency.png>] [61 <./GENIE_Effect
+iveAreaRatioTrend_DomEff.png>]
+CHAPTER IX.
+[62
+
+] [63] [64]
+<BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=362, 722.7pt x 578.16
 pt>
 File: BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png Graphic file (type p
 ng)
  <use BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png>
 Package pdftex.def Info: BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png u
-sed on input line 781.
+sed on input line 842.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=331, 722.7pt x 578.16p
+<BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=363, 722.7pt x 578.16p
 t>
 File: BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png Graphic file (type pn
 g)
  <use BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png>
 Package pdftex.def Info: BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png us
-ed on input line 782.
+ed on input line 843.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
- [58 <./BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png> <./BkgOnly_LES_Sp
-lineMPE_ZenithDist_FinalLevelDist.png>] [59]
+ [65 <./BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png> <./BkgOnly_LES_Sp
+lineMPE_ZenithDist_FinalLevelDist.png>] [66]
 
-LaTeX Warning: Reference `fig:EventSampleRes_Energy' on page 60 undefined on in
-put line 812.
+LaTeX Warning: Reference `fig:EventSampleRes_Energy' on page 67 undefined on in
+put line 873.
 
-<NullMap996.png, id=341, 1084.05pt x 722.7pt>
+<NullMap996.png, id=373, 1084.05pt x 722.7pt>
 File: NullMap996.png Graphic file (type png)
  <use NullMap996.png>
-Package pdftex.def Info: NullMap996.png used on input line 817.
+Package pdftex.def Info: NullMap996.png used on input line 878.
 (pdftex.def)             Requested size: 433.62001pt x 289.07487pt.
 
-<LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png, id=342, 722.7pt 
+<LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png, id=374, 722.7pt 
 x 578.16pt>
 File: LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png Graphic file
  (type png)
  <use LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png>
 Package pdftex.def Info: LowEnTransient_NEventDiscoveryPotentialANDSensitivity_
-E3.png used on input line 826.
+E3.png used on input line 887.
 (pdftex.def)             Requested size: 346.89732pt x 277.51364pt.
 
-[60] [61 <./NullMap996.png>] [62 <./LowEnTransient_NEventDiscoveryPotentialANDS
+[67] [68 <./NullMap996.png>] [69 <./LowEnTransient_NEventDiscoveryPotentialANDS
 ensitivity_E3.png>]
-<TestStatisticDistribution_Null.png, id=354, 722.7pt x 578.16pt>
+<TestStatisticDistribution_Null.png, id=386, 722.7pt x 578.16pt>
 File: TestStatisticDistribution_Null.png Graphic file (type png)
 
 <use TestStatisticDistribution_Null.png>
 Package pdftex.def Info: TestStatisticDistribution_Null.png used on input line 
-839.
+900.
 (pdftex.def)             Requested size: 424.94576pt x 339.95576pt.
- [63 <./TestStatisticDistribution_Null.png>] <RightAcensionDistribution_Null.pn
-g, id=359, 722.7pt x 578.16pt>
+ [70 <./TestStatisticDistribution_Null.png>] <RightAcensionDistribution_Null.pn
+g, id=391, 722.7pt x 578.16pt>
 File: RightAcensionDistribution_Null.png Graphic file (type png)
 
 <use RightAcensionDistribution_Null.png>
 Package pdftex.def Info: RightAcensionDistribution_Null.png used on input line 
-851.
+912.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
 
-<DeclinationDistribution_Null.png, id=360, 722.7pt x 578.16pt>
+<DeclinationDistribution_Null.png, id=392, 722.7pt x 578.16pt>
 File: DeclinationDistribution_Null.png Graphic file (type png)
 
 <use DeclinationDistribution_Null.png>
-Package pdftex.def Info: DeclinationDistribution_Null.png used on input line 85
-2.
+Package pdftex.def Info: DeclinationDistribution_Null.png used on input line 91
+3.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
 
-<NSignalDistribution_Null.png, id=361, 722.7pt x 578.16pt>
+<NSignalDistribution_Null.png, id=393, 722.7pt x 578.16pt>
 File: NSignalDistribution_Null.png Graphic file (type png)
 
 <use NSignalDistribution_Null.png>
-Package pdftex.def Info: NSignalDistribution_Null.png used on input line 853.
+Package pdftex.def Info: NSignalDistribution_Null.png used on input line 914.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
 
-<SigmaDistribution_Null.png, id=362, 722.7pt x 578.16pt>
+<SigmaDistribution_Null.png, id=394, 722.7pt x 578.16pt>
 File: SigmaDistribution_Null.png Graphic file (type png)
 
 <use SigmaDistribution_Null.png>
-Package pdftex.def Info: SigmaDistribution_Null.png used on input line 854.
+Package pdftex.def Info: SigmaDistribution_Null.png used on input line 915.
 (pdftex.def)             Requested size: 199.16928pt x 159.33414pt.
- [64] [65 <./RightAcensionDistribution_Null.png> <./DeclinationDistribution_Nul
+ [71] [72 <./RightAcensionDistribution_Null.png> <./DeclinationDistribution_Nul
 l.png> <./NSignalDistribution_Null.png> <./SigmaDistribution_Null.png>]
 CHAPTER X.
-<RealResultSkyMap.png, id=375, 1092.7224pt x 731.3724pt>
+<RealResultSkyMap.png, id=407, 1092.7224pt x 731.3724pt>
 File: RealResultSkyMap.png Graphic file (type png)
 
 <use RealResultSkyMap.png>
-Package pdftex.def Info: RealResultSkyMap.png used on input line 884.
+Package pdftex.def Info: RealResultSkyMap.png used on input line 945.
 (pdftex.def)             Requested size: 433.62001pt x 290.22253pt.
 
-<SpatialPDFValue_EventsArrivingNearFlareTime.png, id=376, 722.7pt x 578.16pt>
+<SpatialPDFValue_EventsArrivingNearFlareTime.png, id=408, 722.7pt x 578.16pt>
 File: SpatialPDFValue_EventsArrivingNearFlareTime.png Graphic file (type png)
 
 <use SpatialPDFValue_EventsArrivingNearFlareTime.png>
 Package pdftex.def Info: SpatialPDFValue_EventsArrivingNearFlareTime.png used o
-n input line 892.
+n input line 953.
 (pdftex.def)             Requested size: 260.17465pt x 208.13744pt.
- [66
+ [73
 
 ]
-<TestStatisticDistribution_WithResult.png, id=380, 578.16pt x 433.62pt>
+<TestStatisticDistribution_WithResult.png, id=412, 578.16pt x 433.62pt>
 File: TestStatisticDistribution_WithResult.png Graphic file (type png)
 
 <use TestStatisticDistribution_WithResult.png>
 Package pdftex.def Info: TestStatisticDistribution_WithResult.png used on input
- line 903.
+ line 964.
 (pdftex.def)             Requested size: 325.215pt x 243.91064pt.
- [67 <./RealResultSkyMap.png>]
-[68 <./SpatialPDFValue_EventsArrivingNearFlareTime.png>]
+ [74 <./RealResultSkyMap.png>]
+[75 <./SpatialPDFValue_EventsArrivingNearFlareTime.png>]
 File: LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png Graphic file
  (type png)
 
 <use LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png>
 Package pdftex.def Info: LowEnTransient_NEventDiscoveryPotentialANDSensitivity_
-E3.png used on input line 918.
+E3.png used on input line 979.
 (pdftex.def)             Requested size: 284.52756pt x 227.62523pt.
 
-<LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFinalCut.png, id=389, 722.
+<LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFinalCut.png, id=422, 722.
 7pt x 578.16pt>
 File: LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFinalCut.png Graphic 
 file (type png)
 
 <use LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFinalCut.png>
 Package pdftex.def Info: LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFi
-nalCut.png used on input line 919.
+nalCut.png used on input line 980.
 (pdftex.def)             Requested size: 284.52756pt x 227.62523pt.
- [69 <./TestStatisticDistribution_WithResult.png>] [70 <./LowEnTransient_TIFlux
+ [76 <./TestStatisticDistribution_WithResult.png>] [77 <./LowEnTransient_TIFlux
 Sensitivity_E3_MergedSim_ActualFinalCut.png>]
 CHAPTER XI.
-<UpperLimit_2DHisto_SysAdj.png, id=399, 578.16pt x 433.62pt>
+<UpperLimit_2DHisto_SysAdj.png, id=433, 578.16pt x 433.62pt>
 File: UpperLimit_2DHisto_SysAdj.png Graphic file (type png)
 
 <use UpperLimit_2DHisto_SysAdj.png>
-Package pdftex.def Info: UpperLimit_2DHisto_SysAdj.png used on input line 933.
+Package pdftex.def Info: UpperLimit_2DHisto_SysAdj.png used on input line 994.
 (pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
 
-<DistanceLimit_2DHisto_WithContours_SysAdj.png, id=400, 578.16pt x 433.62pt>
+<DistanceLimit_2DHisto_WithContours_SysAdj.png, id=434, 578.16pt x 433.62pt>
 File: DistanceLimit_2DHisto_WithContours_SysAdj.png Graphic file (type png)
 
 <use DistanceLimit_2DHisto_WithContours_SysAdj.png>
 Package pdftex.def Info: DistanceLimit_2DHisto_WithContours_SysAdj.png used on 
-input line 943.
+input line 1004.
 (pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
 
-<RateLimit_2DHisto_wContours_SysAdj.png, id=401, 578.16pt x 433.62pt>
+<RateLimit_2DHisto_wContours_SysAdj.png, id=435, 578.16pt x 433.62pt>
 File: RateLimit_2DHisto_wContours_SysAdj.png Graphic file (type png)
 
 <use RateLimit_2DHisto_wContours_SysAdj.png>
 Package pdftex.def Info: RateLimit_2DHisto_wContours_SysAdj.png used on input l
-ine 953.
+ine 1014.
 (pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
- [71
+ [78
 
-] [72 <./UpperLimit_2DHisto_SysAdj.png>] [73 <./DistanceLimit_2DHisto_WithConto
-urs_SysAdj.png>] [74 <./RateLimit_2DHisto_wContours_SysAdj.png>]
+] [79 <./UpperLimit_2DHisto_SysAdj.png>] [80 <./DistanceLimit_2DHisto_WithConto
+urs_SysAdj.png>] [81 <./RateLimit_2DHisto_wContours_SysAdj.png>]
 CHAPTER XII.
-[75
+[82
 
 ]
 APPENDIX A.
-[76
+[83
 
 
-] <FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png, id=425, 722.7pt x 578.16pt>
+]
+APPENDIX B.
+[84
+
+] <FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png, id=461, 722.7pt x 578.16pt>
 File: FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png Graphic file (type png)
 
 <use FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png>
 Package pdftex.def Info: FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png used on inpu
-t line 981.
+t line 1045.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png, id=426, 722.7pt x 578.16pt>
+<FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png, id=462, 722.7pt x 578.16pt>
 File: FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png Graphic file (type png)
 
 <use FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png>
 Package pdftex.def Info: FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png used on inpu
-t line 982.
+t line 1046.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=427, 722.7pt x 578.16pt>
+<LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=463, 722.7pt x 578.16pt>
 File: LES_SplineMPE_AzimuthDist_FinalLevelDist.png Graphic file (type png)
 
 <use LES_SplineMPE_AzimuthDist_FinalLevelDist.png>
 Package pdftex.def Info: LES_SplineMPE_AzimuthDist_FinalLevelDist.png used on i
-nput line 988.
+nput line 1052.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=428, 722.7pt x 578.16pt>
+<LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=464, 722.7pt x 578.16pt>
 File: LES_SplineMPE_ZenithDist_FinalLevelDist.png Graphic file (type png)
 
 <use LES_SplineMPE_ZenithDist_FinalLevelDist.png>
 Package pdftex.def Info: LES_SplineMPE_ZenithDist_FinalLevelDist.png used on in
-put line 989.
+put line 1053.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png, id=429, 722.7pt x 578.16pt
+<LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png, id=465, 722.7pt x 578.16pt
 >
 File: LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png Graphic file (type png
 )
  <use LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png>
 Package pdftex.def Info: LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png use
-d on input line 990.
+d on input line 1054.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
 
-<LES_BDTParam_FiniteReco_Z_FinalLevelDist.png, id=430, 722.7pt x 578.16pt>
+<LES_BDTParam_FiniteReco_Z_FinalLevelDist.png, id=466, 722.7pt x 578.16pt>
 File: LES_BDTParam_FiniteReco_Z_FinalLevelDist.png Graphic file (type png)
 
 <use LES_BDTParam_FiniteReco_Z_FinalLevelDist.png>
 Package pdftex.def Info: LES_BDTParam_FiniteReco_Z_FinalLevelDist.png used on i
-nput line 991.
+nput line 1055.
 (pdftex.def)             Requested size: 213.39566pt x 170.71451pt.
- (./jdthesis.bbl [77]
-[78 <./FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png> <./FinalLevel_Nch_Vs_Energy_N
-uMu_HESOnly.png>] [79 <./LES_SplineMPE_AzimuthDist_FinalLevelDist.png> <./LES_S
+ (./jdthesis.bbl [85]
+[86 <./FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png> <./FinalLevel_Nch_Vs_Energy_N
+uMu_HESOnly.png>] [87 <./LES_SplineMPE_AzimuthDist_FinalLevelDist.png> <./LES_S
 plineMPE_ZenithDist_FinalLevelDist.png> <./LES_BDTParam_SplineMPEMod_RLogL_Fina
-lLevelDist.png> <./LES_BDTParam_FiniteReco_Z_FinalLevelDist.png>] [80
+lLevelDist.png> <./LES_BDTParam_FiniteReco_Z_FinalLevelDist.png>] [88
 
-] [81]
+] [89]
 Missing character: There is no Ï in font cmr8!
 Missing character: There is no „ in font cmr8!
 
-[82] [83] [84] [85] [86]) [87]
+[90] [91] [92] [93] [94]) [95]
 ***************** Vita ******************
-[88
+[96
 
 
-] [89
+] [97
 
 
 ] (./jdthesis.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 3685 strings out of 495031
- 54688 string characters out of 6181531
- 105385 words of memory out of 5000000
- 6755 multiletter control sequences out of 15000+600000
+ 3729 strings out of 495031
+ 55877 string characters out of 6181531
+ 105547 words of memory out of 5000000
+ 6794 multiletter control sequences out of 15000+600000
  14749 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,11n,27p,1545b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,27p,1592b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -899,10 +954,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/symbols/msam10.pfb>
-Output written on jdthesis.pdf (103 pages, 7820130 bytes).
+Output written on jdthesis.pdf (111 pages, 8059049 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
+ 587 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 
