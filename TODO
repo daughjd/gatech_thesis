@@ -49,11 +49,10 @@ ANALYSIS METHOD
 
 SYSTEMATIC EFFECTS
 X ice set table
-- energy dependence of ice effect plot
 X dom set table
-- energy dependence of dom eff plot
-- total error on the eff area
-- plot of original eff are with sys-adjusted eff area
+X energy dependence of dom eff plot
+X total error on the eff area
+X plot of original eff are with sys-adjusted eff area
 - proofread
 
 RESULTS AND INTERPRETATION

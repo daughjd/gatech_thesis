@@ -1,10 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{2013JGlac..59.1117.}
-``{South Pole glacial climate reconstruction from multi-borehole laser
-  particulate stratigraphy},'' {\em Journal of Glaciology}, vol.~59,
-  pp.~1117--1128, 2013.
-
 \bibitem{2013PhRvL.111h1801A}
 {\sc {Aartsen}, M.~G.}, {\sc {Abbasi}, R.}, {\sc {Abdou}, Y.}, {\sc
   {Ackermann}, M.}, {\sc {Adams}, J.}, {\sc {Aguilar}, J.~A.}, {\sc {Ahlers},
@@ -34,6 +29,14 @@
   M.}, {\sc {Allen}, M.~M.}, {\sc {Altmann}, D.}, {\sc {Andeen}, K.}, and {\sc
   et~al.}, ``{The design and performance of IceCube DeepCore},'' {\em
   Astroparticle Physics}, vol.~35, pp.~615--624, May 2012.
+
+\bibitem{2011PhRvL.106n1101A}
+{\sc {Abbasi}, R.}, {\sc {Abdou}, Y.}, {\sc {Abu-Zayyad}, T.}, {\sc {Adams},
+  J.}, {\sc {Aguilar}, J.~A.}, {\sc {Ahlers}, M.}, {\sc {Andeen}, K.}, {\sc
+  {Auffenberg}, J.}, {\sc {Bai}, X.}, {\sc {Baker}, M.}, and {\sc et~al.},
+  ``{Limits on Neutrino Emission from Gamma-Ray Bursts with the 40 String
+  IceCube Detector},'' {\em Physical Review Letters}, vol.~106, p.~141101, Apr.
+  2011.
 
 \bibitem{2011PhRvD..84b2004A}
 {\sc {Abbasi}, R.}, {\sc {Abdou}, Y.}, {\sc {Abu-Zayyad}, T.}, {\sc {Adams},
@@ -106,6 +109,14 @@
   the South Pole},'' {\em Journal of Geophysical Research (Atmospheres)},
   vol.~111, p.~13203, July 2006.
 
+\bibitem{2011NIMPA.656...11A}
+{\sc {Ageron}, M.}, {\sc {Aguilar}, J.~A.}, {\sc {Al Samarai}, I.}, {\sc
+  {Albert}, A.}, {\sc {Ameli}, F.}, {\sc {Andr{\'e}}, M.}, {\sc {Anghinolfi},
+  M.}, {\sc {Anton}, G.}, {\sc {Anvar}, S.}, {\sc {Ardid}, M.}, and {\sc
+  et~al.}, ``{ANTARES: The first undersea neutrino telescope},'' {\em Nuclear
+  Instruments and Methods in Physics Research A}, vol.~656, pp.~11--38, Nov.
+  2011.
+
 \bibitem{2005PhRvL..95f1103A}
 {\sc {Ando}, S.} and {\sc {Beacom}, J.~F.}, ``{Revealing the Supernova
   Gamma-Ray Burst Connection with TeV Neutrinos},'' {\em Physical Review
@@ -174,6 +185,61 @@
   cross sections across energy scales},'' {\em Reviews of Modern Physics},
   vol.~84, pp.~1307--1341, July 2012.
 
+\bibitem{2003NIMPA.501..418F}
+{\sc {Fukuda}, S.}, {\sc {Fukuda}, Y.}, {\sc {Hayakawa}, T.}, {\sc {Ichihara},
+  E.}, {\sc {Ishitsuka}, M.}, {\sc {Itow}, Y.}, {\sc {Kajita}, T.}, {\sc
+  {Kameda}, J.}, {\sc {Kaneyuki}, K.}, {\sc {Kasuga}, S.}, {\sc {Kobayashi},
+  K.}, {\sc {Kobayashi}, Y.}, {\sc {Koshio}, Y.}, {\sc {Miura}, M.}, {\sc
+  {Moriyama}, S.}, {\sc {Nakahata}, M.}, {\sc {Nakayama}, S.}, {\sc {Namba},
+  T.}, {\sc {Obayashi}, Y.}, {\sc {Okada}, A.}, {\sc {Oketa}, M.}, {\sc
+  {Okumura}, K.}, {\sc {Oyabu}, T.}, {\sc {Sakurai}, N.}, {\sc {Shiozawa}, M.},
+  {\sc {Suzuki}, Y.}, {\sc {Takeuchi}, Y.}, {\sc {Toshito}, T.}, {\sc
+  {Totsuka}, Y.}, {\sc {Yamada}, S.}, {\sc {Desai}, S.}, {\sc {Earl}, M.}, {\sc
+  {Hong}, J.~T.}, {\sc {Kearns}, E.}, {\sc {Masuzawa}, M.}, {\sc {Messier},
+  M.~D.}, {\sc {Stone}, J.~L.}, {\sc {Sulak}, L.~R.}, {\sc {Walter}, C.~W.},
+  {\sc {Wang}, W.}, {\sc {Scholberg}, K.}, {\sc {Barszczak}, T.}, {\sc
+  {Casper}, D.}, {\sc {Liu}, D.~W.}, {\sc {Gajewski}, W.}, {\sc {Halverson},
+  P.~G.}, {\sc {Hsu}, J.}, {\sc {Kropp}, W.~R.}, {\sc {Mine}, S.}, {\sc
+  {Price}, L.~R.}, {\sc {Reines}, F.}, {\sc {Smy}, M.}, {\sc {Sobel}, H.~W.},
+  {\sc {Vagins}, M.~R.}, {\sc {Ganezer}, K.~S.}, {\sc {Keig}, W.~E.}, {\sc
+  {Ellsworth}, R.~W.}, {\sc {Tasaka}, S.}, {\sc {Flanagan}, J.~W.}, {\sc
+  {Kibayashi}, A.}, {\sc {Learned}, J.~G.}, {\sc {Matsuno}, S.}, {\sc
+  {Stenger}, V.~J.}, {\sc {Hayato}, Y.}, {\sc {Ishii}, T.}, {\sc {Ichikawa},
+  A.}, {\sc {Kanzaki}, J.}, {\sc {Kobayashi}, T.}, {\sc {Maruyama}, T.}, {\sc
+  {Nakamura}, K.}, {\sc {Oyama}, Y.}, {\sc {Sakai}, A.}, {\sc {Sakuda}, M.},
+  {\sc {Sasaki}, O.}, {\sc {Echigo}, S.}, {\sc {Iwashita}, T.}, {\sc {Kohama},
+  M.}, {\sc {Suzuki}, A.~T.}, {\sc {Hasegawa}, M.}, {\sc {Inagaki}, T.}, {\sc
+  {Kato}, I.}, {\sc {Maesaka}, H.}, {\sc {Nakaya}, T.}, {\sc {Nishikawa}, K.},
+  {\sc {Yamamoto}, S.}, {\sc {Haines}, T.~J.}, {\sc {Kim}, B.~K.}, {\sc
+  {Sanford}, R.}, {\sc {Svoboda}, R.}, {\sc {Blaufuss}, E.}, {\sc {Chen},
+  M.~L.}, {\sc {Conner}, Z.}, {\sc {Goodman}, J.~A.}, {\sc {Guillian}, E.},
+  {\sc {Sullivan}, G.~W.}, {\sc {Turcan}, D.}, {\sc {Habig}, A.}, {\sc
+  {Ackerman}, M.}, {\sc {Goebel}, F.}, {\sc {Hill}, J.}, {\sc {Jung}, C.~K.},
+  {\sc {Kato}, T.}, {\sc {Kerr}, D.}, {\sc {Malek}, M.}, {\sc {Martens}, K.},
+  {\sc {Mauger}, C.}, {\sc {McGrew}, C.}, {\sc {Sharkey}, E.}, {\sc {Viren},
+  B.}, {\sc {Yanagisawa}, C.}, {\sc {Doki}, W.}, {\sc {Inaba}, S.}, {\sc {Ito},
+  K.}, {\sc {Kirisawa}, M.}, {\sc {Kitaguchi}, M.}, {\sc {Mitsuda}, C.}, {\sc
+  {Miyano}, K.}, {\sc {Saji}, C.}, {\sc {Takahata}, M.}, {\sc {Takahashi}, M.},
+  {\sc {Higuchi}, K.}, {\sc {Kajiyama}, Y.}, {\sc {Kusano}, A.}, {\sc
+  {Nagashima}, Y.}, {\sc {Nitta}, K.}, {\sc {Takita}, M.}, {\sc {Yamaguchi},
+  T.}, {\sc {Yoshida}, M.}, {\sc {Kim}, H.~I.}, {\sc {Kim}, S.~B.}, {\sc {Yoo},
+  J.}, {\sc {Okazawa}, H.}, {\sc {Etoh}, M.}, {\sc {Fujita}, K.}, {\sc {Gando},
+  Y.}, {\sc {Hasegawa}, A.}, {\sc {Hasegawa}, T.}, {\sc {Hatakeyama}, S.}, {\sc
+  {Inoue}, K.}, {\sc {Ishihara}, K.}, {\sc {Iwamoto}, T.}, {\sc {Koga}, M.},
+  {\sc {Nishiyama}, I.}, {\sc {Ogawa}, H.}, {\sc {Shirai}, J.}, {\sc {Suzuki},
+  A.}, {\sc {Takayama}, T.}, {\sc {Tsushima}, F.}, {\sc {Koshiba}, M.}, {\sc
+  {Ichikawa}, Y.}, {\sc {Hashimoto}, T.}, {\sc {Hatakeyama}, Y.}, {\sc {Koike},
+  M.}, {\sc {Horiuchi}, T.}, {\sc {Nemoto}, M.}, {\sc {Nishijima}, K.}, {\sc
+  {Takeda}, H.}, {\sc {Fujiyasu}, H.}, {\sc {Futagami}, T.}, {\sc {Ishino},
+  H.}, {\sc {Kanaya}, Y.}, {\sc {Morii}, M.}, {\sc {Nishihama}, H.}, {\sc
+  {Nishimura}, H.}, {\sc {Suzuki}, T.}, {\sc {Watanabe}, Y.}, {\sc
+  {Kielczewska}, D.}, {\sc {Golebiewska}, U.}, {\sc {Berns}, H.~G.}, {\sc
+  {Boyd}, S.~B.}, {\sc {Doyle}, R.~A.}, {\sc {George}, J.~S.}, {\sc {Stachyra},
+  A.~L.}, {\sc {Wai}, L.~L.}, {\sc {Wilkes}, R.~J.}, {\sc {Young}, K.~K.}, {\sc
+  {Kobayashi}, H.}, and {\sc {Super-Kamiokande Collaboration}}, ``{The
+  Super-Kamiokande detector},'' {\em Nuclear Instruments and Methods in Physics
+  Research A}, vol.~501, pp.~418--462, Apr. 2003.
+
 \bibitem{1998PhRvL..81.1562F}
 {\sc {Fukuda}, Y.}, {\sc {Hayakawa}, T.}, {\sc {Ichihara}, E.}, {\sc {Inoue},
   K.}, {\sc {Ishihara}, K.}, {\sc {Ishino}, H.}, {\sc {Itow}, Y.}, {\sc
@@ -223,6 +289,22 @@
   generator for neutrino telescopes},'' {\em Computer Physics Communications},
   vol.~172, pp.~203--213, Nov. 2005.
 
+\bibitem{2010PhRvD..82b2004G}
+{\sc {Gorham}, P.~W.}, {\sc {Allison}, P.}, {\sc {Baughman}, B.~M.}, {\sc
+  {Beatty}, J.~J.}, {\sc {Belov}, K.}, {\sc {Besson}, D.~Z.}, {\sc {Bevan},
+  S.}, {\sc {Binns}, W.~R.}, {\sc {Chen}, C.}, {\sc {Chen}, P.}, {\sc {Clem},
+  J.~M.}, {\sc {Connolly}, A.}, {\sc {Detrixhe}, M.}, {\sc {de Marco}, D.},
+  {\sc {Dowkontt}, P.~F.}, {\sc {Duvernois}, M.}, {\sc {Grashorn}, E.~W.}, {\sc
+  {Hill}, B.}, {\sc {Hoover}, S.}, {\sc {Huang}, M.}, {\sc {Israel}, M.~H.},
+  {\sc {Javaid}, A.}, {\sc {Liewer}, K.~M.}, {\sc {Matsuno}, S.}, {\sc
+  {Mercurio}, B.~C.}, {\sc {Miki}, C.}, {\sc {Mottram}, M.}, {\sc {Nam}, J.},
+  {\sc {Nichol}, R.~J.}, {\sc {Palladino}, K.}, {\sc {Romero-Wolf}, A.}, {\sc
+  {Ruckman}, L.}, {\sc {Saltzberg}, D.}, {\sc {Seckel}, D.}, {\sc {Varner},
+  G.~S.}, {\sc {Vieregg}, A.~G.}, {\sc {Wang}, Y.}, and {\sc {ANITA
+  Collaboration}}, ``{Observational constraints on the ultrahigh energy cosmic
+  neutrino flux from the second flight of the ANITA experiment},'' {\em Phys.
+  Rev. D}, vol.~82, p.~022004, July 2010.
+
 \bibitem{2001ADNDT..78..183G}
 {\sc {Groom}, D.~E.}, {\sc {Mokhov}, N.~V.}, and {\sc {Striganov}, S.~I.},
   ``{Muon Stopping Power and Range Tables 10 MeV-100 TeV},'' {\em Atomic Data
@@ -264,6 +346,21 @@
   J.~A.}, {\sc {Ahlers}, M.}, {\sc {Altmann}, D.}, {\sc {Auffenberg}, J.}, and
   {\sc et~al.}, ``{Measurement of South Pole ice transparency with the IceCube
   LED calibration system},'' {\em ArXiv e-prints}, Jan. 2013.
+
+\bibitem{2013JGlac..59.1117.}
+{\sc {IceCube Collaboration}}, {\sc {Aartsen}, M.~G.}, {\sc {Abbasi}, R.}, {\sc
+  {Abdou}, Y.}, {\sc {Ackermann}, M.}, {\sc {Adams}, J.}, {\sc {Aguilar},
+  J.~A.}, {\sc {Ahlers}, M.}, {\sc {Altmann}, D.}, {\sc {Auffenberg}, J.}, and
+  {\sc et~al.}, ``{South Pole glacial climate reconstruction from
+  multi-borehole laser particulate stratigraphy},'' {\em Journal of
+  Glaciology}, vol.~59, pp.~1117--1128, 2013.
+
+\bibitem{2012Natur.484..351I}
+{\sc {Icecube Collaboration}}, {\sc {Abbasi}, R.}, {\sc {Abdou}, Y.}, {\sc
+  {Abu-Zayyad}, T.}, {\sc {Ackermann}, M.}, {\sc {Adams}, J.}, {\sc {Aguilar},
+  J.~A.}, {\sc {Ahlers}, M.}, {\sc {Altmann}, D.}, {\sc {Andeen}, K.}, and {\sc
+  et~al.}, ``{An absence of neutrinos associated with cosmic-ray acceleration
+  in {$\gamma$}-ray bursts},'' {\em Nature}, vol.~484, pp.~351--354, Apr. 2012.
 
 \bibitem{2011A&A...527A..28I}
 {\sc {IceCube Collaboration}}, {\sc {Abbasi}, R.}, {\sc {Abdou}, Y.}, {\sc
@@ -337,6 +434,13 @@
 {\sc {Razzaque}, S.}, {\sc {M{\'e}sz{\'a}ros}, P.}, and {\sc {Waxman}, E.},
   ``{TeV Neutrinos from Core Collapse Supernovae and Hypernovae},'' {\em
   Physical Review Letters}, vol.~93, p.~181101, Oct. 2004.
+
+\bibitem{MachineLearning}
+{\sc Schapire, R.}, ``The boosting approach to machine learning: An overview,''
+  in {\em Nonlinear Estimation and Classification} ({\sc Denison, D.}, {\sc
+  Hansen, M.}, {\sc Holmes, C.}, {\sc Mallick, B.}, and {\sc Yu, B.}, eds.),
+  vol.~171 of {\em Lecture Notes in Statistics}, pp.~149--171, Springer New
+  York, 2003.
 
 \bibitem{TeVCat}
 {\sc {Scott Wakely, Deirdre Horan}}, ``{TeVCat: Online TeV Astronomy
