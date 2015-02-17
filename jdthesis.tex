@@ -304,11 +304,11 @@ The effect is visualized in Figure \ref{fig:baseline_osc}. Here we see that the 
 As the name suggests, the field of neutrino astronomy is concerned with the detection of neutrinos of extraterrestrial origin for the use of identifying and classifying astrophysical sources. In a similar fashion to the advances made through expansion of traditional optical astronomy to the high-energy regime of x-rays and gamma-rays, it is thought that the unique window provided by neutrino astronomy can facilitate tremendous increases in our understanding of the universe. However, the detection of astrophysical neutrino events presents a exceedingly difficult challenge with detection of an appreciable number of neutrinos from a single source requiring enormous instrumented volumes. Therefore, it is relevant to discuss the potential scientific rewards neutrino astronomy can provide.
 
 \section{Motivation}
-Neutrinos provide a novel and unexplored view into furthest reaches of the universe. The small cross-section for neutrino interactions in matter is somewhat of a double-edged sword. While it makes the detection of neutrinos immensely difficult, it also means that neutrinos will stream unperturbed through even the densest astrophysical media. The cross-section for interaction is still very low at even the highest energies. This allows neutrinos to provide information about processes at energies where other possible messengers, such as cosmic rays or photons, are attenuated significantly over astrophysical distances. The development of neutrino astronomy would therefore complement other high-energy astronomy methods quite nicely creating a more complete picture of the high-energy universe.
+Neutrinos provide a novel and unexplored view into furthest reaches of the universe. The small cross-section for neutrino interactions in matter is somewhat of a double-edged sword. While it makes the detection of neutrinos immensely difficult, it also means that neutrinos will stream unperturbed through even the densest astrophysical media. The cross-section for interaction is still very low at even the highest energies. This allows neutrinos to provide information about processes at energies where other possible messengers, such as cosmic rays or photons, are attenuated significantly over astrophysical distances. A diagram exhibiting the potential advantages of neutrinos as messengers is shown in Figure \ref{}. The development of neutrino astronomy would therefore complement other high-energy astronomy methods quite nicely creating a more complete picture of the high-energy universe.
 
-%% Props
+%% Insert Propagation Cartoon
 
-
+%% Leptonic vs Hadronic
 The detection of a neutrino flux from a source and measurement of its spectrum would provide critical insight into the processes governing the densest and most energetic regions of that object.
 
 \section{Multi-Messenger Astronomy}
@@ -316,7 +316,9 @@ The complex phenomenology of high-energy astrophysics offers us many possible si
 
  Each of these messengers carries its own advantages and disadvantages. They all give a unique view into the high-energy universe, though, which makes coordination of efforts in all of these fields essential. The scientific output for each of these fields is greatly enhanced by development of the others. In this sense, the maturation of neutrino astronomy will not only yield interesting insights on its own, but it will also contribute greatly to the advancement of physics knowledge from gamma ray astronomy, cosmic ray studies, and gravitational wave detection.
 \section{Cosmic Ray - Neutrino Connection}
-The Earth's atmosphere is constantly bombarded with a flux of high-energy charged particles known as comsic rays. Discovered in 19XX by Victor Hess, this flux of extraterrestrial radiation is composed of protons and ionized nuclei.
+The Earth's atmosphere is constantly bombarded with a flux of high-energy charged particles known as comsic rays. Discovered in 1912 by Victor Hess, this flux of extraterrestrial radiation is composed of protons and ionized nuclei.
+
+The sources of these high energy particles must exhibit some degree of non-thermal photon emission. While the mystery of the origin of the highest energy cosmic rays has yet to be definitively answered, the environments surrounding supernovae have been identified as a source for cosmic rays below ultra-high energies \cite{Ackermann15022013}.
 
 \begin{figure}[ht]
   \begin{center}
@@ -327,9 +329,10 @@ The Earth's atmosphere is constantly bombarded with a flux of high-energy charge
 \end{figure}
 
 \subsection{Proton Acceleration}
+The generation of the highest energy cosmic rays requires some form of particle acceleration as these energies are nigh unobtainable in thermal distributions. 
 
 \subsection{Neutrino Production}
-Sources that accelerate high-energy protons are also capable of producing a corresponding flux of neutrinos as well. 
+Sources that accelerate high-energy protons are also capable of producing a corresponding flux of neutrinos as well. Charged particles responsible for non-thermal photon emission are assumed to be accelerated in collision-less shocks. However, not all of these particles will manage to avoid particle collisions through the entirety of their acceleration period.
 
 \section{Detection Methods}
 
@@ -671,11 +674,13 @@ These simple cuts result in a reduction of the data rate by a factor of two with
 \subsection{Level 6}
 Rather than making simple straight cuts on event parameters, the last step in the event selection process makes use machine learning techniques. The background that still remains at this level is not as easily separated from obvious signal events due to large overlap in the distributions of their event parameters. We can however use the differences in the shapes of these distributions to form a multi-dimensional cut that is optimized for signal retention. Once this cut has been applied, a final straight cut is imposed that ensures event quality for the final level dataset.
 \subsubsection{Machine Learning Cut}
-The last remaining separation power provided by cut parameter distributions is not easily extracted via simple straight cuts. In order to maximize signal and background simulation, we make use of a machine learning technique known as a boosted decision tree or BDT. 
+The last remaining separation power provided by cut parameter distributions is not easily extracted via simple straight cuts. In order to maximize separation of signal and background, we make use of a machine learning technique known as a boosted decision tree or BDT. Construction of this decision tree requires an input signal and background sample for training. The shapes of the BDT input parameters for these two samples are then used to guide the training of the tree.
 
-\cite{MachineLearning}
+Building of the decision tree begins through examination of one of the selection variable distributions and choosing a cut value on that variable that leads to the best separation of signal and background \cite{MachineLearning}. This splits the data into signal-like and background-like samples that are referred to as branches. Whatever selection variable provides the best separation power is then used to separate both branches into signal-like and background-like components thus creating another set of branches. This process is continued on each branch until the sample of that branch has either been completely separated into branches of only signal and background events or there are simply too few events remaining \cite{MachineLearning}. The terminal nodes of these branches are called "leaves". Leaves having signal purity greater than 50$\%$ are designated as signal leaves while those having less purity are designated as background leaves. Each of these leaves is then assigned a weight based on the purity it achieves in classification of the training sample
 
-The input parameters for this BDT are all derived from various reconstruction techniques. The parameters are a reflection of reconstruction quality, track shape and position, and track coincidence with veto region hits.
+During the initial creation of tree all events are given the same weight in classification. Once the tree has been set, any events that are wrongly classified by the tree will then be re-weighted or ``boosted" for the generation of a new decision tree \cite{MachineLearning}. This process is iterated to refine the initial decision tree and to prune branches that are ineffective in correctly identifying signal or background events. The process ends once there are no more misidentified events or a preset limit on number of trees is reached. The end result is the creation of a highly effective sorting tree that gives individual events a score based on its leaf assignment. The tree is then set to work sorting events that were not used for training to check for any indication of oversampling of specific events in the training sample. 
+
+The input parameters for the BDT used in this event selection are all derived from various reconstruction techniques. The parameters are a reflection of reconstruction quality, track shape and position, and track coincidence with veto region hits.
 \begin{adjustwidth}{2.5em}{2.5em}
 \setlength{\parindent}{0pt}
 \textbf{Finite Reco Z} - The Finite Reco algorithm attempts to fit a starting and stopping point to the reconstructed muon track. Neutrino events present at this level are the result of interactions either inside the detector volume or from below the detector. As such, the best fit of event vertex from Finite Reco will typically be in lower portions of the detector. Background muons may not produce light in the veto regions, but the best fit for the starting vertex of these events will often lie at higher positions in the detector Z coordinate.
@@ -691,8 +696,9 @@ The input parameters for this BDT are all derived from various reconstruction te
 \textbf{Average DOM-Weighted Track Distance} - This parameter deals directly with the details of the reconstruction track geometry. The average distance between DOMs used in the reconstruction and the track fit is calculated. This average is weighted by the amount of light received by each DOM to minimize noise hit contribution. Poorly reconstructed tracks will usually have a greater average DOM-to-track distance.
 \end{adjustwidth}
 \setlength{\parindent}{17.5pt}
-The signal sample used to train the BDT consists of well-resolved (space angle $\Delta \Psi_{\nu-reco} \leq 5^{\circ}$) $\nu_{mu}$ simulation events from GENIE sets 1314 and 1414.
+These variables are then used to achieve maximum separation between signal and background samples. The signal sample used to train the BDT consists of well-resolved (space angle $\Delta \Psi_{\nu-reco} \leq 5^{\circ}$) $\nu_{mu}$ simulation events from GENIE sets 1314 and 1414. Real data is used as the background sample as it still consists primarily of background cosmic ray muons. A separate BDT is used for events belonging to the HES branch of the event selection. This decision tree also makes use of some of the same selection parameters including reduced log likelihood, average DOM-weighted track distance, and direct hits. An additional parameter known as Direct Length is also used. This parameter is simply the best fit reconstructed event track length using only direct DOM hits. The other selection parameters previously described are only used in the creation of the LES branch BDT.
 
+The score distribution for data and simulated events for both branches of the event selection is plotted in Figure \ref{fig:BDTScoreDistros}.
 \begin{figure}
 \centering
 \subfigure[LES L6 BDT Score Distribution]{\label{fig:bdt1}\includegraphics[width=70mm]{LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6.png}}
@@ -700,6 +706,7 @@ The signal sample used to train the BDT consists of well-resolved (space angle $
 \caption{Distribution of L6 BDT scores for the LES (a) and HES (b) event selection branches. Data/MC agreement is not particuarly great in the background dominated regions. This is especially the case for the HES sample due to low CORSIKA statistics. Because the background for the analysis is directly measured from the data sample rather than simulated, this is not too troubling of an issue. The signal region of the distribution shows relatively good agreement. The slight overestimation of the signal rate in the LES branch is likely due to the overestimation of hadronic light yield at low neutrino energies in GENIE sets 1314 and 1414.}
 \label{fig:BDTScoreDistros}
 \end{figure}
+The plots demonstrate the separation power provided by the BDTs. One can obtain an event sample of the desired neutrino purity by simply making a singular cut on the BDT score. For the final sample, cut values are chosen at 0.0 and -0.01 for the LES and HES branches respectively. These cuts yield an event sample in which atmospheric neutrinos comprise the majority of events.
 
 \subsubsection{Quality Cuts}
 Application of the BDT cut yields a manageable dataset that should be fairly pure. Some of the events that remain, however, are of suspect quality and are likely not useful to include in the analysis. By imposing a cut on event quality, we can eliminate some of these events without further degrading the sensitivity of our analysis. The quality parameter that is cut on is an estimation of the resolution of the event known as paraboloid sigma $\sigma_{para}$. This quantity is derived from the final level event reconstruction (see 7.4), and $\sigma_{para}$ itself is described in detail in section 7.5. For the discussion at hand, $\sigma_{para}$ can simply be understood as a measure of the event resolution.
@@ -719,26 +726,33 @@ One could argue that the timing information provided by such events could still 
 \section{Event Reconstruction}
 An accurate reconstruction of neutrino events in the data sample is critical for optimal performance of any pointing analysis. During the event selection process several iterations of reconstructions are performed so that downgoing muons from cosmic rays can easily be identified. During data selection at lower levels, simpler reconstruction algorithms are often used to prevent a prohibitive amount of required CPU time for processing. These reconstructions then serve as the seed for more advanced techniques used at the analysis level. In this section the seed reconstructions for the final level will be discussed in addition to a detailed description of the final reconstruction whose results are used in the final analysis.
 
-Reconstruction of a physics event within the IceCube detector depends on the geometry of the DOMs registering light from the event, the time of arrival for photons at those DOMs, and the total amount of light received at the individual DOMs. The final reconstruction used on events in this analysis makes use of a likelihood approach to derive a best fit muon track to the DOM hit pattern. This is accomplished by calculating the probability of pulses of light received in DOMs arising from a hypothesis muon track in addition to the probability of DOMs seeing \textit{no} light from that track. A likelihood function that depends on track location and direction paramemters in addition to the location and timing of DOM hits is constructed from the product sum of all the hit probabilities. The form of this function is given in Eq. \ref{eq:RecoLLH}.
+Reconstruction of a physics event within the IceCube detector depends on the geometry of the DOMs registering light from the event, the time of arrival for photons at those DOMs, and the total amount of light received at the individual DOMs. The final reconstruction used on events in this analysis makes use of a likelihood approach to derive a best fit muon track to the DOM hit pattern. This is accomplished by calculating the probability of pulses of light received in DOMs arising from a hypothesis muon track in addition to the probability of DOMs seeing \textit{no} light from that track. A likelihood function that depends on track location and direction paramemters in addition to the location and timing of DOM hits is constructed from the product sum of all the hit/no-hit probabilities. The form of this function is given in Eq. \ref{eq:RecoLLH}.
 \begin{equation}
 \label{eq:RecoLLH}
-\mathcal{L} = \prod_{i}^{N_{hits}} P_i(t_{res},d_i,\Psi_i,A_i)
+\mathcal{L} = \prod_{i}^{N_{hits}} P_{hit}(t_{res},d_i,\Psi_i,A_i) \cdot \prod_{N_{hits}+1}^{N_{DOM}} P_{no-hit}(d_i,\Psi_i)
 \end{equation}
-where the hit probability $P$ depends on the observed time delay in arrival of a photon from the track $t_{res}$, the distance between the muon track and the DOM PMT $d_i$, the angle between the DOM and track Cherenkov cone $\Psi_i$, and the amplitude of the pulse generated in the DOM $A_i$. The timing residual $t_{res}$ is simply the difference the delay in the arrival of the photon with respect to the time one would expect from an unscattered photon. If the track fit is accurate, then events with $t_res \approx 0$ are likely unscattered during propagation and are referred to as direct hits.
+where the hit probability $P$ depends on the observed time delay in arrival of a photon from the track $t_{res}$, the distance between the muon track and the DOM PMT $d_i$, the angle between the DOM and track Cherenkov cone $\Psi_i$, and the amplitude of the pulse generated in the DOM $A_i$. The timing residual $t_{res}$ is simply the difference the delay in the arrival of the photon with respect to the time one would expect from an unscattered photon. If the track fit is accurate, then events with $t_{res} \approx 0$ are likely unscattered during propagation and are referred to as direct hits.
 
 In order to acquire a good fit to the actual data, the reconstruction method takes the ratio of values of the likelihood function under different choices of track position and direction. Maximization of this ratio leads to a best fit on the track parameters and therefore an estimated direction and location of the secondary muon produced in the muon neutrino interaction.
 
-The reconstruction used at the final level functions somewhat differently from the likelihood based reconstructions used at earlier levels. Whereas earlier methods assumed that the pulses generated in DOMs are the product of single photon hits (SPE), the final level method assumes DOM pulses can originate from any multiplicity of DOM hits.
+The reconstruction used at the final level functions somewhat differently from the likelihood based reconstructions used at earlier levels. Whereas earlier methods assumed that the pulses generated in DOMs are the product of single photon hits (SPE), the final level method assumes DOM pulses can originate from any multiplicity of DOM hits (MPE). By dropping the single photon assumption, finer resolution of the track parameter likelihood space is achieved leading to an improvement in the average event resolution \cite{2004NIMPA.524..169A}.
 
-The method also makes use of the best estimate of ice properties within the detector. Previous reconstructions made use of an empirical function known as the Pandel function to estimate the probability of seeing a hit in DOM at distance $d$ from the hypothesis track with time delay $t$, \ref{eq:Pandel}.
-
-\begin{figure}[ht]
+The method also makes use of the best estimate of ice properties within the detector. Previous reconstructions made use of an empirical function known as the Pandel function to estimate the probability of seeing a hit in DOM at distance $d$ from the hypothesis track with time delay $t$, \ref{eq:Pandel} \cite{2004NIMPA.524..169A}.
+\begin{equation}
+\label{eq:Pandel}
+P =
+\end{equation}
+This modified Gamma function provides a probability of detection of a photon given a certain separation distance and time delay (insert term defs). Rather than use this function to generate hit probabilities, the final level reconstruction makes use of a tabulated model of photon propagation in the ice for the entire detector. These tables are produced via direct photon propagation simulation resulting in binned values of estimated light yield from a source in the ice. Depth in the ice, zenith angle dependence, and spatial orientation between observer and light source are factored into the tables. To prevent complications from binning effects, spline interpolation is applied to the ice tables to ensure smooth variation of optical properties in the ice. Probability for DOM hits is then calculated by comparing the observed light pulse to the expectation from the photospline. By accurately modeling the ice properties, the resolution of the likelihood method is improved.
+\begin{wrapfigure}{r}{0.5\textwidth}
   \begin{center}
-    \includegraphics[width=1.0\textwidth,keepaspectratio]{HES_Upgoing_WithReco.png}
+    \includegraphics[width=0.48\textwidth,keepaspectratio]{NearbySNCatalogue.png}
   \end{center}
-  \caption{Event display for a final level neutrino track event with reconstructed track. This event is fairly energetic with respect to the usual events in the final sample. The red arrow shows the best fit from the 16-iteration SplineMPE reconstruction. The dust layer is clearly visible through the lack of DOMs registering light in the middle of the event track.}
-  \label{fig:HESEventWithReco}
-\end{figure}
+  \caption{Reconstruction chain used for this analysis. Less cpu-intensive reconstruction techniques are used to seed more advanced methods used at the final event level.}
+  \label{fig:recochain}
+\end{wrapfigure}
+The final reconstruction uses an MPE likelihood method and splined photon tables in place of the Pandel function. The likelihood fit is iterated 16 times to obtain a best fit track to the data. The entire reconstruction chain is shown in Figure \ref{fig:recochain}. This reconstruction provides good resolution for the more energetic events in the data sample due to the brightness and length of their muon tracks. The event display for a well-reconstructed muon neutrino event found in the final sample can be seen in Figure \ref{fig:HESEventWithReco}. The best fit reconstructed track is given by the red arrow.
+
+At lower primary neutrino energies, the ability of the method to correctly identify the neutrino direction suffers considerably (see Figure \ref{fig:EventRes}). Since these reconstruction methods were primarily designed for energetic muon tracks, it is not surprising that they are not quite as effective for the short stubby muon tracks produced by low energy events. The improvement of reconstruction techniques at low energies is currently an active area of development in IceCube analyses. It is likely that future versions of this point source analysis will obtain far greater levels of sensitivity via improvement of the resolution of low energy neutrino events.
 
 \begin{figure}
 \centering
@@ -747,11 +761,25 @@ The method also makes use of the best estimate of ice properties within the dete
 \caption{Median event resolution as a function of primary neutrino energy (a) and as a function of DOMs receiving light in the event (b). These distributions are for events belonging to the low-energy branch (LES) of the event selection.}
 \label{fig:EventRes}
 \end{figure}
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{HES_Upgoing_WithReco.png}
+  \end{center}
+  \caption{Event display for a final level neutrino track event with reconstructed track. This event is fairly energetic with respect to the usual events in the final sample. The red arrow shows the best fit from the 16-iteration SplineMPE reconstruction. The dust layer is clearly visible through the lack of DOMs registering light in the middle of the event track.}
+  \label{fig:HESEventWithReco}
+\end{figure}
 
 \section{Error Estimation}
 Given a reconstruction for an event, it is essential to have an accurate estimation of the possible error of that reconstruction. While it is impossible to know this error on an event-by-event basis, we can examine a large set of simulated events to obtain a statistical estimation of how well an individual event will be resolved. The reconstruction method used for events in this analysis utilizes a likelihood technique in which the directional parameter space is scanned over to optimize the fit. Events that are well-reconstructed will generally have a likelihood space with a strong minimum well centered about the true direction of the muon. On the other hand, the likelihood space of poorly resolved events is usually characterized by a very broad minimum in which there is no strong preference for a certain direction.
 
-The shape of the likelihood space from event reconstruction correlates quite strongly with the resolution of the event. In order to estimate how well the event is resolved, a paraboloid (a two-dimensional surface defined by parabolic curve) centered to the likelihood minimum is fit to the likelihood space to estimate the depth of the minimum well. The position of the particle track in the detector is removed from the likelihood calculation so that the dimensionality of the likelihood space is reduced to only a two-dimensional surface.
+The shape of the likelihood space from event reconstruction correlates quite strongly with the resolution of the event. This likelihood space is six-dimensional due to the fit including three spatial coordinates, two directional coordinates, and time of the track. To obtain a fit to the shape of the likelihood space, the position and time of the particle track in the detector is removed from the likelihood calculation so that the dimensionality of the likelihood space is reduced to only a two-dimensional surface (see Figure \ref{fig:pcoord1}) \cite{2006APh....25..220N}. This two-dimensional space should exhibit a minimum well about the best fit reconstruction direction. If one assumes that shape of this well is well approximated by a two-dimensional Gaussian, a confidence ellipse can be fit to the likelihood space whose boundaries are given by the 1-$\sigma$ width of the Gaussian \cite{2006APh....25..220N}. Once a fit is achieved, the resolution of the event can be estimated from the width of the major and minor axes of this ellipse. An example of such an ellipse is given in Figure \ref{fig:pcoord2}.
+\begin{figure}
+\centering
+\subfigure[Reconstruction Track Coordinate System]{\label{fig:pcoord1}\includegraphics[width=70mm]{TrackCoordinateSys.png}}
+\subfigure[Paraboloid Sigma Definitions]{\label{fig:pcoord2}\includegraphics[width=70mm]{ParabSigma.png}}
+\caption{(a) The coordinate system for muon tracks in reconstruction algorithms. (b) Definition of the paraboloid sigmas derived from the reconstruction likelihood space. Width of the major and minor axes of the potential well are given by $\sigma_{1,2}$ while $\sigma_{\theta , \phi}$ give the width of the likelihood space in reconstruction directional coordinates \cite{2006APh....25..220N}.}
+\label{fig:ParaCoord}
+\end{figure}
 
 \begin{figure}
 \centering

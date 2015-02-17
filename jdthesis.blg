@@ -5,45 +5,45 @@ Database file #1: jdthesis.bib
 Warning--string name "d10" is undefined
 --line 399 of file jdthesis.bib
 Warning--empty publisher in 1998cmcc.book.....H
-You've used 61 entries,
+You've used 64 entries,
             2221 wiz_defined-function locations,
-            932 strings with 25453 characters,
-and the built_in function-call counts, 47993 in all, are:
-= -- 3794
-> -- 4128
+            951 strings with 31028 characters,
+and the built_in function-call counts, 59761 in all, are:
+= -- 4497
+> -- 5586
 < -- 0
-+ -- 1646
-- -- 1581
-* -- 5814
-:= -- 7339
-add.period$ -- 65
-call.type$ -- 61
-change.case$ -- 970
++ -- 2229
+- -- 2161
+* -- 7619
+:= -- 9221
+add.period$ -- 68
+call.type$ -- 64
+change.case$ -- 1269
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 1857
-empty$ -- 2482
-format.name$ -- 1581
-if$ -- 9400
+cite$ -- 65
+duplicate$ -- 2202
+empty$ -- 2867
+format.name$ -- 2161
+if$ -- 11399
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 58
-newline$ -- 190
-num.names$ -- 124
-pop$ -- 916
+int.to.str$ -- 64
+missing$ -- 61
+newline$ -- 199
+num.names$ -- 130
+pop$ -- 1209
 preamble$ -- 1
-purify$ -- 910
+purify$ -- 1206
 quote$ -- 0
-skip$ -- 1092
+skip$ -- 1148
 stack$ -- 0
-substring$ -- 1439
-swap$ -- 1309
+substring$ -- 1538
+swap$ -- 1626
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 242
+type$ -- 254
 warning$ -- 1
-while$ -- 207
-width$ -- 63
-write$ -- 600
+while$ -- 219
+width$ -- 66
+write$ -- 631
 (There were 2 warnings)
