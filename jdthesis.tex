@@ -735,29 +735,34 @@ where the hit probability $P$ depends on the observed time delay in arrival of a
 
 In order to acquire a good fit to the actual data, the reconstruction method takes the ratio of values of the likelihood function under different choices of track position and direction. Maximization of this ratio leads to a best fit on the track parameters and therefore an estimated direction and location of the secondary muon produced in the muon neutrino interaction.
 
-The reconstruction used at the final level functions somewhat differently from the likelihood based reconstructions used at earlier levels. Whereas earlier methods assumed that the pulses generated in DOMs are the product of single photon hits (SPE), the final level method assumes DOM pulses can originate from any multiplicity of DOM hits (MPE). By dropping the single photon assumption, finer resolution of the track parameter likelihood space is achieved leading to an improvement in the average event resolution \cite{2004NIMPA.524..169A}.
+The reconstruction used at the final level functions somewhat differently from the likelihood based reconstructions used at earlier levels. Whereas earlier methods assumed that the pulses generated in DOMs are the product of single photon hits (SPE), the final level method assumes DOM pulses can originate from any multiplicity of photon hits (MPE). By dropping the single photon assumption, finer resolution of the track parameter likelihood space is achieved leading to an improvement in the average event resolution \cite{2004NIMPA.524..169A}.
 
-The method also makes use of the best estimate of ice properties within the detector. Previous reconstructions made use of an empirical function known as the Pandel function to estimate the probability of seeing a hit in DOM at distance $d$ from the hypothesis track with time delay $t$, \ref{eq:Pandel} \cite{2004NIMPA.524..169A}.
+Previous reconstructions made use of the empirically motivated Pandel function to estimate the probability of seeing a hit in a DOM at distance $d$ from the hypothesis track with time delay $t_res$ \cite{2004NIMPA.524..169A}. The function has the form
 \begin{equation}
 \label{eq:Pandel}
-P =
+P(t_{res}) = \frac{1}{N(d)}\frac{\tau^{-d/\lambda}\cdot t_{res}^{(d/(\lambda-1))}}{\Gamma(d/\lambda)} \cdot e^{-(t_{res}(\tau ^{-1}+\frac{c_{med}}{\lambda _a})+\frac{d}{\lambda _a})}
 \end{equation}
-This modified Gamma function provides a probability of detection of a photon given a certain separation distance and time delay (insert term defs). Rather than use this function to generate hit probabilities, the final level reconstruction makes use of a tabulated model of photon propagation in the ice for the entire detector. These tables are produced via direct photon propagation simulation resulting in binned values of estimated light yield from a source in the ice. Depth in the ice, zenith angle dependence, and spatial orientation between observer and light source are factored into the tables. To prevent complications from binning effects, spline interpolation is applied to the ice tables to ensure smooth variation of optical properties in the ice. Probability for DOM hits is then calculated by comparing the observed light pulse to the expectation from the photospline. By accurately modeling the ice properties, the resolution of the likelihood method is improved.
-\begin{wrapfigure}{r}{0.5\textwidth}
+with
+\begin{equation}
+N(d) = e^{-d/\lambda _a} \cdot \left(1+\frac{\tau \cdot c_{med}}{\lambda _a}\right)^{-d/\lambda}
+\end{equation}
+where $\Gamma$ is the Gamma function, $c_{med}$ is the speed of light in the medium, $\lambda _a$ is the ice absorption length, and $N(d)$ is a normalization factor. The $\tau$ and $\lambda$ terms are free parameters that are functions of spatial parameters. These terms are determined through Monte Carlo simulation to achieve a good fit to the measured data. This function provides a decent estimate of the actual distribution of arrival times for photons arriving at the DOM from a source located at a distance. 
+
+Rather than use this function to generate hit probabilities, the final level reconstruction makes use of the best estimate of ice properties within the detector. This is done through the use of These tables are produced via direct photon propagation simulation resulting in binned values of estimated light yield from a source in the ice. Depth in the ice, zenith angle dependence, and spatial orientation between observer and light source are factored into the tables. To prevent complications from binning effects, spline interpolation is applied to the ice tables to ensure smooth variation of optical properties in the ice. Probability for DOM hits is then calculated by comparing the observed light pulse to the expectation from the splined photon tables. By accurately modeling the ice properties, the resolution of the likelihood method is improved.
+\begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=0.48\textwidth,keepaspectratio]{NearbySNCatalogue.png}
+    \includegraphics[width=.45\textwidth,keepaspectratio]{RecoChain.png}
   \end{center}
-  \caption{Reconstruction chain used for this analysis. Less cpu-intensive reconstruction techniques are used to seed more advanced methods used at the final event level.}
+  \caption{Reconstruction chain used for this analysis. Less cpu-intensive reconstruction techniques are used to seed more advanced methods used at the final event level. The directional reconstruction provided by SplineMPE16 is what is ultimately used in analysis of the data.}
   \label{fig:recochain}
-\end{wrapfigure}
+\end{figure}
 The final reconstruction uses an MPE likelihood method and splined photon tables in place of the Pandel function. The likelihood fit is iterated 16 times to obtain a best fit track to the data. The entire reconstruction chain is shown in Figure \ref{fig:recochain}. This reconstruction provides good resolution for the more energetic events in the data sample due to the brightness and length of their muon tracks. The event display for a well-reconstructed muon neutrino event found in the final sample can be seen in Figure \ref{fig:HESEventWithReco}. The best fit reconstructed track is given by the red arrow.
 
-At lower primary neutrino energies, the ability of the method to correctly identify the neutrino direction suffers considerably (see Figure \ref{fig:EventRes}). Since these reconstruction methods were primarily designed for energetic muon tracks, it is not surprising that they are not quite as effective for the short stubby muon tracks produced by low energy events. The improvement of reconstruction techniques at low energies is currently an active area of development in IceCube analyses. It is likely that future versions of this point source analysis will obtain far greater levels of sensitivity via improvement of the resolution of low energy neutrino events.
-
+Resolution on the primary neutrino is less than 10$^{\circ}$ for events of energies $\geq 50$GeV. Reconstruction performance continues to improve at higher neutrino energies and will asymptotically approach 1$^{\circ}$ resolution for energies greater 250 GeV. At lower primary neutrino energies, the ability of the method to correctly identify the neutrino direction suffers considerably (see Figure \ref{fig:EventRes}). Since these reconstruction methods were primarily designed for energetic muon tracks, it is not surprising that they are not quite as effective for the short stubby muon tracks produced by low energy events. The improvement of reconstruction techniques at low energies is currently an active area of development in IceCube analyses. It is likely that future versions of this point source analysis will obtain far greater levels of sensitivity via improvement of the resolution of low energy neutrino events.
 \begin{figure}
 \centering
-\subfigure[Neutrino Resolution by Energy]{\label{fig:res1}\includegraphics[width=70mm]{FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png}}
-\subfigure[Neutrino Resolution by Number of DOMs]{\label{fig:res2}\includegraphics[width=70mm]{GENIE_FinalLevel_NeutrinoResolutionByNch.png}}
+\subfigure[Neutrino Resolution by Energy]{\label{fig:res1}\includegraphics[width=100mm]{FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png}}
+\subfigure[Neutrino Resolution by Number of DOMs]{\label{fig:res2}\includegraphics[width=100mm]{GENIE_FinalLevel_NeutrinoResolutionByNch.png}}
 \caption{Median event resolution as a function of primary neutrino energy (a) and as a function of DOMs receiving light in the event (b). These distributions are for events belonging to the low-energy branch (LES) of the event selection.}
 \label{fig:EventRes}
 \end{figure}
@@ -772,7 +777,7 @@ At lower primary neutrino energies, the ability of the method to correctly ident
 \section{Error Estimation}
 Given a reconstruction for an event, it is essential to have an accurate estimation of the possible error of that reconstruction. While it is impossible to know this error on an event-by-event basis, we can examine a large set of simulated events to obtain a statistical estimation of how well an individual event will be resolved. The reconstruction method used for events in this analysis utilizes a likelihood technique in which the directional parameter space is scanned over to optimize the fit. Events that are well-reconstructed will generally have a likelihood space with a strong minimum well centered about the true direction of the muon. On the other hand, the likelihood space of poorly resolved events is usually characterized by a very broad minimum in which there is no strong preference for a certain direction.
 
-The shape of the likelihood space from event reconstruction correlates quite strongly with the resolution of the event. This likelihood space is six-dimensional due to the fit including three spatial coordinates, two directional coordinates, and time of the track. To obtain a fit to the shape of the likelihood space, the position and time of the particle track in the detector is removed from the likelihood calculation so that the dimensionality of the likelihood space is reduced to only a two-dimensional surface (see Figure \ref{fig:pcoord1}) \cite{2006APh....25..220N}. This two-dimensional space should exhibit a minimum well about the best fit reconstruction direction. If one assumes that shape of this well is well approximated by a two-dimensional Gaussian, a confidence ellipse can be fit to the likelihood space whose boundaries are given by the 1-$\sigma$ width of the Gaussian \cite{2006APh....25..220N}. Once a fit is achieved, the resolution of the event can be estimated from the width of the major and minor axes of this ellipse. An example of such an ellipse is given in Figure \ref{fig:pcoord2}.
+The shape of the likelihood space from event reconstruction correlates quite strongly with the resolution of the event. We fit this likelihood space through the Paraboloid fitter developed by Till Neunh\"{o}ffer \cite{2006APh....25..220N} which attempts to fit an error ellipse to the likelihood space. To obtain a fit to the shape of the likelihood space for directional parameters only, the position and time of the particle track in the detector is removed from the likelihood calculation so that the dimensionality of the likelihood space is reduced to a two-dimensional surface (see Figure \ref{fig:pcoord1}) \cite{2006APh....25..220N}. This two-dimensional space should exhibit a minimum well about the best fit reconstruction direction. If one assumes that shape of this well is well approximated by a two-dimensional paraobloid surface with Gaussian curavature, a confidence ellipse can be fit to the likelihood space whose boundaries are given by the 1-$\sigma$ width of the Gaussian \cite{2006APh....25..220N}. Once a fit is achieved, the resolution of the event can be estimated from the width of the major and minor axes of this ellipse. An example of such an ellipse is given in Figure \ref{fig:pcoord2}. It should be mentioned that this process can be extended to the spatial dimensions of the likelihood fit as well to obtain a fit on the error of particle vertex location, but this functionality is not used in this particular analysis.
 \begin{figure}
 \centering
 \subfigure[Reconstruction Track Coordinate System]{\label{fig:pcoord1}\includegraphics[width=70mm]{TrackCoordinateSys.png}}
@@ -781,14 +786,30 @@ The shape of the likelihood space from event reconstruction correlates quite str
 \label{fig:ParaCoord}
 \end{figure}
 
+Although the estimated width of the likelihood minimum can differ greatly in the $\phi$ and $\theta$ directions, it is usually desirable for the sake of simplicity to obtain only a single error estimation parameter. This is done by adding the widths of the major and minor axes of the 1-$\sigma$ ellipsoid in quadrature to obtain a single value $\sigma_{para}$.
+\begin{equation}
+\sigma_{para} = \frac{\sqrt{\sigma_{1}^2 + \sigma_{2}^2}}{\sqrt{2}}
+\end{equation}
+By doing so, we effectively approximate the likelihood minimum fit by an elliposoidal Gaussian with two widths as a circular minimum fit by a radially symmetric Gaussian with width $\sigma_{para}$. This single value is then used to estimate the angular error of the event. The confidence that the true direction lies in the angular phase space encompassed by this 1-$\sigma_{para}$ region corresponds to the containment of the 1-$\sigma$ region of a two-dimensional Gaussian, 39$\%$.
+
+In practice, the error prediction given by $\sigma_{para}$ tends to underestimate the true error on the neutrino direction and needs to be rescaled. The degree to which the $\sigma_{para}$ underestimates the true error is energy dependent as well. This is referred to as paraboloid pull and is defined as the ratio of the paraboloid error estimation $\sigma_{para}$ and true neutrino error $\Delta\Psi$. Using signal neutrino simulation, we can examine the paraboloid pull distribution for our final level sample. The pull as a function of NChannel (an energy proxy) is shown in Figures \ref{fig:pull1} and \ref{fig:pull2} for the LES and HES branches respectively. The median pull values for each NChannel bin are given by the white circles. The change in median pull value as a function of NChannel is then fit by a fourth degree polynominal providing a parameterization of the paraboloid pull for both branches of the event selection.
 \begin{figure}
 \centering
 \subfigure[LES Paraboloid Pull]{\label{fig:pull1}\includegraphics[width=70mm]{Sample2_Nch_Vs_ParaboloidPull_LESNuMuGENIE_UnWeighted_NeutrinoError.png}}
 \subfigure[HES Paraboloid Pull]{\label{fig:pull2}\includegraphics[width=70mm]{Sample2_Nch_Vs_ParaboloidPull_HESNuMuNugen_UnWeighted_MuonError.png}}
 \subfigure[LES Corrected Paraboloid Pull]{\label{fig:pull3}\includegraphics[width=70mm]{Sample2_Nch_Vs_Corrected_ParaboloidPull_NuMu_UnWeighted_MuonError.png}}
 \subfigure[HES Corrected Paraboloid Pull]{\label{fig:pull4}\includegraphics[width=70mm]{Sample2_Nch_Vs_ParaboloidPull_HESNuMuNugen_UnWeighted_MuonError_CORRECTED.png}}
-\caption{Paraboloid pull distributions for LES (a) and HES (b) event branches as a function of NChannel (energy proxy). The white circles give the median pull value for each NChannel bin. A four degree polynominal is fit to the median values so that events can have their $\sigma_para$ values adjusted by their respective NChannel. Distirubtions (c) and (d) show the pull for the corrected paraboloid values. Adjusting by NChannel leads shows agreement between the median pull value and the true error in neutrino direction.}
+\caption{Paraboloid pull distributions for LES (a) and HES (b) event branches as a function of NChannel (energy proxy). The white circles give the median pull value for each NChannel bin. A four degree polynominal is fit to the median values so that events can have their $\sigma_{para}$ values adjusted by their respective NChannel. Distirubtions (c) and (d) show the pull for the corrected paraboloid values. Adjusting by NChannel leads shows agreement between the median pull value and the true error in neutrino direction.}
 \label{fig:ParaboloidPull}
+\end{figure}
+
+Using this parameterization of the paraboloid pull, the paraboloid sigma for each event is then adjusted so that the median pull value for each NChannel bin is approximately unity. This brings the error estimation in line with the actual neutrino error predicted from Monte Carlo simulation. The corrected pull distributions are shown in Figures \ref{fig:pull3} and \ref{fig:pull4}. The dispersion of pull values for the HES branch is reasonably low. Thus, the corrected paraboloid value should provide a good estimate of the point spread function or PSF for these events. However, the pull distribution for the LES branch shows that there is a large degree of dispersion in pull values for low NChannel events. Many of these events lack well-behaved likelihood spaces due to scarcity of hits in the detector. Ultimately, this results in non-optimal agreement between the PSF expected from paraboloid and the true PSF for these events. Comparison of the PSF model used during analysis and the true PSF for simulated neutrino events is shown in Figure \ref{fig:PSFModel}.
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{CorrectSigmaVsKentDistribution_Multi_Nu.png}
+  \end{center}
+  \caption{The histograms in the plot above show the distribution in angular error for final level events in a given corrected $\sigma_{para}$ range. The PSF is modeled by the Kent Fisher distribution \cite{1982}, which is essentially a two-dimensional Gaussian normalized to a sphere. The peaks of the actual error distribution tend to be closer to the true direction than the PSF model expects. This is due to the long tails of the error distributions driving the pull correction to higher values. Use of a more sophisticated PSF in future iterations of this analysis will potentially lead to greater sensitivity.}
+  \label{fig:PSFModel}
 \end{figure}
 
 \section{Final Level Data}
@@ -820,9 +841,6 @@ We estimate the sensitivity of this event selection to potential neutrino source
 
 Comparison of the effective area provided by this selection to previous point source selections shows an improvement at the lowest of detectable energies in IceCube. While the presented method may not be as sensitive as previous searches for harder astrophysical sources ($\sim$E$^{-2}$), we can expect this method to outperform the standard selection for transient sources featuring soft spectra or spectra with a low energy cutoff. Therefore this selection complements IceCube's previous efforts quite nicely as it allows us to increase our sensitivity to a broader range of possible sources. 
 
-%%% Refer to App. A for Pictures of Final Level Distributions
-%%% Insert Effective Area Plot
-
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=1.0\textwidth,keepaspectratio]{LESEventForThesis.png}
@@ -831,7 +849,6 @@ Comparison of the effective area provided by this selection to previous point so
   \label{fig:LESEventFinal}
 \end{figure}
 
-%% paraboloid \cite{2006APh....25..220N}
 \chapter{Systematic Effects}
 There are many systematic uncertainties that can affect the interpretation of the results of this analysis. The primary contributors to uncertainty being the \textit{in situ} scattering and absorption properties of the ice medium and the absolute quantum efficiency of the PMTs within the DOMs. While there are other errors that could be considered such as the absolute neutrino cross-section, the contribution they provide to the overall error is negligible.
 
