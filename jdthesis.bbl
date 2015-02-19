@@ -232,6 +232,12 @@
   black holes, sources of ultra high energy cosmic rays},'' {\em Astroparticle
   Physics}, vol.~31, pp.~138--148, Mar. 2009.
 
+\bibitem{2008A&A...492..695B}
+{\sc {Berezhko}, E.~G.} and {\sc {V{\"o}lk}, H.~J.}, ``{Hadronic versus
+  leptonic origin of the gamma-ray emission from supernova remnant RX
+  J1713.7-3946},'' {\em Astronomy and Astrophysics}, vol.~492, pp.~695--701,
+  Dec. 2008.
+
 \bibitem{2003ApJ...599..408B}
 {\sc {Berger}, E.}, {\sc {Kulkarni}, S.~R.}, {\sc {Frail}, D.~A.}, and {\sc
   {Soderberg}, A.~M.}, ``{A Radio Survey of Type Ib and Ic Supernovae:
@@ -242,6 +248,11 @@
 {\sc {Bl{\"u}mer}, J.}, {\sc {Engel}, R.}, and {\sc {H{\"o}randel}, J.~R.},
   ``{Cosmic rays from the knee to the highest energies},'' {\em Progress in
   Particle and Nuclear Physics}, vol.~63, pp.~293--338, Oct. 2009.
+
+\bibitem{2013ApJ...768...54B}
+{\sc {B{\"o}ttcher}, M.}, {\sc {Reimer}, A.}, {\sc {Sweeney}, K.}, and {\sc
+  {Prakash}, A.}, ``{Leptonic and Hadronic Modeling of Fermi-detected
+  Blazars},'' {\em Astrophysical Journal}, vol.~768, p.~54, May 2013.
 
 \bibitem{2010APh....33..175B}
 {\sc {Braun}, J.}, {\sc {Baker}, M.}, {\sc {Dumm}, J.}, {\sc {Finley}, C.},
@@ -495,6 +506,11 @@
   Earth, Neutrino Cross-Sections, and New Physics},'' {\em ArXiv e-prints},
   Apr. 2013.
 
+\bibitem{1979AN....300..181K}
+{\sc {Kraan-Korteweg}, R.~C.} and {\sc {Tammann}, G.~A.}, ``{A catalogue of
+  galaxies within 10 MPC},'' {\em Astronomische Nachrichten}, vol.~300,
+  pp.~181--194, 1979.
+
 \bibitem{2014arXiv1410.0679K}
 {\sc {Kumar}, P.} and {\sc {Zhang}, B.}, ``{The Physics of Gamma-Ray Bursts and
   Relativistic Jets},'' {\em ArXiv e-prints}, Oct. 2014.
@@ -512,6 +528,12 @@
 {\sc {Neunh{\"o}ffer}, T.}, ``{Estimating the angular resolution of tracks in
   neutrino telescopes based on a likelihood analysis},'' {\em Astroparticle
   Physics}, vol.~25, pp.~220--225, Apr. 2006.
+
+\bibitem{1937}
+{\sc Neyman, J.}, ``Outline of a theory of statistical estimation based on the
+  classical theory of probability,'' {\em Philosophical Transactions of the
+  Royal Society of London. Series A, Mathematical and Physical Sciences},
+  vol.~236, no.~767, pp.~pp. 333--380, 1937.
 
 \bibitem{2008PrPNP..60..338N}
 {\sc {Nunokawa}, H.}, {\sc {Parke}, S.}, and {\sc {Valle}, J.~W.~F.}, ``{CP
@@ -570,6 +592,15 @@
   supernovae.'' \url{http://www.cbat.eps.harvard.edu/lists/Supernovae.html},
   2009.
 \newblock Accessed: 2014-11-17.
+
+\bibitem{1995AJ....109..942V}
+{\sc {van Driel}, W.}, {\sc {Combes}, F.}, {\sc {Casoli}, F.}, {\sc {Gerin},
+  M.}, {\sc {Nakai}, N.}, {\sc {Miyaji}, T.}, {\sc {Hamabe}, M.}, {\sc {Sofue},
+  Y.}, {\sc {Ichikawa}, T.}, {\sc {Yoshida}, S.}, {\sc {Kobayashi}, Y.}, {\sc
+  {Geng}, F.}, {\sc {Minezaki}, T.}, {\sc {Arimoto}, N.}, {\sc {Kodama}, T.},
+  {\sc {Goudfrooij}, P.}, {\sc {Mulder}, P.~S.}, {\sc {Wakamatsu}, K.}, and
+  {\sc {Yanagisawa}, K.}, ``{Polar ring spiral galaxy NGC 660},'' {\em
+  Astronomical Journal}, vol.~109, pp.~942--959, Mar. 1995.
 
 \bibitem{wilks1938}
 {\sc Wilks, S.~S.}, ``The large-sample distribution of the likelihood ratio for

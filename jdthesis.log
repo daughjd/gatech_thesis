@@ -1,35 +1,30 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.2.12)  18 FEB 2015 18:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.23)  19 FEB 2015 05:37
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
 (./jdthesis.tex
-LaTeX2e <2005/12/01>
-Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
-erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
- french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
-us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
-tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
-turkish, ukenglish, ukrainian, loaded.
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
 (./gatech-thesis.cls
 Document Class: gatech-thesis 2003/04/14 1.6 (Charles Wilson)
-(/usr/share/texmf/tex/latex/tools/calc.sty
-Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count79
 \calc@Bcount=\count80
 \calc@Adimen=\dimen102
 \calc@Bdimen=\dimen103
 \calc@Askip=\skip41
 \calc@Bskip=\skip42
-LaTeX Info: Redefining \setlength on input line 75.
-LaTeX Info: Redefining \addtolength on input line 76.
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count81
 \calc@Cskip=\skip43
 )
-(/usr/share/texmf/tex/latex/base/report.cls
-Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
-(/usr/share/texmf/tex/latex/base/size11.clo
-File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count82
 \c@chapter=\count83
@@ -61,41 +56,42 @@ File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 \gt@tmpa=\skip57
 \c@part@savepagenum=\count94
 \c@part@pagenum=\count95
- (./gatech-thesis-patch.sty
+
+(./gatech-thesis-patch.sty
 File: gatech-thesis-patch.sty 2003/04/14 1.6a (Charles Wilson)
 
 gatech-thesis-patch loaded
-)) (/usr/share/texmf/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 149.
-LaTeX Info: Redefining \nocite on input line 214.
-Package: cite 2003/11/04  v 4.01
+)) (/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
 )
-(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/keyval.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf/tex/latex/graphics/graphics.sty
-Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/trig.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 90.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gread@gobject=\count96
 ))
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
 )
-(/usr/share/texmf/tex/latex/subfigure/subfigure.sty
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip58
 \subfigcapskip=\skip59
@@ -111,51 +107,52 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/share/texmf/tex/latex/subfigure/subfigure.cfg)
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip62
 \subfig@bottom=\skip63
 )
-(/usr/share/texmf/tex/latex/wrapfig/wrapfig.sty
+(/usr/share/texmf-texlive/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen109
 \WF@size=\dimen110
 \c@WF@wrappedlines=\count101
 \WF@box=\box26
 \WF@everypar=\toks15
 Package: wrapfig 2003/01/31  v 3.6
-) (./changepage.sty
+)
+(/usr/share/texmf-texlive/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count102
 \cp@tempcnt=\count103
 )
-(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2002/01/22 v2.2d
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
 
-(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2001/10/25 v2.2f
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip64
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen111
 ))
-(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen112
 )
-(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count104
@@ -196,8 +193,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/share/texmf/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2005/03/16 v1.6180 publication quality tables
+(/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen120
 \lightrulewidth=\dimen121
 \cmidrulewidth=\dimen122
@@ -216,9 +213,9 @@ Package: booktabs 2005/03/16 v1.6180 publication quality tables
 \@lastruleclass=\count119
 \@thisrulewidth=\dimen132
 )
-(/usr/share/texmf/tex/latex/html/url.sty
-Package: url 1999/03/02  ver 1.4  Verb mode for urls, email addresses, and file
- names
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 ) (./jdthesis.aux
 
 LaTeX Warning: Label `fig:res1' multiply defined.
@@ -247,7 +244,19 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
-
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen133
+\scratchbox=\box29
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen134
+\MPnumerator=\count124
+\everyMPtoPDFconversion=\toks23
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
  
  []
@@ -260,20 +269,20 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-\c@halfsig=\count120
+\c@halfsig=\count125
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--43
 []\OT1/cmr/m/n/10.95 Professor Pablo La-guna, Com-mit-tee
  []
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 43.
-(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 
-(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 ***************** Dedication ******************
 
@@ -323,13 +332,14 @@ Overfull \hbox (2.64603pt too wide) detected at line 68
 ] (./jdthesis.lof [10
 
 
-] [11] [12] [13])
+] [11] [12] [13] [14])
 \tf@lof=\write5
 \openout5 = `jdthesis.lof'.
 
- [14]
+
+[15]
 ***************** Summary ******************
-[15
+[16
 
 
 ]
@@ -340,33 +350,33 @@ CHAPTER I.
 CHAPTER II.
 [4
 
-] [5] <neutrino_nucelon_crosssections.png, id=74, 550.055pt x 803.0pt>
+] [5] <neutrino_nucelon_crosssections.png, id=78, 550.055pt x 803.0pt>
 File: neutrino_nucelon_crosssections.png Graphic file (type png)
 
 <use neutrino_nucelon_crosssections.png> [6] [7 <./neutrino_nucelon_crosssectio
-ns.png (PNG copy)>] [8] <dis.png, id=86, 501.875pt x 358.33875pt>
+ns.png (PNG copy)>] [8] <dis.png, id=90, 501.875pt x 358.33875pt>
 File: dis.png Graphic file (type png)
 
 <use dis.png> [9 <./dis.png (PNG copy)>]
-<DIS_CS_Neutrino.png, id=90, 910.40125pt x 631.35875pt>
+<DIS_CS_Neutrino.png, id=95, 910.40125pt x 631.35875pt>
 File: DIS_CS_Neutrino.png Graphic file (type png)
 
 <use DIS_CS_Neutrino.png>
-<DIS_CS_AntiNeutrino.png, id=91, 954.56625pt x 627.34375pt>
+<DIS_CS_AntiNeutrino.png, id=96, 954.56625pt x 627.34375pt>
 File: DIS_CS_AntiNeutrino.png Graphic file (type png)
 
 <use DIS_CS_AntiNeutrino.png> [10 <./DIS_CS_Neutrino.png (PNG copy)> <./DIS_CS_
 AntiNeutrino.png (PNG copy)>] [11]
-<MuonStoppingPower.png, id=99, 1150.2975pt x 607.26875pt>
+<MuonStoppingPower.png, id=103, 1150.2975pt x 607.26875pt>
 File: MuonStoppingPower.png Graphic file (type png)
 
 <use MuonStoppingPower.png> [12]
-<CherenkovCartoon.png, id=105, 491.58656pt x 245.41687pt>
+<CherenkovCartoon.png, id=109, 491.58656pt x 245.41687pt>
 File: CherenkovCartoon.png Graphic file (type png)
 
 <use CherenkovCartoon.png> [13 <./MuonStoppingPower.png (PNG copy)>] [14 <./Che
 renkovCartoon.png>] [15] [16]
-<AstroBaselineOsc.png, id=121, 896.34875pt x 761.84625pt>
+<AstroBaselineOsc.png, id=126, 896.34875pt x 761.84625pt>
 File: AstroBaselineOsc.png Graphic file (type png)
 
 <use AstroBaselineOsc.png> [17] [18 <./AstroBaselineOsc.png (PNG copy)>]
@@ -376,68 +386,68 @@ LaTeX Warning: Reference `' on page 19 undefined on input line 307.
 
 [19
 
-] <CosmicRaySpectrum.jpg, id=131, 287.16133pt x 274.37018pt>
+] <CosmicRaySpectrum.jpg, id=136, 287.16133pt x 274.37018pt>
 File: CosmicRaySpectrum.jpg Graphic file (type jpg)
 
 <use CosmicRaySpectrum.jpg> [20] [21 <./CosmicRaySpectrum.jpg>] [22]
 CHAPTER IV.
 [23
 
-] <NearbySNCatalogue.png, id=145, 892.33376pt x 667.49374pt>
+] <NearbySNCatalogue.png, id=150, 892.33376pt x 667.49374pt>
 File: NearbySNCatalogue.png Graphic file (type png)
 
 <use NearbySNCatalogue.png>
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 37
-1.
+3.
 
 [24 <./NearbySNCatalogue.png (PNG copy)>]
-<SubPhotoFluence.png, id=149, 776.9025pt x 541.02126pt>
+<SubPhotoFluence.png, id=154, 776.9025pt x 541.02126pt>
 File: SubPhotoFluence.png Graphic file (type png)
 
 <use SubPhotoFluence.png> [25] [26 <./SubPhotoFluence.png (PNG copy)>]
-<FluxPlot_Canonical_RespectiveFluenceNorm.png, id=156, 578.16pt x 433.62pt>
+<FluxPlot_Canonical_RespectiveFluenceNorm.png, id=161, 578.16pt x 433.62pt>
 File: FluxPlot_Canonical_RespectiveFluenceNorm.png Graphic file (type png)
 
 <use FluxPlot_Canonical_RespectiveFluenceNorm.png> [27 <./FluxPlot_Canonical_Re
 spectiveFluenceNorm.png>] [28]
 CHAPTER V.
-<ArrayWSeasonsLabels.pdf, id=165, 2569.6pt x 1756.5625pt>
+<ArrayWSeasonsLabels.pdf, id=170, 2569.6pt x 1756.5625pt>
 File: ArrayWSeasonsLabels.pdf Graphic file (type pdf)
 
 <use ArrayWSeasonsLabels.pdf> [29
 
 ] [30 <./ArrayWSeasonsLabels.pdf>]
-<BoreholeLaserDustLogging.png, id=177, 1075.01625pt x 401.5pt>
+<BoreholeLaserDustLogging.png, id=181, 1075.01625pt x 401.5pt>
 File: BoreholeLaserDustLogging.png Graphic file (type png)
 
 <use BoreholeLaserDustLogging.png> [31]
-<IC86EDC_DeepCoreDiagram.pdf, id=181, 347.2975pt x 682.55pt>
+<IC86EDC_DeepCoreDiagram.pdf, id=185, 347.2975pt x 682.55pt>
 File: IC86EDC_DeepCoreDiagram.pdf Graphic file (type pdf)
 
 <use IC86EDC_DeepCoreDiagram.pdf> [32 <./BoreholeLaserDustLogging.png (PNG copy
-)>] <hese_cascade_event.png, id=185, 2107.875pt x 2810.5pt>
+)>] <hese_cascade_event.png, id=189, 2107.875pt x 2810.5pt>
 File: hese_cascade_event.png Graphic file (type png)
 
 <use hese_cascade_event.png>
 
-LaTeX Warning: Float too large for page by 19.82814pt on input line 482.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 484.
 
-[33] <hese_track_event.png, id=189, 2107.875pt x 2810.5pt>
+[33] <hese_track_event.png, id=194, 2107.875pt x 2810.5pt>
 File: hese_track_event.png Graphic file (type png)
 
 <use hese_track_event.png> [34] [35 <./IC86EDC_DeepCoreDiagram.pdf>] [36 <./hes
 e_cascade_event.png (PNG copy)>] [37 <./hese_track_event.png (PNG copy)>]
 CHAPTER VI.
-<DomSchematic.png, id=246, 727.71875pt x 620.3175pt>
+<DomSchematic.png, id=249, 727.71875pt x 620.3175pt>
 File: DomSchematic.png Graphic file (type png)
  <use DomSchematic.png>
-<LabDOM.pdf, id=247, 2457.18pt x 3276.24pt>
+<LabDOM.pdf, id=250, 2457.18pt x 3276.24pt>
 File: LabDOM.pdf Graphic file (type pdf)
  <use LabDOM.pdf> [38
 
 ] [39 <./DomSchematic.png (PNG copy)> <./LabDOM.pdf>] [40]
-<ICL.jpg, id=263, 963.6pt x 722.7pt>
+<ICL.jpg, id=265, 963.6pt x 722.7pt>
 File: ICL.jpg Graphic file (type jpg)
  <use ICL.jpg> [41 <./ICL.jpg>] [42]
 [43]
@@ -445,151 +455,151 @@ CHAPTER VII.
 [44
 
 ] [45]
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 587--588
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 589--590
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
 
-<DeepCoreVeto.jpg, id=279, 172.04097pt x 214.25177pt>
+<DeepCoreVeto.jpg, id=282, 172.04097pt x 214.25177pt>
 File: DeepCoreVeto.jpg Graphic file (type jpg)
  <use DeepCoreVeto.jpg>
-
-LaTeX Warning: Reference `' on page 46 undefined on input line 597.
-
-[46] [47 <./DeepCoreVeto.jpg>] [48]
-<StdDC_MicroHits.png, id=290, 867.24pt x 722.7pt>
+<TwoLayerDC.png, id=283, 910.40125pt x 839.135pt>
+File: TwoLayerDC.png Graphic file (type png)
+ <use TwoLayerDC.png> [46]
+[47 <./DeepCoreVeto.jpg>] [48 <./TwoLayerDC.png (PNG copy)>] [49]
+<StdDC_MicroHits.png, id=297, 867.24pt x 722.7pt>
 File: StdDC_MicroHits.png Graphic file (type png)
  <use StdDC_MicroHits.png>
-<StdDC_MicroCharge.png, id=291, 867.24pt x 722.7pt>
+<StdDC_MicroCharge.png, id=298, 867.24pt x 722.7pt>
 File: StdDC_MicroCharge.png Graphic file (type png)
 
-<use StdDC_MicroCharge.png> [49] [50 <./StdDC_MicroHits.png> <./StdDC_MicroChar
-ge.png>] [51] <L4_LES_SPE6ZenithDist.png, id=304, 722.7pt x 578.16pt>
+<use StdDC_MicroCharge.png> [50 <./StdDC_MicroHits.png> <./StdDC_MicroCharge.pn
+g>] [51] [52] <L4_LES_SPE6ZenithDist.png, id=311, 722.7pt x 578.16pt>
 File: L4_LES_SPE6ZenithDist.png Graphic file (type png)
 
 <use L4_LES_SPE6ZenithDist.png>
-<L4_HES_SPE6ZenithDist.png, id=305, 722.7pt x 578.16pt>
+<L4_HES_SPE6ZenithDist.png, id=312, 722.7pt x 578.16pt>
 File: L4_HES_SPE6ZenithDist.png Graphic file (type png)
 
-<use L4_HES_SPE6ZenithDist.png> [52] [53 <./L4_LES_SPE6ZenithDist.png> <./L4_HE
-S_SPE6ZenithDist.png>]
-<LES_NoEarlySPE2ZenithDistribution_L5.png, id=315, 722.7pt x 578.16pt>
+<use L4_HES_SPE6ZenithDist.png> [53 <./L4_LES_SPE6ZenithDist.png> <./L4_HES_SPE
+6ZenithDist.png>] [54]
+<LES_NoEarlySPE2ZenithDistribution_L5.png, id=321, 722.7pt x 578.16pt>
 File: LES_NoEarlySPE2ZenithDistribution_L5.png Graphic file (type png)
 
 <use LES_NoEarlySPE2ZenithDistribution_L5.png>
-<HES_NoEarlySPE2ZenithDistribution_L5.png, id=316, 722.7pt x 578.16pt>
+<HES_NoEarlySPE2ZenithDistribution_L5.png, id=322, 722.7pt x 578.16pt>
 File: HES_NoEarlySPE2ZenithDistribution_L5.png Graphic file (type png)
 
-<use HES_NoEarlySPE2ZenithDistribution_L5.png> [54] [55 <./LES_NoEarlySPE2Zenit
-hDistribution_L5.png> <./HES_NoEarlySPE2ZenithDistribution_L5.png>] [56]
-[57]
-<LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6.png, id=331, 722.7pt x
+<use HES_NoEarlySPE2ZenithDistribution_L5.png> [55 <./LES_NoEarlySPE2ZenithDist
+ribution_L5.png> <./HES_NoEarlySPE2ZenithDistribution_L5.png>] [56] [57]
+<LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6.png, id=335, 722.7pt x
  578.16pt>
 File: LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6.png Graphic file 
 (type png)
  <use LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6.png>
-<HES_BDTScoreDist_Rates_L6.png, id=332, 722.7pt x 578.16pt>
+<HES_BDTScoreDist_Rates_L6.png, id=336, 722.7pt x 578.16pt>
 File: HES_BDTScoreDist_Rates_L6.png Graphic file (type png)
 
-<use HES_BDTScoreDist_Rates_L6.png> [58 <./LES_BDTScoreDist_NormalizedRates_WC9
-255_And_H3AC9622_L6.png> <./HES_BDTScoreDist_Rates_L6.png>] [59]
-<SignalOverBackground_ContourMap.png, id=342, 722.7pt x 578.16pt>
+<use HES_BDTScoreDist_Rates_L6.png> [58] [59 <./LES_BDTScoreDist_NormalizedRate
+s_WC9255_And_H3AC9622_L6.png> <./HES_BDTScoreDist_Rates_L6.png>]
+<SignalOverBackground_ContourMap.png, id=345, 722.7pt x 578.16pt>
 File: SignalOverBackground_ContourMap.png Graphic file (type png)
 
-<use SignalOverBackground_ContourMap.png> [60 <./SignalOverBackground_ContourMa
-p.png>] [61] <RecoChain.png, id=350, 325.215pt x 271.76532pt>
+<use SignalOverBackground_ContourMap.png> [60] [61 <./SignalOverBackground_Cont
+ourMap.png>] <RecoChain.png, id=353, 325.215pt x 271.76532pt>
 File: RecoChain.png Graphic file (type png)
 
-<use RecoChain.png>
-<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=351, 722.7pt x 578.16p
+<use RecoChain.png> [62]
+<FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png, id=358, 722.7pt x 578.16p
 t>
 File: FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png Graphic file (type pn
 g)
  <use FinalLevel_NeutrinoResolutionByEnergy_JustGENIE.png>
-<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=352, 722.7pt x 578.16pt>
+<GENIE_FinalLevel_NeutrinoResolutionByNch.png, id=359, 722.7pt x 578.16pt>
 File: GENIE_FinalLevel_NeutrinoResolutionByNch.png Graphic file (type png)
 
 <use GENIE_FinalLevel_NeutrinoResolutionByNch.png>
-<HES_Upgoing_WithReco.png, id=353, 519.69438pt x 389.77078pt>
+<HES_Upgoing_WithReco.png, id=360, 519.69438pt x 389.77078pt>
 File: HES_Upgoing_WithReco.png Graphic file (type png)
 
-<use HES_Upgoing_WithReco.png> [62] [63 <./RecoChain.png>] [64 <./FinalLevel_Ne
-utrinoResolutionByEnergy_JustGENIE.png> <./GENIE_FinalLevel_NeutrinoResolutionB
-yNch.png>] <TrackCoordinateSys.png, id=368, 838.13126pt x 622.325pt>
+<use HES_Upgoing_WithReco.png> [63 <./RecoChain.png>]
+<TrackCoordinateSys.png, id=366, 838.13126pt x 622.325pt>
 File: TrackCoordinateSys.png Graphic file (type png)
 
-<use TrackCoordinateSys.png> <ParabSigma.png, id=369, 532.99126pt x 429.605pt>
+<use TrackCoordinateSys.png> <ParabSigma.png, id=367, 532.99126pt x 429.605pt>
 File: ParabSigma.png Graphic file (type png)
 
-<use ParabSigma.png> [65 <./HES_Upgoing_WithReco.png (PNG copy)>] [66 <./TrackC
-oordinateSys.png (PNG copy)> <./ParabSigma.png (PNG copy)>]
+<use ParabSigma.png> [64] [65 <./FinalLevel_NeutrinoResolutionByEnergy_JustGENI
+E.png> <./GENIE_FinalLevel_NeutrinoResolutionByNch.png>] [66 <./HES_Upgoing_Wit
+hReco.png (PNG copy)>]
 <Sample2_Nch_Vs_ParaboloidPull_LESNuMuGENIE_UnWeighted_NeutrinoError.png, id=37
-6, 722.7pt x 578.16pt>
+9, 722.7pt x 578.16pt>
 File: Sample2_Nch_Vs_ParaboloidPull_LESNuMuGENIE_UnWeighted_NeutrinoError.png G
 raphic file (type png)
 
 <use Sample2_Nch_Vs_ParaboloidPull_LESNuMuGENIE_UnWeighted_NeutrinoError.png>
-<Sample2_Nch_Vs_ParaboloidPull_HESNuMuNugen_UnWeighted_MuonError.png, id=377, 7
+<Sample2_Nch_Vs_ParaboloidPull_HESNuMuNugen_UnWeighted_MuonError.png, id=380, 7
 22.7pt x 578.16pt>
 File: Sample2_Nch_Vs_ParaboloidPull_HESNuMuNugen_UnWeighted_MuonError.png Graph
 ic file (type png)
 
 <use Sample2_Nch_Vs_ParaboloidPull_HESNuMuNugen_UnWeighted_MuonError.png>
-<Sample2_Nch_Vs_Corrected_ParaboloidPull_NuMu_UnWeighted_MuonError.png, id=378,
+<Sample2_Nch_Vs_Corrected_ParaboloidPull_NuMu_UnWeighted_MuonError.png, id=381,
  722.7pt x 578.16pt>
 File: Sample2_Nch_Vs_Corrected_ParaboloidPull_NuMu_UnWeighted_MuonError.png Gra
 phic file (type png)
 
 <use Sample2_Nch_Vs_Corrected_ParaboloidPull_NuMu_UnWeighted_MuonError.png>
 <Sample2_Nch_Vs_ParaboloidPull_HESNuMuNugen_UnWeighted_MuonError_CORRECTED.png,
- id=379, 722.7pt x 578.16pt>
+ id=382, 722.7pt x 578.16pt>
 File: Sample2_Nch_Vs_ParaboloidPull_HESNuMuNugen_UnWeighted_MuonError_CORRECTED
 .png Graphic file (type png)
 
 <use Sample2_Nch_Vs_ParaboloidPull_HESNuMuNugen_UnWeighted_MuonError_CORRECTED.
-png> <CorrectSigmaVsKentDistribution_Multi_Nu.png, id=380, 722.7pt x 578.16pt>
+png> <CorrectSigmaVsKentDistribution_Multi_Nu.png, id=383, 722.7pt x 578.16pt>
 File: CorrectSigmaVsKentDistribution_Multi_Nu.png Graphic file (type png)
 
-<use CorrectSigmaVsKentDistribution_Multi_Nu.png> [67] [68 <./Sample2_Nch_Vs_Pa
-raboloidPull_LESNuMuGENIE_UnWeighted_NeutrinoError.png> <./Sample2_Nch_Vs_Parab
-oloidPull_HESNuMuNugen_UnWeighted_MuonError.png> <./Sample2_Nch_Vs_Corrected_Pa
-raboloidPull_NuMu_UnWeighted_MuonError.png> <./Sample2_Nch_Vs_ParaboloidPull_HE
-SNuMuNugen_UnWeighted_MuonError_CORRECTED.png>] [69 <./CorrectSigmaVsKentDistri
-bution_Multi_Nu.png>]
-<LowEnTransient_EffArea_GENIE_Nugen.png, id=395, 722.7pt x 578.16pt>
+<use CorrectSigmaVsKentDistribution_Multi_Nu.png> [67 <./TrackCoordinateSys.png
+ (PNG copy)> <./ParabSigma.png (PNG copy)>] [68 <./Sample2_Nch_Vs_ParaboloidPul
+l_LESNuMuGENIE_UnWeighted_NeutrinoError.png> <./Sample2_Nch_Vs_ParaboloidPull_H
+ESNuMuNugen_UnWeighted_MuonError.png> <./Sample2_Nch_Vs_Corrected_ParaboloidPul
+l_NuMu_UnWeighted_MuonError.png> <./Sample2_Nch_Vs_ParaboloidPull_HESNuMuNugen_
+UnWeighted_MuonError_CORRECTED.png>] [69 <./CorrectSigmaVsKentDistribution_Mult
+i_Nu.png>]
+<LowEnTransient_EffArea_GENIE_Nugen.png, id=399, 722.7pt x 578.16pt>
 File: LowEnTransient_EffArea_GENIE_Nugen.png Graphic file (type png)
 
 <use LowEnTransient_EffArea_GENIE_Nugen.png>
-<LowEnTransient_EffArea_GENIE_DiffBin.png, id=396, 722.7pt x 578.16pt>
+<LowEnTransient_EffArea_GENIE_DiffBin.png, id=400, 722.7pt x 578.16pt>
 File: LowEnTransient_EffArea_GENIE_DiffBin.png Graphic file (type png)
 
-<use LowEnTransient_EffArea_GENIE_DiffBin.png>
-<LESEventForThesis.png, id=397, 831.51102pt x 623.63326pt>
+<use LowEnTransient_EffArea_GENIE_DiffBin.png> [70]
+<LESEventForThesis.png, id=404, 831.51102pt x 623.63326pt>
 File: LESEventForThesis.png Graphic file (type png)
 
-<use LESEventForThesis.png> [70] [71 <./LowEnTransient_EffArea_GENIE_Nugen.png>
- <./LowEnTransient_EffArea_GENIE_DiffBin.png>] [72 <./LESEventForThesis.png (PN
-G copy)>]
+<use LESEventForThesis.png> [71 <./LowEnTransient_EffArea_GENIE_Nugen.png> <./L
+owEnTransient_EffArea_GENIE_DiffBin.png>] [72 <./LESEventForThesis.png (PNG cop
+y)>]
 CHAPTER VIII.
 [73
 
 ]
-<LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png, id=413, 867.24pt x 
+<LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png, id=416, 867.24pt x 
 867.24pt>
 File: LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png Graphic file (t
 ype png)
  <use LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png>
 [74] [75 <./LowEnTransient_EffArea_SysNugen_IceEffect_300GeVTrunc.png>]
-<LowEnTransient_EffArea_SysGENIE_DomEfficiency.png, id=421, 867.24pt x 867.24pt
+<LowEnTransient_EffArea_SysGENIE_DomEfficiency.png, id=425, 867.24pt x 867.24pt
 >
 File: LowEnTransient_EffArea_SysGENIE_DomEfficiency.png Graphic file (type png)
 
  <use LowEnTransient_EffArea_SysGENIE_DomEfficiency.png>
-<GENIE_EffectiveAreaRatioTrend_DomEff.png, id=422, 578.16pt x 433.62pt>
+<GENIE_EffectiveAreaRatioTrend_DomEff.png, id=426, 578.16pt x 433.62pt>
 File: GENIE_EffectiveAreaRatioTrend_DomEff.png Graphic file (type png)
 
 <use GENIE_EffectiveAreaRatioTrend_DomEff.png> [76]
-<LowEnTransient_EffArea_GENIE_WithSystematicAdjustedArea.png, id=427, 722.7pt x
+<LowEnTransient_EffArea_GENIE_WithSystematicAdjustedArea.png, id=430, 722.7pt x
  578.16pt>
 File: LowEnTransient_EffArea_GENIE_WithSystematicAdjustedArea.png Graphic file 
 (type png)
@@ -601,42 +611,42 @@ CHAPTER IX.
 [79
 
 ] [80] [81]
-<BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=448, 722.7pt x 578.16
+<BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=452, 722.7pt x 578.16
 pt>
 File: BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png Graphic file (type p
 ng)
  <use BkgOnly_LES_SplineMPE_AzimuthDist_FinalLevelDist.png>
-<BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=449, 722.7pt x 578.16p
+<BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=453, 722.7pt x 578.16p
 t>
 File: BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png Graphic file (type pn
 g)
  <use BkgOnly_LES_SplineMPE_ZenithDist_FinalLevelDist.png> [82 <./BkgOnly_LES_S
 plineMPE_AzimuthDist_FinalLevelDist.png> <./BkgOnly_LES_SplineMPE_ZenithDist_Fi
-nalLevelDist.png>] [83] [84] <NullMap996.png, id=462, 1084.05pt x 722.7pt>
+nalLevelDist.png>] [83] [84] <NullMap996.png, id=465, 1084.05pt x 722.7pt>
 File: NullMap996.png Graphic file (type png)
 
 <use NullMap996.png> [85]
-<TestStatisticDistribution_Null.png, id=466, 722.7pt x 578.16pt>
+<TestStatisticDistribution_Null.png, id=469, 722.7pt x 578.16pt>
 File: TestStatisticDistribution_Null.png Graphic file (type png)
 
 <use TestStatisticDistribution_Null.png> [86 <./NullMap996.png>]
-<RightAcensionDistribution_Null.png, id=471, 722.7pt x 578.16pt>
+<RightAcensionDistribution_Null.png, id=474, 722.7pt x 578.16pt>
 File: RightAcensionDistribution_Null.png Graphic file (type png)
 
 <use RightAcensionDistribution_Null.png>
-<DeclinationDistribution_Null.png, id=472, 722.7pt x 578.16pt>
+<DeclinationDistribution_Null.png, id=475, 722.7pt x 578.16pt>
 File: DeclinationDistribution_Null.png Graphic file (type png)
 
 <use DeclinationDistribution_Null.png>
-<NSignalDistribution_Null.png, id=473, 722.7pt x 578.16pt>
+<NSignalDistribution_Null.png, id=476, 722.7pt x 578.16pt>
 File: NSignalDistribution_Null.png Graphic file (type png)
 
 <use NSignalDistribution_Null.png>
-<SigmaDistribution_Null.png, id=474, 722.7pt x 578.16pt>
+<SigmaDistribution_Null.png, id=477, 722.7pt x 578.16pt>
 File: SigmaDistribution_Null.png Graphic file (type png)
 
 <use SigmaDistribution_Null.png>
-<LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png, id=475, 722.7pt 
+<LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png, id=478, 722.7pt 
 x 578.16pt>
 File: LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png Graphic file
  (type png)
@@ -646,17 +656,17 @@ ll.png> <./DeclinationDistribution_Null.png> <./NSignalDistribution_Null.png> <
 ./SigmaDistribution_Null.png>] [89 <./LowEnTransient_NEventDiscoveryPotentialAN
 DSensitivity_E3.png>] [90]
 CHAPTER X.
-<RealResultSkyMap.png, id=496, 1092.7224pt x 731.3724pt>
+<RealResultSkyMap.png, id=499, 1092.7224pt x 731.3724pt>
 File: RealResultSkyMap.png Graphic file (type png)
 
 <use RealResultSkyMap.png>
-<SpatialPDFValue_EventsArrivingNearFlareTime.png, id=497, 722.7pt x 578.16pt>
+<SpatialPDFValue_EventsArrivingNearFlareTime.png, id=500, 722.7pt x 578.16pt>
 File: SpatialPDFValue_EventsArrivingNearFlareTime.png Graphic file (type png)
 
 <use SpatialPDFValue_EventsArrivingNearFlareTime.png> [91
 
 ]
-<TestStatisticDistribution_WithResult.png, id=501, 578.16pt x 433.62pt>
+<TestStatisticDistribution_WithResult.png, id=504, 578.16pt x 433.62pt>
 File: TestStatisticDistribution_WithResult.png Graphic file (type png)
 
 <use TestStatisticDistribution_WithResult.png> [92 <./RealResultSkyMap.png>]
@@ -665,7 +675,7 @@ File: LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png Graphic file
  (type png)
 
 <use LowEnTransient_NEventDiscoveryPotentialANDSensitivity_E3.png>
-<LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFinalCut.png, id=510, 722.
+<LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFinalCut.png, id=514, 722.
 7pt x 578.16pt>
 File: LowEnTransient_TIFluxSensitivity_E3_MergedSim_ActualFinalCut.png Graphic 
 file (type png)
@@ -674,65 +684,72 @@ file (type png)
 estStatisticDistribution_WithResult.png>] [95 <./LowEnTransient_TIFluxSensitivi
 ty_E3_MergedSim_ActualFinalCut.png>]
 CHAPTER XI.
-<UpperLimit_2DHisto_SysAdj.png, id=520, 578.16pt x 433.62pt>
+[96
+
+] [97] <UpperLimit_2DHisto_SysAdj.png, id=529, 578.16pt x 433.62pt>
 File: UpperLimit_2DHisto_SysAdj.png Graphic file (type png)
 
-<use UpperLimit_2DHisto_SysAdj.png>
-<DistanceLimit_2DHisto_WithContours_SysAdj.png, id=521, 578.16pt x 433.62pt>
+<use UpperLimit_2DHisto_SysAdj.png> [98 <./UpperLimit_2DHisto_SysAdj.png>]
+<DistanceLimit_2DHisto_WithContours_SysAdj.png, id=534, 578.16pt x 433.62pt>
 File: DistanceLimit_2DHisto_WithContours_SysAdj.png Graphic file (type png)
 
-<use DistanceLimit_2DHisto_WithContours_SysAdj.png>
-<RateLimit_2DHisto_wContours_SysAdj.png, id=522, 578.16pt x 433.62pt>
+<use DistanceLimit_2DHisto_WithContours_SysAdj.png> [99] [100 <./DistanceLimit_
+2DHisto_WithContours_SysAdj.png>]
+<NSInjection_TS_Distribution_WithBkgTSDistribution.png, id=543, 578.16pt x 433.
+62pt>
+File: NSInjection_TS_Distribution_WithBkgTSDistribution.png Graphic file (type 
+png)
+ <use NSInjection_TS_Distribution_WithBkgTSDistribution.png> [101]
+[102 <./NSInjection_TS_Distribution_WithBkgTSDistribution.png>]
+<RateLimit_2DHisto_wContours_SysAdj.png, id=551, 578.16pt x 433.62pt>
 File: RateLimit_2DHisto_wContours_SysAdj.png Graphic file (type png)
 
-<use RateLimit_2DHisto_wContours_SysAdj.png> [96
-
-] [97 <./UpperLimit_2DHisto_SysAdj.png>] [98 <./DistanceLimit_2DHisto_WithConto
-urs_SysAdj.png>] [99 <./RateLimit_2DHisto_wContours_SysAdj.png>]
+<use RateLimit_2DHisto_wContours_SysAdj.png> [103] [104 <./RateLimit_2DHisto_wC
+ontours_SysAdj.png>]
 CHAPTER XII.
-[100
+[105
 
 ]
 APPENDIX A.
-[101
+[106
 
 
 ]
 APPENDIX B.
-[102
+[107
 
-] <FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png, id=548, 722.7pt x 578.16pt>
+] <FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png, id=569, 722.7pt x 578.16pt>
 File: FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png Graphic file (type png)
 
 <use FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png>
-<FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png, id=549, 722.7pt x 578.16pt>
+<FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png, id=570, 722.7pt x 578.16pt>
 File: FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png Graphic file (type png)
 
 <use FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png>
-<LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=550, 722.7pt x 578.16pt>
+<LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=571, 722.7pt x 578.16pt>
 File: LES_SplineMPE_AzimuthDist_FinalLevelDist.png Graphic file (type png)
 
 <use LES_SplineMPE_AzimuthDist_FinalLevelDist.png>
-<LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=551, 722.7pt x 578.16pt>
+<LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=572, 722.7pt x 578.16pt>
 File: LES_SplineMPE_ZenithDist_FinalLevelDist.png Graphic file (type png)
 
 <use LES_SplineMPE_ZenithDist_FinalLevelDist.png>
-<LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png, id=552, 722.7pt x 578.16pt
+<LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png, id=573, 722.7pt x 578.16pt
 >
 File: LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png Graphic file (type png
 )
  <use LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png>
-<LES_BDTParam_FiniteReco_Z_FinalLevelDist.png, id=553, 722.7pt x 578.16pt>
+<LES_BDTParam_FiniteReco_Z_FinalLevelDist.png, id=574, 722.7pt x 578.16pt>
 File: LES_BDTParam_FiniteReco_Z_FinalLevelDist.png Graphic file (type png)
 
-<use LES_BDTParam_FiniteReco_Z_FinalLevelDist.png> (./jdthesis.bbl [103]
-[104 <./FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png> <./FinalLevel_Nch_Vs_Energy_
-NuMu_HESOnly.png>] [105 <./LES_SplineMPE_AzimuthDist_FinalLevelDist.png> <./LES
+<use LES_BDTParam_FiniteReco_Z_FinalLevelDist.png> (./jdthesis.bbl [108]
+[109 <./FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png> <./FinalLevel_Nch_Vs_Energy_
+NuMu_HESOnly.png>] [110 <./LES_SplineMPE_AzimuthDist_FinalLevelDist.png> <./LES
 _SplineMPE_ZenithDist_FinalLevelDist.png> <./LES_BDTParam_SplineMPEMod_RLogL_Fi
-nalLevelDist.png> <./LES_BDTParam_FiniteReco_Z_FinalLevelDist.png>] [106
+nalLevelDist.png> <./LES_BDTParam_FiniteReco_Z_FinalLevelDist.png>] [111
 
 ]
-[107]
+[112]
 Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ‡ in font cmcsc10!
 Missing character: There is no Ã in font cmcsc10!
@@ -746,12 +763,12 @@ Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ¡ in font cmcsc10!
 Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ² in font cmcsc10!
- [108] [109]
+ [113] [114]
 Missing character: There is no Ï in font cmr8!
 Missing character: There is no „ in font cmr8!
- [110] [111] [112] [113] [114] [115] [116] [117])
+ [115] [116] [117] [118] [119] [120] [121] [122])
 ***************** Vita ******************
-[118] [119
+[123] [124
 
 
 ] (./jdthesis.aux)
@@ -763,30 +780,35 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2880 strings out of 256216
- 44232 string characters out of 1917072
- 87927 words of memory out of 1500000
- 6047 multiletter control sequences out of 10000+200000
- 14767 words of font info for 55 fonts, out of 1200000 for 2000
- 645 hyphenation exceptions out of 8191
- 27i,12n,27p,1592b,394s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
-ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb><
-/usr/share/texmf/fonts/type1/bluesky/cm/cmbxti10.pfb></usr/share/texmf/fonts/ty
-pe1/bluesky/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb>
-</usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/typ
-e1/bluesky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></us
-r/share/texmf/fonts/type1/bluesky/cm/cmmi9.pfb></usr/share/texmf/fonts/type1/bl
-uesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/shar
-e/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/c
-m/cmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/te
-xmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
-cmsy6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/
-fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt
-10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb>
-Output written on jdthesis.pdf (134 pages, 10387105 bytes).
+ 3277 strings out of 495061
+ 50323 string characters out of 1182621
+ 95751 words of memory out of 3000000
+ 6333 multiletter control sequences out of 15000+50000
+ 14749 words of font info for 55 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 27i,12n,27p,1599b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on jdthesis.pdf (140 pages, 9651710 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 131072)
- 346 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 709 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 356 words of extra memory for PDF output out of 10000 (max. 10000000)
 

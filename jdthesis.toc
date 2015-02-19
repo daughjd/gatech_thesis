@@ -9,7 +9,7 @@
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\MakeUppercase {List of Figures} }{x}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\MakeUppercase {Summary}}{xv}
+\contentsline {chapter}{\MakeUppercase {Summary}}{xvi}
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {I}\MakeUppercase {Introduction}}{1}
@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {3.2}Multi-Messenger Astronomy}{20}
 \contentsline {section}{\numberline {3.3}Cosmic Ray - Neutrino Connection}{20}
 \contentsline {subsection}{\numberline {3.3.1}Proton Acceleration}{20}
-\contentsline {subsection}{\numberline {3.3.2}Neutrino Production}{20}
+\contentsline {subsection}{\numberline {3.3.2}Neutrino Production}{21}
 \contentsline {section}{\numberline {3.4}Detection Methods}{21}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {IV}\MakeUppercase {Neutrino Sources}}{23}
@@ -55,15 +55,15 @@
 \contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{44}
 \contentsline {section}{\numberline {7.1}Low-energy Channel}{46}
 \contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{47}
-\contentsline {subsection}{\numberline {7.2.1}Level 3}{48}
+\contentsline {subsection}{\numberline {7.2.1}Level 3}{49}
 \contentsline {subsection}{\numberline {7.2.2}Level 4}{51}
 \contentsline {subsection}{\numberline {7.2.3}Level 5}{53}
-\contentsline {subsection}{\numberline {7.2.4}Level 6}{54}
+\contentsline {subsection}{\numberline {7.2.4}Level 6}{55}
 \contentsline {subsubsection}{\numberline {7.2.4.1}Machine Learning Cut}{55}
 \contentsline {subsubsection}{\numberline {7.2.4.2}Quality Cuts}{59}
 \contentsline {section}{\numberline {7.3}Event Reconstruction}{60}
-\contentsline {section}{\numberline {7.4}Error Estimation}{63}
-\contentsline {section}{\numberline {7.5}Final Level Data}{69}
+\contentsline {section}{\numberline {7.4}Error Estimation}{64}
+\contentsline {section}{\numberline {7.5}Final Level Data}{70}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {VIII}\MakeUppercase {Systematic Effects}}{73}
 \contentsline {section}{\numberline {8.1}Ice Properties}{73}
@@ -81,19 +81,19 @@
 \contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{91}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {XI}\MakeUppercase {Limits on Choked GRBs}}{96}
-\contentsline {section}{\numberline {11.1}Parameter Dependent Upper Limit}{96}
-\contentsline {section}{\numberline {11.2}Visibility Distance}{96}
-\contentsline {section}{\numberline {11.3}Volumetric Rate Limit on Choked GRBs}{96}
+\contentsline {section}{\numberline {11.1}Parameter Dependent Upper Limit}{97}
+\contentsline {section}{\numberline {11.2}Visibility Distance}{98}
+\contentsline {section}{\numberline {11.3}Volumetric Rate Limit on Choked GRBs}{100}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{100}
+\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{105}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Additional Event Selection Distributions}}{101}
-\contentsline {section}{\numberline {A.1}Level 3 Cuts}{101}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Additional Event Selection Distributions}}{106}
+\contentsline {section}{\numberline {A.1}Level 3 Cuts}{106}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Final Level Distributions}}{102}
+\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Final Level Distributions}}{107}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Vita}}{119}
+\contentsline {chapter}{\MakeUppercase {Vita}}{124}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
