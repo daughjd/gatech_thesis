@@ -243,6 +243,11 @@
   and its Coherent Radio Emission},'' {\em Soviet Physics JETP}, vol.~14,
   pp.~441--443, 1962.
 
+\bibitem{PhysRevLett.85.1362}
+{\sc Bahcall, J.~N.} and {\sc M\'esz\'aros, P.}, ``5\char21{}10 gev neutrinos
+  from gamma-ray burst fireballs,'' {\em Phys. Rev. Lett.}, vol.~85,
+  pp.~1362--1365, Aug 2000.
+
 \bibitem{2009APh....31..138B}
 {\sc {Becker}, J.~K.} and {\sc {Biermann}, P.~L.}, ``{Neutrinos from active
   black holes, sources of ultra high energy cosmic rays},'' {\em Astroparticle
@@ -492,6 +497,11 @@
   supernova SN1987A},'' {\em Physical Review Letters}, vol.~58, pp.~1490--1493,
   Apr. 1987.
 
+\bibitem{HiSPARC}
+{\sc {HiSPARC}}, ``{Cosmic-Ray Air Showers}.''
+  \url{http://www.hisparc.nl/en/about-hisparc/kosmische-lawines/}, 2015.
+\newblock Accessed: 2015-02-16.
+
 \bibitem{0004-637X-738-2-154}
 {\sc Horiuchi, S.}, {\sc Beacom, J.~F.}, {\sc Kochanek, C.~S.}, {\sc Prieto,
   J.~L.}, {\sc Stanek, K.~Z.}, and {\sc Thompson, T.~A.}, ``The cosmic
@@ -586,6 +596,10 @@
   Supernova Search - I. The methods and data base},'' {\em Monthly Notices of
   the Royal Astronomical Society}, vol.~412, pp.~1419--1440, Apr. 2011.
 
+\bibitem{2014arXiv1407.5223L}
+{\sc {Lipari}, P.}, ``{The lifetime of cosmic rays in the Milky Way},'' {\em
+  ArXiv e-prints}, July 2014.
+
 \bibitem{2011AN....332..434M}
 {\sc {Modjaz}, M.}, ``{Stellar forensics with the supernova-GRB connection},''
   {\em Astronomische Nachrichten}, vol.~332, pp.~434--447, June 2011.
@@ -662,6 +676,10 @@
 {\sc {Stecker}, F.~W.} and {\sc {Salamon}, M.~H.}, ``{High Energy Neutrinos
   from Quasars},'' {\em Space Science Reviews}, vol.~75, pp.~341--355, Jan.
   1996.
+
+\bibitem{2014arXiv1401.2046T}
+{\sc {The IceCube-PINGU Collaboration}}, ``{Letter of Intent: The Precision
+  IceCube Next Generation Upgrade (PINGU)},'' {\em ArXiv e-prints}, Jan. 2014.
 
 \bibitem{1997ARA&A..35..445U}
 {\sc {Ulrich}, M.-H.}, {\sc {Maraschi}, L.}, and {\sc {Urry}, C.~M.},

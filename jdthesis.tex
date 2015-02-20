@@ -409,7 +409,7 @@ The most widely accepted model of long-duration GRBs is the `fireball' model ini
 Accretion at the central engine is expected to be highly variable, resulting in the formation of sub-shells of material within the jet featuring different bulk Lorentz factors \cite{2014arXiv1410.0679K}. These shells will inevitably collide resulting in the formation of several internal shocks within the jet. Charged particles downstream of the shock front may be accelerated through first-order Fermi acceleration. In this manner, a non-thermal power law spectrum of electrons is generated. Synchrotron emission from these electrons will in turn produce the observed non-thermal gamma ray emission \cite{1996ApJ...461L..37B}. If protons are also present in the jet, then it is expected that they will also be accelerated in the relativistic shocks. However, it is not known how much baryon loading will occur in these jets.
 
 We can expect a neutrino flux from these jets in the event that a sizable flux of accelerated protons is produced. The production scenario is similar to that described for AGN in section 4.1. Proton-$\gamma$ and proton-proton interactions will lead to the creation of both charged and neutral pions. The decay chain for the $\pi^+$ is listed below.
-\begin{equation}
+\begin{equation}\label{eq:pidecay}
 \pi^{+} \rightarrow \mu^{+} + \nu_{\mu}
 \end{equation}
 The $\mu^+$ will subsequently decay,
@@ -451,7 +451,18 @@ A model of slow jets in CC-SNe developed by Razzaque, M\'{e}sz\'{a}ros and Waxma
 \subsection{Neutrino Emission Model}
 The neutrino emission model in the choked GRB scenario shares many similarities with the GRB fireball model described in section 4.3. Jet formation is expected during rapid accretion onto the newly formed compact object after core-collapse. The typical jet energy in the RMW/AB formulation is set to $E_j=10^{51.5}$. The expected bulk Lorentz boost factor $\Gamma_b$ for jet is a mildly relativistic 3 with a rather broad opening angle $\theta_j \sim \Gamma_b^{-1}=0.3$. The variability timescale of the  central engine should be similar to that of the GRB scenario and it is set to $t_v = 0.1$s.
 
-The variability in accretion onto the central engine will result in the production of shells of material in the jet with differing boost factors. This will lead to the development of many relativistic shocks with will accelerate any downstream charged particles through first-order Fermi acceleration \cite{2005PhRvL..95f1103A}.
+The variability in accretion onto the central engine will result in the production of shells of material in the jet with differing boost factors. This will lead to the development of many relativistic shocks which will accelerate any downstream charged particles via first-order Fermi acceleration \cite{2005PhRvL..95f1103A}. Protons within the jet will be initially accelerated in shocks to an $E^{-2}$ spectrum but will also be subject two cooling mechanisms:
+\begin{itemize}
+\item 1) Hadronic Cooling - The $p\gamma$ and $pp$ interactions that are responsible for the generation of high-energy neutrinos will also cool the accelerated protons as they interact. The efficiency of this cooling will depend on the photon and proton densities respectively. The threshold energy for $p\gamma \rightarrow \Delta^+$ production is given by
+\begin{equation}
+E_p' = \frac{0.3\text{ GeV$^2$}}{E_{\gamma}'}
+\end{equation}
+where $E_p'$ and $E_{\gamma}'$ are the proton and photon energies in the comoving frame.
+\item 2) Radiative Cooling - The magnetic fields that accelerated the protons will also force energy losses due to synchrotron emission from the protons. The cooling timescale for this process will depend primarily on the energy of the proton and the strength of the magnetic field. The accelerated protons will also lose energy via Bethe-Heitler pair-production with dense thermal photon radiation field. The efficiency of this cooling process increases with proton energy, and it will therefore be the mechanism responsible for the determining the maximum proton energy.
+\end{itemize}
+Factoring in these cooling mechanism yields an initial $E^{-2}$ proton spectrum with spectral breaks at the energies where the hadronic and radiative cooling processes begin to take effect.
+
+The shape of this proton spectrum will be reflected in the neutrino spectrum as well. The neutrino production method will be the same as it was for GRBs. Mesons will be produced in $pp$ and $p\gamma$ interactions and will subsequently decay to produce leptons and neutrinos (see Eq. \ref{eq:pidecay}). These mesons will also undergo hadronic and radiative cooling prior to decay. The radiative cooling mechanisms are particularly efficient for muons which will lead to a suppression of neutrinos originating from muon decay. Thus, only the muon neutrinos produced during $\pi$ and $K$ decays will contribute significantly to the neutrino flux. Therefore the initial flavor flux ratio for the emission from the jet will be (0:1:0).
 
 \begin{table}[h]
 \caption[Neutrino Emission Model Parameters]{This tables summarizes the parameters for the neutrino emission model for soft jets in core-collapse SNe. We will use the notation from Ando and Beacom \cite{2005PhRvL..95f1103A}.\label{tab:chkgrb_params}}
@@ -475,17 +486,19 @@ $E_{\nu,max}^{\pi}$ ($E_{\nu,max}^{K}$)& maximum neutrino energy & 10500 (21,000
 \end{tabular}
 \end{center}
 \end{table}
+The neutrino spectrum is given by a doubly broken power law in Eq. \ref{eq:chkgrb_spec} with break energies given by the hadronic and radiative break energies $E_{\nu,b}^{\pi(1)}$ ($E_{\nu,b}^{K(1)}$) and  $E_{\nu,b}^{\pi(2)}$ ($E_{\nu,b}^{K(2)}$). An expression for the neutrino fluence $F_{\nu}$ as a function of jet parameters can be found in Eq. \ref{eq:nuflu}. Definitions of all the parameters and their dependence on jet energy $E_j$ and Lorentz boost factor $\Gamma_b$ are provided in \ref{tab:chkgrb_params}. Using Eqs. \ref{eq:chkgrb_spec} and \ref{eq:nuflu}, we can calculate the expected neutrino fluence at Earth for a sample choked GRB event. The expected fluence for a burst located 10 Mpc away and assuming canonical values of the jet parameters is plotted in Figure \ref{fig:ref_chkgrb_flux}.
 
-\begin{equation}
+\begin{equation}\label{eq:chkgrb_spec}
 \frac{d\Phi_\nu}{dE}=F_\nu\left\{\begin{array}{cc}
 E^{-2} & E > E_{\nu}^{(1)} \\ 
 E_{\nu}^{(1)}E^{-3} & E_{\nu}^{(1)}< E < E_{\nu}^{(2)} \\ 
 E_{\nu}^{(1)}E_{\nu}^{(2)}E^{-4} & E_{\nu}^{(2)}< E < E_{max}
 \end{array}\right.
 \end{equation}
-
-
-%% Flux plot
+\begin{equation}\label{eq:nuflu}
+F_{\nu} = \frac{<n>_{\pi(K)}B_{\pi(K)}}{8} \cdot \frac{E_j \Gamma_b^2}{2 \pi D^2 \text{ln}(E_{p,max}', E_{p,min}')}
+\end{equation}
+The normalization and shape of the flux is highly sensitive to the choice of jet parameters. Any deviation from the canonical values can result in a large difference in event expectation at Earth. If the nominal values on the jet parameters are pessimistic, it is conceivable that IceCube analyses would be sensitive to this emission up to fairly large distances. Visualization of the strong dependence of the neutrino fluence on $\Gamma_b$ is shown in Figure \ref{fig:fluxplot_multiplejetparams}.
 
 \begin{figure}[ht]
   \begin{center}
@@ -495,11 +508,14 @@ E_{\nu}^{(1)}E_{\nu}^{(2)}E^{-4} & E_{\nu}^{(2)}< E < E_{max}
   \label{fig:ref_chkgrb_flux}
 \end{figure}
 
+The soft spectrum predicted by the RMW/AB model motivates the use of a DeepCore based event selection instead of a standard IceCube sample. Our event selection choices therefore focus on isolating $\nu_{\mu}$ events in the 30-300 GeV energy range. The identification of neutrinos from jets in a gamma ray dark SNe would be a dramatic confirmation of the suspected GRB-SNe connection. Great strides in our understanding of core-collapse phenomena and the production of GRBs will be made if neutrino analyses can begin to observe this jetted neutrino emission.
+%% Flux plot
+
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=0.85\textwidth,keepaspectratio]{ChkGRBFluxPlot.png}
   \end{center}
-  \caption{Estimated $E^{-2}$-weighted neutrino flux at Earth for a choked GRB at a reference distance of 10 Mpc for several choices of bulk Lorentz factor $\Gamma_b$ and jet energy $E_j$.}
+  \caption{Estimated $E^{-2}$-weighted neutrino flux at Earth for a choked GRB at a reference distance of 10 Mpc for several choices of bulk Lorentz factor $\Gamma_b$.}
   \label{fig:fluxplot_multiplejetparams}
 \end{figure}
 
@@ -1338,9 +1354,11 @@ While the limits derived in Chapter XI are interesting for certain values of the
 
 Because the event selection used in this analysis was developed independently from the filter level, there are many unexplored ways for the selection to be optimized for signal retention. Smarter use of veto information, the inclusion of advanced reconstruction techniques, and the use of machine learning techniques at earlier levels of the event selection could possibly lead to significant improvement of the effective area at the final level. This in turn will allow the analysis method to probe deeper into the nearby universe, enhancing the possibility of catching a potential core-collapse event. Due to the inverse square dependence of the neutrino fluence, a factor of two improvement in the final level effective area from better selection techniques should lead to a $\sqrt{2}$ improvement in the visibility distance of the analysis. This in turn would lead to a improvement of the volumetric rate limit by a factor of 2$\sqrt{2}$. Increased exposure time for the analysis should also lead to improvement of the volumetric rate with the sensitivity scaling like $\tau^{1/2}$.
 
-Improvement of the reconstruction of low energy events and refinement of the point spread function for these events will likely provide the most dramatic increases in analysis performance. The reconstruction method used for the final level sample is primarily suited to energetic muon tracks featuring many DOM hits in the detector. However, the low energy events in the sample will generally only produce a handful of events and are more likely to include noise hits due to their location in DeepCore. 
+Improvement of the reconstruction of low energy events and refinement of the point spread function for these events will likely provide the most dramatic increases in analysis performance. The reconstruction method used for the final level sample is primarily suited to energetic muon tracks featuring many DOM hits in the detector. However, the low energy events in the sample will generally only produce a handful of events and are also more likely to include noise hits due to their location in DeepCore. There has recently been heavy development of reconstruction methods for low energy events in DeepCore. This is largely due to the recent success of oscillation parameter studies in DeepCore. Adaptation of these advanced reconstruction techniques currently used for 10-50 GeV atmospheric neutrinos will likely result in significant improvement in resolution of the low energy tracks of our analysis. Lastly, research and development work on a low-energy extension to the IceCube detector, PINGU (Phased-In Next Generation Upgrade) \cite{2014arXiv1401.2046T}, should provide additional improvements to reconstruction methods at low energy.
 
+One final aspect of the analysis that has potential for optimization is the event error modeling. As Figure \ref{} illustrates, the fit of the assumed event PSF to the data is rather poor at low energies. Disagreement between the model and actual data will necessarily result in worse sensitivity for the analysis method. It is the author's opinion that better modeling of the PSF in the likelihood calculation will result in a large increase in the sensitivity of the analysis without requiring a strenuous effort.
 
+If these factors are taken into consideration, then it seems likely that future iterations of this analysis will be able to markedly improve upon the presently reported limits. Maturation of this analysis technique would complement the current capabilities quite nicely as it would fill in a relatively unexplored energy range for current IceCube analyses. The physics potential provided by time-dependent neutrino searches should not be underestimated. The full-sky monitoring capabilities of IceCube combined with the exemplary reliability of the data acquisition system allow these searches to be prepared for any potential neutrino signal. The recent discovery of the diffuse flux of astrophysical neutrinos signals the beginning of the neutrino astronomy era. And with any luck, the first confirmed sources will be discovered in short order.
 
 %% Sensitivity Gains T^{1/2}, PSF modeling, signal retention, reconstruction accuracy
 \appendix
@@ -1348,11 +1366,11 @@ Improvement of the reconstruction of low energy events and refinement of the poi
 This appendix contains additional details of event selection cuts from Chapter 7. Distributions of cut parameters for simulation and data belonging to both the low-energy stream (LES) and high-energy stream (HES) are given.
 \section{Hit Series Cleaning}
 The ``nominal DOM hit map" for an event is referred to at several points in the event selection chapter without receiving an explicit definition. We will describe the hit cleaning method used to produce this hit map in this section. An additional hit cleaning method used in some of the event selection cuts will also be described.
-\begin{adjustwidth}{2.5em}{2.5em}
+\begin{adjustwidth}{1.5em}{1.5em}
 \setlength{\parindent}{0pt}
 \textbf{SeededRT Hit Cleaning} - Given the relatively high rate of noise-induced DOM hits in IceCube, it is generally inadvisable to use the complete hit map of an event without making any attempt to remove spurious hit information. For many IceCube analyses, this issue is handled by simply selecting only DOM hits that show local coincidence. These hits are known as hard local coincidence or HLC hits. DOM hits that lack this coincidence condition are referred to as soft local coincidence or SLC hits. Not all physically relevant DOM hits will manage to trigger the HLC condition, and there is often relevant timing and spatial information to be gained from SLC hits. For this reason we choose to employ an algorithm that will attempt find SLC hits that are likely physics related due to their close proximity to HLC hits in the total DOM hit map for the event.
 
-
+The hit cleaning begins by selecting all HLC events in the DOM hit series. These hits will function as the seed of the SeededRT cleaning. Each HLC seed hit is then used to search for any nearby SLC hits as these hits are probably correlated. DOMs which lie inside of a sphere about the seed DOM of radius $R=150$m are examined for any SLC hits. Those that do show hits will then have the time of their hit compared to the time of the hit in the seed DOM. If the time residual is less than 1000 ns then the event is kept in the hit series. This process is iterated for each HLC seed hit to obtain the final hit series.
 
 \textbf{ClassicRT Hit Cleaning} -
 \end{adjustwidth}
@@ -1361,7 +1379,7 @@ The ``nominal DOM hit map" for an event is referred to at several points in the 
 \section{Level 3 Cuts}
 While the cuts used to eliminate noise events at this level were explicitly described, the other cuts applied at this data level were only referred to without defining them. Descriptions of these cuts are provided.
 \subsection{LES}
-\begin{adjustwidth}{2.5em}{2.5em}
+\begin{adjustwidth}{1.5em}{1.5em}
 \setlength{\parindent}{0pt}
 \textbf{Causal Veto PE} - 
 
@@ -1381,13 +1399,13 @@ While the cuts used to eliminate noise events at this level were explicitly desc
 
 \section{Level 4 Cuts}
 \subsection{LES}
-\begin{adjustwidth}{2.5em}{2.5em}
+\begin{adjustwidth}{1.5em}{1.5em}
 \setlength{\parindent}{0pt}
 
 \end{adjustwidth}
 \setlength{\parindent}{17.5pt}
 \subsection{HES}
-\begin{adjustwidth}{2.5em}{2.5em}
+\begin{adjustwidth}{1.5em}{1.5em}
 \setlength{\parindent}{0pt}
 
 \end{adjustwidth}
