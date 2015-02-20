@@ -167,6 +167,12 @@
   Instruments and Methods in Physics Research A}, vol.~656, pp.~11--38, Nov.
   2011.
 
+\bibitem{1993ExA.....2..331A}
+{\sc {Aharonian}, F.~A.}, {\sc {Chilingarian}, A.~A.}, {\sc {Mirzoyan}, R.~G.},
+  {\sc {Konopel'Ko}, A.~K.}, and {\sc {Plyasheshnikov}, A.~V.}, ``{The system
+  of imaging atmospheric Cherenkov telescopes - The new prospects for VHE gamma
+  ray astronomy},'' {\em Experimental Astronomy}, vol.~2, pp.~331--344, 1993.
+
 \bibitem{2004NIMPA.524..169A}
 {\sc {Ahrens}, J.}, {\sc {Bai}, X.}, {\sc {Bay}, R.}, {\sc {Barwick}, S.~W.},
   {\sc {Becka}, T.}, {\sc {Becker}, J.~K.}, {\sc {Becker}, K.-H.}, {\sc
@@ -243,6 +249,12 @@
   {Soderberg}, A.~M.}, ``{A Radio Survey of Type Ib and Ic Supernovae:
   Searching for Engine-driven Supernovae},'' {\em The Astrophysical Journal},
   vol.~599, pp.~408--418, Dec. 2003.
+
+\bibitem{BetheHeitler}
+{\sc Bethe, H.} and {\sc Heitler, W.}, ``On the stopping of fast particles and
+  on the creation of positive electrons,'' {\em Proceedings of the Royal
+  Society of London A: Mathematical, Physical and Engineering Sciences},
+  vol.~146, no.~856, pp.~83--112, 1934.
 
 \bibitem{2009PrPNP..63..293B}
 {\sc {Bl{\"u}mer}, J.}, {\sc {Engel}, R.}, and {\sc {H{\"o}randel}, J.~R.},
@@ -381,6 +393,11 @@
   for Oscillation of Atmospheric Neutrinos},'' {\em Physical Review Letters},
   vol.~81, pp.~1562--1567, Aug. 1998.
 
+\bibitem{1995PhR...258..173G}
+{\sc {Gaisser}, T.~K.}, {\sc {Halzen}, F.}, and {\sc {Stanev}, T.}, ``{Particle
+  astrophysics with high energy neutrinos},'' {\em Physics Reports}, vol.~258,
+  pp.~173--236, July 1995.
+
 \bibitem{Gandhi:1998ri}
 {\sc Gandhi, R.}, {\sc Quigg, C.}, {\sc Reno, M.~H.}, and {\sc Sarcevic, I.},
   ``{Neutrino interactions at ultrahigh-energies},'' {\em Phys.Rev.}, vol.~D58,
@@ -426,6 +443,11 @@
   G.}, and {\sc {Thouw}, T.}, {\em {CORSIKA: a Monte Carlo code to simulate
   extensive air showers.}}
 \newblock Feb. 1998.
+
+\bibitem{1930NW.....18.1094H}
+{\sc {Hess}, V.~F.}, ``{Ein experimentelles Argument f{\"u}r den stellaren
+  Ursprung der Ultrastrahlung},'' {\em Naturwissenschaften}, vol.~18,
+  pp.~1094--1096, Dec. 1930.
 
 \bibitem{0004-637X-738-2-154}
 {\sc Horiuchi, S.}, {\sc Beacom, J.~F.}, {\sc Kochanek, C.~S.}, {\sc Prieto,
@@ -514,6 +536,12 @@
 \bibitem{2014arXiv1410.0679K}
 {\sc {Kumar}, P.} and {\sc {Zhang}, B.}, ``{The Physics of Gamma-Ray Bursts and
   Relativistic Jets},'' {\em ArXiv e-prints}, Oct. 2014.
+
+\bibitem{2011MNRAS.412.1419L}
+{\sc {Leaman}, J.}, {\sc {Li}, W.}, {\sc {Chornock}, R.}, and {\sc
+  {Filippenko}, A.~V.}, ``{Nearby supernova rates from the Lick Observatory
+  Supernova Search - I. The methods and data base},'' {\em Monthly Notices of
+  the Royal Astronomical Society}, vol.~412, pp.~1419--1440, Apr. 2011.
 
 \bibitem{2011AN....332..434M}
 {\sc {Modjaz}, M.}, ``{Stellar forensics with the supernova-GRB connection},''

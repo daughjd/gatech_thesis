@@ -1,50 +1,49 @@
-This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: jdthesis.aux
 The style file: gatech-thesis.bst
 Database file #1: jdthesis.bib
 Warning--string name "d10" is undefined
---line 579 of file jdthesis.bib
-Warning--I didn't find a database entry for ""
+--line 638 of file jdthesis.bib
 Warning--empty publisher in 1998cmcc.book.....H
-You've used 69 entries,
+You've used 74 entries,
             2221 wiz_defined-function locations,
-            988 strings with 32253 characters,
-and the built_in function-call counts, 62535 in all, are:
-= -- 4760
-> -- 5740
+            1024 strings with 33367 characters,
+and the built_in function-call counts, 64878 in all, are:
+= -- 5004
+> -- 5829
 < -- 0
-+ -- 2290
-- -- 2217
-* -- 7889
-:= -- 9623
-add.period$ -- 73
-call.type$ -- 69
-change.case$ -- 1312
++ -- 2325
+- -- 2247
+* -- 8089
+:= -- 9954
+add.period$ -- 78
+call.type$ -- 74
+change.case$ -- 1342
 chr.to.int$ -- 0
-cite$ -- 70
-duplicate$ -- 2326
-empty$ -- 3052
-format.name$ -- 2217
-if$ -- 12003
+cite$ -- 75
+duplicate$ -- 2435
+empty$ -- 3230
+format.name$ -- 2247
+if$ -- 12538
 int.to.chr$ -- 0
-int.to.str$ -- 69
-missing$ -- 66
-newline$ -- 214
-num.names$ -- 140
-pop$ -- 1244
+int.to.str$ -- 74
+missing$ -- 71
+newline$ -- 229
+num.names$ -- 150
+pop$ -- 1265
 preamble$ -- 1
-purify$ -- 1244
+purify$ -- 1269
 quote$ -- 0
-skip$ -- 1248
+skip$ -- 1345
 stack$ -- 0
-substring$ -- 1699
-swap$ -- 1703
+substring$ -- 1879
+swap$ -- 1765
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 274
+type$ -- 294
 warning$ -- 1
-while$ -- 238
-width$ -- 71
-write$ -- 682
-(There were 3 warnings)
+while$ -- 259
+width$ -- 76
+write$ -- 733
+(There were 2 warnings)
