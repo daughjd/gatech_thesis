@@ -24,76 +24,81 @@
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {III}\MakeUppercase {Neutrino Astronomy}}{19}
 \contentsline {section}{\numberline {3.1}Motivation}{19}
-\contentsline {section}{\numberline {3.2}Multi-Messenger Astronomy}{20}
-\contentsline {section}{\numberline {3.3}Cosmic Ray - Neutrino Connection}{20}
-\contentsline {subsection}{\numberline {3.3.1}Proton Acceleration}{21}
-\contentsline {subsection}{\numberline {3.3.2}Neutrino Production}{21}
-\contentsline {section}{\numberline {3.4}Detection Methods}{22}
+\contentsline {section}{\numberline {3.2}Cosmic Ray - Neutrino Connection}{20}
+\contentsline {subsection}{\numberline {3.2.1}Proton Acceleration}{23}
+\contentsline {subsection}{\numberline {3.2.2}Neutrino Production}{23}
+\contentsline {section}{\numberline {3.3}Detection Methods}{24}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {IV}\MakeUppercase {Neutrino Sources}}{23}
-\contentsline {section}{\numberline {4.1}Active Galactic Nuclei}{23}
-\contentsline {section}{\numberline {4.2}Core-Collapse Supernovae}{25}
-\contentsline {section}{\numberline {4.3}Gamma-ray Bursts}{26}
-\contentsline {subsection}{\numberline {4.3.1}Fireball Model}{26}
-\contentsline {subsection}{\numberline {4.3.2}Subphotospheric Model}{26}
-\contentsline {section}{\numberline {4.4}Choked Gamma-ray Bursts}{26}
-\contentsline {subsection}{\numberline {4.4.1}Neutrino Emission Model}{28}
-\contentsline {subsection}{\numberline {4.4.2}Model Limits on SN2008D}{28}
+\contentsline {chapter}{\numberline {IV}\MakeUppercase {Neutrino Sources}}{26}
+\contentsline {section}{\numberline {4.1}Active Galactic Nuclei}{26}
+\contentsline {section}{\numberline {4.2}Core-Collapse Supernovae}{28}
+\contentsline {section}{\numberline {4.3}Gamma-ray Bursts}{29}
+\contentsline {subsection}{\numberline {4.3.1}Fireball Model}{30}
+\contentsline {subsection}{\numberline {4.3.2}Subphotospheric Model}{31}
+\contentsline {section}{\numberline {4.4}Choked Gamma-ray Bursts}{32}
+\contentsline {subsection}{\numberline {4.4.1}Neutrino Emission Model}{34}
+\contentsline {subsection}{\numberline {4.4.2}Model Limits on SN2008D}{34}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {V}\MakeUppercase {Detector}}{32}
-\contentsline {section}{\numberline {5.1}IceCube and IceTop}{32}
-\contentsline {section}{\numberline {5.2}DeepCore}{34}
-\contentsline {section}{\numberline {5.3}Neutrino Events in IceCube}{36}
-\contentsline {subsection}{\numberline {5.3.1}Cascades}{36}
-\contentsline {subsection}{\numberline {5.3.2}Muon Tracks}{37}
+\contentsline {chapter}{\numberline {V}\MakeUppercase {Detector}}{38}
+\contentsline {section}{\numberline {5.1}IceCube and IceTop}{38}
+\contentsline {section}{\numberline {5.2}DeepCore}{40}
+\contentsline {section}{\numberline {5.3}Neutrino Events in IceCube}{42}
+\contentsline {subsection}{\numberline {5.3.1}Cascades}{42}
+\contentsline {subsection}{\numberline {5.3.2}Muon Tracks}{43}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VI}\MakeUppercase {Data Acquisition}}{41}
-\contentsline {section}{\numberline {6.1}The Digital Optical Module}{41}
-\contentsline {section}{\numberline {6.2}Hit Generation}{42}
-\contentsline {section}{\numberline {6.3}Triggering and Event Building}{44}
+\contentsline {chapter}{\numberline {VI}\MakeUppercase {Data Acquisition}}{47}
+\contentsline {section}{\numberline {6.1}The Digital Optical Module}{47}
+\contentsline {section}{\numberline {6.2}Hit Generation}{48}
+\contentsline {section}{\numberline {6.3}Triggering and Event Building}{50}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{47}
-\contentsline {section}{\numberline {7.1}Low-energy Channel}{49}
-\contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{50}
-\contentsline {subsection}{\numberline {7.2.1}Level 3}{52}
-\contentsline {subsection}{\numberline {7.2.2}Level 4}{54}
-\contentsline {subsection}{\numberline {7.2.3}Level 5}{56}
-\contentsline {subsection}{\numberline {7.2.4}Level 6}{58}
-\contentsline {subsubsection}{\numberline {7.2.4.1}Machine Learning Cut}{58}
-\contentsline {subsubsection}{\numberline {7.2.4.2}Quality Cuts}{62}
-\contentsline {section}{\numberline {7.3}Event Reconstruction}{63}
-\contentsline {section}{\numberline {7.4}Error Estimation}{67}
-\contentsline {section}{\numberline {7.5}Final Level Data}{73}
+\contentsline {chapter}{\numberline {VII}\MakeUppercase {Event Selection}}{53}
+\contentsline {section}{\numberline {7.1}Low-energy Channel}{55}
+\contentsline {section}{\numberline {7.2}Analysis Specific Cuts}{56}
+\contentsline {subsection}{\numberline {7.2.1}Level 3}{58}
+\contentsline {subsection}{\numberline {7.2.2}Level 4}{60}
+\contentsline {subsection}{\numberline {7.2.3}Level 5}{62}
+\contentsline {subsection}{\numberline {7.2.4}Level 6}{64}
+\contentsline {subsubsection}{\numberline {7.2.4.1}Machine Learning Cut}{64}
+\contentsline {subsubsection}{\numberline {7.2.4.2}Quality Cuts}{68}
+\contentsline {section}{\numberline {7.3}Event Reconstruction}{69}
+\contentsline {section}{\numberline {7.4}Error Estimation}{73}
+\contentsline {section}{\numberline {7.5}Final Level Data}{79}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VIII}\MakeUppercase {Systematic Effects}}{76}
-\contentsline {section}{\numberline {8.1}Ice Properties}{76}
-\contentsline {section}{\numberline {8.2}DOM Quantum Efficiency}{78}
+\contentsline {chapter}{\numberline {VIII}\MakeUppercase {Systematic Effects}}{82}
+\contentsline {section}{\numberline {8.1}Ice Properties}{82}
+\contentsline {section}{\numberline {8.2}DOM Quantum Efficiency}{84}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {IX}\MakeUppercase {Analysis Method}}{82}
-\contentsline {section}{\numberline {9.1}Unbinned Likelihood Method}{82}
-\contentsline {subsection}{\numberline {9.1.1}Signal P.D.F.}{83}
-\contentsline {subsection}{\numberline {9.1.2}Background P.D.F.}{84}
-\contentsline {subsection}{\numberline {9.1.3}Likelihood Function}{85}
-\contentsline {section}{\numberline {9.2}Sky Scan}{87}
-\contentsline {section}{\numberline {9.3}Significance and Trials Factors}{88}
-\contentsline {section}{\numberline {9.4}Analysis Sensitivity}{90}
+\contentsline {chapter}{\numberline {IX}\MakeUppercase {Analysis Method}}{88}
+\contentsline {section}{\numberline {9.1}Unbinned Likelihood Method}{88}
+\contentsline {subsection}{\numberline {9.1.1}Signal P.D.F.}{89}
+\contentsline {subsection}{\numberline {9.1.2}Background P.D.F.}{90}
+\contentsline {subsection}{\numberline {9.1.3}Likelihood Function}{91}
+\contentsline {section}{\numberline {9.2}Sky Scan}{93}
+\contentsline {section}{\numberline {9.3}Significance and Trials Factors}{94}
+\contentsline {section}{\numberline {9.4}Analysis Sensitivity}{96}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{94}
+\contentsline {chapter}{\numberline {X}\MakeUppercase {Results}}{100}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XI}\MakeUppercase {Limits on Choked GRBs}}{99}
-\contentsline {section}{\numberline {11.1}Parameter Dependent Upper Limit}{99}
-\contentsline {section}{\numberline {11.2}Visibility Distance}{102}
-\contentsline {section}{\numberline {11.3}Volumetric Rate Limit on Choked GRBs}{103}
+\contentsline {chapter}{\numberline {XI}\MakeUppercase {Limits on Choked GRBs}}{105}
+\contentsline {section}{\numberline {11.1}Parameter Dependent Upper Limit}{105}
+\contentsline {section}{\numberline {11.2}Visibility Distance}{108}
+\contentsline {section}{\numberline {11.3}Volumetric Rate Limit on Choked GRBs}{109}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{108}
+\contentsline {chapter}{\numberline {XII}\MakeUppercase {Conclusion}}{114}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Additional Event Selection Distributions}}{109}
-\contentsline {section}{\numberline {A.1}Level 3 Cuts}{109}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Appendix A -- Event Selection Details}}{116}
+\contentsline {section}{\numberline {A.1}Hit Series Cleaning}{116}
+\contentsline {section}{\numberline {A.2}Level 3 Cuts}{117}
+\contentsline {subsection}{\numberline {A.2.1}LES}{117}
+\contentsline {subsection}{\numberline {A.2.2}HES}{117}
+\contentsline {section}{\numberline {A.3}Level 4 Cuts}{117}
+\contentsline {subsection}{\numberline {A.3.1}LES}{117}
+\contentsline {subsection}{\numberline {A.3.2}HES}{117}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Final Level Distributions}}{110}
+\contentsline {chapter}{APPENDIX \numberline {B} --- \MakeUppercase {Appendix B -- Final Level Distributions}}{118}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Vita}}{129}
+\contentsline {chapter}{\MakeUppercase {Vita}}{138}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
