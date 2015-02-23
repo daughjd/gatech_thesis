@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.2.12)  20 FEB 2015 17:13
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.2.12)  23 FEB 2015 17:30
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -239,6 +239,36 @@ LaTeX Warning: Label `fig:res2' multiply defined.
 
 
 LaTeX Warning: Label `sub@fig:res2' multiply defined.
+
+
+LaTeX Warning: Label `fig:hesl41' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:hesl41' multiply defined.
+
+
+LaTeX Warning: Label `fig:hesl42' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:hesl42' multiply defined.
+
+
+LaTeX Warning: Label `fig:hesl43' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:hesl43' multiply defined.
+
+
+LaTeX Warning: Label `fig:hesl44' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:hesl44' multiply defined.
+
+
+LaTeX Warning: Label `fig:hesl45' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:hesl45' multiply defined.
 
 )
 \openout1 = `jdthesis.aux'.
@@ -754,122 +784,162 @@ APPENDIX A.
 [123
 
 
-] [124]
-Overfull \hbox (2.05183pt too wide) in paragraph at lines 1481--1482
+] [124] <L4_LES_NchCleaned.png, id=635, 722.7pt x 578.16pt>
+File: L4_LES_NchCleaned.png Graphic file (type png)
+
+<use L4_LES_NchCleaned.png>
+<L4_LES_NVetoEarlySRTHits.png, id=636, 722.7pt x 578.16pt>
+File: L4_LES_NVetoEarlySRTHits.png Graphic file (type png)
+
+<use L4_LES_NVetoEarlySRTHits.png>
+<L4_LES_LFZenithDist.png, id=637, 722.7pt x 578.16pt>
+File: L4_LES_LFZenithDist.png Graphic file (type png)
+
+<use L4_LES_LFZenithDist.png>
+File: L4_LES_SPE6ZenithDist.png Graphic file (type png)
+ <use L4_LES_SPE6ZenithDist.png>
+<L4_LES_CRTDCFilterHits.png, id=638, 722.7pt x 578.16pt>
+File: L4_LES_CRTDCFilterHits.png Graphic file (type png)
+
+<use L4_LES_CRTDCFilterHits.png> [125] [126 <./L4_LES_NchCleaned.png> <./L4_LES
+_NVetoEarlySRTHits.png> <./L4_LES_LFZenithDist.png> <./L4_LES_CRTDCFilterHits.p
+ng>]
+Overfull \hbox (2.05183pt too wide) in paragraph at lines 1497--1498
 []\OT1/cmr/bx/n/10.95 Space-Angle be-tween Lin-e-Fit and SPE6 Fit \OT1/cmr/m/n/
 10.95 - This cut is pretty self-explanatory.
  []
 
-[125] <LES_TightSPE6ZenithDistribution_L5.png, id=638, 722.7pt x 578.16pt>
+<L4_HES_NchCleaned.png, id=649, 722.7pt x 578.16pt>
+File: L4_HES_NchCleaned.png Graphic file (type png)
+
+<use L4_HES_NchCleaned.png>
+<L4_HES_NVetoEarlySRTHits.png, id=650, 722.7pt x 578.16pt>
+File: L4_HES_NVetoEarlySRTHits.png Graphic file (type png)
+
+<use L4_HES_NVetoEarlySRTHits.png>
+<L4_HES_LFZenithDist.png, id=651, 722.7pt x 578.16pt>
+File: L4_HES_LFZenithDist.png Graphic file (type png)
+
+<use L4_HES_LFZenithDist.png>
+File: L4_HES_SPE6ZenithDist.png Graphic file (type png)
+ <use L4_HES_SPE6ZenithDist.png>
+<L4_HES_AngularSeparationLFSPE.png, id=652, 722.7pt x 578.16pt>
+File: L4_HES_AngularSeparationLFSPE.png Graphic file (type png)
+
+<use L4_HES_AngularSeparationLFSPE.png> [127] [128 <./L4_HES_NchCleaned.png> <.
+/L4_HES_NVetoEarlySRTHits.png> <./L4_HES_LFZenithDist.png> <./L4_HES_AngularSep
+arationLFSPE.png>]
+<LES_TightSPE6ZenithDistribution_L5.png, id=664, 722.7pt x 578.16pt>
 File: LES_TightSPE6ZenithDistribution_L5.png Graphic file (type png)
 
-<use LES_TightSPE6ZenithDistribution_L5.png>
-<LES_BDTParam_FiniteReco_Z_L5PreSelected_Rates.png, id=639, 722.7pt x 578.16pt>
+<use LES_TightSPE6ZenithDistribution_L5.png> [129 <./LES_TightSPE6ZenithDistrib
+ution_L5.png>]
+<LES_BDTParam_FiniteReco_Z_L5PreSelected_Rates.png, id=669, 722.7pt x 578.16pt>
 File: LES_BDTParam_FiniteReco_Z_L5PreSelected_Rates.png Graphic file (type png)
 
 <use LES_BDTParam_FiniteReco_Z_L5PreSelected_Rates.png>
-<LES_BDTParam_FiniteReco_R_L5PreSelected_Rates.png, id=640, 722.7pt x 578.16pt>
+<LES_BDTParam_FiniteReco_R_L5PreSelected_Rates.png, id=670, 722.7pt x 578.16pt>
 File: LES_BDTParam_FiniteReco_R_L5PreSelected_Rates.png Graphic file (type png)
 
 <use LES_BDTParam_FiniteReco_R_L5PreSelected_Rates.png>
-<LES_VetoTrackCharge_L5PreSelected_Rates.png, id=641, 722.7pt x 578.16pt>
+<LES_VetoTrackCharge_L5PreSelected_Rates.png, id=671, 722.7pt x 578.16pt>
 File: LES_VetoTrackCharge_L5PreSelected_Rates.png Graphic file (type png)
 
 <use LES_VetoTrackCharge_L5PreSelected_Rates.png>
-<LES_DirectHitsD_L5PreSelected_Rates.png, id=642, 722.7pt x 578.16pt>
+<LES_DirectHitsD_L5PreSelected_Rates.png, id=672, 722.7pt x 578.16pt>
 File: LES_DirectHitsD_L5PreSelected_Rates.png Graphic file (type png)
 
 <use LES_DirectHitsD_L5PreSelected_Rates.png>
-<LES_BDTParam_SplineMPEMod_RLogL_PreBDTCutL5_Rates.png, id=643, 722.7pt x 578.1
+<LES_BDTParam_SplineMPEMod_RLogL_PreBDTCutL5_Rates.png, id=673, 722.7pt x 578.1
 6pt>
 File: LES_BDTParam_SplineMPEMod_RLogL_PreBDTCutL5_Rates.png Graphic file (type 
 png)
  <use LES_BDTParam_SplineMPEMod_RLogL_PreBDTCutL5_Rates.png>
-<LES_AvgDomDistQ_L5PreSelected_Rates.png, id=644, 722.7pt x 578.16pt>
+<LES_AvgDomDistQ_L5PreSelected_Rates.png, id=674, 722.7pt x 578.16pt>
 File: LES_AvgDomDistQ_L5PreSelected_Rates.png Graphic file (type png)
 
 <use LES_AvgDomDistQ_L5PreSelected_Rates.png>
-<750px-HES_DirectHitsD_L5PreSelected_Rates.png, id=645, 542.025pt x 433.62pt>
+<750px-HES_DirectHitsD_L5PreSelected_Rates.png, id=675, 542.025pt x 433.62pt>
 File: 750px-HES_DirectHitsD_L5PreSelected_Rates.png Graphic file (type png)
 
 <use 750px-HES_DirectHitsD_L5PreSelected_Rates.png>
-<750px-HES_LDirD_L5PreSelected_Rates.png, id=646, 542.025pt x 433.62pt>
+<750px-HES_LDirD_L5PreSelected_Rates.png, id=676, 542.025pt x 433.62pt>
 File: 750px-HES_LDirD_L5PreSelected_Rates.png Graphic file (type png)
 
 <use 750px-HES_LDirD_L5PreSelected_Rates.png>
-<HES_BDTParam_SplineMPEMod_RLogL_L5PreSelected_Rates.png, id=647, 722.7pt x 578
+<HES_BDTParam_SplineMPEMod_RLogL_L5PreSelected_Rates.png, id=677, 722.7pt x 578
 .16pt>
 File: HES_BDTParam_SplineMPEMod_RLogL_L5PreSelected_Rates.png Graphic file (typ
 e png)
  <use HES_BDTParam_SplineMPEMod_RLogL_L5PreSelected_Rates.png>
-<HES_AvgDomDistQ_L5PreSelected_Rates.png, id=648, 722.7pt x 578.16pt>
+<HES_AvgDomDistQ_L5PreSelected_Rates.png, id=678, 722.7pt x 578.16pt>
 File: HES_AvgDomDistQ_L5PreSelected_Rates.png Graphic file (type png)
 
-<use HES_AvgDomDistQ_L5PreSelected_Rates.png> [126] [127 <./LES_TightSPE6Zenith
-Distribution_L5.png>] [128 <./LES_BDTParam_FiniteReco_Z_L5PreSelected_Rates.png
-> <./LES_BDTParam_FiniteReco_R_L5PreSelected_Rates.png> <./LES_VetoTrackCharge_
-L5PreSelected_Rates.png> <./LES_DirectHitsD_L5PreSelected_Rates.png> <./LES_BDT
-Param_SplineMPEMod_RLogL_PreBDTCutL5_Rates.png> <./LES_AvgDomDistQ_L5PreSelecte
-d_Rates.png>] [129 <./750px-HES_DirectHitsD_L5PreSelected_Rates.png> <./750px-H
-ES_LDirD_L5PreSelected_Rates.png> <./HES_BDTParam_SplineMPEMod_RLogL_L5PreSelec
-ted_Rates.png> <./HES_AvgDomDistQ_L5PreSelected_Rates.png>]
+<use HES_AvgDomDistQ_L5PreSelected_Rates.png> [130] [131 <./LES_BDTParam_Finite
+Reco_Z_L5PreSelected_Rates.png> <./LES_BDTParam_FiniteReco_R_L5PreSelected_Rate
+s.png> <./LES_VetoTrackCharge_L5PreSelected_Rates.png> <./LES_DirectHitsD_L5Pre
+Selected_Rates.png> <./LES_BDTParam_SplineMPEMod_RLogL_PreBDTCutL5_Rates.png> <
+./LES_AvgDomDistQ_L5PreSelected_Rates.png>] [132 <./750px-HES_DirectHitsD_L5Pre
+Selected_Rates.png> <./750px-HES_LDirD_L5PreSelected_Rates.png> <./HES_BDTParam
+_SplineMPEMod_RLogL_L5PreSelected_Rates.png> <./HES_AvgDomDistQ_L5PreSelected_R
+ates.png>]
 APPENDIX B.
-[130
+[133
 
-] <FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png, id=676, 722.7pt x 578.16pt>
+] <FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png, id=701, 722.7pt x 578.16pt>
 File: FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png Graphic file (type png)
 
 <use FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png>
-<FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png, id=677, 722.7pt x 578.16pt>
+<FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png, id=702, 722.7pt x 578.16pt>
 File: FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png Graphic file (type png)
 
 <use FinalLevel_Nch_Vs_Energy_NuMu_HESOnly.png>
-<LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=678, 722.7pt x 578.16pt>
+<LES_SplineMPE_AzimuthDist_FinalLevelDist.png, id=703, 722.7pt x 578.16pt>
 File: LES_SplineMPE_AzimuthDist_FinalLevelDist.png Graphic file (type png)
 
 <use LES_SplineMPE_AzimuthDist_FinalLevelDist.png>
-<LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=679, 722.7pt x 578.16pt>
+<LES_SplineMPE_ZenithDist_FinalLevelDist.png, id=704, 722.7pt x 578.16pt>
 File: LES_SplineMPE_ZenithDist_FinalLevelDist.png Graphic file (type png)
 
 <use LES_SplineMPE_ZenithDist_FinalLevelDist.png>
-<LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png, id=680, 722.7pt x 578.16pt
+<LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png, id=705, 722.7pt x 578.16pt
 >
 File: LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png Graphic file (type png
 )
  <use LES_BDTParam_SplineMPEMod_RLogL_FinalLevelDist.png>
-<LES_BDTParam_FiniteReco_Z_FinalLevelDist.png, id=681, 722.7pt x 578.16pt>
+<LES_BDTParam_FiniteReco_Z_FinalLevelDist.png, id=706, 722.7pt x 578.16pt>
 File: LES_BDTParam_FiniteReco_Z_FinalLevelDist.png Graphic file (type png)
 
 <use LES_BDTParam_FiniteReco_Z_FinalLevelDist.png>
-<HES_BDTParam_SplineMPEMod_AzimuthDist_FinalLevel_Rates.png, id=682, 722.7pt x 
+<HES_BDTParam_SplineMPEMod_AzimuthDist_FinalLevel_Rates.png, id=707, 722.7pt x 
 578.16pt>
 File: HES_BDTParam_SplineMPEMod_AzimuthDist_FinalLevel_Rates.png Graphic file (
 type png)
  <use HES_BDTParam_SplineMPEMod_AzimuthDist_FinalLevel_Rates.png>
-<HES_BDTParam_SplineMPEMod_ZenithDist_FinalLevel_Rates.png, id=683, 722.7pt x 5
+<HES_BDTParam_SplineMPEMod_ZenithDist_FinalLevel_Rates.png, id=708, 722.7pt x 5
 78.16pt>
 File: HES_BDTParam_SplineMPEMod_ZenithDist_FinalLevel_Rates.png Graphic file (t
 ype png)
  <use HES_BDTParam_SplineMPEMod_ZenithDist_FinalLevel_Rates.png>
-<HES_BDTParam_SplineMPEMod_RLogL_FinalLevel_Rates.png, id=684, 722.7pt x 578.16
+<HES_BDTParam_SplineMPEMod_RLogL_FinalLevel_Rates.png, id=709, 722.7pt x 578.16
 pt>
 File: HES_BDTParam_SplineMPEMod_RLogL_FinalLevel_Rates.png Graphic file (type p
 ng)
  <use HES_BDTParam_SplineMPEMod_RLogL_FinalLevel_Rates.png>
-<HES_BDTParam_FiniteReco_Z_L5PreSelected_Rates.png, id=685, 722.7pt x 578.16pt>
+<HES_BDTParam_FiniteReco_Z_L5PreSelected_Rates.png, id=710, 722.7pt x 578.16pt>
 File: HES_BDTParam_FiniteReco_Z_L5PreSelected_Rates.png Graphic file (type png)
 
 <use HES_BDTParam_FiniteReco_Z_L5PreSelected_Rates.png> (./jdthesis.bbl
-[131] [132 <./FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png> <./FinalLevel_Nch_Vs_E
-nergy_NuMu_HESOnly.png>] [133 <./LES_SplineMPE_AzimuthDist_FinalLevelDist.png> 
+[134] [135 <./FinalLevel_Nch_Vs_Energy_NuMu_LESOnly.png> <./FinalLevel_Nch_Vs_E
+nergy_NuMu_HESOnly.png>] [136 <./LES_SplineMPE_AzimuthDist_FinalLevelDist.png> 
 <./LES_SplineMPE_ZenithDist_FinalLevelDist.png> <./LES_BDTParam_SplineMPEMod_RL
 ogL_FinalLevelDist.png> <./LES_BDTParam_FiniteReco_Z_FinalLevelDist.png>]
-[134 <./HES_BDTParam_SplineMPEMod_AzimuthDist_FinalLevel_Rates.png> <./HES_BDTP
+[137 <./HES_BDTParam_SplineMPEMod_AzimuthDist_FinalLevel_Rates.png> <./HES_BDTP
 aram_SplineMPEMod_ZenithDist_FinalLevel_Rates.png> <./HES_BDTParam_SplineMPEMod
 _RLogL_FinalLevel_Rates.png> <./HES_BDTParam_FiniteReco_Z_L5PreSelected_Rates.p
-ng>] [135
+ng>] [138
 
-] [136] [137] [138]
+] [139] [140] [141]
 Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ‡ in font cmcsc10!
 Missing character: There is no Ã in font cmcsc10!
@@ -883,18 +953,18 @@ Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ¡ in font cmcsc10!
 Missing character: There is no Ã in font cmcsc10!
 Missing character: There is no ² in font cmcsc10!
- [139] [140]
+ [142] [143]
 Missing character: There is no Ï in font cmr8!
 Missing character: There is no „ in font cmr8!
- [141] [142] [143] [144] [145] [146]
+ [144] [145] [146] [147] [148] [149]
 Underfull \hbox (badness 10000) in paragraph at lines 597--600
 []\OT1/cmr/m/sc/10.95 HiSPARC\OT1/cmr/m/n/10.95 , ``Cosmic-Ray Air Show-ers.'' 
 $\OT1/cmtt/m/n/10.95 http : / / www . hisparc . nl / en /
  []
 
-[147] [148] [149] [150])
+[150] [151] [152] [153])
 ***************** Vita ******************
-[151] [152
+[154] [155
 
 
 ] (./jdthesis.aux)
@@ -903,10 +973,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3145 strings out of 256216
- 51400 string characters out of 1917072
- 91224 words of memory out of 1500000
- 6284 multiletter control sequences out of 10000+200000
+ 3197 strings out of 256216
+ 52757 string characters out of 1917072
+ 91376 words of memory out of 1500000
+ 6328 multiletter control sequences out of 10000+200000
  14767 words of font info for 55 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  27i,12n,27p,1599b,394s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -925,9 +995,9 @@ cmsy6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/
 fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti
 12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb></usr/share/texmf/fo
 nts/type1/bluesky/ams/msam10.pfb>
-Output written on jdthesis.pdf (169 pages, 16027116 bytes).
+Output written on jdthesis.pdf (172 pages, 16270516 bytes).
 PDF statistics:
- 841 PDF objects out of 1000 (max. 8388607)
+ 866 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 461 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

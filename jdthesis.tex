@@ -1434,7 +1434,8 @@ The ``nominal DOM hit map" for an event is referred to at several points in the 
 
 The hit cleaning begins by selecting all HLC events in the DOM hit series. These hits will function as the seed of the SeededRT cleaning. Each HLC seed hit is then used to search for any nearby SLC hits as these hits are probably correlated. DOMs which lie inside of a sphere about the seed DOM of radius $R=150$m are examined for any SLC hits. Those that do show hits will then have the time of their hit compared to the time of the hit in the seed DOM. If the time residual is less than 1000 ns then the event is kept in the hit series. This process is iterated for each HLC seed hit to obtain the final hit series.
 
-\textbf{ClassicRT Hit Cleaning} -
+\textbf{ClassicRT Hit Cleaning} -The ClassicRT hit cleaning method is an alternative hit cleaning technique that is also used during the event selection process. Just like the SeededRT cleaning, CRT will search over DOM hits to look for any hits in any nearby DOMs within a certain time window. The SeededRT method used HLC hits as the seeds to look for SLC hits to include in the final hit map. The `classic' method will use ALL DOM hits (SLC and HLC) as a seed. The coincidence algorithm is iterated for each DOM hit for the event. Any hits that show no coincidence with any other DOM hits are dropped from the hit map. The standard definition for the spatial and time window parameters (R and T respectively) used to search for coincident hits are set to 150 meters and 1000 ns. This method will typically result in the inclusion of more noise related DOM hits, and it is often not used for event reconstruction purposes. It is useful in maximizing the retention of possibly physics related veto region hits.
+
 \end{adjustwidth}
 \setlength{\parindent}{17.5pt}
 
@@ -1469,8 +1470,23 @@ The cuts used at level 4 of the data selection process are described qualitative
 \textbf{SPE 6 Zenith} - A 6-iteration SPE likelihood reconstruction is applied to the standard SeededRT cleaned hit series. All events whose reconstructed zenith lies 5$^{\circ}$ above the horizon are removed from the analysis.
 
 \textbf{NChannel Requirement} - A minimum on the number of DOM hits on the standard SeededRT cleaned hit series is enforced. Events having fewer than 10 hits after hit cleaning are removed.
+
+\textbf{NVetoEarlySRT} - A SeededRT hit cleaning is performed with more relaxed spatial coincidence requirements (R=300 m). The total number of veto region hits that occur prior to the first fiducial volume hit are counted. Events that show more than one veto region hits are removed.
+
+\textbf{CRT DeepCore Filter Hits} - A ClassicRT hit cleaning is used to generate a hit series possibly containing veto region hit information cleaned during the standard hit cleaning. The search radius parameter R is set to 150 meters and the T parameter is set to 1000 ns. This hit series is then fed to the standard DeepCore Filter algorithim (see section 7.1). Events with more than one veto hit identified by the filter are cut from the analysis.
 \end{adjustwidth}
 \setlength{\parindent}{17.5pt}
+
+\begin{figure}
+\centering
+\subfigure[NChannel]{\label{fig:hesl41}\includegraphics[width=75mm]{L4_LES_NchCleaned.png}}
+\subfigure[NVetoEarly SRT]{\label{fig:hesl42}\includegraphics[width=75mm]{L4_LES_NVetoEarlySRTHits.png}}
+\subfigure[LineFit Zenith Distribution]{\label{fig:hesl43}\includegraphics[width=75mm]{L4_LES_LFZenithDist.png}}
+\subfigure[SPE6 Zenith Distribution]{\label{fig:hesl44}\includegraphics[width=75mm]{L4_LES_SPE6ZenithDist.png}}
+\subfigure[CRT DeepCore Filter Hits]{\label{fig:hesl45}\includegraphics[width=75mm]{L4_LES_CRTDCFilterHits.png}}
+\caption{Normalized distributions of the selection variables used for data cuts on the LES stream at Level 4. The cut region is given by the shaded area.} 
+\label{fig:LESL4ParameterPlots}
+\end{figure}
 \subsection{HES}
 \begin{adjustwidth}{1.5em}{1.5em}
 \setlength{\parindent}{0pt}
@@ -1480,29 +1496,29 @@ The cuts used at level 4 of the data selection process are described qualitative
 
 \textbf{Space-Angle between LineFit and SPE6 Fit} - This cut is pretty self-explanatory. The space angle between reconstructed directions given by LineFit and SPE6 is calculated. Events whose reconstructions disagree by 30$^{\circ}$ or more are removed.
 
-\textbf{NVetoEarlySRT} - A SeededRT hit cleaning is performed with more relaxes spatial coincidence requirements (R=300 m). The total number of veto region hits that occur prior to the first fiducial volume hit are counted. Events that show any number of veto region hits are removed.
+\textbf{NVetoEarlySRT} - A SeededRT hit cleaning is performed with more relaxed spatial coincidence requirements (R=300 m). The total number of veto region hits that occur prior to the first fiducial volume hit are counted. Events that show any number of veto region hits are removed.
 
 \textbf{NChannel Requirement} - A minimum on the number of DOM hits on the standard SeededRT cleaned hit series is enforced. Events having fewer than 10 hits after hit cleaning are removed.
 
 \textbf{Topological Split} - The Topological Splitter module is run on all HES stream events to search for evidence of coincident muon events. Any event that shows evidence of two muon tracks is cut.
 
 \textbf{OnlineL2 Geo Split} - The vertex and direction of the two reconstructions provided by L2 geometrical event splitter are examined. If one of the splits has an event vertex located above -100 m in detector z-coordinate, the event is removed.
-
-%\begin{figure}
-%\centering
-%\subfigure[NChannel]{\label{fig:hesl41}\includegraphics[width=75mm]{}}
-%\subfigure[NVetoEarly SRT]{\label{fig:hesl42}\includegraphics[width=75mm]{}}
-%\subfigure[LineFit Zenith Distribution]{\label{fig:hesl43}\includegraphics[width=75mm]{}}
-%\subfigure[SPE6 Zenith Distribution]{\label{fig:hesl44}\includegraphics[width=75mm]{}}
-%\subfigure[Space Angle between LineFit-SPE6]{\label{fig:hesl45}\includegraphics[width=75mm]{}}
-%\caption{Distributions of the selection variables used for data cuts on %the HES stream at Level 4.} 
-%\label{fig:HESL4ParameterPlots}
-%\end{figure}
-
 \end{adjustwidth}
 \setlength{\parindent}{17.5pt}
+
+\begin{figure}
+\centering
+\subfigure[NChannel]{\label{fig:hesl41}\includegraphics[width=75mm]{L4_HES_NchCleaned.png}}
+\subfigure[NVetoEarly SRT]{\label{fig:hesl42}\includegraphics[width=75mm]{L4_HES_NVetoEarlySRTHits.png}}
+\subfigure[LineFit Zenith Distribution]{\label{fig:hesl43}\includegraphics[width=75mm]{L4_HES_LFZenithDist.png}}
+\subfigure[SPE6 Zenith Distribution]{\label{fig:hesl44}\includegraphics[width=75mm]{L4_HES_SPE6ZenithDist.png}}
+\subfigure[Space Angle between LineFit-SPE6]{\label{fig:hesl45}\includegraphics[width=75mm]{L4_HES_AngularSeparationLFSPE.png}}
+\caption{Normalized distributions of the selection variables used for data cuts on the HES stream at Level 4. The cut region is given by the shaded area.} 
+\label{fig:HESL4ParameterPlots}
+\end{figure}
+
 \section{Level 5 Cuts}
-Level 5 of the cut selection only features cuts on the directions of events after re-fitting to check for possibly mis-reconstructed downgoing muon events. These cuts were described in detail and the zenith distributions for both the LES and HES streams were plotted for one of the reconstructions (SPE2 with Early Hits Removed Zenith Cut). Here we will plot the other reconstruction used at this level in the LES branch of the event selection.
+Level 5 of the cut selection only features cuts on the directions of events after re-fitting to check for possibly mis-reconstructed downgoing muon events. These cuts were described in detail and the zenith distributions for both the LES and HES streams were plotted for one of the reconstructions (SPE2 with Early Hits Removed Zenith Cut). Here we will plot the other reconstruction used at this level in the LES branch of the event selection (Figure \ref{fig:LES_TightSPE6Reco}).
 
 \textbf{TightSPE6} - The standard 6-iteration SPE likelihood reconstruction is applied to a DOM hit series featuring tighter settings for SeededRT cleaning (R= 75 m, T = 625 ns). This reconstruction is only used on the LES branch of the event selection.
 

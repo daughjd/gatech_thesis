@@ -81,29 +81,41 @@
 \contentsline {figure}{\numberline {55}{\ignorespaces Histogram of visibility distance for choices of choked GRB jet parameters. Reference distance contours are provided for easier interpretation of the plot. For particularly energetic bursts with large boost factors, the distance to which the analysis method is sensitive is quite far. However, choked GRBs with more pessimistic jet parameter values would only be visible in our own galaxy. The yellow star denotes the bin for the canonical model parameters.}}{115}
 \contentsline {figure}{\numberline {56}{\ignorespaces Test statistic distribution for signal injections (red) and background trials in the same declination band. The bi-modal shape of the background test statistic distribution arises from the inclusion of test statistic values returned by both the coarse and fine sky scans. The second background distribution does not begin at zero because the fine scan follow up is only performed for best fit flares that reach a certain test statistic threshold}}{118}
 \contentsline {figure}{\numberline {57}{\ignorespaces Histogram of the rate limit on choked GRBs in the nearby universe. The bin for canonical values of the neutrino emission model is marked by the yellow star. The dashed line contour gives the rate of core-collapse supernovae within 10 Mpc as measured by Kistler et al. \cite {2011PhRvD..83l3008K}. The dot-dashed line is the volumetric rate extracted from a large survey of SNe in the local universe \cite {2011MNRAS.412.1419L}}}{119}
-\contentsline {figure}{\numberline {58}{\ignorespaces Distribution of reconstructed Cos($\Theta _{zen}$) for simulation and data. The TightSPE6 reconstruction is applied on the LES branch of the dataset. The SeededRT cleaning used to generate the hit map over which the reconstruction is applied has tighter settings for radius and time (R = 75 m [150 m nominal], T = 625 ns [1000 ns nominal]). The shaded area denotes the cut region.}}{127}
-\contentsline {figure}{\numberline {59}{\ignorespaces Distributions of the LES BDT selection variables for simulation and real data.}}{128}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstructed Event Vertex Z}}}{128}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstructed Event Vertex R}}}{128}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Downgoing Veto Track Charge}}}{128}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Direct Hits D}}}{128}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SplineMPE16 Reduced LogLikelihood}}}{128}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Avg DOM-Weighted Track Distance}}}{128}
-\contentsline {figure}{\numberline {60}{\ignorespaces Distributions of the HES BDT selection variables for simulation and real data. There is very little CORSIKA simulation present at this level for the HES branch of the event selection.}}{129}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Direct Length D}}}{129}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Direct Hits D}}}{129}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {SplineMPE16 Reduced LogLikelihood}}}{129}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Avg DOM-Weighted Track Distance}}}{129}
-\contentsline {figure}{\numberline {61}{\ignorespaces NCh-Energy relation for simulated $\nu _\mu $ neutrino events at the final level. Nch is a shorthand term for the number of DOMs receiving light from an event. Subfigure (a) shows the correlation for events belonging to the Low-Energy Stream (LES) branch of the event selection while (b) shows the same for events belonging to the High-Energy Stream or HES branch.}}{132}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LES Nch-Energy Relation}}}{132}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HES Nch-Energy Relation}}}{132}
-\contentsline {figure}{\numberline {62}{\ignorespaces Distributions of for simulation and real data at the final event level. Plots above for the Low-Energy Stream (\textbf {LES}) branch of the event sample.}}{133}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstructed Event Azimuth}}}{133}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstructed Event Zenith}}}{133}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Reconstruction Reduced Log-likelihood}}}{133}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Reconstructed Event Vertex Detector Z-position}}}{133}
-\contentsline {figure}{\numberline {63}{\ignorespaces Distributions of event parameters for simulation and real data at the final event level. Plots above for the High-Energy Stream (\textbf {HES}) branch of the event sample.}}{134}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstructed Event Azimuth}}}{134}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstructed Event Zenith}}}{134}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Reconstruction Reduced Log-likelihood}}}{134}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Reconstructed Event Vertex Detector Z-position}}}{134}
+\contentsline {figure}{\numberline {58}{\ignorespaces Normalized distributions of the selection variables used for data cuts on the LES stream at Level 4. The cut region is given by the shaded area.}}{126}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {NChannel}}}{126}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {NVetoEarly SRT}}}{126}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {LineFit Zenith Distribution}}}{126}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {SPE6 Zenith Distribution}}}{126}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {CRT DeepCore Filter Hits}}}{126}
+\contentsline {figure}{\numberline {59}{\ignorespaces Normalized distributions of the selection variables used for data cuts on the HES stream at Level 4. The cut region is given by the shaded area.}}{128}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {NChannel}}}{128}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {NVetoEarly SRT}}}{128}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {LineFit Zenith Distribution}}}{128}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {SPE6 Zenith Distribution}}}{128}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Space Angle between LineFit-SPE6}}}{128}
+\contentsline {figure}{\numberline {60}{\ignorespaces Distribution of reconstructed Cos($\Theta _{zen}$) for simulation and data. The TightSPE6 reconstruction is applied on the LES branch of the dataset. The SeededRT cleaning used to generate the hit map over which the reconstruction is applied has tighter settings for radius and time (R = 75 m [150 m nominal], T = 625 ns [1000 ns nominal]). The shaded area denotes the cut region.}}{129}
+\contentsline {figure}{\numberline {61}{\ignorespaces Distributions of the LES BDT selection variables for simulation and real data.}}{131}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstructed Event Vertex Z}}}{131}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstructed Event Vertex R}}}{131}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Downgoing Veto Track Charge}}}{131}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Direct Hits D}}}{131}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SplineMPE16 Reduced LogLikelihood}}}{131}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Avg DOM-Weighted Track Distance}}}{131}
+\contentsline {figure}{\numberline {62}{\ignorespaces Distributions of the HES BDT selection variables for simulation and real data. There is very little CORSIKA simulation present at this level for the HES branch of the event selection.}}{132}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Direct Length D}}}{132}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Direct Hits D}}}{132}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {SplineMPE16 Reduced LogLikelihood}}}{132}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Avg DOM-Weighted Track Distance}}}{132}
+\contentsline {figure}{\numberline {63}{\ignorespaces NCh-Energy relation for simulated $\nu _\mu $ neutrino events at the final level. Nch is a shorthand term for the number of DOMs receiving light from an event. Subfigure (a) shows the correlation for events belonging to the Low-Energy Stream (LES) branch of the event selection while (b) shows the same for events belonging to the High-Energy Stream or HES branch.}}{135}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LES Nch-Energy Relation}}}{135}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HES Nch-Energy Relation}}}{135}
+\contentsline {figure}{\numberline {64}{\ignorespaces Distributions of for simulation and real data at the final event level. Plots above for the Low-Energy Stream (\textbf {LES}) branch of the event sample.}}{136}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstructed Event Azimuth}}}{136}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstructed Event Zenith}}}{136}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Reconstruction Reduced Log-likelihood}}}{136}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Reconstructed Event Vertex Detector Z-position}}}{136}
+\contentsline {figure}{\numberline {65}{\ignorespaces Distributions of event parameters for simulation and real data at the final event level. Plots above for the High-Energy Stream (\textbf {HES}) branch of the event sample.}}{137}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstructed Event Azimuth}}}{137}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstructed Event Zenith}}}{137}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Reconstruction Reduced Log-likelihood}}}{137}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Reconstructed Event Vertex Detector Z-position}}}{137}
