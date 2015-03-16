@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.2.12)  13 MAR 2015 16:03
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.2.12)  16 MAR 2015 17:18
 entering extended mode
  %&-line parsing enabled.
 **jdthesis.tex
@@ -394,13 +394,13 @@ File: atmospheric_nu_spectrum.png Graphic file (type png)
 
 <use atmospheric_nu_spectrum.png> [21 <./CosmicRaySpectrum.jpg>] [22 <./CRsketc
 h.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 360.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 362.
 
  (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 360.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 362.
  [23 <./atmospheric_nu_spectrum.png (PNG copy)>]
 <FermiAcceleration.png, id=145, 512.91624pt x 410.53375pt>
 File: FermiAcceleration.png Graphic file (type png)
@@ -414,12 +414,12 @@ CHAPTER IV.
 File: NearbySNCatalogue.png Graphic file (type png)
 
 <use NearbySNCatalogue.png>
-Underfull \hbox (badness 1237) in paragraph at lines 467--468
+Underfull \hbox (badness 1237) in paragraph at lines 469--470
 \OT1/cmr/m/n/10.95 in tem-po-ral co-in-ci-dence with su-per-nova
  []
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 467--468
+Underfull \hbox (badness 2970) in paragraph at lines 469--470
 \OT1/cmr/m/n/10.95 extra-solar neu-trino source. Neu-trino
  []
 
@@ -468,7 +468,7 @@ File: hese_cascade_event.png Graphic file (type png)
 
 <use hese_cascade_event.png>
 
-LaTeX Warning: Float too large for page by 19.82814pt on input line 664.
+LaTeX Warning: Float too large for page by 19.82814pt on input line 666.
 
 [48] <hese_track_event.png, id=243, 2107.875pt x 2810.5pt>
 File: hese_track_event.png Graphic file (type png)
@@ -492,7 +492,7 @@ CHAPTER VII.
 [59
 
 ] [60]
-Overfull \hbox (1.18674pt too wide) in paragraph at lines 769--770
+Overfull \hbox (1.18674pt too wide) in paragraph at lines 771--772
 \OT1/cmr/m/n/10.95 Because of the pri-mary fo-cus of this anal-y-sis on a lower
 -energy event se-lec-tion, the DeepCore-
  []
@@ -754,7 +754,7 @@ APPENDIX A.
 
 
 ] [124]
-Overfull \hbox (3.42812pt too wide) in paragraph at lines 1460--1461
+Overfull \hbox (3.42812pt too wide) in paragraph at lines 1462--1463
 []\OT1/cmr/bx/n/10.95 NAbove200PE \OT1/cmr/m/n/10.95 - This cut searches for an
 y hits above -200 m in de-tec-tor Z-coordinate
  []
@@ -811,7 +811,7 @@ File: L4_LES_SPE6ZenithDist.png Graphic file (type png)
 File: L4_LES_CRTDCFilterHits.png Graphic file (type png)
 
 <use L4_LES_CRTDCFilterHits.png>
-Overfull \hbox (2.05183pt too wide) in paragraph at lines 1548--1549
+Overfull \hbox (2.05183pt too wide) in paragraph at lines 1550--1551
 []\OT1/cmr/bx/n/10.95 Space-Angle be-tween Lin-e-Fit and SPE6 Fit \OT1/cmr/m/n/
 10.95 - This cut is pretty self-explanatory.
  []
@@ -1005,7 +1005,7 @@ cmsy6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/
 fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti
 12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb></usr/share/texmf/fo
 nts/type1/bluesky/ams/msam10.pfb>
-Output written on jdthesis.pdf (172 pages, 19647164 bytes).
+Output written on jdthesis.pdf (172 pages, 20088377 bytes).
 PDF statistics:
  885 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
