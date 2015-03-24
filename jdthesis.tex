@@ -19,16 +19,17 @@
 \title{Search for Neutrino Transients Using IceCube and DeepCore}
 \author{Jacob D. Daughhetee}
 \principaladviser{Dr. Ignacio Taboada}
-\committeechair{Professor Pablo Laguna}
-\firstreader{Professor Nepomuk Otte}[School of Physics][Georgia Institute of Technology]
-\secondreader{Professor Sven Simon\\(Earth and Atmospheric Science)}
-\thirdreader{Professor John Wise}
+\committeechair{Dr. Pablo Laguna}
+\firstreader{Dr. A. Nepomuk Otte}
+\secondreader{Dr. Sven Simon}[School of Earth and Atmospheric Science]
+\thirdreader{Dr. John Wise}
 %%\fourthreader{Professor }
 \department{School of Physics}
 \degree{Doctor of Philosophy}
 \copyrighttrue
 \copyrightyear{2015}
 \submitdate{May 2015}
+\approveddate{March 5, 2015}
 \bibfiles{jdthesis}
 %% The following are the defaults
 %%    \titlepagetrue
@@ -62,8 +63,6 @@ To all the unknown fluxes lurking below the limits
 	Previous IceCube searches for astrophysical sources are primarily sensitive above a few hundred GeV with a focus on muon neutrino events having $\geq$1 TeV in energy. The Super Kamiokande experiment, the largest GeV scale neutrino detector, has also engaged in searches for astrophysical neutrinos, however these searches are generally limited to neutrino events at or below 10 GeV due to its size. Thus, the analysis presented in this document represents a first attempt at a search for short transient neutrino emission from astrophysical sources in the 30-300 GeV energy range. This is done through examination of an entirely new event sample focused on sub-TeV muon neutrino events obtained via selection criteria chosen to maximize sensitivity to soft-spectra transients. A likelihood analysis technique is applied to a final sample consisting of 22,040 events acquired between the dates of May 15th, 2012 and April, 30th 2013 to search for any temporal and spatial clustering indicative of a transient astrophysical neutrino source. A scan over the northern sky ($5^{\circ} < \delta < 90^{\circ}$) found a hottest spot at a right ascension of 268.75$^{\circ}$ and a declination of 54.25$^{\circ}$. After correcting for trials factors, the p-value of this result is found to be 56$\%$ and therefore completely consistent with a purely background dataset.
 	
 We examine what this null result implies for neutrino emission from a potential class of source object referred to as a choked gamma-ray bursts, a type of core-collapse supernovae that is capable of high-energy neutrino production in relativistic jets. The expected neutrino fluence at Earth for a wide range of jet model parameter values is calculated to determine how well the analysis result constrains the model. Ultimately, we find that the method is only sensitive to particularly energetic choices of jet parameters at distances beyond a few Mpc from Earth. However, the sensitivity of the method can be expected to improve considerably with future improvements in neutrino event reconstruction methods. If these improvements are made, the presented analysis method will begin to probe more likely values of choked GRB neutrino emission model parameters.
-
-%Like standard long-duration GRBs, choked GRB events are thought to arise from the core-collapse of massive star. Rapid accretion of stellar material onto the compact remnant produced during core-collapse may result in the formation of relativistic jets capable of accelerating charged particles to very high energies. In the standard GRB scenario, this jet will eventually breach the surrounding stellar material and give rise to a powerful gamma-ray signature. The rate of occurrence of GRBs in the nearby universe is quite low, but it may be possible that jet formation occurs in an appreciable fraction of core-collapse supernovae. If the jets are insufficiently energetic, then they will fail to breakout of the stellar envelope and lack any gamma ray signature.
 
 Although we present the results of this analysis in terms of its implications for a specific choked GRB neutrino emission model, there are many other possible ways in which this newly developed event sample could be explored. This includes the comparison of the data to known source lists whether those sources be gamma-ray bursts, active galactic nuclei, or supernovae. In particular, certain models of sub-photospheric neutrino emission from GRBs predict a flux of neutrinos precisely in the energy range of interest for this new event selection. This model could also be tested with a few modifications to the existing analysis method. Application of this sample to searches targeting other possible sources will allow for the confirmation or refutation of predicted transient neutrino emission.
 
@@ -135,13 +134,13 @@ Unlike CC interactions, only the energy imparted to the target nucleus will be o
 
 How deeply these interactions probe the internal structure of the target nucleon is ultimately dependent on energy of the incoming neutrino. For neutrinos below 20 GeV in energy, the exact manner in which the neutrino interacts with the target nucleon can be quite complicated as there are three possible scattering interaction modes. These modes include quasi-elastic scattering, resonance production, and deep inelastic scattering \cite{2012RvMP...84.1307F}. Nearly all interaction products from neutrino events detected by IceCube are the result of deep inelastic scattering. However, other modes of interaction can be much more prevalent in a DeepCore sample as the energy threshold for detection in DeepCore extends down to approximately 10 GeV. Figure \ref{fig:neutrino_scattering} shows the relative size of the cross-section for each of the aforementioned processes as a function of neutrino energy. The higher number of possible end states provided by quasi-elastic and resonance scattering make simulation and proper estimation of the cross-section for neutrino events in 1-20 GeV energy range a fairly complex ordeal. Quasi-elastic scattering and resonance production will only be briefly described as very few of the neutrino events present in the final event sample of the presented analysis interacted through either of these means.
 
-\begin{wrapfigure}{l}{0.5\textwidth}
+\begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=0.48\textwidth,keepaspectratio]{neutrino_nucelon_crosssections.png}
+    \includegraphics[width=0.5\textwidth,keepaspectratio]{neutrino_nucelon_crosssections.png}
   \end{center}
   \caption[Neutrino-nucleon Cross-section by Energy]{Total inclusive cross-section is plotted above as a function of energy along with individual cross-sections for different interaction channels. Above a few tens of GeV, it is clear that deep inelastic scattering begins to dominate \cite{2012RvMP...84.1307F}.}
   \label{fig:neutrino_scattering}
-\end{wrapfigure}
+\end{figure}
 
 In the elastic (NC) or quasi-elastic (CC) scenario, an incoming neutrino will scatter off of the whole composite nucleon imparting some of its energy to the target. This is usually sufficient to eject the target nucleon and in some cases additional nucleons from the nucleus. The CC scattering is referred to as quasi-elastic due to the fact that it requires the conversion of the target proton(neutron) into a neutron(proton) to ensure charge conservation. This type of scattering does not probe the internal constituents of the nucleus (quarks and gluons collectively referred to as partons). The absolute cross-section, however, will depend heavily on nuclear properties of the target atom. Examination of Figure \ref{fig:neutrino_scattering} shows that even in a DeepCore dominated event sample this process will very rarely occur given the threshold for neutrino detection is approximately 10 GeV.
 
@@ -167,24 +166,15 @@ The most important neutrino-matter interaction for IceCube is deep inelastic sca
 
 Like the scattering modes mentioned earlier, deep inelastic scattering can occur through either a CC or NC channel. The hadronic shower will occur regardless of the interaction channel, while an end-state lepton will only be present in the CC scenario. Neutrino experiments can infer the properties of the interacting neutrino through examination of the end state products. The three possible leptons (e$^-$, $\mu$, $\tau$) produced in CC interactions each exhibit different behavior as they interact in the detection medium allowing for flavor identification of the original neutrino. In the case of NC scattering, however, only the hadronic cascade is observable by the experiment. This not only prevents flavor identification of the neutrino, but it also makes estimation of the neutrino energy very difficult as some fraction of the total energy is carried away by an outgoing neutrino.
 
-\begin{figure}[ht]
+\begin{figure}
 \centering
-\begin{minipage}[b]{0.45\linewidth}
-\includegraphics[width=0.95\textwidth]{DIS_CS_Neutrino.png}
-\caption[Neutrino Deep Inelastic Scattering Cross-section]{Charged current (thin), neutral current (dashed), and total inclusive (solid) deep inelastic scattering cross-section as a function of neutrino energy \cite{Gandhi:1998ri}.}
-\label{fig:NeutrinoDIS_CS}
-\end{minipage}
-\quad
-\begin{minipage}[b]{0.45\linewidth}
-
-\includegraphics[width=1.0\textwidth]{DIS_CS_AntiNeutrino.png}
-
-\caption[Anti-neutrino Deep Inelastic Scattering Cross-section]{Charged current (thin), neutral current (dashed), and total inclusive (solid) deep inelastic scattering cross-section as a function of anti-neutrino energy \cite{Gandhi:1998ri}.}
-\label{fig:AntiNeutrinoDIS_CS}
-\end{minipage}
+\subfigure[Neutrino DIS Cross-Section]{\label{fig:NeutrinoDIS_CS}\includegraphics[width=67mm]{DIS_CS_Neutrino.png}}
+\subfigure[Anti-Neutrino DIS Cross-Section]{\label{fig:AntiNeutrinoDIS_CS}\includegraphics[width=70mm]{DIS_CS_AntiNeutrino.png}}
+\caption[(Anti-)Neutrino Deep Inelastic Scattering Cross-Section]{Charged current (thin), neutral current (dashed), and total inclusive (solid) deep inelastic scattering cross-section as a function of neutrino (a) and anti-neutrino (b) energy \cite{Gandhi:1998ri}}
+\label{fig:NeutrinoDIS_CrossSection}
 \end{figure}
 
-The cross-section for deep inelastic scattering increases with increasing neutrino energy as Figures \ref{fig:NeutrinoDIS_CS} and \ref{fig:AntiNeutrinoDIS_CS} show. While this increasing cross-section is generally favorable for detection purposes due to higher probability to interact in neutrino telescopes, a larger interaction cross-section at higher energies also leads to absorption of neutrinos within the Earth. Absorption is fairly infrequent for neutrinos below 10 TeV, but it becomes increasingly relevant for astrophysical neutrinos at the PeV or EeV scale \cite{2013arXiv1304.4891K}.
+The cross-section for deep inelastic scattering increases with increasing neutrino energy as Figure \ref{fig:NeutrinoDIS_CrossSection} shows. While this increasing cross-section is generally favorable for detection purposes due to higher probability to interact in neutrino telescopes, a larger interaction cross-section at higher energies also leads to absorption of neutrinos within the Earth. Absorption is fairly infrequent for neutrinos below 10 TeV, but it becomes increasingly relevant for astrophysical neutrinos at the PeV or EeV scale \cite{2013arXiv1304.4891K}.
 
 \subsection{Propagation of Interaction Products}
 The products leftover from high-energy neutrino-nucleon interactions are generally very energetic as well. These particles will subsequently undergo many forms of energy loss and possibly decay as they travel through a detection medium. In a given interaction, the total light yield and its spatial extent are contingent on the products of the interaction. The products themselves are ultimately determined by both the flavor of the primary neutrino and whether the neutrino interaction was of the charged- or neutral-current variety. This section will detail the important energy loss mechanisms for interaction products and how these losses produce an observable signal in the IceCube detector. There are many modes of interaction for charged particles in materials, some of which are highly energy dependent and stochastic in nature. Because IceCube was designed specifically to detect and track high energy muons, the description of energy loss mechanisms will primarily focus on how these mechanisms pertain to muons. The same interactions will occur for other charged particles produced in neutrino interactions, however, these particles fail under normal circumstances to produce tracks long enough to be resolved by IceCube.
@@ -460,13 +450,14 @@ Although it is possible for AGN to serve as steady sources of high-energy neutri
 \section{Core-Collapse Supernovae}
 The lifespan and manner of death for a star is primarily determined by its mass. Sufficiently massive stars will often end violently in the form of a supernova. The interiors of stars formed with masses greater than 8 $M_{\odot}$ will form dense cores consisting of nuclei with high atomic number such as O,Ne,Mg, and even Fe \cite{2003astro.ph..1006H}. The cessation of nuclear fusion in these dense cores will render them unstable and eventually gravitational collapse will occur. This collapse will drive neutronization of protons ($p+e^{-} \rightarrow n + \nu_e$) in the core releasing a tremendous amount of energy (E$\sim 10^{53}$ erg) in form of a neutrino wind. The specific details of the physical process driving the supernova explosion are not fully known, but current models assume that the neutrino wind deposits some fraction of its energy into the surrounding stellar material creating a powerful shockwave \cite{2003astro.ph..1006H}. The initial mass of the star will determine if the core will collapse into a neutron star or directly into a black hole.
 
-\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=0.48\textwidth,keepaspectratio]{NearbySNCatalogue.png}
+    \includegraphics[width=0.5\textwidth,keepaspectratio]{NearbySNCatalogue.png}
   \end{center}
   \caption[Local SNe within 10 Mpc]{Observed SNe within 10 Mpc in the years 1999-2008 \cite{2011PhRvD..83l3008K}}
   \label{fig:local_ccsne}
-\end{wrapfigure}
+\end{figure}
+
 The detection of several neutrino events in temporal coincidence with supernova 1987A marked the first detection of an extra-solar neutrino source. Neutrino events were observed in three separate detectors a few hours prior to the optical observation \cite{1987PhRvL..58.1490H}, \cite{1987PhRvL..58.1494B}. Such an observation was possible due to the close proximity of the progenitor which was located within the Large Magellanic Cloud ($\sim$50 kpc from Earth). Detection of these events confirmed the theoretical prediction of an enormous liberation of energy in the form of neutrino emission during the collapse of the core of a massive star.
 
 While the neutrino fluence produced during core-collapse of a massive star is quite large, the typical energy of these neutrinos is simply too low to be seen by the IceCube detector. However, an independent data acquisition system in IceCube does monitor for possible core-collapse SNe by looking for simultaneous rate increase in all IceCube DOMs indicative of the arrival of a soft neutrino flux. Our presented analysis method is in no way equipped to detect the neutrino flux produced during core-collapse. However, certain neutrino source classes for which this analysis may be sensitive are likely special cases of the core-collapse scenario, so it is therefore important to understand the rate at which these stellar explosions occur in the universe. 
@@ -687,23 +678,13 @@ Maintaining smooth and efficient data acquisition for a detector consisting of s
 \section{The Digital Optical Module}
 The essential component of the IceCube detector is the DOM. Each of these sensor units contains a Hamamatsu R7081-02 25 cm photo-multiplier tube (PMT), attached digitizing electronics, and LED flashers all housed within a glass pressure vessel \cite{2006NIMPA.567..214H}. A penetrator cable breaches the pressure vessel to connect the DOM electronics to the supporting string cable enabling DOM-to-DOM as well as DOM-to-surface communications. Figure \ref{fig:domscheme} provides an illustration of the DOM structure and its constituent components while Figure \ref{fig:dompic} gives a picture of a fully assembled DOM in its harness with breakout cable. Absolute quantum-efficiency measurements were made for all DOMs prior to deployment in the ice. In order to estimate how the efficiency might change after the water column in which the DOMs were deployed freezes, studies on the efficiency of DOMs at typical in-ice temperatures were performed in labs at IceCube member institutions. The inclusion of LED flashers at UV wavelength allows the DOM to simulate Cherenkov signals for the purpose of calibrating neighboring DOMs. These LEDs are also used to perform studies on the bulk ice properties near the DOM as well as the optical properties of the ice in the re-frozen water column in which the DOM is located.
 
-\begin{figure}[ht]
+\begin{figure}
 \centering
-\begin{minipage}[b]{0.45\linewidth}
-\includegraphics[width=0.95\textwidth]{DomSchematic.png}
-\caption[DOM Schematic]{Schematic detailing DOM structure \cite{2009NIMPA.601..294A}.}
-\label{fig:domscheme}
-\end{minipage}
-\quad
-\begin{minipage}[b]{0.45\linewidth}
-\begin{center}
-\includegraphics[width=0.75\textwidth]{LabDOM.pdf}
-\end{center}
-\caption[Assembled DOM Photo]{A fully assembled DOM supported by a cable harness.}
-\label{fig:dompic}
-\end{minipage}
+\subfigure[DOM Schematic]{\label{fig:domscheme}\includegraphics[width=70mm]{DomSchematic.png}}
+\subfigure[Assembled DOM Photo]{\label{fig:dompic}\includegraphics[width=60mm]{LabDOM.pdf}}
+\caption[DOM Schematic and Photo]{(a) Schematic detailing DOM structure \cite{2009NIMPA.601..294A}. (b) A fully assembled DOM supported by a cable harness.} 
+\label{fig:DomPics}
 \end{figure}
-
 The operational lifetime of IceCube is tied directly to the survival of the DOMs in the ice. The inability to access these modules necessitated a design with a high probability of survival under intense pressures and cold operating temperatures. The design has so far proven to be quite robust; the DOM survival rate since first installation until the 2013-2014 season is an impressive 98\%. The majority of DOM failures occurred during the freeze-in period of their deployment where the pressures acting on the glass vessel are strongest \cite{2009NIMPA.601..294A}. These failures are likely the result of stress on the breakout cable and its connection. Very few DOMs have suffered from failure of main board electronics components meaning any DOMs that survive through freeze-in will likely have a long lifetime.
 
 \section{Hit Generation}
@@ -1655,8 +1636,8 @@ The plotted distributions are also separated by whether they belong to the high-
 \end{figure}
 
 \begin{postliminary}
-
-\bibliography{jdthesis}{}
+\references
+%\bibliography{jdthesis}{}
 
 \begin{vita}
 Jacob Daughhetee was born in Augusta, GA in 1987, but he spent the entirety of his grade school years in Birmingham, AL. Jacob attended Auburn University as an undergrad where he received a Bachelor of Arts in Philosophy in addition to a Bachelor of Science in Physics. During his time at Auburn, Jacob participated in active research in the field of atomic and molecular optics. After graduating from Auburn University, Jacob enrolled in graduate school at the Georgia Institute of Technology where he would begin his study of particle astrophysics.

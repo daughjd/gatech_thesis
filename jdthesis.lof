@@ -1,131 +1,133 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Neutrino-nucleon Cross-section by Energy}}{7}
 \contentsline {figure}{\numberline {2}{\ignorespaces Deep Inelastic Scattering Feynman Diagram}}{9}
-\contentsline {figure}{\numberline {3}{\ignorespaces Neutrino Deep Inelastic Scattering Cross-section}}{10}
-\contentsline {figure}{\numberline {4}{\ignorespaces Anti-neutrino Deep Inelastic Scattering Cross-section}}{10}
-\contentsline {figure}{\numberline {5}{\ignorespaces Muon Stopping Power}}{13}
-\contentsline {figure}{\numberline {6}{\ignorespaces Diagram of Cherenkov Light Cone}}{14}
-\contentsline {figure}{\numberline {7}{\ignorespaces Flavor Flux Evolution over Astronomical Baselines}}{18}
-\contentsline {figure}{\numberline {8}{\ignorespaces Cosmic Ray Spectrum}}{21}
-\contentsline {figure}{\numberline {9}{\ignorespaces Cosmic Ray Interaction Diagram}}{22}
-\contentsline {figure}{\numberline {10}{\ignorespaces Atmospheric Neutrino Spectrum}}{23}
-\contentsline {figure}{\numberline {11}{\ignorespaces Fermi-acceleration Diagram}}{25}
-\contentsline {figure}{\numberline {12}{\ignorespaces Local SNe within 10 Mpc}}{32}
-\contentsline {figure}{\numberline {13}{\ignorespaces GRB Neutrino Fluence under Sub-photospheric Model}}{36}
-\contentsline {figure}{\numberline {14}{\ignorespaces Choked GRB Jet Diagram}}{37}
-\contentsline {figure}{\numberline {15}{\ignorespaces Choked GRB Flux at Earth by Pion and Kaon Contribution}}{41}
-\contentsline {figure}{\numberline {16}{\ignorespaces Choked GRB Flux at Earth for different bulk Lorentz factor $\Gamma _b$}}{42}
-\contentsline {figure}{\numberline {17}{\ignorespaces IceCube-22 Limits on SN2008D}}{43}
-\contentsline {figure}{\numberline {18}{\ignorespaces IceCube Diagram}}{45}
-\contentsline {figure}{\numberline {19}{\ignorespaces Borehole Dust Concentration Measurements}}{47}
-\contentsline {figure}{\numberline {20}{\ignorespaces DeepCore Schematic}}{50}
-\contentsline {figure}{\numberline {21}{\ignorespaces Sample Cascade Event}}{51}
-\contentsline {figure}{\numberline {22}{\ignorespaces Sample Track Event}}{52}
-\contentsline {figure}{\numberline {23}{\ignorespaces DOM Schematic}}{54}
-\contentsline {figure}{\numberline {24}{\ignorespaces Assembled DOM Photo}}{54}
-\contentsline {figure}{\numberline {25}{\ignorespaces IceCube Laboratory Photo}}{56}
-\contentsline {figure}{\numberline {26}{\ignorespaces DeepCore Veto Algorithm}}{62}
-\contentsline {figure}{\numberline {27}{\ignorespaces Fiducial Volume Definitions}}{63}
-\contentsline {figure}{\numberline {28}{\ignorespaces L3 MicroHits and MicroCharge Distributions}}{65}
+\contentsline {figure}{\numberline {3}{\ignorespaces (Anti-)Neutrino Deep Inelastic Scattering Cross-Section}}{10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Neutrino DIS Cross-Section}}}{10}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Anti-Neutrino DIS Cross-Section}}}{10}
+\contentsline {figure}{\numberline {4}{\ignorespaces Muon Stopping Power}}{13}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagram of Cherenkov Light Cone}}{14}
+\contentsline {figure}{\numberline {6}{\ignorespaces Flavor Flux Evolution over Astronomical Baselines}}{18}
+\contentsline {figure}{\numberline {7}{\ignorespaces Cosmic Ray Spectrum}}{21}
+\contentsline {figure}{\numberline {8}{\ignorespaces Cosmic Ray Interaction Diagram}}{22}
+\contentsline {figure}{\numberline {9}{\ignorespaces Atmospheric Neutrino Spectrum}}{23}
+\contentsline {figure}{\numberline {10}{\ignorespaces Fermi-acceleration Diagram}}{25}
+\contentsline {figure}{\numberline {11}{\ignorespaces Local SNe within 10 Mpc}}{32}
+\contentsline {figure}{\numberline {12}{\ignorespaces GRB Neutrino Fluence under Sub-photospheric Model}}{36}
+\contentsline {figure}{\numberline {13}{\ignorespaces Choked GRB Jet Diagram}}{37}
+\contentsline {figure}{\numberline {14}{\ignorespaces Choked GRB Flux at Earth by Pion and Kaon Contribution}}{41}
+\contentsline {figure}{\numberline {15}{\ignorespaces Choked GRB Flux at Earth for different bulk Lorentz factor $\Gamma _b$}}{42}
+\contentsline {figure}{\numberline {16}{\ignorespaces IceCube-22 Limits on SN2008D}}{43}
+\contentsline {figure}{\numberline {17}{\ignorespaces IceCube Diagram}}{45}
+\contentsline {figure}{\numberline {18}{\ignorespaces Borehole Dust Concentration Measurements}}{47}
+\contentsline {figure}{\numberline {19}{\ignorespaces DeepCore Schematic}}{50}
+\contentsline {figure}{\numberline {20}{\ignorespaces Sample Cascade Event}}{51}
+\contentsline {figure}{\numberline {21}{\ignorespaces Sample Track Event}}{52}
+\contentsline {figure}{\numberline {22}{\ignorespaces DOM Schematic and Photo}}{54}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DOM Schematic}}}{54}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Assembled DOM Photo}}}{54}
+\contentsline {figure}{\numberline {23}{\ignorespaces IceCube Laboratory Photo}}{56}
+\contentsline {figure}{\numberline {24}{\ignorespaces DeepCore Veto Algorithm}}{62}
+\contentsline {figure}{\numberline {25}{\ignorespaces Fiducial Volume Definitions}}{63}
+\contentsline {figure}{\numberline {26}{\ignorespaces L3 MicroHits and MicroCharge Distributions}}{65}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DOM Hits from MicroHits Cut}}}{65}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PMT Charge from MicroHits Cut}}}{65}
-\contentsline {figure}{\numberline {29}{\ignorespaces L4 SPE6 Zenith Reconstruction}}{68}
+\contentsline {figure}{\numberline {27}{\ignorespaces L4 SPE6 Zenith Reconstruction}}{68}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstructed Zenith for LES Events}}}{68}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstructed Zenith for HES Events}}}{68}
-\contentsline {figure}{\numberline {30}{\ignorespaces L5 SPE2 Early Removed Zenith Reconstruction}}{70}
+\contentsline {figure}{\numberline {28}{\ignorespaces L5 SPE2 Early Removed Zenith Reconstruction}}{70}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LES SPE2 Zenith Distribution with Early Hits Removed}}}{70}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HES SPE2 Zenith Distribution with Early Hits Removed}}}{70}
-\contentsline {figure}{\numberline {31}{\ignorespaces L6 BDT Score Distribution}}{74}
+\contentsline {figure}{\numberline {29}{\ignorespaces L6 BDT Score Distribution}}{74}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LES L6 BDT Score Distribution}}}{74}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HES L6 BDT Score Distribution}}}{74}
-\contentsline {figure}{\numberline {32}{\ignorespaces Signal over Background PDF ratio by Event Resolution and Angular Error}}{76}
-\contentsline {figure}{\numberline {33}{\ignorespaces Reconstruction Chain}}{78}
-\contentsline {figure}{\numberline {34}{\ignorespaces Final Level Event Resolution}}{80}
+\contentsline {figure}{\numberline {30}{\ignorespaces Signal over Background PDF ratio by Event Resolution and Angular Error}}{75}
+\contentsline {figure}{\numberline {31}{\ignorespaces Reconstruction Chain}}{78}
+\contentsline {figure}{\numberline {32}{\ignorespaces Final Level Event Resolution}}{80}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Neutrino Resolution by Energy}}}{80}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Neutrino Resolution by Number of DOMs}}}{80}
-\contentsline {figure}{\numberline {35}{\ignorespaces Final Level Reconstructed Event Display}}{81}
-\contentsline {figure}{\numberline {36}{\ignorespaces Reconstruction Track Coordinate System and Paraboloid Sigma Definition}}{82}
+\contentsline {figure}{\numberline {33}{\ignorespaces Final Level Reconstructed Event Display}}{81}
+\contentsline {figure}{\numberline {34}{\ignorespaces Reconstruction Track Coordinate System and Paraboloid Sigma Definition}}{82}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstruction Track Coordinate System}}}{82}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Paraboloid Sigma Definitions}}}{82}
-\contentsline {figure}{\numberline {37}{\ignorespaces Paraboloid Pull Distributions}}{83}
+\contentsline {figure}{\numberline {35}{\ignorespaces Paraboloid Pull Distributions}}{83}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LES Paraboloid Pull}}}{83}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HES Paraboloid Pull}}}{83}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {LES Corrected Paraboloid Pull}}}{83}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {HES Corrected Paraboloid Pull}}}{83}
-\contentsline {figure}{\numberline {38}{\ignorespaces Event PSF Modeling}}{84}
-\contentsline {figure}{\numberline {39}{\ignorespaces Final Level Neutrino Effective Area}}{86}
+\contentsline {figure}{\numberline {36}{\ignorespaces Event PSF Modeling}}{84}
+\contentsline {figure}{\numberline {37}{\ignorespaces Final Level Neutrino Effective Area}}{86}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Analysis Effective Area NUGEN + GENIE}}}{86}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Analysis Effective Area with just GENIE}}}{86}
-\contentsline {figure}{\numberline {40}{\ignorespaces Final Level Event Display}}{87}
-\contentsline {figure}{\numberline {41}{\ignorespaces Ice Systematic Effective Area Comparison}}{90}
-\contentsline {figure}{\numberline {42}{\ignorespaces DOM Efficiency Systematic Effective Area Comparison}}{92}
-\contentsline {figure}{\numberline {43}{\ignorespaces DOM Efficiency Systematic Effective Area Ratio}}{93}
-\contentsline {figure}{\numberline {44}{\ignorespaces Final Level Neutrino Effective Area with Systematic Error Adjustment}}{93}
-\contentsline {figure}{\numberline {45}{\ignorespaces Background Zenith and Azimuth Distributions}}{97}
+\contentsline {figure}{\numberline {38}{\ignorespaces Final Level Event Display}}{87}
+\contentsline {figure}{\numberline {39}{\ignorespaces Ice Systematic Effective Area Comparison}}{90}
+\contentsline {figure}{\numberline {40}{\ignorespaces DOM Efficiency Systematic Effective Area Comparison}}{92}
+\contentsline {figure}{\numberline {41}{\ignorespaces DOM Efficiency Systematic Effective Area Ratio}}{93}
+\contentsline {figure}{\numberline {42}{\ignorespaces Final Level Neutrino Effective Area with Systematic Error Adjustment}}{93}
+\contentsline {figure}{\numberline {43}{\ignorespaces Background Zenith and Azimuth Distributions}}{97}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Final Level Event Azimuth Distribution}}}{97}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Final Level Event Zenith Distribution}}}{97}
-\contentsline {figure}{\numberline {46}{\ignorespaces Sky Map of Results from a Background Scrambled Trial}}{101}
-\contentsline {figure}{\numberline {47}{\ignorespaces Background Test Statistic Distribution}}{102}
-\contentsline {figure}{\numberline {48}{\ignorespaces Background Trial Flare Parameters}}{103}
+\contentsline {figure}{\numberline {44}{\ignorespaces Sky Map of Results from a Background Scrambled Trial}}{101}
+\contentsline {figure}{\numberline {45}{\ignorespaces Background Test Statistic Distribution}}{102}
+\contentsline {figure}{\numberline {46}{\ignorespaces Background Trial Flare Parameters}}{103}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Right Ascension}}}{103}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Declination}}}{103}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Signal Strength $n_s$}}}{103}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Flare Width $\sigma _w$}}}{103}
-\contentsline {figure}{\numberline {49}{\ignorespaces Analysis Event Sensitivity}}{104}
-\contentsline {figure}{\numberline {50}{\ignorespaces Results Sky Map}}{107}
-\contentsline {figure}{\numberline {51}{\ignorespaces Time of Arrival for Most Signal-like Events}}{108}
-\contentsline {figure}{\numberline {52}{\ignorespaces Test Statistic Distribution With Result}}{109}
-\contentsline {figure}{\numberline {53}{\ignorespaces Generic Neutrino Spectrum Limits}}{110}
+\contentsline {figure}{\numberline {47}{\ignorespaces Analysis Event Sensitivity}}{104}
+\contentsline {figure}{\numberline {48}{\ignorespaces Results Sky Map}}{107}
+\contentsline {figure}{\numberline {49}{\ignorespaces Time of Arrival for Most Signal-like Events}}{108}
+\contentsline {figure}{\numberline {50}{\ignorespaces Test Statistic Distribution With Result}}{109}
+\contentsline {figure}{\numberline {51}{\ignorespaces Generic Neutrino Spectrum Limits}}{110}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Event Upper Limit for E$^{-3}$ Spectrum}}}{110}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Time-Integrated Flux Upper Limit for E$^{-3}$ Spectrum}}}{110}
-\contentsline {figure}{\numberline {54}{\ignorespaces Choked GRB Parameter Dependent Upper Limit}}{113}
-\contentsline {figure}{\numberline {55}{\ignorespaces Choked GRB Visibility Distance}}{115}
-\contentsline {figure}{\numberline {56}{\ignorespaces Background Test Statistic Check}}{118}
-\contentsline {figure}{\numberline {57}{\ignorespaces Choked GRB Volumetric Rate Limit}}{119}
-\contentsline {figure}{\numberline {58}{\ignorespaces L3 LES Cut Distributions}}{127}
+\contentsline {figure}{\numberline {52}{\ignorespaces Choked GRB Parameter Dependent Upper Limit}}{113}
+\contentsline {figure}{\numberline {53}{\ignorespaces Choked GRB Visibility Distance}}{115}
+\contentsline {figure}{\numberline {54}{\ignorespaces Background Test Statistic Check}}{118}
+\contentsline {figure}{\numberline {55}{\ignorespaces Choked GRB Volumetric Rate Limit}}{119}
+\contentsline {figure}{\numberline {56}{\ignorespaces L3 LES Cut Distributions}}{127}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Causal Veto PE}}}{127}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {NAbove200 PE}}}{127}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Vertex Z}}}{127}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {C2QR6}}}{127}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {RTVeto250 PE}}}{127}
-\contentsline {figure}{\numberline {59}{\ignorespaces L3 HES Cut Distributions}}{128}
+\contentsline {figure}{\numberline {57}{\ignorespaces L3 HES Cut Distributions}}{128}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Causal Veto PE}}}{128}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {NAbove200 PE}}}{128}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Vertex Z}}}{128}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {RTVeto250 PE}}}{128}
-\contentsline {figure}{\numberline {60}{\ignorespaces L4 LES Cut Distributions}}{131}
+\contentsline {figure}{\numberline {58}{\ignorespaces L4 LES Cut Distributions}}{131}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {NChannel}}}{131}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {NVetoEarly SRT}}}{131}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {LineFit Zenith Distribution}}}{131}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {SPE6 Zenith Distribution}}}{131}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {CRT DeepCore Filter Hits}}}{131}
-\contentsline {figure}{\numberline {61}{\ignorespaces L4 HES Cut Distributions}}{132}
+\contentsline {figure}{\numberline {59}{\ignorespaces L4 HES Cut Distributions}}{132}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {NChannel}}}{132}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {NVetoEarly SRT}}}{132}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {LineFit Zenith Distribution}}}{132}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {SPE6 Zenith Distribution}}}{132}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Space Angle between LineFit-SPE6}}}{132}
-\contentsline {figure}{\numberline {62}{\ignorespaces L5 TightSPE6 Reconstruction Zenith Distribution}}{133}
-\contentsline {figure}{\numberline {63}{\ignorespaces L6 LES BDT Selection Variables}}{135}
+\contentsline {figure}{\numberline {60}{\ignorespaces L5 TightSPE6 Reconstruction Zenith Distribution}}{133}
+\contentsline {figure}{\numberline {61}{\ignorespaces L6 LES BDT Selection Variables}}{135}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstructed Event Vertex Z}}}{135}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstructed Event Vertex R}}}{135}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Downgoing Veto Track Charge}}}{135}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Direct Hits D}}}{135}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {SplineMPE16 Reduced LogLikelihood}}}{135}
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Avg DOM-Weighted Track Distance}}}{135}
-\contentsline {figure}{\numberline {64}{\ignorespaces L6 HES BDT Selection Variables}}{136}
+\contentsline {figure}{\numberline {62}{\ignorespaces L6 HES BDT Selection Variables}}{136}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Direct Length D}}}{136}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Direct Hits D}}}{136}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {SplineMPE16 Reduced LogLikelihood}}}{136}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Avg DOM-Weighted Track Distance}}}{136}
-\contentsline {figure}{\numberline {65}{\ignorespaces Final Level NChannel-Energy Relation}}{138}
+\contentsline {figure}{\numberline {63}{\ignorespaces Final Level NChannel-Energy Relation}}{138}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {LES Nch-Energy Relation}}}{138}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HES Nch-Energy Relation}}}{138}
-\contentsline {figure}{\numberline {66}{\ignorespaces Final Level LES Event Distributions}}{139}
+\contentsline {figure}{\numberline {64}{\ignorespaces Final Level LES Event Distributions}}{139}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstructed Event Azimuth}}}{139}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstructed Event Zenith}}}{139}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Reconstruction Reduced Log-likelihood}}}{139}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Reconstructed Event Vertex Detector Z-position}}}{139}
-\contentsline {figure}{\numberline {67}{\ignorespaces Final Level HES Event Distributions}}{140}
+\contentsline {figure}{\numberline {65}{\ignorespaces Final Level HES Event Distributions}}{140}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reconstructed Event Azimuth}}}{140}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reconstructed Event Zenith}}}{140}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Reconstruction Reduced Log-likelihood}}}{140}

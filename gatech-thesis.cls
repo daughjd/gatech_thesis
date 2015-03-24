@@ -1,10 +1,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%
-%% GATECH-THESIS.CLS (v1.6)
+%% GATECH-THESIS.CLS (v1.7)
 %% Copyright (c) 2002 by Charles S. Wilson. All rights reserved.
 %% See licensing information, below.
 %%
-%% Last Update: V1.6 (Apr 14, 2003) by Charles S. Wilson
+%% Last Update: V1.8 (2 July 2010) by Mitchel T. Keller
 %%
 %% Heritage:
 %%   UT-THESIS.CLS (v1.8) 
@@ -22,8 +22,8 @@
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\gtthesisversion}{1.6}% current version number
-\newcommand{\gtthesisupdated}{2003/04/14}% date of last change(s)
+\newcommand{\gtthesisversion}{1.8}% current version number
+\newcommand{\gtthesisupdated}{2010/07/02}% date of last change(s)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%
@@ -52,6 +52,19 @@
 %%
 %%  REVISION HISTORY:
 %%
+%%  v1.8: 2010-Jul-02 Mitchel T. Keller
+%%      * Change font used in Table of Contents for volumes (parts).
+%%      * Add support for abstract page meeting UMI requirements.
+%%      * Fix bug that prevented hyperref and overpic packages from
+%%        working together properly.
+%%  v1.7: 2006-Jan-24  Mitchel T. Keller
+%%      * Remove double spacing of thesis title as per July 2005
+%%        manual.
+%%      * Reduce font size of thesis title, chapter titles, author,
+%%        and volume titles.
+%%      * Update approval page to comply with electronic submission
+%%        requirements (no signature line, all committee members'
+%%        affiliations listed, approval date printed on page).
 %%  v1.6: 2003-Apr-14  Charles S. Wilson
 %%      * caption labels: OGS requires (e.g.) 'Figure 2:' to be in
 %%        same font as rest of caption (bold ok, changing font not ok)
@@ -328,6 +341,8 @@
 %%   * \dept{...}:          compatibility synonym
 %%     Specify the name of the graduate department.
 %%
+%%   * \major{...}:  (preamble only; REQUIRED if \listmajortrue is set)
+%%
 %%   * \degree{...}:  (preamble only; REQUIRED)
 %%     Specify the name of the degree (e.g., "Doctor of Philosophy").
 %%  
@@ -349,6 +364,8 @@
 %%
 %%   * \submitdate{month year in which submitted}
 %%     date is LaTeX'd if not specified
+%%   * \approveddate{month, day, and year on which the last committee
+%%      member signs the thesis form} (preamble only; REQUIRED)
 %%
 %%   * \titlepagetrue or \titlepagefalse
 %%     - produce or don't produce a title page (TRUE by default)
@@ -402,6 +419,17 @@
 %%       to you to place the ``part{}'' commands in the appropriate
 %%       locations for volume 2, volume 3, etc.
 %% 
+%%   * \listmajortrue or \listmajorfalse
+%%     - If true, puts ``In Partial Fulfillment...[degree] in
+%%       [major]'' on the title page and then puts the department down
+%%       with Georgia Institute of Technology at the bottom of the
+%%       page. If false, puts ``In Partial Fulfillment...[degree] in
+%%       the [department]'' on the title page.
+%%
+%%   * \dissertationtrue or \dissertationfalse
+%%     - If true, uses the word ``Dissertation'' on the title page. If
+%%       false, uses ``thesis''.
+%%
 %%   * \bibfiles{...}
 %%    Set the list of bibfiles to use when generating a bibliography   
 %%  
@@ -731,8 +759,9 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{gatech-thesis}
-        [\gtthesisupdated\space\gtthesisversion\space(Charles Wilson)]%
+        [\gtthesisupdated\space\gtthesisversion\space(Mitchel T. Keller)]%
 \RequirePackage{calc}% part of LaTeX tools bundle   
+%\RequirePackage{lastpage}
 
 \def\gtthesis@checkVersion#1{\edef\reserved@a{#1}%
   \ifx \gatechthesis@version \reserved@a
@@ -874,6 +903,16 @@ openright,doublespaced,normalmargins,final}
 %% Load base class using current setting for basic options.
 %
 \LoadClass[\@thesisptsz,\@thesisside,\@thesisopen]{report}
+
+
+%% From lastpage package. Used to generate abstract.
+%% Lastpage is written by Jeff Goldberg (J.Goldberg@Cranfield.ac.uk)
+%% It is relased under the GPL (version 2)
+
+\def\lastpage@putlabel{\addtocounter{page}{-1}%
+   \immediate\write\@auxout{\string
+   \newlabel{LastPage}{{}{\thepage}{}{}{}}}%
+   \addtocounter{page}{1}}
 
 
 %%%%%%%%%%%%          MAIN  CODE          %%%%%%%%%%%%
@@ -1061,6 +1100,22 @@ openright,doublespaced,normalmargins,final}
 %
 \newif\ifthesisproposal
 \thesisproposalfalse % default to thesis, not thesis proposal
+
+%
+%% Is this a thesis or a dissertation?
+%
+\newif\ifdissertation
+\dissertationfalse % default to thesis
+
+%
+%% Do we list the major in the ``Partial Fulfillment'' block or the department?
+%
+\newif\iflistmajor
+\listmajorfalse % default to listing the department
+
+\newcommand{\major}[1]%
+   {\ifx\empty#1\empty\else\gdef\@major{#1}\fi}
+
 %
 %% \department and \dept are synonymous
 %
@@ -1078,35 +1133,159 @@ openright,doublespaced,normalmargins,final}
   {\ifx\empty#1\empty\else\gdef\@gradyear{#1}\gdef\@copyrightyear{#1}\fi}
 \newcommand{\submitdate}[1]%
   {\ifx\empty#1\empty\else\gdef\@submitdate{#1}\fi}
+\newcommand{\approveddate}[1]%
+  {\ifx\empty#1\empty\else\gdef\@approveddate{#1}\fi}
 %
 %% use \principaladviser{} or \principaladvisor{}.  Choice also
 %% sets the default spelling of ``advisor/adviser''.
 %
 \def\advis@r{Advisor} % default spelling
-\newcommand{\principaladvisor}[1]%
-  {\ifx\empty#1\empty\else\gdef\@principaladvisor{#1}\fi}
-\newcommand{\principaladviser}[1]%
-  {\ifx\empty#1\empty\else\gdef\@principaladvisor{#1}\gdef\advis@r{Adviser}\fi}
+
+% Define \principaladvisor{} to take two optional arguments after the
+% name. Thus, the usage is 
+%    \principaladvisor{Advisor Name}[Advisor Unit][Advisor Institution]
+% Advisor Unit defaults to \@department and Advisor Institution
+% defaults to Georgia Institute of Technology.
+\newcommand{\principaladvisor}[1]{%
+  \@ifnextchar[{\principaladvisor@i{#1}}{\principaladvisor@i{#1}[\@department]}%]
+}
+\def\principaladvisor@i#1[#2]{%
+  \@ifnextchar[{\principaladvisor@ii{#1}[#2]}{\principaladvisor@ii{#1}[#2][Georgia Institute of Technology]}%]
+}
+\def\principaladvisor@ii#1[#2][#3]{%
+\ifx\empty#1\empty\else\def\@advisorforabstract{#1}%
+    \rightappenditem#1\to\@principaladvisor%
+    \rightappenditem#2\to\@principaladvisor%
+    \rightappenditem#3\to\@principaladvisor%
+    \fi
+}          
+
+% Define \principaladviser{} to take two optional arguments after the
+% name. Thus, the usage is 
+%    \principaladviser{Adviser Name}[Adviser Unit][Adviser Institution]
+% Adviser Unit defaults to \@department and Adviser Institution
+% defaults to Georgia Institute of Technology.
+\newcommand{\principaladviser}[1]{%
+  \@ifnextchar[{\principaladviser@i{#1}}{\principaladviser@i{#1}[\@department]}%]
+}
+\def\principaladviser@i#1[#2]{%
+  \@ifnextchar[{\principaladviser@ii{#1}[#2]}{\principaladviser@ii{#1}[#2][Georgia Institute of Technology]}%]
+}
+\def\principaladviser@ii#1[#2][#3]{%
+\ifx\empty#1\empty\else\def\@advisorforabstract{#1}%
+    \rightappenditem#1\to\@principaladvisor%
+    \rightappenditem#2\to\@principaladvisor%
+    \rightappenditem#3\to\@principaladvisor%
+    \gdef\advis@r{Adviser}%
+    \fi
+}          
+
 %
 %% Committee Chair
 %
-\newcommand{\committeechair}[1]%
-  {\ifx\empty#1\empty\else\gdef\@committeechair{#1}\fi}
+% Define \committeechair{} to take two optional arguments after the
+% name. Thus, the usage is 
+%    \committeechair{Name}[Unit][Institution]
+% Unit defaults to \@department and Institution defaults to Georgia
+% Institute of Technology.
+\newcommand{\committeechair}[1]{%
+  \@ifnextchar[{\committeechair@i{#1}}{\committeechair@i{#1}[\@department]}%]
+}
+\def\committeechair@i#1[#2]{%
+  \@ifnextchar[{\committeechair@ii{#1}[#2]}{\committeechair@ii{#1}[#2][Georgia Institute of Technology]}%]
+}
+\def\committeechair@ii#1[#2][#3]{%
+\ifx\empty#1\empty\else\rightappenditem#1\to\@committeechair%
+    \rightappenditem#2\to\@committeechair%
+    \rightappenditem#3\to\@committeechair%
+    \fi
+}          
+
 %
 %% readers
 %
-\newcommand{\firstreader}[1]%
-  {\ifx\empty#1\empty\else\gdef\@firstreader{#1}\fi}
-\newcommand{\secondreader}[1]%
-  {\ifx\empty#1\empty\else\gdef\@secondreader{#1}\fi}
-\newcommand{\thirdreader}[1]%
-  {\ifx\empty#1\empty\else\gdef\@thirdreader{#1}\fi}
-\newcommand{\fourthreader}[1]%
-  {\ifx\empty#1\empty\else\gdef\@fourthreader{#1}\fi}
-\newcommand{\fifthreader}[1]%
-  {\ifx\empty#1\empty\else\gdef\@fifthreader{#1}\fi}
-\newcommand{\sixthreader}[1]%
-  {\ifx\empty#1\empty\else\gdef\@sixthreader{#1}\fi}
+% Define \{first|second|third|fourth|fifth|sixth}reader{} to take two
+% optional arguments after the name. Thus, the usage is 
+%    \*reader{Reader Name}[Reader Unit][Reader Institution]
+% Reader Unit defaults to \@department and Reader Institution
+% defaults to Georgia Institute of Technology.
+\newcommand{\firstreader}[1]{%
+  \@ifnextchar[{\firstreader@i{#1}}{\firstreader@i{#1}[\@department]}%]
+}
+\def\firstreader@i#1[#2]{%
+  \@ifnextchar[{\firstreader@ii{#1}[#2]}{\firstreader@ii{#1}[#2][Georgia Institute of Technology]}%]
+}
+\def\firstreader@ii#1[#2][#3]{%
+\ifx\empty#1\empty\else\rightappenditem#1\to\@firstreader%
+    \rightappenditem#2\to\@firstreader%
+    \rightappenditem#3\to\@firstreader%
+    \fi
+}          
+
+\newcommand{\secondreader}[1]{%
+  \@ifnextchar[{\secondreader@i{#1}}{\secondreader@i{#1}[\@department]}%]
+}
+\def\secondreader@i#1[#2]{%
+  \@ifnextchar[{\secondreader@ii{#1}[#2]}{\secondreader@ii{#1}[#2][Georgia Institute of Technology]}%]
+}
+\def\secondreader@ii#1[#2][#3]{%
+\ifx\empty#1\empty\else\rightappenditem#1\to\@secondreader%
+    \rightappenditem#2\to\@secondreader%
+    \rightappenditem#3\to\@secondreader%
+    \fi
+}          
+
+\newcommand{\thirdreader}[1]{%
+  \@ifnextchar[{\thirdreader@i{#1}}{\thirdreader@i{#1}[\@department]}%]
+}
+\def\thirdreader@i#1[#2]{%
+  \@ifnextchar[{\thirdreader@ii{#1}[#2]}{\thirdreader@ii{#1}[#2][Georgia Institute of Technology]}%]
+}
+\def\thirdreader@ii#1[#2][#3]{%
+\ifx\empty#1\empty\else\rightappenditem#1\to\@thirdreader%
+    \rightappenditem#2\to\@thirdreader%
+    \rightappenditem#3\to\@thirdreader%
+    \fi
+}          
+
+\newcommand{\fourthreader}[1]{%
+  \@ifnextchar[{\fourthreader@i{#1}}{\fourthreader@i{#1}[\@department]}%]
+}
+\def\fourthreader@i#1[#2]{%
+  \@ifnextchar[{\fourthreader@ii{#1}[#2]}{\fourthreader@ii{#1}[#2][Georgia Institute of Technology]}%]
+}
+\def\fourthreader@ii#1[#2][#3]{%
+\ifx\empty#1\empty\else\rightappenditem#1\to\@fourthreader%
+    \rightappenditem#2\to\@fourthreader%
+    \rightappenditem#3\to\@fourthreader%
+    \fi
+}          
+
+\newcommand{\fifthreader}[1]{%
+  \@ifnextchar[{\fifthreader@i{#1}}{\fifthreader@i{#1}[\@department]}%]
+}
+\def\fifthreader@i#1[#2]{%
+  \@ifnextchar[{\fifthreader@ii{#1}[#2]}{\fifthreader@ii{#1}[#2][Georgia Institute of Technology]}%]
+}
+\def\fifthreader@ii#1[#2][#3]{%
+\ifx\empty#1\empty\else\rightappenditem#1\to\@fifthreader%
+    \rightappenditem#2\to\@fifthreader%
+    \rightappenditem#3\to\@fifthreader%
+    \fi
+}          
+
+\newcommand{\sixthreader}[1]{%
+  \@ifnextchar[{\sixthreader@i{#1}}{\sixthreader@i{#1}[\@department]}%]
+}
+\def\sixthreader@i#1[#2]{%
+  \@ifnextchar[{\sixthreader@ii{#1}[#2]}{\sixthreader@ii{#1}[#2][Georgia Institute of Technology]}%]
+}
+\def\sixthreader@ii#1[#2][#3]{%
+\ifx\empty#1\empty\else\rightappenditem#1\to\@sixthreader%
+    \rightappenditem#2\to\@sixthreader%
+    \rightappenditem#3\to\@sixthreader%
+    \fi
+}          
 
 %
 %% bibliography databases
@@ -1219,17 +1398,13 @@ openright,doublespaced,normalmargins,final}
       \vspace*{50\p@}%
     \fi
     \begin{center}%
-      \begin{doublespaced}%
-        {\Large\bfseries\expandafter{\@title}}\\
-      \end{doublespaced}%
+        {\large\bfseries\MakeUppercase{\expandafter{\@title}}}\\%%%% TITLE FONT SIZE!!!!
     \end{center}%
   \else%
     \begin{center}
 %     \vspace*{\stretch{1}}
       \vspace*{1in}
-      \begin{doublespaced}
-        {\Large\bfseries\expandafter{\@title}}
-      \end{doublespaced}
+        {\large\bfseries\MakeUppercase{\expandafter{\@title}}}%%%%% TITLE FONT SIZE AGAIN
     \end{center}%
   \fi%
 }
@@ -1241,21 +1416,27 @@ openright,doublespaced,normalmargins,final}
        Presented to\\
        The Academic Faculty\\
     \else
-       A Thesis\\
+       A \ifdissertation Dissertation\else Thesis\fi\\
        Presented to\\
        The Academic Faculty\\
     \fi
     \ \\
     by\\
     \ \\
-    {\Large\bfseries{\@author}}\\
+    {\@author}\\
     \vspace*{1.1in}
     In Partial Fulfillment \\
     of the Requirements for the Degree \\
-    {\@degree}\\ 
-    \vfill
-    {\@department}\\
-    Georgia Institute of Technology\\
+    {\@degree} in
+    \iflistmajor
+       \\ {\@major}\\
+       \vfill
+       {\@department}\\
+    \else
+       the\\ {\@department}\\
+       \vfill
+    \fi
+       Georgia Institute of Technology\\
     {\@submitdate}%
     \ifcopyright
       \\ \vspace*{.3in}% one line + 0.3in
@@ -1272,7 +1453,7 @@ openright,doublespaced,normalmargins,final}
     \ifstrictmargins
       \vspace*{0.5in}
       \begin{center}
-        \begin{doublespaced}{\Huge\bfseries%
+        \begin{doublespaced}{\large\bfseries%
           \expandafter{\Makeuppercase{\partname}\space\Makeuppercase{\thepart}}\\
           \ifx\@empty#1\@empty\else%
             \expandafter{#1}\\
@@ -1281,7 +1462,7 @@ openright,doublespaced,normalmargins,final}
         \ \\
         by\\
         \ \\
-        {\Large\bfseries{\@author}}\\
+        {\@author}\\
       \end{center}%
       \vfill
     \else%
@@ -1335,18 +1516,29 @@ openright,doublespaced,normalmargins,final}
 \renewenvironment{abstract}{%
   \typeout{*****************      Abstract     ******************}
   \if@openright\cleardoublepage\else\clearpage\fi 
+  \addtocounter{page}{-1} 
   \phantomsection%
-  \addcontentsline{toc}{chapter}%
-    {\texorpdfstring{\Makeuppercase{Abstract}}{Abstract}}
-  \chapter*{\MakeUppercase{Abstract}}
-  \vskip 0.5in
-  \begingroup
-    \hspace*{2.5em}
+%  \addcontentsline{toc}{chapter}%
+%    {\texorpdfstring{\Makeuppercase{Abstract}}{Abstract}}
+  \thispagestyle{empty}%
+   \begin{singlespaced}%
+    \begin{center}%
+        \@title\\%
+        \ \\%
+        \@author\\%
+        \ \\%
+        \pageref{LastPage} Pages\\%
+       \ \\%
+        Directed by \@advisorforabstract%
+    \end{center}%
+    \end{singlespaced}%
+  \begingroup%
+    \hspace*{2.5em}%
     %% Adjust the line spacing: if it was less than 1 1/2,
     %% increase it to 1 1/2; if it was between 1 1/2 and 2,
     %% increase it to 2; otherwise, leave it as is.
-    \ifdim \baselinestretch pt < 1.25pt \newlinestretch{1.25}\else
-    \ifdim \baselinestretch pt < 1.66pt \newlinestretch{1.66}\fi\fi
+    \ifdim \baselinestretch pt < 1.25pt \newlinestretch{1.25}\else%
+    \ifdim \baselinestretch pt < 1.66pt \newlinestretch{1.66}\fi\fi%
 }{\par\endgroup}%abstract
 %
 %% \begin{summary}...\end{summary} formats a 
@@ -1439,16 +1631,16 @@ openright,doublespaced,normalmargins,final}
   \edef#2{\the\tb\the\ta}}
 \def\concatenate#1=#2&#3{\ta=\expandafter{#2}\tb=\expandafter{#3}%
   \edef#1{\the\ta\the\tb}}
-\def\lop#1\to#2{\expandafter\lopoff#1\lopoff#1#2}
-\long\def\lopoff\\#1#2\lopoff#3#4{\def#4{#1}\def#3{#2}}
+\def\GTlop#1\to#2{\expandafter\GTlopoff#1\GTlopoff#1#2}
+\long\def\GTlopoff\\#1#2\GTlopoff#3#4{\def#4{#1}\def#3{#2}}
 
 \newcommand{\dosiglist}[2]{%
-  \lop#1\to\@@sig \@@sig
-  \lop#1\to\@@sig \@@sig
-  \lop#1\to\@@sig \@@sig
+  \GTlop#1\to\@@sig \@@sig
+  \GTlop#1\to\@@sig \@@sig
+  \GTlop#1\to\@@sig \@@sig
   % we know that cnt@Lsig is at least 3, maybe 4. 5 is right out.
   \ifnum \value{#2} = 4
-    \lop#1\to\@@sig \@@sig
+    \GTlop#1\to\@@sig \@@sig
   \fi
 }
 
@@ -1456,9 +1648,14 @@ openright,doublespaced,normalmargins,final}
   \ifx\empty#1{}\empty%
   \else%
     \parbox[t]{\signature@width}{%
-     %\rule{\signature@width}{.01in}\\
-      \parbox{\signature@width}{#1 \hfill}\\
-      \vspace{.25in}%
+%      \rule{\signature@width}{.01in}\\
+      \GTlop#1\to\signame%
+      \GTlop#1\to\sigdept%
+      \GTlop#1\to\siginst%
+      \parbox[t]{\signature@width}{\begin{raggedright}\signame \hfill\\
+        \sigdept\hfill\\
+        \emph{\siginst}\end{raggedright}\hfill}\\
+      \vspace{12pt}%
     }
   \fi%
 }
@@ -1466,14 +1663,14 @@ openright,doublespaced,normalmargins,final}
 \newcommand{\signature@bodyonecol}{%
   \begin{flushright}
     \parbox{\signature@width}{\begin{flushleft}Approved by:\\ \end{flushleft}}\\
-    \vspace*{0.3in}
+%    \vspace*{0.3in}
     \ifx\empty\@committeechair{}\empty%
     \else%
-       \signature{\@committeechair, Committee Chair}%
+        \signature{\@committeechair}%
     \fi%
     \ifx\empty\@principaladvisor{}\empty%
     \else%
-      \signature{\@principaladvisor, \advis@r}%
+      \signature{\@principaladvisor}%
     \fi%
     \signature\@firstreader
     \signature\@secondreader
@@ -1483,30 +1680,48 @@ openright,doublespaced,normalmargins,final}
     \signature\@sixthreader
     \vspace{.5in}
     %\makebox[\signature@width]{Date Approved by Chairman \hrulefill}\\   
-    %\makebox[\signature@width]{Date Approved \leaders\hrule height0.01in\hfill\kern\z@}\\   
-    \makebox[\signature@width]{Date Approved \hfill}\\
+    \parbox{\signature@width}{\begin{flushleft}Date Approved: \@approveddate\end{flushleft}}\\   
   \end{flushright}
 }
 
 \newcommand{\signature@bodytwocol}{%
   \begin{flushleft}
-    Approved by:\\ 
+    Approved by:\\
+  \vspace*{12pt}
+  \GTlop\L@signatures\to\@@sigLone%
+  \GTlop\L@signatures\to\@@sigLtwo%
+  \GTlop\L@signatures\to\@@sigLthree%
+  \ifnum\value{cnt@Lsig}=4
+     \GTlop\L@signatures\to\@@sigLfour
+     \else\def\@@sigLfour{}
+  \fi
+
+  \GTlop\R@signatures\to\@@sigRone%
+  \GTlop\R@signatures\to\@@sigRtwo%
+  \ifnum\value{cnt@Rsig}=2
+     \def\@@sigRthree{Date Approved: \@approveddate}
+     \def\@@sigRfour{}
+   \fi
+  \ifnum\value{cnt@Rsig}=3
+      \GTlop\R@signatures\to\@@sigRthree%
+      \def\@@sigRfour{Date Approved: \@approveddate}
+  \fi
+  \ifnum\value{cnt@Rsig}=4
+      \GTlop\R@signatures\to\@@sigRthree%
+      \GTlop\R@signatures\to\@@sigRfour%
+  \fi
+
+  \begin{tabular*}{\textwidth}[t]{@{\extracolsep{\fill}}ll}
+    \@@sigLone & \@@sigRone\\%
+    \@@sigLtwo & \@@sigRtwo\\%
+    \@@sigLthree & \@@sigRthree\\%
+    \@@sigLfour & \@@sigRfour\\
+     \ifnum\value{cnt@Rsig}=4
+        \space &%
+        Date Approved: \@approveddate
+     \fi
+  \end{tabular*}
   \end{flushleft}
-  \vspace*{0.3in}
-  \begin{minipage}[t]{.49\textwidth}%
-    \begin{flushleft}%
-      \dosiglist{\L@signatures}{cnt@Lsig} 
-    \end{flushleft}
-  \end{minipage}   
-  \begin{minipage}[t]{.49\textwidth}%
-    \begin{flushright}%
-      \dosiglist{\R@signatures}{cnt@Rsig}
-    \end{flushright}
-  \end{minipage}  
-  \begin{flushright}
-    \vspace{.5in}
-    \makebox[\signature@width]{Date Approved \leaders\hrule height0.01in\hfill\kern\z@}\\   
-  \end{flushright}
 }
 
 \def\add@Lsig#1{
@@ -1516,7 +1731,7 @@ openright,doublespaced,normalmargins,final}
   \fi
 }
 \def\add@Rsig#1{%
-  \ifx#1\@empty\relax\else
+  \ifx\@empty#1\relax\else
     \rightappenditem#1\to\R@signatures
     \addtocounter{cnt@Rsig}{1}%
   \fi
@@ -1528,11 +1743,15 @@ openright,doublespaced,normalmargins,final}
   % do not addtocontents (although it is in bookmarklist)
   \ifx\@empty\@committeechair\relax\else
     \addtocounter{signatures}{1}%
-    \add@Lsig{\signature{\@committeechair, Committee Chair}}
+        \GTlop\@committeechair\to\z%
+        \leftappenditem{\z, \mbox{Committee Chair}}\to\@committeechair%
+    \add@Lsig{\signature{\@committeechair}}
   \fi
   \ifx\@empty\@principaladvisor\relax\else
     \addtocounter{signatures}{1}%
-    \add@Lsig{\signature{\@principaladvisor, \advis@r}}
+      \GTlop\@principaladvisor\to\a%
+      \leftappenditem{\a, \advis@r}\to\@principaladvisor%      
+    \add@Lsig{\signature{\@principaladvisor}}
   \fi
   \ifx\@empty\@firstreader\relax\else
     \addtocounter{signatures}{1}%
@@ -1544,7 +1763,8 @@ openright,doublespaced,normalmargins,final}
   \ifx\@empty\@thirdreader\relax\else\addtocounter{signatures}{1}\fi
   \ifx\@empty\@fourthreader\relax\else\addtocounter{signatures}{1}\fi
   \ifx\@empty\@fifthreader\relax\else\addtocounter{signatures}{1}\fi
-  %\typeout{SIGNATURES: \arabic{signatures}}
+  \ifx\@empty\@sixthreader\relax\else\addtocounter{signatures}{1}\fi
+  \typeout{SIGNATURES: \arabic{signatures}}
   \ifnum \value{signatures} < 5 % fuggeddaboutit.  Only one column
     \let\signature@body\signature@bodyonecol
     \setlength{\signature@width}{0.52\textwidth}
@@ -1553,26 +1773,26 @@ openright,doublespaced,normalmargins,final}
     \setlength{\signature@width}{0.46\textwidth}
     \newcounter{halfsig}
     \setcounter{halfsig}{\value{signatures} - (\value{signatures} / 2)}
-    %\typeout{LEFTCNT: \arabic{cnt@Lsig}  HALF: \arabic{halfsig}}
+    \typeout{LEFTCNT: \arabic{cnt@Lsig}  HALF: \arabic{halfsig}}
     \ifnum \value{cnt@Lsig} < \value{halfsig}
       \add@Lsig{\signature\@secondreader}
       \ifnum \value{cnt@Lsig} < \value{halfsig}
-        \add@Lsig{\signature\@thirdreader} % can't ever have more than this in left column
-        \add@Rsig{\signature\@fourthreader}
-        \add@Rsig{\signature\@fifthreader}
-        \add@Rsig{\signature\@sixthreader}
+        \ifx\@empty\@thirdreader\relax\else\add@Lsig{\signature\@thirdreader}\fi % can't ever have more than this in left column
+        \ifx\@empty\@fourthreader\relax\else\add@Rsig{\signature\@fourthreader}\fi
+        \ifx\@empty\@fifthreader\relax\else\add@Rsig{\signature\@fifthreader}\fi
+        \ifx\@empty\@sixthreader\relax\else\add@Rsig{\signature\@sixthreader}\fi
       \else
-        \add@Rsig{\signature\@thirdreader}
-        \add@Rsig{\signature\@fourthreader}
-        \add@Rsig{\signature\@fifthreader}
-        \add@Rsig{\signature\@sixthreader}
+        \ifx\@empty\@thirdreader\relax\else\add@Rsig{\signature\@thirdreader}\fi
+        \ifx\@empty\@fourthreader\relax\else\add@Rsig{\signature\@fourthreader}\fi
+        \ifx\@empty\@fifthreader\relax\else\add@Rsig{\signature\@fifthreader}\fi
+        \ifx\@empty\@sixthreader\relax\else\add@Rsig{\signature\@sixthreader}\fi
       \fi
     \else
-      \add@Rsig{\signature\@secondreader}      
-      \add@Rsig{\signature\@thirdreader}
-      \add@Rsig{\signature\@fourthreader}
-      \add@Rsig{\signature\@fifthreader}
-      \add@Rsig{\signature\@sixthreader}
+      \ifx\@empty\@secondreader\relax\else\add@Rsig{\signature\@secondreader}\fi
+      \ifx\@empty\@thirdreader\relax\else\add@Rsig{\signature\@thirdreader}\fi
+      \ifx\@empty\@fourthreader\relax\else\add@Rsig{\signature\@fourthreader}\fi
+      \ifx\@empty\@fifthreader\relax\else\add@Rsig{\signature\@fifthreader}\fi
+      \ifx\@empty\@sixthreader\relax\else\add@Rsig{\signature\@sixthreader}\fi
     \fi   
   \fi
   \title@top
@@ -1728,8 +1948,7 @@ openright,doublespaced,normalmargins,final}
       \parindent \z@ \rightskip \@pnumwidth
       \parfillskip -\@pnumwidth
       \interlinepenalty\@M
-      {\leavevmode
-       \large \bfseries #1\hfil \hb@xt@\@pnumwidth{\hss \l@part@pagenumfont{#2}}}\par
+      {\leavevmode #1\hfil \hb@xt@\@pnumwidth{\hss \l@part@pagenumfont{#2}}}\par
        \nobreak
          \global\@nobreaktrue
          \everypar{\global\@nobreakfalse\everypar{}}%
@@ -2114,12 +2333,12 @@ openright,doublespaced,normalmargins,final}
   \fi
   { \parindent \z@ \raggedright \normalfont
     \ifnum \c@secnumdepth >\m@ne
-      \centering \Large \bfseries \@chapapp\space \thegtchapter
+      \centering \large \bfseries \@chapapp\space \thegtchapter
       \par\nobreak
       \vskip 30\p@
     \fi
     \interlinepenalty\@M
-    \centering \Large \bfseries \MakeUppercase{#1}\par\nobreak
+    \centering \large \bfseries \MakeUppercase{#1}\par\nobreak
     \vskip 30\p@
   }
 }
@@ -2137,7 +2356,7 @@ openright,doublespaced,normalmargins,final}
   \fi
   { \parindent \z@ \raggedright \normalfont
     \interlinepenalty\@M
-    \centering \Large \bfseries #1\par\nobreak
+    \centering \large \bfseries #1\par\nobreak
     \vskip 30\p@
   }
 }
@@ -2230,7 +2449,7 @@ openright,doublespaced,normalmargins,final}
   \@startsection{section}{1}{\z@}%
   {-3.25ex \@plus -1ex \@minus -.2ex}%
   {1.5ex \@plus.2ex}%
-  {\newlinestretch{1}\normalfont\Large\bfseries\itshape}
+  {\newlinestretch{1}\normalfont\large\bfseries\itshape}
 }
 \renewcommand{\subsection}{%
   \@startsection{subsection}{2}{\z@}%
@@ -2286,11 +2505,11 @@ openright,doublespaced,normalmargins,final}
     \vspace*{50\p@}%
   \fi
   { \parindent \z@ \raggedright \normalfont
-    \centering \Large \bfseries \appendixname\space \thechapter
+    \centering \large \bfseries \appendixname\space \thechapter
     \par\nobreak
     \vskip 30\p@
     \interlinepenalty\@M
-    \centering \Large \bfseries \MakeUppercase{#1}\par\nobreak
+    \centering \large \bfseries \MakeUppercase{#1}\par\nobreak
     \vskip 35\p@
   }
 }
@@ -2308,7 +2527,7 @@ openright,doublespaced,normalmargins,final}
   \fi
   { \parindent \z@ \raggedright \normalfont
     \interlinepenalty\@M
-    \centering \Large \bfseries #1\par\nobreak
+    \centering \large \bfseries #1\par\nobreak
     \vskip 30\p@
   }
 }
@@ -2910,7 +3129,7 @@ openright,doublespaced,normalmargins,final}
 \AtEndDocument{%
   \immediate\write\@auxout%
   {\string\@writefile{toc}{\string\setcounter{tocdepth}{3}}}
-}
+  \clearpage\lastpage@putlabel}%
 
 \setchaptertocdepth{2}
 \setappendixtocdepth{0}
